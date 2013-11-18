@@ -4,7 +4,164 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div id="myform">
+  
+    
+    <div class="image-sphere-style responsive">
+    
+        <!-- START SHADOW WRAPPER -->
+        <div class="shadowBg group">
+            
+            <!-- START WRAPPER -->
+            <div class="wrapper group">
+                
+                <div id="content" class="layout-sidebar-right group">
+                
+                   <%--SLOGAN --%> 
+                    <div id="slogan" class="inner">
+                        <h1 class="only">Read about our costumers. They say <span>great things</span>.</h1>
+                    </div>         
+                   <%--END SLOGAN --%> 
+                
+                   <%--START PRIMARY --%>
+                    <div id="primary" class="hentry group wrapper-content" role="main">
+                    
+                        <div class="testimonials-list group">
+                            <div class="thumb-testimonial group">
+                                <div class="sphere"><img src="images/testimonials/mergot-133x133.jpg" alt="mergot" title="mergot" /></div>
+                                <p class="name-testimonial group">
+                                    <span class="title special-font">Joy Mèrgot</span>
+                                    <span class="website"><a href="http://google.com">Satisfyed Snc</a></span>
+                                </p>
+                            </div>
+                            <div class="the-post group">
+                                <p>
+                                    Quisque vel ipsum nec magna aliquet molestie in quis ipsum. 
+                                    Sed nisl est, hendrerit in laoreet facilisis, placerat eget tortor. 
+                                    Nunc ipsum eros, sagittis quis dignissim sed, imperdiet vitae sem. 
+                                    Praesent et ultricies tellus. Etiam ornare dolor sagittis quis dignissim sed, 
+                                    imperdiet vitae sem. Praesent et ultricies tellus.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonials-list group">
+                            <div class="thumb-testimonial group">
+                                <div class="sphere"><img src="images/testimonials/meis-133x133.jpg" alt="meis" title="meis" /></div>
+                                <p class="name-testimonial group">
+                                    <span class="title special-font">Elisa Meis</span>
+                                    <span class="website"><a href="http://LoveCraft">Blue Moon Ltd</a></span>
+                                </p>
+                            </div>
+                            <div class="the-post group">
+                                <p>
+                                    Duis bibendum massa in felis auctor at pellentesque nulla consequat. 
+                                    Duis ornare elementum nisl quis semper. <strong>In consequat tortor</strong> odio, 
+                                    quis iaculis metus. Phasellus neque ipsum, volutpat molestie pellentesque dapibus, 
+                                    dapibus molestie libero
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonials-list group">
+                            <div class="thumb-testimonial group">
+                                <div class="sphere"><img src="images/testimonials/mori.jpg" alt="mori" title="mori" /></div>
+                                <p class="name-testimonial group">
+                                    <span class="title special-font">Ricardo Mori</span>
+                                    <span class="website"><a href="http://SolarisInc">Solaris Inc</a></span>
+                                </p>
+                            </div>
+                            <div class="the-post group">
+                                <p>
+                                    Nunc egestas magna luctus mauris ultricies vitae fermentum lectus faucibus. 
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
+                                    Curae; Mauris et augue suscipit est ultricies gravida. Phasellus sollicitudin 
+                                    scelerisque pellentesque. Mauris et augue suscipit!
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                   <%--END CONTENT --%>
+                    
+                   <%--START SIDEBAR --%>
+                    <div  id="sidebar" style="margin-right: 45px;width: 270px;">
+                        
+                      <div id="myform" style="color:rgba(105, 103, 103, 0.72);margin-right: 0px;
+margin-top: 0px;
+padding-left: 0px;">
+            <fieldset>
+            <h3 class="only">Have a Testimonial to Share?</h1>
+   
+             <div style="padding-top: 15px;">
+            <label for="name-main">
+                        					<span class="label">What's your <span class="highlight-text">name</span>?</span><span style="color:red;">*</span>
+                        				</label>
+                        				
+                        				<input type="text" name="name" id="name" class="required" required="required" value="" style="width:260px;" />                   
+                        				
+                    </div>
+             <div style="padding-top: 15px;">
+            <label for="name-main">
+                        					<span class="label">Country </span><span style="color:red;">*</span>
+                        				</label>
+                        				
+                        				<input type="text" name="country" id="country" class="required" required="required" value="" style="width:260px;" /> 
+                    </div>
+             <div style="padding-top: 15px;">
+            <label for="name-main">
+                        					<span class="label">Car Purchased </span><span style="color:red;">*</span>
+                        				</label>
+                        				
+                        				<input type="text" name="CP" id="CP" class="required" required="required" value="" style="width:260px;" /> 
+                    </div>
+             <div style="padding-top: 15px;">    
+            <label for="name-main">
+                        					<span class="label">Your Picture </span><span style="color:red;">*</span>
+                        				</label>
+                        				
+                        				<input type="file" name="pic" id="pic" class="required" required="required" value="" style="width:260px;" /> 
+                </div>
+             <div style="padding-top: 15px;">      
+            <label for="name-main">
+                        					<span class="label">Your Email (Will not be Published) </span>
+                        				</label>
+                        				
+                        				<input type="text" name="email" id="email" value="" style="width:260px;" /> 
+            </div>
+             <div style="padding-top: 15px;">
+            <label for="name-main">
+                        					<span class="label">Your Website URL </span>
+                        				</label>
+                        				
+                        				<input type="text" name="url" id="url" value="" style="width:260px;" /> 
+                        				</div>
+             <div style="padding-top: 15px;">
+            <label for="name-main">
+                        					<span class="label">Your opinion on our services ? </span><span style="color:red;">*</span>
+                        				</label>
+                        				
+                        				<textarea id="opn" style="width:260px;height:120px;" /> </textarea>
+                        				</div>  
+                        				<span style="color:red;">*</span> are all required field  
+                        				     
+            </fieldset>
+            </div>
+                        
+                      
+                        
+                    </div>
+                   <%--END SIDEBAR --%>   
+                    
+                </div>
+               <%--END CONTENT --%>
+               </div>
+               </div>
+               </div>
+               
+               
+               
+               
+                 <div id="myform">
         <h1 class="myform_heading">
             <span class="myform_span">Quotation </span>
         </h1>
@@ -12,6 +169,12 @@
         </ul>
         <div class="content">
             <fieldset>
+            <label for="name-main">
+                        					<span class="label">What's your <span class="highlight-text">name</span>?</span>
+                        				</label>
+                        				
+                        				<input type="text" name="name" id="Text1" class="required" value="" />                   
+                        				<div class="msg-error"></div>
                 <center id="orderstatus">
                     <ul>
                         <li class="active">Step 1 [Shipping details]</li>
@@ -95,159 +258,4 @@
     </div>
     
     
-    
-    <div class="image-sphere-style responsive">
-    
-        <!-- START SHADOW WRAPPER -->
-        <div class="shadowBg group">
-            
-            <!-- START WRAPPER -->
-            <div class="wrapper group">
-                
-                <div id="content" class="layout-sidebar-right group">
-                
-                   <%--SLOGAN --%> 
-                    <div id="slogan" class="inner">
-                        <h1 class="only">Read about our costumers. They say <span>great things</span>.</h1>
-                    </div>         
-                   <%--END SLOGAN --%> 
-                
-                   <%--START PRIMARY --%>
-                    <div id="primary" class="hentry group wrapper-content" role="main">
-                    
-                        <div class="testimonials-list group">
-                            <div class="thumb-testimonial group">
-                                <div class="sphere"><img src="images/testimonials/mergot-133x133.jpg" alt="mergot" title="mergot" /></div>
-                                <p class="name-testimonial group">
-                                    <span class="title special-font">Joy Mèrgot</span>
-                                    <span class="website"><a href="http://google.com">Satisfyed Snc</a></span>
-                                </p>
-                            </div>
-                            <div class="the-post group">
-                                <p>
-                                    Quisque vel ipsum nec magna aliquet molestie in quis ipsum. 
-                                    Sed nisl est, hendrerit in laoreet facilisis, placerat eget tortor. 
-                                    Nunc ipsum eros, sagittis quis dignissim sed, imperdiet vitae sem. 
-                                    Praesent et ultricies tellus. Etiam ornare dolor sagittis quis dignissim sed, 
-                                    imperdiet vitae sem. Praesent et ultricies tellus.
-                                </p>
-                            </div>
-                        </div>
-                        
-                        <div class="testimonials-list group">
-                            <div class="thumb-testimonial group">
-                                <div class="sphere"><img src="images/testimonials/meis-133x133.jpg" alt="meis" title="meis" /></div>
-                                <p class="name-testimonial group">
-                                    <span class="title special-font">Elisa Meis</span>
-                                    <span class="website"><a href="http://LoveCraft">Blue Moon Ltd</a></span>
-                                </p>
-                            </div>
-                            <div class="the-post group">
-                                <p>
-                                    Duis bibendum massa in felis auctor at pellentesque nulla consequat. 
-                                    Duis ornare elementum nisl quis semper. <strong>In consequat tortor</strong> odio, 
-                                    quis iaculis metus. Phasellus neque ipsum, volutpat molestie pellentesque dapibus, 
-                                    dapibus molestie libero
-                                </p>
-                            </div>
-                        </div>
-                        
-                        <div class="testimonials-list group">
-                            <div class="thumb-testimonial group">
-                                <div class="sphere"><img src="images/testimonials/mori.jpg" alt="mori" title="mori" /></div>
-                                <p class="name-testimonial group">
-                                    <span class="title special-font">Ricardo Mori</span>
-                                    <span class="website"><a href="http://SolarisInc">Solaris Inc</a></span>
-                                </p>
-                            </div>
-                            <div class="the-post group">
-                                <p>
-                                    Nunc egestas magna luctus mauris ultricies vitae fermentum lectus faucibus. 
-                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
-                                    Curae; Mauris et augue suscipit est ultricies gravida. Phasellus sollicitudin 
-                                    scelerisque pellentesque. Mauris et augue suscipit!
-                                </p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                   <%--END CONTENT --%>
-                    
-                   <%--START SIDEBAR --%>
-                    <div id="sidebar" class="group">
-                        
-                       <%--START WIDGET --%>
-                        <div class="widget-first widget recent-posts">
-                            <h3>From the blog</h3>
-                            
-                            <div class="last-news group">
-                            
-                                <div class="box-post group thumbnail">
-                                    <div class="box-post-thumb sphere"><img src="images/various/glasses-86x86.jpg" alt="glasses" title="glasses" /></div>
-                                    <div class="box-post-body group">
-                                        <div class="news_title"><a href="#" title="A fresh and nice blog layout: do u like it?" class="title">A fresh and nice blog layout: do u like it?</a></div>
-                                        <p class="meta"><span class="date">December 13, 2011</span></p>
-                                    </div>
-                                </div>
-                                
-                                <div class="box-post group thumbnail">
-                                    <div class="box-post-thumb sphere"><img src="images/various/sushi1-86x86.jpg" alt="sushi" title="sushi" /></div>
-                                    <div class="box-post-body group">
-                                        <div class="news_title"><a href="#" title="50% off on our products for the month of August" class="title">50% off on our products for the month of August</a></div>
-                                        <p class="meta"><span class="date">December 7, 2011</span></p>
-                                    </div>
-                                </div>
-                                
-                                <div class="box-post group thumbnail">
-                                    <div class="box-post-thumb sphere"><img src="images/no_image_recentposts.jpg" alt="No Image" /></div>
-                                    <div class="box-post-body group">
-                                        <div class="news_title"><a href="#" title="Di&rsquo;verso, a fresh WordPress Theme" class="title">Di&#8217;verso, a fresh WordPress Theme</a></div>
-                                        <p class="meta"><span class="date">December 7, 2011</span></p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            
-                        </div>          
-                       <%--END WIDGET --%>
-                        
-                       <%--START WIDGET --%>
-                        <div class="widget-last widget featured-projects">
-                            <h3>From the Portfolio</h3>
-                            
-                            <div class="featured-projects-widget">
-                                <ul>
-                                
-                                    <li>
-                                        <div class="thumb-project"><a href="#"><img src="images/various/featured-projects-widget/0016-208x168.jpg" alt="0016" title="0016" /></a></div>
-                                        <h5><span>Kassyopea Theme</span></h5>
-                                        <p class="categories"><a href="#" rel="tag">web design</a></p>
-                                    </li>
-                                    
-                                    <li>
-                                        <div class="thumb-project"><a href="#"><img src="images/various/featured-projects-widget/0024-208x168.jpg" alt="0024" title="0024" /></a></div>
-                                        <h5><span>Olìmpo</span></h5>
-                                        <p class="categories"><a href="#" rel="tag">restyling</a> & <a href="#" rel="tag">web design</a></p>
-                                    </li>
-                                    
-                                    <li>
-                                        <div class="thumb-project"><a href="#"><img src="images/various/featured-projects-widget/0041-208x168.jpg" alt="0041" title="0041" /></a></div>
-                                        <h5><span>Coffee Break</span></h5>
-                                        <p class="categories"><a href="#" rel="tag">logo design</a></p>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                            
-                        </div>  
-                       <%--END WIDGET --%>
-                        
-                    </div>
-                   <%--END SIDEBAR --%>   
-                    
-                </div>
-               <%--END CONTENT --%>
-               </div>
-               </div>
-               </div>
         </asp:Content>

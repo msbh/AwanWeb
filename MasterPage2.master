@@ -22,7 +22,10 @@
  
     
     <link href="css/single.css" rel="stylesheet" type="text/css" />
+     <script type="text/javascript" src="css/testimonial/jquery.js"></script> 
+    <link rel="stylesheet" type="text/css" media="all" href="css/testimonial/style.css" /> 
     
+  
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
