@@ -709,7 +709,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <span id="infor_color">Coming Soon..</span>
+                            <span id="infor_color">See More..</span>
                             <div class="box-footer">
                                 <div class="box-footer-padding">
                                 </div>
