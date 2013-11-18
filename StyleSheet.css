@@ -1,0 +1,29 @@
+﻿#myform{padding-left:230px; margin-right:150px; color:White;height:auto;   margin-top: 50px;    }
+#myform2{padding-left:230px; margin-right:150px; color:White;height:auto;   margin-top: 50px;    }
+
+
+#myform1{padding-left:230px; margin-right:150px; color:White;height:auto;   margin-top: 50px;    }
+
+
+#myform{padding-left:150px; margin-right:150px; color:White;height:auto;   margin-top: 50px;    }
+#myform2{padding-left:150px; margin-right:150px; color:White;height:auto;   margin-top: 50px;    }
+
+
+#myform1 .content{margin-left:10px;  margin-top:30px;}
+#myform1 .content fieldset{margin-top:20px;}
+/*#myform .content fieldset input[type=text],textarea,select{background-color: #FFFFD5;}*/
+#myform .content select { padding:3px; }
+
+#myform .content fieldset legend{font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold;text-transform: uppercase;  color: #E1E1E1;}
+#myform1.heading {}
+#myform1 ul { list-style: none outside none;margin: 0 5px;padding: 3px 5px;}
+#myForm1 a { color:White;}
+#myform1 ul li{float:left; width:420px; margin:5px;}
+#myform1 ul li span{width:200px; display:inline-block;}
+#myform1  p{margin: 0.5em 0;}
+.myform_span{color:#F0F0F0;font-family: Verdana,Helvetica,sans-serif;font-size: 25px;font-weight: normal;}
+.myform_line {background: url("../images/myform_line.jpg") repeat-x scroll 0 0 transparent;margin-top: 4px;padding-bottom: 0;float:none; height: 3px; margin-top: 0px; margin-bottom: 25px;}
+.myform_DropDownList{height: 22px;width: 146px;}
+.myform_heading{color: #989393;font-family: Verdana,Helvetica,sans-serif;font-size: 25px;font-weight: normal;  }
+.myform_line2 {background: url("../images/myform_line.jpg") repeat-x scroll 0 0 transparent;padding-bottom: 0;height: 1px; margin-left: 100px;  margin-right: 100px; margin-top: 17px;width: 758px;}
+.myform_heading2{color: #989393;font-family: Verdana,Helvetica,sans-serif;font-size: 25px;font-weight: normal;margin-top:6px;margin-bottom:20px;}

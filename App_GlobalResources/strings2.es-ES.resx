@@ -1,0 +1,1446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalRequest" xml:space="preserve">
+    <value>Solicitud adicional</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="AdvanceSearch" xml:space="preserve">
+    <value>Búsqueda avanzada</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="ARIFRAUFINFO" xml:space="preserve">
+    <value>Hola todos! Soy ARIF RAUF, actualmente soy el Managing Director de Awan internacional KK y administrar concentrándose en flujo de trabajo, compra, mejora de procesos &amp; documentación, mejoras en eficiencia, administración de la información y encuentro soluciones para la optimización de la empresa.&lt;br&gt;Mis responsabilidades también incluyen la implementación de políticas y procedimientos para apoyar a la dirección estratégica de la empresa y la gestión del personal de tecnología de la información.</value>
+  </data>
+  <data name="AuthorizedSignature" xml:space="preserve">
+    <value>Firma autorizada</value>
+  </data>
+  <data name="AutopartInformation" xml:space="preserve">
+    <value>Información de autopartistas</value>
+  </data>
+  <data name="Autoparts.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Auto&lt;/span&gt;  Partes</value>
+  </data>
+  <data name="Autoparts.text" xml:space="preserve">
+    <value>&lt;b&gt;Estás buscando piezas de automóviles de Japón?&lt;/b&gt; &lt;i&gt;Muchas autopartes completamente funcionales se encuentran en coches usados japoneses, que son muy en demanda como piezas de repuesto para el mercado extranjero, así como en el mercado interno. Todas las piezas de automóvil adecuado son cuidadosamente seleccionadas por profesionales. Puede solicitar todo tipo de piezas de coches usados, Auto partes del cuerpo, reconstruido Auto Parts, reformado Auto partes, Auto Partes eléctricas, partes de motor de todos los tipos de hace. &lt;/i&gt;</value>
+  </data>
+  <data name="AutoPartsMoreDetails" xml:space="preserve">
+    <value>Más detalles (Desc, número de piezas, etc.)</value>
+  </data>
+  <data name="AutoPartsMoreDetails2" xml:space="preserve">
+    <value>Detalles (si las preferencias de envío por favor díganos)</value>
+  </data>
+  <data name="AutopartVehicleInfo" xml:space="preserve">
+    <value>Información de vehículo</value>
+  </data>
+  <data name="AutoShippingInfo" xml:space="preserve">
+    <value>Información de envío</value>
+  </data>
+  <data name="AWan" xml:space="preserve">
+    <value>Awan K.K internacional</value>
+  </data>
+  <data name="AwanInter.content" xml:space="preserve">
+    <value>&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+            &lt;p class="class"&gt;Awan internacional las es un orgulloso miembro de la &lt;b&gt;Asociación de coches japoneses utiliza&lt;/b&gt; que es la organización más reputada de la industria de exportación de autos usados japoneses.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;Ser un &lt;a href=""&gt;certificado de compañía de diferentes japonés utiliza coches asociaciones,&lt;/a&gt; somos una entidad legalmente registrada en Japón y tiene la licencia para comprar y vender vehículos usados, así como para exportarlos. Asociaciones japonesas también reconoce Awan internacional las como un distribuidor de autos usados creíble y establecido. Delimita a todos los miembros con la Feria de vehículos usados de motor y evita las transacciones injustas.
+                Además, protege a los compradores de vehículos robados, vehículos ilegalmente reconstruidos o modificados. Por lo tanto, proporciona apoyo si surgen denuncias. Nos hemos sido certificadas por asociaciones de coches japoneses utilizados porque buscan acuerdos justos con nuestros compradores y adoptar una visión de largo plazo en el negocio.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;Hay miles de exportadores de vehículos usados en línea estos días. Lamentablemente, la mayoría de ellos es compradores inocentes empresas y tramposo de fraude por tomar su dinero y luego desaparece. Cuando ocupan un japonés utiliza coches asociaciones empresa como las de Awan internacional certificada, garantiza la legitimidad y está garantizados de un trato justo.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;div class="clear"&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="AwanInter.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Por qué Awan&lt;/span&gt; Internacional K.K
+        &lt;ul class="myform_line"&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="bankAccount" xml:space="preserve">
+    <value>Nombre de cuenta</value>
+  </data>
+  <data name="bankAccountname" xml:space="preserve">
+    <value>Awan K.K internacional</value>
+  </data>
+  <data name="bankAccountname2" xml:space="preserve">
+    <value>Tambiri Motors</value>
+  </data>
+  <data name="bankAccountNumber" xml:space="preserve">
+    <value>Número de cuenta</value>
+  </data>
+  <data name="bankAddress" xml:space="preserve">
+    <value>Dirección del Banco</value>
+  </data>
+  <data name="bankAddresstxt" xml:space="preserve">
+    <value>2 -23-25 Kourinbou, Kanazawa, Japón</value>
+  </data>
+  <data name="bankAddresstxt2" xml:space="preserve">
+    <value>Al Aweer rama, DOCUMZ, Dubai - U.A.E</value>
+  </data>
+  <data name="bankBranch" xml:space="preserve">
+    <value>Nombre de sucursal</value>
+  </data>
+  <data name="bankBranchName" xml:space="preserve">
+    <value>Rama de Kanazawa</value>
+  </data>
+  <data name="bankBranchName2" xml:space="preserve">
+    <value>Al Aweer rama</value>
+  </data>
+  <data name="BANKDETAIL2" xml:space="preserve">
+    <value>DATOS BANCARIOS</value>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>Nombre del Banco</value>
+  </data>
+  <data name="bankname2" xml:space="preserve">
+    <value>Mashreq Bank</value>
+  </data>
+  <data name="banknamefull" xml:space="preserve">
+    <value>El Bank of Tokyo Mitsubishi UFJ, Ltd.</value>
+  </data>
+  <data name="bankorderfin" xml:space="preserve">
+    <value>&lt;td height="30" align="left"&gt;
+                                                                                 &lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;
+                                                                                        &lt;br&gt;Nota:&lt;br&gt;Todos los cargos bancarios son responsabilidad por comprador.&lt;br&gt;El nombre y dirección, el teléfono no muestra en esta factura será el B/L, por favor nos aconsejan si alguno cambia antes del envío&lt;/font&gt;
+                                                                                
+                                                                                   &lt;/td&gt;</value>
+  </data>
+  <data name="becomeagent.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Convertirse en nuestro&lt;/span&gt; Agente</value>
+  </data>
+  <data name="BodyColor" xml:space="preserve">
+    <value>Cuerpo Color</value>
+  </data>
+  <data name="Chassislable" xml:space="preserve">
+    <value>Chasis</value>
+  </data>
+  <data name="ChassisNo" xml:space="preserve">
+    <value>ChassisNo</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="Clickmore" xml:space="preserve">
+    <value>Haga clic aquí para ver más</value>
+  </data>
+  <data name="colorlable" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Nombre de la empresa</value>
+  </data>
+  <data name="Consignee.NotifyParty" xml:space="preserve">
+    <value>Notificar a las partes</value>
+  </data>
+  <data name="ContactNo" xml:space="preserve">
+    <value>No contacto</value>
+  </data>
+  <data name="ContactUs.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Contacto&lt;/span&gt; Nos</value>
+  </data>
+  <data name="GlobalStockLocationText" xml:space="preserve">
+    <value>Ubicación del stock</value>
+  </data>
+  <data name="Glossary9" xml:space="preserve">
+    <value>Un acto más allá del control humano, tales como rayos, inundaciones o terremotos.</value>
+  </data>
+  <data name="howorder1" xml:space="preserve">
+    <value>&lt;img class="abouticon" alt="" src="images/how_order.png" style="margin-right: 10px;
+                margin-left: 5px;"&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Paso 1&lt;/span&gt; &lt;span class="class_span2"&gt;Seleccione&lt;/span&gt;
+                &lt;span class="class_span2"&gt;-Encontrar el vehículo que desee desde su ordenador.&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;            Para encontrar su coche intrest buscar en nuestro stock de hacer, hacer de modelo y muchas opciones más de búsqueda.
+                O
+                Si los miembros del taller autorizado que proporcionan acceso directo a través de Awan Internacional KK de Japón subasta de coches usados​​.
+                Para obtener este acceso en &lt;a href="SalesTeams.aspx"&gt; contacto con nosotros &lt;/a&gt;     .&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Paso 2&lt;/span&gt; &lt;span class="class_span2"&gt;Orden de negociar con un representante de ventas para reservar tu vehículo.&lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p class="class"&gt;Nota: El registro es obligatorio para reserva y negociación. Si no estás registrado aún, &lt;a href="membership.aspx"&gt;por favor regístrese ahora.&lt;/a&gt; Asegúrese de que los datos de contacto que proporcione son correctas y precisas.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Proceso de solicitud en detalle&lt;/p&gt;
+            &lt;p class="class"&gt;Tan pronto como usted decide comprar el coche, haga clic en el botón pedido para continuar su pedido o negociar o hablar con nuestro representante de ventas a través de skype o correo electrónico o teléfono.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Confirmar entrega y hora de envío&lt;/p&gt;
+            &lt;p class="class"&gt;No tardaron mucho para enviar tu coche, pero es mejor confirmar el plazo de entrega exacto para su región antes de proceder a su orden exacto el tiempo de entrega a su región antes de proceder a su orde&lt;/p&gt;
+            &lt;br&gt;
+            &lt;br&gt;
+            &lt;p class="class_span2"&gt;Averiguar el coste Total del vehículo&lt;/p&gt;
+            &lt;p class="class"&gt;El precio de visualización de la información del vehículo es sólo el precio FOB. es decir, el coste del coche sin carga y cargos adicionales. Sin embargo, incluye el costo del transporte del astillero del puerto de salida.&lt;/p&gt;
+            &lt;p class="class"&gt;Hay algunos otros gastos que necesita saber.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Gastos de envío:&lt;/p&gt;</value>
+  </data>
+  <data name="howorder2" xml:space="preserve">
+    <value>&lt;p class="class"&gt;Este costo es diferente para distintos países.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Costo de limpieza después de aterrizar en el puerto más cercano a su región.&lt;/p&gt;
+            &lt;p class="class"&gt;Estos cargos podrán variar según la región en que viven. Para confirmar estas acusaciones contacto su agente de limpieza de locales y de asesoramiento y asistencia hablar con nuestros expertos.&lt;/p&gt;</value>
+  </data>
+  <data name="howorder3" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;Tasa de inspección obligatoria en algunos países&lt;/p&gt;
+            &lt;p class="class"&gt;Hay algunas tasas de inspección adicional para países como Zambia, Kenia, Uganda y Tanzania.&lt;/p&gt;</value>
+  </data>
+  <data name="howorder4" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;Envíe su pedido&lt;/p&gt;
+            &lt;p class="class"&gt;Como se desactiva con condición de coche y costo a remitir, proceder a procesar su pedido. # Obtener su factura proforma&lt;/p&gt;</value>
+  </data>
+  <data name="howorder5" xml:space="preserve">
+    <value>&lt;p class="class"&gt;La factura proforma se le enviará por correo electrónico. Para garantizar el envío rápido, proceder con el pago como lo antes posible.&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Paso 3&lt;/span&gt; &lt;span class="class_span2"&gt;Performa reciben pago de facturas y pagar la cantidad requerida mediante transferencia telegráfica (transferencia bancaria) o pagar amigo&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;Nota: Asegúrese de que el traspaso se cobrará por remitir Banco cuando usted nos envíe el dinero.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;Opciones para remitir su dinero&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Transferencia telegráfica:&lt;/p&gt;
+            &lt;p class="class"&gt;Es el método más recomendable y puede ser arreglado a través de un banco con el servicio de transacciones extranjeras.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;La opción más conveniente para realizar el pago mediante tarjeta de crédito&lt;/p&gt;
+            &lt;p class="class"&gt;Habrá un 4% tarifa del límite de pago de cantidad de factura a través de PAYPAL de manipulación es: USD100 mínimo, máximo USD10, 000 (monto máximo depende de su país registrante, por lo que consulte a PAYPAL para términos y limitación).&lt;/p&gt;</value>
+  </data>
+  <data name="howorder6" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;Dónde debe enviar el pago:&lt;/p&gt;
+            &lt;p class="class"&gt;Todos los pagos (basados en mutuo acuerdo) deben realizarse en su totalidad. Una vez recibido el pago completo inmediatamente realizaremos el envío. Para obtener más información acerca de envíos y pagos por favor leen nuestras &lt;a href="TermsandConditions.aspx"&gt;Condiciones &amp; de términos&lt;/a&gt;&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Confirmación de la compra&lt;/p&gt;
+            &lt;p class="class"&gt;En la situación cuando no se reciben sus pagos a tiempo o si tu coche no está disponible en nuestro stock, vamos bien dar todo su dinero de vuelta, o buscar un reemplazo absoluto de su vehículo. De lo contrario puede seleccionar otro vehículo desde nuestro stock para el mismo valor.&lt;/p&gt;
+            &lt;p class="class"&gt;Confirmar la fecha de partida y de llegada para su envío a través de correo electrónico de nuestro departamento de logística.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Son los documentos necesarios que necesita para recibir tu coche de importante documentación&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Certificado de exportación&lt;/p&gt;
+            &lt;p class="class"&gt;Este documento es necesario para&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Factura de aduanas&lt;/p&gt;
+            &lt;p class="class"&gt;Se utiliza por su departamento local personalizado para evaluar el valor equivalente de su vehículo.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;BL&lt;/p&gt;
+            &lt;p class="class"&gt;BL o conocimiento de embarque es necesario en el puerto de destino (POD) para recibir su vehículo desde su puerto más cercano.&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Otros documentos&lt;/span&gt; &lt;span class="class_span2"&gt;puede ser necesario según el Reglamento de su país. También podemos enviar documentos directamente al agente de limpieza de su solicitud. &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Paso 4&lt;/span&gt; &lt;span class="class_span2"&gt;Envío-recibir tus datos de reserva, información de envío y demás documentación necesaria.&lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Paso 5&lt;/span&gt; &lt;span class="class_span2"&gt;Personalizado de limpieza - contratar servicios del agente Local de compensación o resolver las cuestiones fiscales y aduaneras en su auto.&lt;/span&gt;
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder7" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;Confirmar acerca de lo siguiente&lt;/p&gt;
+            &lt;p class="class"&gt;Aviso de llegada final del agente de limpieza.&lt;/p&gt;
+            &lt;p class="class"&gt;Fecha de llegada es siempre provisional. Por lo tanto, la confirmación final, póngase en contacto con le agente una semana antes de la fecha de llegada de compensación&lt;/p&gt;
+            &lt;p class="class"&gt;Borrar tu coche es el último paso antes de que usted conduce su automóvil fuera&lt;/p&gt;
+            &lt;p class="class"&gt;Recuperar su coche en el puerto!&lt;/p&gt;
+            &lt;p class="class"&gt;Liquidación de gastos locales&lt;/p&gt;
+            &lt;p class="class"&gt;Pagar el costo de la compensación.&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Paso 6&lt;/span&gt; &lt;span class="class_span2"&gt;Drive - después de la liquidación, obtener su vehículo matriculado en su país y disfrutar de conducción con!&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;Después de recibir su auto no olvides comprobar la condición y compararla con la hoja de información. Awan internacional las Japón cada vehículo es inspeccionado por profesionales y experta mecánica.&lt;/p&gt;
+            &lt;p class="class"&gt;Para cualquier consultas y confusiones sobre la condición del coche, siéntase libre de &lt;a href="ContactUs.aspx"&gt;en contacto con nosotros.&lt;/a&gt;
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder8" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Cómo a los vehículos de la orden de&lt;/span&gt; Awan K.K internacional</value>
+  </data>
+  <data name="ImageView" xml:space="preserve">
+    <value>Vista de imagen</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Información del destinatario</value>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>Inspección</value>
+  </data>
+  <data name="INSPECTIONCERT" xml:space="preserve">
+    <value>CERTIFICADO DE INSPECCIÓN</value>
+  </data>
+  <data name="InspectionCertificate" xml:space="preserve">
+    <value>InspectionCertificate (yen 25.000)</value>
+  </data>
+  <data name="Insurance" xml:space="preserve">
+    <value>Seguro</value>
+  </data>
+  <data name="InteriorColor" xml:space="preserve">
+    <value>Interior Color</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="LanguagesArif" xml:space="preserve">
+    <value>&lt;span&gt;&lt;b&gt;Japneses, ruso, inglés, Hindi, Urdu.&lt;b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="LanguagesRizwanRauf" xml:space="preserve">
+    <value>Inglés, árabe, Urdu</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Ubicación</value>
+  </data>
+  <data name="loginpages.emaillable" xml:space="preserve">
+    <value>Correo electrónico</value>
+  </data>
+  <data name="loginpages.Forgetpassworlable" xml:space="preserve">
+    <value>Olvida su contraseña</value>
+  </data>
+  <data name="loginpages.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Miembros&lt;/span&gt;Página de inicio de sesión</value>
+  </data>
+  <data name="loginpages.heading1" xml:space="preserve">
+    <value>&lt;a href="membership.aspx"&gt;Convertido en nuestro valioso miembro, sólo tienes que rellene el formulario! Y eso es todo.&lt;/a&gt;</value>
+  </data>
+  <data name="loginpages.LogInlable" xml:space="preserve">
+    <value>Inicia sesión</value>
+  </data>
+  <data name="loginpages.passwordlable" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="Make" xml:space="preserve">
+    <value>Hacer</value>
+  </data>
+  <data name="MakeCategory" xml:space="preserve">
+    <value>Hacer categoría</value>
+  </data>
+  <data name="Makecatgory" xml:space="preserve">
+    <value>HACER CATEGORÍA</value>
+  </data>
+  <data name="MakeDescription" xml:space="preserve">
+    <value>Hacer descripción</value>
+  </data>
+  <data name="MakeModel" xml:space="preserve">
+    <value>Hacer de modelo</value>
+  </data>
+  <data name="ManagingDirector" xml:space="preserve">
+    <value>Director General</value>
+  </data>
+  <data name="membership.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Membresía&lt;/span&gt; Solicitud de</value>
+  </data>
+  <data name="membership.lblmessage" xml:space="preserve">
+    <value>Tu suscripción ha finalizado correctamente! 
+                    Iniciar sesión como miembro</value>
+  </data>
+  <data name="membershipclick" xml:space="preserve">
+    <value>Haga clic aquí</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="default.aspx"&gt;&lt;span&gt;Inicio&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;span style="font-size:12px"&gt;sobre mí&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="CooperateOverView.aspx"&gt;&lt;span&gt;Corporativo&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="AwanInter.aspx"&gt;&lt;span&gt;por awan internacional k k&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span&gt;Datos bancarios&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="TermsandConditions.aspx"&gt;&lt;span&gt;términos y Condiciones&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="SalesTeams.aspx"&gt;&lt;span&gt;Equipos de ventas&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="gallery.aspx"&gt;&lt;span&gt;Galería de fotos&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        
+        
+        
+      &lt;li&gt;&lt;a href="stocklist.aspx?lv=1"&gt;&lt;span&gt;valores&lt;/span&gt;&lt;/a&gt; &lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;información&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small3_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="ShippingInfo.aspx"&gt;&lt;span class="small_img2"&gt;Envío Info&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="Glossary.aspx"&gt;&lt;span class="small_img2"&gt;Glosario de términos&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="http://www.auto-japanese.com/Pr_1year/index.php?company=4"&gt;&lt;span class="small_img2"&gt;Verificación de chasis&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;Cliente&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span class="small_img2"&gt;sesión de miembro&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="membership.aspx"&gt;&lt;span class="small_img2"&gt;nuevo miembro&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;Pagos&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="PayPal.aspx"&gt;&lt;span class="small_img2"&gt;Interfaz de PayPal&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span class="small_img2"&gt;Datos bancarios&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+         &lt;li style="width:115px"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span style="width:115px"&gt;Inicio de sesión&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://awan.ajes.com/"&gt;&lt;span&gt;Subasta&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li style="width:100px"&gt;&lt;a href="HowtoOrder.aspx"&gt;&lt;span style="width:100px"&gt;Como Ordenar&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+         
+        &lt;li&gt;&lt;a href="FAQ.aspx"&gt;&lt;span&gt;FAQ&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li style=" margin-left: 4px; width:110px"&gt;&lt;a href="ContactUs.aspx"&gt;
+        &lt;span style=" margin-left: 4px; width:110px"&gt;contáctenos&lt;/span&gt;&lt;/a&gt; 
+        &lt;/li&gt;</value>
+  </data>
+  <data name="Mileage" xml:space="preserve">
+    <value>Kilometraje (KM)</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="ModelYear" xml:space="preserve">
+    <value>Año del modelo</value>
+  </data>
+  <data name="MohammadalKhawajaInfo" xml:space="preserve">
+    <value>Hola, mi nombre es MohammadalKhawaja y se unió a familia de Awan internacional en 2004.&lt;br&gt;Tuve el honor de venir a bordo porque compartimos una filosofía común. Realmente nos preocupamos por las personas que nos han confiado la tarea de encontrar la mejor solución para sus necesidades automotrices. No como presionar a personas y ninguno hace Awan internacional KK. Nada me excita más que cuando un cliente expresa con sinceridad lo mucho que han tenido su experiencia de compra de automóviles y su entusiasmo para compartir su experiencia con otros.&lt;br&gt;Proporcionar toda la información a mis clientes a tomar la decisión correcta. Cualquier pregunta me es una pregunta justa y nunca asumo que mis miembros entienden el proceso. Si escuchar y entender sus metas, coincide con el vehículo adecuado a sus necesidades. Por lo tanto, me dan una llamada si buscas tu próximo vehículo y ayudaremos a encontrar el vehículo que buscas así.</value>
+  </data>
+  <data name="MohammadalTitle" xml:space="preserve">
+    <value>Director General</value>
+  </data>
+  <data name="MohammadalTitleLanguage" xml:space="preserve">
+    <value>Inglés, árabe</value>
+  </data>
+  <data name="MohammadAwaisInfo" xml:space="preserve">
+    <value>Hola, mi nombre es Mohammad Awais y actualmente estoy administración del Sector ruso de Awan internacional grupos. Empecé mi carrera como consultor de ventas con Awan internacional KK y después de mucho trabajo duro y dedicación a mi trabajo hoy en día estoy en este lugar.&lt;br&gt;Una cosa realmente quisiera mencionar aquí es que he dado 8 años de vida al grupo internacional de Awan y estoy tan agradecido a Dios que estoy tomado la mejor decisión de mi vida para unirse a grupo internacional de Awan.&lt;br&gt;SALUDO a todos los que directa o indirectamente relacionadas con negocios de automóviles, nos visita una vez y le garantizo que van a proporcionar los mejores servicios.</value>
+  </data>
+  <data name="MohammadAwaisLanguages" xml:space="preserve">
+    <value>Inglés, Russain, Urdu</value>
+  </data>
+  <data name="MohammadAwaisTitle" xml:space="preserve">
+    <value>&lt;span style="width: 257px;"&gt;&lt;b&gt;Managing Director-Rusia&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="MyInfo" xml:space="preserve">
+    <value>Mi información</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="negolist.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Negociación&lt;/span&gt;Lista</value>
+  </data>
+  <data name="Negotiate" xml:space="preserve">
+    <value>Negociar</value>
+  </data>
+  <data name="NegotiationDeal" xml:space="preserve">
+    <value>Acuerdo de negociación</value>
+  </data>
+  <data name="NewArrival" xml:space="preserve">
+    <value>Arrivée de nouveaux</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="NomanRaufInfo" xml:space="preserve">
+    <value>Assalamu.alaikum, mi nombre es M. Noman Rauf y actualmente estoy administrando todo el trabajo en Pakistán de grupos internacionales de Awan.&lt;br&gt;Empecé mi carrera como un administrador de venta con Awan internacional KK y después de mucho trabajo duro y dedicación a mi trabajo hoy en día estoy en este lugar.&lt;br&gt;He hecho mi graduación en administración de empresas de un pozo saber Universidad de negocios en Pakistán i.e IoBM.My experiencia es aproximadamente 3 años con AWAN internacional K.K. Mi trabajo es administrar la compra/venta, manteniendo amistosa relación con nuestros clientes en Pakistán. Yo puedo proporcionar todo tipo de información relacionada con las condiciones comerciales de Pakistán &amp; temrs.&lt;br&gt;SALUDO a todos los que directa o indirectamente relacionadas con negocios de automóviles, nos visita una vez y le garantizo que van a proporcionar los mejores servicios.</value>
+  </data>
+  <data name="NomanRaufTitle" xml:space="preserve">
+    <value>Ventas Pakistán Manager</value>
+  </data>
+  <data name="nowonsale" xml:space="preserve">
+    <value>Ya a la venta</value>
+  </data>
+  <data name="OfficePhone" xml:space="preserve">
+    <value>Teléfono de oficina</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="order.DestinationPort" xml:space="preserve">
+    <value>Puerto de destino</value>
+  </data>
+  <data name="Order1.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;Stock&lt;/span&gt; a pedido</value>
+  </data>
+  <data name="OrderConsignee.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;Cita&lt;/span&gt;</value>
+  </data>
+  <data name="orderfin.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;Cita&lt;/span&gt;</value>
+  </data>
+  <data name="ORDERFINTOTAL" xml:space="preserve">
+    <value>IMPORTE TOTAL DEBIDO:</value>
+  </data>
+  <data name="orderfin_bankDetali" xml:space="preserve">
+    <value>&lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;Nombre del Banco: BANK OF TOKYO - MITSUBISHI UFJ&lt;br&gt;Dirección del Banco:-de 2 23-25 KOURINBOU, KANAZAWA, Japón&lt;br&gt;Nombre de sucursal: KANAZAWA rama&lt;br&gt;Nombre de cuenta: AWAN internacional K.K.&lt;br&gt;Número de cuenta: 0687182&lt;br&gt;Código SWIFT: BOTKJPJT&lt;br&gt;Motivo de remesas: Pago para vehículos de Motor y piezas de vehículos&lt;/font&gt;</value>
+  </data>
+  <data name="orderstatus" xml:space="preserve">
+    <value>&lt;ul&gt;
+                        &lt;li class="active"&gt;Paso 1 [detalles de envío]&lt;/li&gt;
+                        &lt;li&gt;Paso 2 [detalles de pedidos]&lt;/li&gt;
+                        &lt;li&gt;Paso 3 [Info destinatario]&lt;/li&gt;
+                        &lt;li&gt;Paso 4 [pedido completo]&lt;/li&gt;
+                    &lt;/ul&gt;</value>
+  </data>
+  <data name="orderstatus2" xml:space="preserve">
+    <value>&lt;li&gt;1-[Detalles de envío]&lt;/li&gt;
+                        &lt;li&gt;2-[Detalles de pedidos]&lt;/li&gt;
+                        &lt;li&gt;3-[Info destinatario]&lt;/li&gt;
+                        &lt;li class="active"&gt;4-[Finalizar pedido]&lt;/li&gt;</value>
+  </data>
+  <data name="PartCondition" xml:space="preserve">
+    <value>Condición de parte</value>
+  </data>
+  <data name="PartsInfo" xml:space="preserve">
+    <value>Info de piezas</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="PaymentOptions" xml:space="preserve">
+    <value>Opciones de pago</value>
+  </data>
+  <data name="paypal.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Realizar el pago mediante PayPal /&lt;/span&gt; Tarjeta de crédito</value>
+  </data>
+  <data name="paypalExample" xml:space="preserve">
+    <value>Importe debe incluir + 4% tasa de transacción</value>
+  </data>
+  <data name="paypalExample2" xml:space="preserve">
+    <value>Ejemplo: (si desea pagar $100, tienes que escribir $104)</value>
+  </data>
+  <data name="paypalPaymentfor" xml:space="preserve">
+    <value>Pago de</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="PHOTO" xml:space="preserve">
+    <value>FOTO</value>
+  </data>
+  <data name="portdischarge" xml:space="preserve">
+    <value>PUERTO DE DESCARGA</value>
+  </data>
+  <data name="Portloading" xml:space="preserve">
+    <value>PUERTO DE CARGA</value>
+  </data>
+  <data name="Pricelable" xml:space="preserve">
+    <value>Precio</value>
+  </data>
+  <data name="Priceranglable" xml:space="preserve">
+    <value>Precio sonó</value>
+  </data>
+  <data name="QUANTITY" xml:space="preserve">
+    <value>CANTIDAD</value>
+  </data>
+  <data name="Quickcontact" xml:space="preserve">
+    <value>Contacto rápido</value>
+  </data>
+  <data name="Quickcontact.EmailRequired" xml:space="preserve">
+    <value>Email requerido</value>
+  </data>
+  <data name="Quickcontact.NameRequired" xml:space="preserve">
+    <value>Nombre requerido</value>
+  </data>
+  <data name="Quickcontact.send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="QuickContactStartText" xml:space="preserve">
+    <value>Si tienes un Enquiy general amablemente enviar tu solicitud proporcionando a continuación detalles.</value>
+  </data>
+  <data name="QuickSearch" xml:space="preserve">
+    <value>búsqueda Rápida</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>CITA</value>
+  </data>
+  <data name="Quotation.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;Cita&lt;/span&gt;</value>
+  </data>
+  <data name="QuoteDate" xml:space="preserve">
+    <value>Fecha de cotización:</value>
+  </data>
+  <data name="QuoteDeals" xml:space="preserve">
+    <value>Ofertas en Japenese utilizan coches</value>
+  </data>
+  <data name="QuoteRef" xml:space="preserve">
+    <value>Oferta Ref:</value>
+  </data>
+  <data name="Re-TypePassword" xml:space="preserve">
+    <value>Vuelva a escribir la contraseña</value>
+  </data>
+  <data name="RegularView" xml:space="preserve">
+    <value>Vista normal</value>
+  </data>
+  <data name="RizwanRaufInfo" xml:space="preserve">
+    <value>Hola, soy RizwanRauf, soy Managing Director de Tambiri Motors FZD que es la rama de Dubai del grupo internacional de Awan. Terminé mi graduación en 2006 desde Dubai y unirse A Tambiri Motors FZD como mi primer paso en el mundo profesional.  Realmente me gusta el entorno profesional y ve un gran potencial de mi Carrere trabajando con el grupo internacional de Awan.&lt;br&gt;Mi trabajo es administrar, comprar/vela, manteniendo amistosa relación con nuestros clientes, mejorar nuestro negocio, y mantener y saludable entorno alrededor de trabajo. Sus casi 6 años trabajando con el grupo internacional y yo podemos garantizar ese grupo Awan internacional KK realmente vale la pena tratar de Awan.</value>
+  </data>
+  <data name="saleteams.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Ventas&lt;/span&gt; Equipos</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Búsqueda</value>
+  </data>
+  <data name="Searchbybodytype" xml:space="preserve">
+    <value>Búsqueda por tipo de vehículo</value>
+  </data>
+  <data name="SearchbyMake" xml:space="preserve">
+    <value>Búsqueda por marca</value>
+  </data>
+  <data name="Seats" xml:space="preserve">
+    <value>Asientos</value>
+  </data>
+  <data name="SelectStock" xml:space="preserve">
+    <value>Seleccionar acciones</value>
+  </data>
+  <data name="sellcar.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Vender tu&lt;/span&gt; Coche</value>
+  </data>
+  <data name="Shahidoinfo" xml:space="preserve">
+    <value>Hola, mi nombre es Shahido Sakurai. He comenzado mi transportista como un consultor de ventas de coches utilizados en 1999, y hoy por la gracia de ALLAHA todopoderoso, yo soy el dueño de AWAN internacional grupo LTD.&lt;br&gt;de experiencia 20 años en la gestión y prestación de servicio al cliente. Mi estilo y enfoque en el negocio de autos es y siempre ha sido cliente centrado. Traigo conmigo muchos años de experiencia en la industria automotriz. Siempre he sentido si realmente puedo ayudar alguien obtener lo que necesitaban y, a continuación, tendría mejor suerte crear a un cliente para toda la vida. También sé que se necesita un esfuerzo de equipo para alcanzar estos objetivos nobles y soy un gran partidario de equipo y de la comunidad.&lt;br&gt;Establecer las mejores prácticas de negocios para crear "Raving del ventilador" de AWAN internacional KK es donde mi enfoque es hoy en día. Sé que cuando se establezca una situación de ganar/ganar con los procesos hemos puesto en marcha, y luego establecer a que el cliente para toda la vida no es muy lejos!</value>
+  </data>
+  <data name="ShahidoLanguage" xml:space="preserve">
+    <value>&lt;b&gt;Japneses, ruso, inglés, Hindi, Urdu.&lt;/b&gt;</value>
+  </data>
+  <data name="ShahidoTitle" xml:space="preserve">
+    <value>Director</value>
+  </data>
+  <data name="Shipment" xml:space="preserve">
+    <value>Envío</value>
+  </data>
+  <data name="shippinginfo" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+        &lt;span style="color: #F0F0F0"&gt;Gastos de envío&lt;/span&gt; Info&lt;/ul&gt;
+    &lt;ul class="myform_line"&gt;
+    &lt;/ul&gt;
+    &lt;div id="main_top_panel"&gt;
+        &lt;div&gt;
+            &lt;img class="ShippingInfo-img" alt="" src="images/cars_in_containers.png"&gt;
+            &lt;p class="class"&gt;Japón ha avanzado más instalaciones de transporte y logísticas para el manejo de las cargas de motoras. Dependiendo del tipo de buques, hay 2 métodos de carga de carga motor.
+                Un tipo de carga se conoce como roll-on, roll-off (RO-RO), y la otra es de 20 pies o carga de contenedor de 40 pies.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;Buques ro-ro (portadores de coche) son en el ajustado suministro como fabricación de auto es cada vez más globalizado a lo largo de la década pasada. La frecuencia de envío para RORO tipo de carga es menor en comparación con otros buques de transporte normales con carga de contenedor de 20 pies o 40 pies. También no cada puerto es cubierto por los buques RORO por lo que para muchos países la única opción que queda es carga de contenedor.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;Contenedor de envío de carga implica diligencia y gran esfuerzo y también requiere conocimientos y experiencia. Tenemos relleno una amplia experiencia de muchos años y puede estar seguro de que sus vehículos se enviarán segura, rentable y en entorno seguro. También hemos adquirido las tarifas más competitivas en costos debido a nuestros envíos de grueso con regularidad. A continuación se presenta una idea de embarque de carga de contenedor.
+                Por lo general logramos cosas varios vehículos a un contenedor de 40 ft dependiendo de las tamaños y dimensiones de los vehículos.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;Para ver el Glosario de todos los tipos de condiciones de envío,&lt;a href="#"&gt; Haga clic aquí&lt;/a&gt;&lt;/p&gt;
+            &lt;p class="class js_a"&gt;
+                &lt;a href="http://japan-used-car-exporting.info/import/shipping-companies.html"&gt;&lt;b&gt;Famosa Lista de las empresas de envío&lt;/b&gt;&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;div class="clear"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="clear"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="Shipto" xml:space="preserve">
+    <value>Enviar A</value>
+  </data>
+  <data name="SpecialOffer" xml:space="preserve">
+    <value>offre spéciale</value>
+  </data>
+  <data name="Start_Date" xml:space="preserve">
+    <value>Fecha_inicial</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Steering" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="STOCKDETAIL" xml:space="preserve">
+    <value>DETALLE DE STOCK</value>
+  </data>
+  <data name="stocklist.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Stock&lt;/span&gt;Búsqueda</value>
+  </data>
+  <data name="StockLocation" xml:space="preserve">
+    <value>Ubicación de existencias</value>
+  </data>
+  <data name="stocknumber" xml:space="preserve">
+    <value>No stock</value>
+  </data>
+  <data name="Stockorder" xml:space="preserve">
+    <value>Acciones de orden</value>
+  </data>
+  <data name="stockpage" xml:space="preserve">
+    <value>Más información sobre la página acciones</value>
+  </data>
+  <data name="StockRef" xml:space="preserve">
+    <value>Ref stock</value>
+  </data>
+  <data name="Stocktype" xml:space="preserve">
+    <value>Tipo de material</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Banco&lt;/span&gt; Detalles</value>
+  </data>
+  <data name="SUbmitRequest" xml:space="preserve">
+    <value>Submintrequrest</value>
+  </data>
+  <data name="TabularView" xml:space="preserve">
+    <value>Vista tabular</value>
+  </data>
+  <data name="TermsandConditions1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;Términos&lt;/span&gt; &amp; condiciones&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="TermsandConditions2" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Existencias K.K internacional Awan&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class_span1"&gt;Nombrarlo. Lo tenemos.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;Amplia gama de vehículos está disponible para su compra en línea bajo AWAN K.K internacional existencias. Los precios están expresados en términos FOB y C &amp; F con respecto a la región en particular.&lt;/p&gt;
+            &lt;p class="class2"&gt;Todos nuestros precios son negociables y consultas son bienvenidas. Si desea visitarnos para comprar directamente precios FOB o C &amp; F también se negoció a petición.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions3" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Subastas en Japón&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class_span1"&gt;Explora el mundo de los automóviles!&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;AWAN internacional las ofrece más de 200.000 vehículos por semana en nuestro sistema de subasta. AWAN internacional las participa diariamente en subastas de todo el mundo. AWAN internacional las recibe datos de subasta y fotografías de la subasta diariamente. Esta información es cargada en e-motores y ofrece en línea a través de nuestra página de subastas en línea.&lt;/p&gt;
+            &lt;p class="class2"&gt;Un depósito reembolsable es necesario hacer una puja directo en el sistema de subasta.
+                Servicio del AWAN internacional las cliente (CSC) personalmente confirma la condición de depósito de cada cliente a intervalos regulares. Los servicios están disponibles 24/7. En la puja; se requiere pago de depósito dentro de cinco días de la compra mediante transferencia telegráfica (TT) o crédito directo (Pay-Pal).&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions4" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Términos de intercambio:&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;• El cliente debe registrarse en nuestro sitio Web antes de realizar una transacción. (El registro es absolutamente gratis!)&lt;/p&gt;
+            &lt;p class="class2"&gt;• Ningún depósito es requerido antes de confirmar cualquier coche desde el caldo preparado.&lt;/p&gt;
+            &lt;p class="class2"&gt;Pago de • total o parcial se requiere dentro de siete días de la confirmación vía telegráfica de transferencia (TT).&lt;/p&gt;
+            &lt;p class="class2"&gt;• Un depósito es requerido antes del envío y el resto debido anterior a la publicación de los documentos originales.&lt;/p&gt;
+            &lt;p class="class2"&gt;• Los precios pueden verse con detalles del vehículo completo, una vez que reciba las credenciales de inicio de sesión.&lt;/p&gt;
+            &lt;p class="class2"&gt;• Los precios están expresados en dólares estadounidenses (USD) &amp; yenes japoneses, en C &amp; F o términos FOB&lt;/p&gt;
+            &lt;p class="class2"&gt;• Los clientes pueden pagar en dólares, Yen japonés, Euro, etc. de Sterling de estanque.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions5" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Garantía&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;Hay 2 garantías. Garantía estándar es obligatorio.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;Garantía estándar&lt;/p&gt;
+            &lt;p class="class2"&gt;Garantía estándar (como obligatorio de US$ 50): cubre el buque hundimiento, incendio o pérdida de carga.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;Área de cobertura: &lt;span class="class2"&gt;importe total CIF&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;Área de cobertura:&lt;span class="class2"&gt;de Nagoya, Japón, a punto de Descargar en su patio de puerto de destino.&lt;/span&gt;&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;NINGUNA reclamación aceptada, después de la descarga de tu vehículo en su patio de puerto de destino.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;Garantía estándar&lt;/p&gt;
+            &lt;p class="class2"&gt;Plata garantía (como opcional, US$ 110): cubre el buque hundimiento, incendio o pérdida de carga, daño (excepto por la fuerza mayor) y robos (excepto audio/accesorios originales).&lt;/p&gt;
+            &lt;p class="class_span1"&gt;Límite de cobertura: &lt;span class="class2"&gt;importe total FOB&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;Área de cobertura: &lt;span class="class2"&gt;de Nagoya, Japón, a recoger de punto en su patio de puerto de destino (antes de la entrega).&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class2"&gt;NINGUNA reclamación aceptada, después de que usted o su agente de limpieza recoge su vehículo en su patio de puerto de destino.&lt;/p&gt;
+            &lt;p class="class2"&gt;Si solicita un agente de limpieza para recoger su vehículo, por favor diga al agente que deben comprobar el estado del vehículo antes de la entrega (en patio de puerto).&lt;/p&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="tilelRizwanRauf" xml:space="preserve">
+    <value>&lt;span style="width:257px;"&gt;&lt;b&gt;Jefe de operación (Dubai)&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>Para</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>Costo total</value>
+  </data>
+  <data name="Transmission" xml:space="preserve">
+    <value>Transmisión</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Veh.Category" xml:space="preserve">
+    <value>Veh.Category</value>
+  </data>
+  <data name="VehicleGrade" xml:space="preserve">
+    <value>Categoría de vehículo</value>
+  </data>
+  <data name="VehicleMake" xml:space="preserve">
+    <value>Marca de vehículo</value>
+  </data>
+  <data name="Vehicleoptions" xml:space="preserve">
+    <value>Opciones de vehículo</value>
+  </data>
+  <data name="VehName" xml:space="preserve">
+    <value>Veh.Name</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>Ver detalles</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Sitio Web</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="yearmonth" xml:space="preserve">
+    <value>año/mes</value>
+  </data>
+  <data name="salestemsheading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Equipos&lt;/span&gt; de Ventas&lt;/ul&gt;</value>
+  </data>
+  <data name="auction1" xml:space="preserve">
+    <value>&lt;div&gt;
+  
+
+        &lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;Subasta&lt;/span&gt;
+        &lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;&lt;/ul&gt;
+        &lt;p class="class"&gt;Como ser un usuario registrado de las AwanInternational, obtendrá acceso a más de 100 casas de subasta y como resultado unos 30.000 vehículos cada día. Puede encontrar un coche, repuestos de automóvil, ver sus detalles y pujar incluso un coche directamente desde su escritorio en la comodidad de su hogar.&lt;/p&gt;
+        &lt;p class="class"&gt;En las AwanInternational, todo el proceso de subasta de autos usados es tan fácil como 1, 2, 3 consulte los pasos siguientes.&lt;/p&gt;
+        &lt;br&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;Paso 1&lt;/span&gt; &lt;span class="class_span2"&gt;Hacerse miembro registrado&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            &lt;a href="/user/register" target=""&gt;Registrarse&lt;/a&gt; para ser miembro de AwanInternational K.K y obtener acceso al totalidad stock disponible en varias casas de subastas.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Paso 2&lt;/span&gt; &lt;span class="class_span2"&gt;Depósito de garantía&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;Depositar una cantidad inicial de seguridad que normalmente es de $1.000 o 100.000 yenes a licitar por un vehículo vale menos de 1 millón. Tenemos que mantener esta cantidad antes que pujar por cualquiera de los coches. Si la oferta no obtener éxito, depósito de seguridad es totalmente reembolsable o ajustables en la cuenta del cliente basada en la solicitud de cliente.&lt;br&gt;
+        &lt;/p&gt;
+        &lt;table cellspacing="0" cellpadding="5" align="center" class="auctionTable"&gt;
+            &lt;tr&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;span class="class_span2"&gt;Detalles de depósito de licitación.&lt;/span&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auction1"&gt;
+                    Deposit Rank
+                &lt;/th&gt;
+                &lt;th class="auction2"&gt;Importe del depósito USD&lt;/th&gt;
+                &lt;th class="auction3"&gt;Comprar % de presupuesto 2000 USD&lt;/th&gt;
+                &lt;th class="auction4"&gt;Depósito cantidad Yen&lt;/th&gt;
+                &lt;th class="auction5"&gt;Compra del presupuesto 2000% Yen&lt;/th&gt;
+                &lt;th class="auction6"&gt;Límite de compra&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    A
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $10,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \1,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \20,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    No Limit
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    B
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $5,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \500,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \10,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    10 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    C
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $3,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $60,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \300,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \6,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    4 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    D
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $2,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $40,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \4,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    3 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    E
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $1,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $20,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \2,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    1 Unit
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;br&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;font class="class"&gt;&lt;b&gt;Necesitamos por encima del depósito del cliente para permitirle comenzar a pujar.&lt;/b&gt;&lt;/font&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;Paso 3&lt;/span&gt; &lt;span class="class_span2"&gt;Coches de subasta de licitación&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;Por favor, rellene número de lote, nombre del coche y el precio de licitación en el formulario de pedido de subasta.&lt;/p&gt;
+        &lt;p class="class"&gt;Sólo cobramos el precio real de subasta en la que se ganó la puja. Por lo que intentar pujar lo más posible a fin de aumentar las posibilidades de ganar la puja.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Paso 4&lt;/span&gt; &lt;span class="class_span2"&gt;Resultado de la subasta&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;En cuanto tengamos éxito con tu puja, le notificaremos que su oferta tiene éxito.
+            Usted recibirá una factura que incluye el precio total del coche. El precio se calculará con el precio de venta original de subasta.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Paso 5 &lt;span class="class_span2"&gt;pago Final&lt;/span&gt;&lt;p&gt;
+
+       
+        &lt;p class="class"&gt;El pago final se pagará en 5 días laborables. Los pagos efectuados en el tiempo comprometido nos ayudará a salvar a su pedido de cancelación.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Paso 6 &lt;span class="class_span2"&gt;envío&lt;/span&gt;&lt;p&gt;
+       
+         &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="auction2" xml:space="preserve">
+    <value>&lt;div&gt;
+            &lt;p class="class"&gt;
+                El envío se organizarán tan pronto como se confirme el pago.&lt;/p&gt;
+            &lt;p class="class"&gt;
+                Nota: En &lt;a href="www.awan.co.jp"&gt;Awan.co.jp&lt;/a&gt; que encontrará los mejores servicios
+                de envío con menor&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Paso -7&lt;span class="class_span2"&gt; documentos&lt;/span&gt;&lt;p&gt;
+                    &lt;p class="class"&gt;
+                        Como el barco sale desde Japón, enviamos todos los documentos por EMS, DHL o FedEx.
+                        Los documentos incluidos son;&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Certificado de exportación&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Conocimiento de embarque&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Factura&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Seguros marítimos si cualquier&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Inspección de JAAI y otras inspecciones, si cualquier&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Nota: no hay cargos adicionales u ocultos distinto precio CNF o CIF. Todos los cargos
+                        están incluidos en dicho precio&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Pago método &amp; bancarios&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Puede organizar el pago mediante transferencia telegráfica a través de su banco.
+                        Todos los cargos bancarios serán pagados por el remitente. Por favor, asegúrese
+                        de que el pago es en dólares y yenes japoneses y por favor incluya su número de
+                        factura &amp; acciones en el campo Descripción.&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Pago también puede hacerse en línea a través de PayPal a través de sus tarjetas
+                        de crédito.&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Términos de pago a través de PayPal&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Habrá una tarifa de manipulación de 4% de la cantidad de factura.&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Límite de pago a través de PAYPAL es: USD100 mínimo, máximo USD10, 000&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        &lt;b&gt;(Cantidad máxima depende de su país registrante, por lo que consulte a PAYPAL para
+                            tu limitación.)&lt;/b&gt;&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Una vez que el pago ha sido arreglado, por favor, envíenos confirmación de pago
+                        con Factura Proforma o nombre completo, dirección, número de teléfono/Fax para fines
+                        de contacto por &lt;b&gt;info@awan.co.jp o Fax +8176-6598750.&lt;/b&gt;
+                        &lt;br&gt;
+                        El importe de los pagos que se decidió en el acuerdo mutuo debe hacerse en su totalidad.
+                        Sólo realizaremos el envío una vez recibido el pago. Para obtener más información
+                        acerca de envíos y pagos, por favor, lea nuestras &lt;a href="TermsandConditions.aspx"&gt;
+                            Condiciones &amp; de términos &lt;/a&gt;. o póngase en contacto con &lt;a href="mailto:info@awan.co.jp"&gt;
+                                info@awan.co.jp&lt;/a&gt;
+                    &lt;/p&gt;
+                    &lt;h3&gt;
+                        Enlaces de subasta&lt;/h3&gt;
+                    &lt;p class="class"&gt;
+                        &lt;a href="https://www.iauc.co.jp/pv/top1.html"&gt;
+                            &lt;img src="images/iauc.gif" style="border: 0px;"&gt;
+                        &lt;/a&gt;
+                        &lt;br&gt;
+                        &lt;a href="http://was.autoserver.co.jp/asnete/top/logon.asp"&gt;
+                            &lt;img src="images/asnet.gif" style="border: 0px;"&gt;
+                        &lt;/a&gt;
+                    &lt;/p&gt;
+                    &lt;p class="class js_a"&gt;
+                        &lt;a href="http://www.japan-used-car-exporting.info/import/auto-auctions-in-japan.html"&gt;
+                            Subastas de Auto útil en Japón&lt;/a&gt;
+                        &lt;br&gt;
+                        &lt;a href="http://www.japan-used-car-exporting.info/import/map-of-auto-auctions-in-japan.html"&gt;
+                            Mapa de Auto subastas en Japón&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/span&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="glossary1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+           &lt;span style="color: #F0F0F0"&gt;Términos de&lt;/span&gt; Glosario
+            
+            &lt;/ul&gt;</value>
+  </data>
+  <data name="glossary2" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Conocimiento de embarque (B/L)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Un documento que establece los términos de un contrato entre una empresa de transporte y cargador. Sirve como un documento de título, un contrato de transporte y un recibo de mercancías.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon6"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Aviso de llegada&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Una notificación enviada por la compañía a la llegada del barco al destinatario, el "partido de notificar" y - en su caso - la "también notificar partido." Estos partidos de interés aparecen en bloques de 3, 4 y 10, respectivamente, del conocimiento de embarque.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;    
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon1"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Estadía&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Una carga de pena contra los remitentes o destinatarios para retrasar el equipo del transportista más allá del tiempo libre permitido. Las cargas libres de tiempo y estadía se establecen en el arancel de partido o flete de carta.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon4"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Ley de Dios&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Un acto más allá del control humano, tales como rayos, inundaciones o terremotos.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;CFR o C &amp; F (costo y flete) (...Nombre puerto de destino)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;Un término de venta donde el vendedor paga los costos y fletes necesarios para llevar las mercancías al puerto de destino, condiciones de venta, pero el riesgo de pérdida o daño de las mercancías, con nombre como (continuación) así como cualquier coste adicional debido a eventos ocurridos después de la hora en que las mercancías han sido entregadas a bordo del buque, se transfiere del vendedor al comprador cuando las mercancías pasan ferroviario del buque en el puerto de embarque. El término CFR exige al vendedor despachar la mercadería para la exportación.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;CIF (costo, seguro y flete) (...Lugar de destino convenido):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;Un término de venta donde el vendedor tiene las mismas obligaciones que bajo CFR pero también tiene que adquirir seguros marítimos contra el riesgo del comprador de pérdida o daño de las mercancías durante el transporte. El vendedor contrata seguro y paga la prima del seguro. El término CIF exige al vendedor despachar la mercadería para la exportación.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="glossary3" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;FOB (libre a bordo) (...El nombre puerto de envío):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 160px;"&gt;Un término internacional de venta que significa que el vendedor cumple su obligación de entregar cuando las mercancías han pasado sobre ferrocarril del buque en el puerto de embarque convenido. Esto significa que el comprador tiene que asumir todos los costos y riesgos de pérdida de o daño a las mercancías desde ese punto. El término FOB exige al vendedor despachar la mercadería para la exportación.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;(Rodado)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Un acortamiento del término, "Roll On / Roll Off". Un método de carga servicio oceánico usando un buque con rampas que permite los vehículos cargan y descargan sin grúas sobre ruedas.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Factura Performa&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Una factura proporcionada por un proveedor antes el envío de la mercancía, informando al comprador de los tipos y cantidades de mercancías para ser enviado, su valor y especificaciones (peso, tamaño, etc....)&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_5b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Factura comercial.&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Representa un registro completo de la transacción entre el exportador y el importador en relación con los bienes vendidos. También informa el contenido del envío y sirve de base para todos los otros documentos sobre el envío.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_5v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Carta de crédito (LC)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Un documento, expedido por un banco por instrucciones por un comprador de mercancías, autorizar al vendedor para dibujar una suma especificada de dinero bajo condiciones indicadas, generalmente la recepción por el Banco de ciertos documentos dentro de un plazo determinado.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Carta de crédito confirmada&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Una carta de crédito emitida por un banco extranjero, cuya validez ha sido confirmada por un banco nacional. Un exportador con una carta de crédito confirmada está asegurado de pago incluso si el comprador extranjero o el Banco extranjero predeterminados.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="glossary4" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Carta de crédito irrevocable&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Carta de crédito en que el pago especificado está garantizado por el Banco, si se cumplen todos los términos y condiciones por el deudor y que no puede ser revocada sin acuerdo del comprador y el vendedor.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Confirmando Banco&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;El Banco que añade su confirmación a de otro del Banco (banco emisor) carta de crédito y se compromete a pagar al beneficiario previa presentación de documentos especificados en la Carta de crédito.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Envío&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;(1) Un stock de mercancía avanzada a un distribuidor y ubicado en su lugar de negocios, pero con título restante en la fuente de suministro.&lt;br&gt;(2) Un envío de mercancías a un consignatario.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Destinatario&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Una persona o empresa a quien se envían los productos básicos.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Cargador&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;La persona o empresa que suele ser el proveedor o el propietario de los productos enviados.
+                        También llamado expedidor. Una clasificación, el almacenamiento o el área de conmutación.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Transitario&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Una persona cuya actividad es actuar como un agente en nombre del cargador. Un Transitario con frecuencia hace la reserva de reserva.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;Cooperar&lt;/span&gt; Visión general&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="cooperteoverview2" xml:space="preserve">
+    <value>&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+                &lt;p class="class"&gt;Awan K.K internacional es una empresa comercial japonesa. Nuestro papel en el vehículo japonés exportación industria proporcionar todo tipo de vehículos a los compradores individuales, comerciantes, industrias y organizaciones gubernamentales.&lt;/p&gt;
+                &lt;br&gt;
+                &lt;p class="class"&gt;Somos uno de los principales exportadores de vehículos en Japón y atiende a clientes en todo el mundo. Awan K.K internacional establecida en 16 de febrero de 1999. Trabajamos con una amplia variedad de vehículos usados japoneses así como flamante vehículos, lo que le permite comprar su vehículo de sueño que ustedes han estado esperando.&lt;/p&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview3" xml:space="preserve">
+    <value>&lt;h5&gt;Nuestros valores&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;1. Tomar desafíos 2. Creatividad 3. El entrega de tiempo 4. Trabajo en equipo 5. Comunicación interactiva en tiempo real.&lt;/p&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview4" xml:space="preserve">
+    <value>&lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;Tomar desafíos&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_1.png"&gt;
+                        &lt;p class="class"&gt;Como miembro de la "Subasta TAA, JAA subasta grupo, grupo Honda subasta, subasta USS grupo de, HAA grupo de subasta, grupo JU subasta y todas otras subastas japonesas", exportamos todo tipo de coches japoneses incluyendo grandes fabricantes como Toyota, Honda, Nissan, Mitsubishi, Mazda, Subaru, Isuzu, Suzuki y Daihatsu con una vasta selección de modelos, colores y edad. También somos capaces de enviar a corto plazo a cualquier parte del mundo&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;Creatividad&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_2.png"&gt;
+                        &lt;p class="class"&gt;Awan internacional más importante factor es la velocidad de innovación y nuestro pensamiento creativo determinará el alcance de nuestro éxito.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;El entrega de tiempo&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/Delivery.png"&gt;
+                        &lt;p class="class"&gt;Awan internacional las es no sólo expertos en japonés de vehículos usados, también de origen y exportar autos coreanas y estadounidenses y auto repuestos, maquinaria y vehículos de construcción realizados por los fabricantes líderes del mundo.&lt;/p&gt;
+                               
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;Trabajo en equipo&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/teamwork.png"&gt;
+                        &lt;p class="class"&gt;Tenemos muy creativo y organizado personal de japonesas e internacionales que se han comprometido a proporcionar los niveles de servicio excelente a sus clientes y a mantener los estándares de calidad, seguridad y satisfacción en los más altos niveles posibles. El Awan sistema de valores está comprometido con la excelencia en la entrega de calidad y servicio al cliente por capacitar a los empleados.&lt;/p&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview5" xml:space="preserve">
+    <value>&lt;h5&gt;Vía de comunicación rápida...&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;Awan internacional, a diferencia de muchas otras organizaciones, apoya plenamente una cultura abierta por permitiendo a los empleados a expresarse a través de 'charla conmigo', una herramienta interactiva de la intranet donde los empleados pueden tener un diálogo con uno de otro. Valores&lt;/p&gt;
+                    &lt;p class="class"&gt;Awan internacional los valores de sus miembros, empleados e inicia programas de capacitación para Awan internacional cada vez en un tiempo. Hay mente compartir sesiones en diferentes equipos sentarse entre sí; compartir detalles del proyecto, el progreso y planes para el futuro; y tener un foro abierto de discusión donde cada uno es libre de expresar sus comentarios.&lt;/p&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="bankdetails.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt; Banco &lt;/ span&gt; Detalles</value>
+  </data>
+  <data name="footer.menu1" xml:space="preserve">
+    <value>contáctenos</value>
+  </data>
+  <data name="footer.menu2" xml:space="preserve">
+    <value>&lt;p style="margin-left: -11px;
+    padding-left: 0;
+    width: 90px;"&gt; Como Ordenar&lt;/P&gt;</value>
+  </data>
+  <data name="footer.menu3" xml:space="preserve">
+    <value>valoores</value>
+  </data>
+  <data name="footer.menu4" xml:space="preserve">
+    <value>&lt;p style="  margin-left: -92px; width: 156px;"&gt;                                 Términos y Condiciones&lt;/P&gt;</value>
+  </data>
+  <data name="footer.menu5" xml:space="preserve">
+    <value>www.Awan.Co.jp| Tous droits réservés 2011</value>
+  </data>
+  <data name="footer.menu6" xml:space="preserve">
+    <value>sobre mí</value>
+  </data>
+  <data name="AdditionalComments" xml:space="preserve">
+    <value>adicional</value>
+  </data>
+  <data name="NomanRaufLanguage" xml:space="preserve">
+    <value>Urdu, Inglés, francés</value>
+  </data>
+  <data name="NomanRaufName" xml:space="preserve">
+    <value>Nauman Rauf</value>
+  </data>
+  <data name="RizwanRauf" xml:space="preserve">
+    <value>Rizwan Rauf</value>
+  </data>
+  <data name="Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="PasswordRecovery" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt; Contraseña &lt;/ span&gt; Recuperación</value>
+  </data>
+  <data name="ProvideYourEmail" xml:space="preserve">
+    <value>Proporcione su correo electrónico</value>
+  </data>
+  <data name="slider1" xml:space="preserve">
+    <value>Miles de japoneses de alta calidad utilizado material de coches</value>
+  </data>
+  <data name="slider2" xml:space="preserve">
+    <value>Mejores coches japoneses usados &amp; nuevos</value>
+  </data>
+  <data name="slider3" xml:space="preserve">
+    <value>Cientos de miles de coches usados y camiones de miles de vendedores de coches de confianza.</value>
+  </data>
+  <data name="slider4" xml:space="preserve">
+    <value>Buscar nuestro stock de alta calidad</value>
+  </data>
+  <data name="slider4a" xml:space="preserve">
+    <value>Bolsa</value>
+  </data>
+  <data name="slider5" xml:space="preserve">
+    <value>Millones de coches a búsqueda</value>
+  </data>
+  <data name="slider6" xml:space="preserve">
+    <value>Coches nuevos</value>
+  </data>
+  <data name="slider7" xml:space="preserve">
+    <value>Coches de accidentes</value>
+  </data>
+  <data name="slider8" xml:space="preserve">
+    <value>Bajo kilometraje</value>
+  </data>
+  <data name="kamranraufinfo" xml:space="preserve">
+    <value>Assalamu.alaikum, estoy Kamran Rauf, estoy gestión de todas las actividades en Pakistán Awan International Group.
+ Completé mi graduación en 2011 de Pakistán y Únete a Awan Internacional KK como mi primer paso en el mundo profesional.
+ Me gusta mucho el que como profesión, y vemos un gran potencial de mi trabajo con Carrere Awan Internacional KK
+ Mi trabajo consiste en gestionar la compra, / Venta, mantenimiento de relaciones amistosas con todos nuestros clientes, mejorar nuestro negocio, y mantener y ambiente de trabajo sano alrededor.
+ Sus casi 3 años trabajando con Awan International Group, y les puedo garantizar que Awan Internacional KK grupo realmente vale la pena tratar.
+ Yo le garantizo que se le proporciona con el mejor de los servicios</value>
+  </data>
+  <data name="kamranrauflanguage" xml:space="preserve">
+    <value>Urdu, Inglés</value>
+  </data>
+  <data name="negotiate.now" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Negociar &lt;/span&gt;&amp;nbsp;ahora</value>
+  </data>
+</root>

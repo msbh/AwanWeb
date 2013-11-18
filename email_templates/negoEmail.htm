@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Negotiation </title>
+	
+       <style type="text/css" media="screen">
+
+
+			/* NOTE: The CSS you add here will automaticaly be inlined by MailChimp before sending to prevent it from being stripped by some email clients. */
+			
+				/**
+				 * @tab Page
+				 * @section background color
+				 * @tip Choose a color for your HTML email's background. You might choose one to match your company's branding.
+				 * @theme page
+				 */
+				body {
+					/*@editable*/ background-color: #cccccc;
+					text-align:center;
+					
+				}
+
+			    /**
+			     * @tab Page
+			     * @section border
+			     * @tip Add a border to help your template content stand out from your email's background.
+			     */
+			  			    #layout {
+			        /*@editable*/ border: 5px solid #999999;
+					/*@editable*/ background:#ffffff;
+		            margin: 25px;
+					text-align:left;
+			    }
+
+				/**
+				 * @tab Header
+				 * @section header bar
+				 * @tip Choose a set of colors that look good with the colors of your logo image or text header.
+				 */
+				#header {
+				    /*@editable*/ background-color: #cccccc;
+				    /*@editable*/ border-top: 0px none #333333;
+				    /*@editable*/ border-bottom: 0px none #ffffff;
+				    /*@editable*/ padding: 0px;
+					/*@editable*/ color: #333333;
+		            /*@editable*/ font-size: 26px;
+		            /*@editable*/ font-family: Georgia;
+		            /*@editable*/ font-weight: normal;
+		            /*@editable*/ text-align: center;
+		            
+			    }
+
+				/**
+			     * @tab Body
+			     * @section default text
+			     * @tip This is the default text style for the body of your email.
+			     * @theme content
+			     */
+			    #content {
+			        /*@editable*/ font-size: 13px;
+			        /*@editable*/ color: #333333;
+			        /*@editable*/ font-style: normal;
+					/*@editable*/ font-weight: normal;
+			        /*@editable*/ font-family: Helvetica;
+					/*@editable*/ line-height: 1.25em;
+					/*@editable*/ padding: 10px 30px;
+			    }
+			
+			    /**
+			     * @tab Body
+			     * @section title style
+			     * @tip Titles and headlines in your message body. Make them big and easy to read.
+			     * @theme title
+			     */
+			    .primary-heading {
+			        /*@editable*/ font-size: 16px;
+			        /*@editable*/ font-weight: bold;
+			        /*@editable*/ color: #8b0000;
+			        /*@editable*/ font-family: Georgia;
+			        /*@editable*/ line-height: 150%;
+					/*@editable*/ margin: 25px 0 0 0;
+			    }
+
+			    /**
+			     * @tab Body
+			     * @section subtitle style
+			     * @tip This is the byline text that appears immediately underneath your titles/headlines.
+			     * @theme subtitle
+			     */
+			    .secondary-heading {
+			       			      
+			        /*@editable*/ color: #000000;
+			          /*@editable*/ font-family: Georgia;
+			        /*@editable*/ font-size: 13px;
+			        /*@editable*/ color: #333333;
+			   		/*@editable*/ font-weight:bold;
+			        /*@editable*/ font-family: Helvetica;
+					/*@editable*/ line-height: 1.25em;
+					/*@editable*/ padding: 10px 30px;
+			    }
+			    
+			    
+			    
+			    		    .secondary-heading_footer {
+			       			      
+			         /*@editable*/ font-family: Georgia;
+			        /*@editable*/ font-size: 13px;
+			        /*@editable*/ color: #8b0000;
+			   		/*@editable*/ font-weight:bold;
+			        /*@editable*/ font-family: Helvetica;
+					/*@editable*/ line-height: 1.25em;
+					/*@editable*/ padding: 0px 30px 
+			    }
+			    
+			    			    		    .secondary-heading_footer2 {
+			       			      
+			        /*@editable*/ color: #000000;
+			          /*@editable*/ font-family: Georgia;
+			        /*@editable*/ font-size: 14px;
+			      /*@editable*/ font-weight:bold;
+			        /*@editable*/ font-family: Helvetica;
+					/*@editable*/ line-height: 1.25em;
+					/*@editable*/ padding: 0px 30px 
+			    }
+			    
+			    			    .text_content {
+			        /*@editable*/ font-size: 12px;
+			        /*@editable*/ font-weight:lighter;
+			        /*@editable*/ color: #000000;
+			        /*@editable*/ font-style: normal;
+			        /*@editable*/ font-family: Georgia;
+					/*@editable*/ padding: 5px 30px;
+				
+			
+					
+			    }
+			    
+			    #footer {
+			    background-color: #eeeeee;
+			        /*@editable*/ border-top: 0px none #ffffff;
+			        /*@editable padding: 20px;*/ 
+					/*@editable*/ font-size: 10px;
+			        /*@editable*/ color: #333333;
+			        /*@editable line-height: 100%; */ 
+			        /*@editable*/ font-family: Verdana;
+			    }
+
+			    /**
+			     * @tab Footer
+			     * @section link style
+			     * @tip Specify a color for your footer hyperlinks.
+			     * @theme link_footer
+			     */
+			    #footer a {
+			        /*@editable*/ color: #800000;
+				    /*@editable*/ text-decoration: underline;
+			        /*@editable*/ font-weight: normal;
+			    }
+			
+			    /**
+			     * @tab Page
+			     * @section link style
+			     * @tip Specify a color for all the hyperlinks in your email.
+			     * @theme link
+			     */
+			    a, a:link, a:visited {
+			        /*@editable*/ color: #800000;
+				    /*@editable*/ text-decoration: underline;
+			        /*@editable*/ font-weight: normal;
+			    }
+</style>
+ 
+       
+	</head>
+	<body>
+		<table id="layout" border="0" cellspacing="0" cellpadding="0" width="600">
+			<tr>
+				<td id="header" >
+					<!-- NOTE: This image would trigger the display of a placeholder block with edit links when shown in the MailChimp editor interface -->
+					<!--<img alt="" src="..\images\hr1.jpg" style="width: 839px; height: 150px" /></td>
+-->		
+ -Negotiation request-
+
+	</tr>
+			
+			<tr>
+				<td id="content" mc:edit="content">
+					<h1 class="primary-heading">Dear All,</h1>
+                   
+				</td>
+							
+			</tr>
+			
+			
+			<tr>
+			<td >
+			   <p class="text_content"> Below find&nbsp; negotiation request @@@negtiation_ID@@@.
+			   
+					   
+			   </p>
+			   
+			</td>
+			</tr>
+			
+				<tr >
+			
+                    <td class="secondary-heading">
+                    <b> Requestor Details</b> <br />
+                        Reguestor Name:&nbsp;&nbsp; @@@Client_Name@@@
+                        <br />
+                        Email:&nbsp;&nbsp; @@@Client_Email@@@
+                        <br />
+                     
+                   
+                        
+                        
+                    </td>
+			</tr>
+			
+				<tr>
+                        <td class="secondary-heading">
+                            Details:
+                       
+                        <p class="text_content">
+                           
+                           Stock Ref&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :@@@FILE_REF@@@<br />  
+                           Chassis No&nbsp;&nbsp;&nbsp;&nbsp;: @@@CHASSIS_NO@@@<br />
+                           Client FOB Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : @@@client_FOB_Price@@@<br />
+                           Client Freight Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :@@@Client_FrieghtPrice@@@<br />
+                           Client_Vanning_Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;:@@@Client_Vanning_Price@@@<br />
+                           Client_Inspection_Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;:@@@Client_Inspection_Price@@@<br />
+                           Client_Total_Cost&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; :@@@Client_Total_Cost@@@<br />
+                           Currency&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :@@@currency_short_name@@@</p>
+                            
+                   
+                            <br />
+                            Client Commets: <br />
+                          @@@Client_Comments@@@
+                            
+                            <p class="text_content">
+                           
+                                <br />
+                           
+                           
+                          
+                            
+                        </p>
+                        
+                        
+                        <p>
+                            Please check more details in the system with negotiation ref:&nbsp; 
+                            @@@negtiation_ID@@@</p>
+                        
+                         </td>
+                    </tr>
+			
+			
+			
+			
+			<tr>
+				<td id="footer" mc:edit="footer">
+				    <p class="secondary-heading_footer"> 
+				    
+				        Shahid Awan,</p><p class="secondary-heading_footer2">Managing Director </p>
+				       
+				   <p class="secondary-heading">
+				   
+				   
+Email: awanint@yahoo.com<br />
+Tele: (+81) 9030913914<br />
+Awan International K.K<br />
+<a href="www.awan.co.jp" > www.awan.co.jp </a> <br /><br /><br />
+
+				    </p>
+				</td>
+				
+				
+			</tr>
+			
+			
+			
+			
+			<tr>
+				<td id="footer" mc:edit="footer">
+				    &nbsp;</td>
+				
+				
+			</tr>
+				</table>
+	</body>
+</html>

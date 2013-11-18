@@ -1,0 +1,1950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Quickcontact" xml:space="preserve">
+    <value>Быстрый контакт</value>
+  </data>
+  <data name="Quickcontact.EmailRequired" xml:space="preserve">
+    <value>Email Обязательно</value>
+  </data>
+  <data name="Quickcontact.NameRequired" xml:space="preserve">
+    <value>Имя необходимые</value>
+  </data>
+  <data name="Quickcontact.send" xml:space="preserve">
+    <value>отправлять</value>
+  </data>
+  <data name="QuickContactStartText" xml:space="preserve">
+    <value>Если у вас есть общие Enquiy любезно прислать запрос обеспечение ниже деталей.</value>
+  </data>
+  <data name="GlobalStockLocationText" xml:space="preserve">
+    <value>Глобальный Место со</value>
+  </data>
+  <data name="Searchbybodytype" xml:space="preserve">
+    <value>&lt;font size="2px"  &gt; &lt;b&gt;  Поиск по категориям автомобилей &lt;/b&gt;&lt;/font&gt;</value>
+  </data>
+  <data name="AwanInter.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Почему Аван&lt;/span&gt;&amp;nbsp;Международный K.K&lt;/ul&gt;
+    &lt;ul class="myform_line"&gt;</value>
+  </data>
+  <data name="AwanInter.content" xml:space="preserve">
+    <value>&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+        &lt;p class="class"&gt;
+          Аван Международный K.K является почетным членом &lt;b&gt;Подержанные автомобили японской ассоциации&lt;/b&gt;
+          которая является наиболее авторитетной организации в японских подержанных индустрии экспорта автомобилей.
+        &lt;/p&gt;
+        &lt;br&gt;
+        &lt;p class="class"&gt;
+            Будучи &lt;a href=""&gt;Компания сертифицирована различных японских подержанных автомобилей ассоциаций,&lt;/a&gt;
+      Мы являемся официально зарегистрированной организацией в Японии и имеет лицензию на покупку и продажу подержанных автомобилей, а также экспортировать их. Японской ассоциации также признает
+             Аван Международный КК в качестве надежного и установили подержанный автомобиль дилеру. Это ограничивает
+             всех членов справедливой торговле бывшими в употреблении автомобилями и предотвращает несправедливые сделок.
+             Кроме того, она защищает покупателей от похищенных транспортных средств, незаконно перестроены или изменения
+             транспортных средств. Таким образом, обеспечивает поддержку, если возникают жалобы. Мы прошли сертификацию
+             Подержанные автомобили японской ассоциации, потому что мы боремся за справедливое дело с нашими покупателями
+             и принять долгосрочный взгляд на бизнес..&lt;/p&gt;
+        &lt;br&gt;
+        &lt;p class="class"&gt;
+          Есть тысячи использовать экспортеров автомобилей онлайн в эти дни. К сожалению,
+             большинство из них мошенничество компаний и обманывать невинных покупателей, принимая свои деньги
+             , а затем исчезают. Когда вы имеете дело с японским Подержанные автомобили Ассоциации сертифицированных
+             компании Аван Международный KK, вы можете быть уверены в легитимности и гарантируются
+             справедливой сделки.&lt;/p&gt;
+        &lt;br /&gt;
+        &lt;div class="clear"&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>&lt;h1 class="myform_span"&gt;
+            &lt;span&gt;часто задаваемые вопросы&lt;/span&gt;
+        &lt;/h1&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Вопрос № 1: Как купить японский подержанный автомобиль у нас? &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+               Выполните следующие действия:&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;
+              1. Посмотреть наш Японии, России, ОАЭ, Пакистан и Южная Африка использовали акции
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+             2. Выберите нужный автомобиль.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                3. Нажмите кнопку Получить Инвойс и представить форму с соответствующей информацией
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+               4. Пожалуйста, проверьте свою почту, мы вышлем Вам Performa счета по почте или по факсу.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+               5.производительность счета содержит цена CIF, а также банковские реквизиты и способ оплаты.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                6. Упорядочить платежа - желанный автомобиль будет зарезервирован для Вас на получение полной
+                 оплаты.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+              7. Упорядочить платежа - желанный автомобиль будет зарезервирован для Вас на получение полной
+                 оплаты.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+              8. Отгрузка автомобилей&lt;/p&gt;
+            &lt;p class="class2"&gt;
+               9. Автомобиль успешно достигнута в порту разгрузки, и вы можете получить
+                 его.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Вопрос № 2: В каком состоянии ваш автомобиль?&lt;/a&gt;
+        &lt;/h2&gt;
+        
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+              Все автомобили поставляются с автоматической аукционов и через франшизу дилеров и оптовиков
+                 в районе центральной части Японии. Эти транспортные средства тщательно проверяются
+                 наша команда механического профессионального покупателя штабов, прежде чем запасаться им. Все японские
+                 транспортных средств, перечисленных на нашем списке принадлежат Awan.com. Мы не сторонних агентов
+                 или брокера.
+            &lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Вопрос № 3: Как я могу создать учетную запись на вашем сайте?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+         Вы должны нажать здесь, чтобы создать новую учетную запись и начать делать покупки у нас.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Вопрос № 4: Как я могу создать учетную запись на вашем сайте?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                Вы можете распечатать счет-фактуру Performa нажав на кнопку "Получить Инвойс" кнопку, если вы выбираете
+                транспортных средств с нашего склада.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Вопрос № 5: В каких странах вы экспортируете ваш автомобиль?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                Мы можем экспортировать в любую страну, где есть юридический закон, чтобы импортировать автомобили
+                 из Японии.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Вопрос № 6: Как я могу разместить свой ​​заказ?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+               Смотрите наш японских подержанных автомобилей Фотография, ЮАР подержанных автомобилей биржу или Пакистан подержанных автомобилей
+                 Stocklines:
+            &lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+              Следуйте этим простым шаг за шагом рекомендации:
+            &lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+        
+                Выберите нужный автомобиль.
+                
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+            
+                2. Получить счет-фактуру.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+       
+                3. Произвести оплату по счету.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+               
+                4. Доставка высылается подтверждение.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+
+                5. Автомобиль поставляется.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;
+                Вопрос № 7: Какие документы / информацию вы требуют с моей стороны после того, как я
+                 перевели сумму на свой банковский счет?
+                
+                
+                &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                
+               Смотрите наш японских подержанных автомобилей Фотография, ЮАР подержанных автомобилей биржу или Пакистан подержанных автомобилей
+                 Stocklines:
+                
+            &lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+         
+                Вы должны предоставить нам следующую информацию / Документация:
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+     
+                а) получатель Имя
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+      
+                б) Грузополучатель адрес
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+ 
+                в) DHL Адрес:
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                г) Полная контактная информация, такие как связаться с №, Факс и т.д.
+                
+                
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+             
+                е) если грузополучатель и покупатель отличаются пожалуйста, сообщите нам об этом.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                Пожалуйста, приведенную выше информацию, с тем чтобы убедиться, что все
+                 Доставка документации подготовлена ​​к отгрузке.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        
+        &lt;br /&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;
+            Вопрос № 8: Что товаросопроводительные документы я получу?
+            &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+
+                Вы получите следующие документы доставки:
+            &lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+       
+                1. Билль о посадку
+                
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+            
+                2. Таможенный счета
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+ 
+                3. Экспорт / Снятие с учета сертификатов
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+               
+                4. Перевод на английский язык Экспорт / Снятие с учета сертификатов
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        
+        
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Вопрос № 9: Какой способ оплаты?
+            &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+               
+                
+                Режим оплаты PayPal, онлайн оплата кредитной картой и телеграфным переводом.
+                 Это предпочтительный способ оплаты, так как это самый быстрый, безопасный и простой
+                 метод. Это займет около 3 дней, чтобы получить и обработать ваш платеж. Вы можете
+                 также просматривать thebank страницу сведений банковские реквизиты страницу на нашем сайте. Оплата должна
+                 быть сделано как можно скорее для того, чтобы транспортное средство резерв, поскольку мы работаем на политику
+                 в первый пришел первый из основы.
+                
+                
+                
+                
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        
+        
+        
+        
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Вопрос № 10: В какой валюте вы принимаете к оплате?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+           
+                Мы принимаем британский фунт (GBP), американский доллар (USD), евро и японская иена.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;
+        Вопрос № 11: Я не могу понять некоторые из этих доставки?
+            &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+               Пожалуйста, прочитайте раздел &lt;a href="#"&gt;
+               Глоссарий Условия доставки
+               &lt;/a&gt;
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;
+                Вопрос № 12: Как можно гарантировать Аван Международный KK обеспечит нам послать наш автомобиль
+                 здесь?
+                
+                &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+              
+                
+                Мы были в экспорте бизнес автомобилем за последние 20 лет (1988-2008).
+                 Мы с гордостью можем сказать, мы никогда не было жалоб о том, что мы не поставляется
+                 купить единицу или единицы. Мы удовлетворены клиенты в большинстве стран
+                 Ваши ссылки. Пожалуйста, не стесняйтесь обращаться к нам, если вам нужны ссылки
+                 из вашей страны.
+                
+                
+                &lt;/a&gt;
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="shippinginfo" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;судоходство&lt;/span&gt;&amp;nbsp;информация&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;
+        &lt;div id="main_top_panel"&gt;
+            &lt;div&gt;
+                &lt;img class="ShippingInfo-img" alt="" src="images/cars_in_containers.png"&gt;
+                &lt;p class="class"&gt;
+                 
+                    Япония обладает самыми передовыми доставки и логистические возможности для работы с двигателем
+                     грузов. В зависимости от типа судов, есть 2 способа загрузки автомобильных перевозок.
+                     Один из видов грузов известен как рулонных, спад (RORO), а другой 20 футов или
+                     40-футовый контейнер.
+                    
+                    
+                    &lt;/p&gt;
+                &lt;br&gt;
+                &lt;p class="class"&gt;
+                   
+                    
+                    RORO суда (для перевозки автомобилей) находятся в жесткой поставок, производства автомобилей становится все более
+                     глобализации в течение последних десяти лет. Частота отправки на RORO типа
+                     груз меньшей по сравнению с другими нормальными проведения судов, использующих 20 футов или 40-футовый контейнер
+                     груза. Кроме того, не каждый порт рассматривается судами RORO так и для многих стран
+                     Единственный выбор остается только погрузки контейнеров.
+                    
+                    &lt;/p&gt;
+                &lt;br&gt;
+                &lt;p class="class"&gt;
+                  
+                    
+                    Контейнерных перевозок включает в себя загрузку больших усилий и усердия, а также требует
+                     ноу-хау и опыта. Мы имеем большой начинка многолетний опыт и
+                     Вы можете быть уверены, что ваш автомобилей будет поставляться надежно, экономично
+                     и в безопасной среде. Мы также приобрели наиболее экономически конкурентоспособные цены за счет
+                     наших крупных партий на регулярной основе. Ниже идея контейнерных перевозок груза.
+                     Обычно нам удается наполнить несколько автомобилей на 40-футовый контейнер в зависимости от
+                     размеры / габариты транспортных средств.
+                    
+                    
+                    
+                &lt;/p&gt;
+                &lt;br&gt;
+                &lt;p class="class"&gt;
+                   
+                    Для просмотра глоссария всех видов доставки,&lt;a href="#"&gt;Нажмите здесь,&lt;/a&gt;&lt;/p&gt;
+                &lt;p class="class js_a"&gt;
+                    &lt;a href="http://japan-used-car-exporting.info/import/shipping-companies.html"&gt;&lt;b&gt;знаменитый
+                         Список судоходных компаний &lt;/b&gt;&lt;/a&gt;
+                &lt;/p&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="clear"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="loginpages.emaillable" xml:space="preserve">
+    <value>е-мейл</value>
+  </data>
+  <data name="loginpages.Forgetpassworlloginpages.Forgetpassworlable" xml:space="preserve">
+    <value>Забыли пароль</value>
+  </data>
+  <data name="loginpages.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Пользователи&lt;/span&gt;&amp;nbsp;Войти страницу</value>
+  </data>
+  <data name="loginpages.heading1" xml:space="preserve">
+    <value>&lt;a href="membership.aspx"&gt;Станьте нашим ценным членом, все, что вам нужно сделать, просто заполните
+                    форме! И это все.
+ &lt;/a&gt;</value>
+  </data>
+  <data name="loginpages.LogInlable" xml:space="preserve">
+    <value>Войдите</value>
+  </data>
+  <data name="loginpages.passwordlable" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>адрес</value>
+  </data>
+  <data name="AdvanceSearch" xml:space="preserve">
+    <value>Расширенный поиск</value>
+  </data>
+  <data name="bankAccount" xml:space="preserve">
+    <value>Имя счета</value>
+  </data>
+  <data name="bankAccountname" xml:space="preserve">
+    <value>Awan International K.K</value>
+  </data>
+  <data name="bankAccountname2" xml:space="preserve">
+    <value>Tambiri Motors</value>
+  </data>
+  <data name="bankAccountNumber" xml:space="preserve">
+    <value>Номер счета</value>
+  </data>
+  <data name="bankAddress" xml:space="preserve">
+    <value>Адрес банка</value>
+  </data>
+  <data name="bankAddresstxt" xml:space="preserve">
+    <value>2 -23-25 ​​Kourinbou, Канадзава, Япония</value>
+  </data>
+  <data name="bankAddresstxt2" xml:space="preserve">
+    <value>Аль Aweer отделения DOCUMZ, Дубай - U.A.E</value>
+  </data>
+  <data name="bankBranch" xml:space="preserve">
+    <value>Название филиала</value>
+  </data>
+  <data name="bankBranchName" xml:space="preserve">
+    <value>Канадзава отделения</value>
+  </data>
+  <data name="bankBranchName2" xml:space="preserve">
+    <value>Аль Aweer отделения</value>
+  </data>
+  <data name="bankdetails" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Банк&lt;/span&gt; детали</value>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>Название банка</value>
+  </data>
+  <data name="bankname2" xml:space="preserve">
+    <value>Машрика банка</value>
+  </data>
+  <data name="banknamefull" xml:space="preserve">
+    <value>Банк Tokyo Mitsubishi UFJ, Ltd</value>
+  </data>
+  <data name="BodyColor" xml:space="preserve">
+    <value>Цвет тела</value>
+  </data>
+  <data name="Chassislable" xml:space="preserve">
+    <value>шасси</value>
+  </data>
+  <data name="ChassisNo" xml:space="preserve">
+    <value>№ кузова</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Сити</value>
+  </data>
+  <data name="Clickmore" xml:space="preserve">
+    <value>Нажмите больше</value>
+  </data>
+  <data name="colorlable" xml:space="preserve">
+    <value>цвет</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Название компании</value>
+  </data>
+  <data name="ContactNo" xml:space="preserve">
+    <value>Контакт Нет</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>страна</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>валюта</value>
+  </data>
+  <data name="Door" xml:space="preserve">
+    <value>по</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>е-мейл</value>
+  </data>
+  <data name="EngineCClable" xml:space="preserve">
+    <value>двигатель</value>
+  </data>
+  <data name="Enquiry" xml:space="preserve">
+    <value>&lt;span style="font-size:9px"&gt;Запрос&lt;/span&gt;</value>
+  </data>
+  <data name="enquiry.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;акции &lt;/span&gt;&amp;nbsp;Запрос</value>
+  </data>
+  <data name="enquiryContactInfo" xml:space="preserve">
+    <value>Контактная информация</value>
+  </data>
+  <data name="enquiryStockdetails" xml:space="preserve">
+    <value>со детали</value>
+  </data>
+  <data name="enquiryYourMessage" xml:space="preserve">
+    <value>Ваше сообщение</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Факс</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="FOBPrice:" xml:space="preserve">
+    <value>Цена FOB:</value>
+  </data>
+  <data name="footer.menu1" xml:space="preserve">
+    <value>связаться</value>
+  </data>
+  <data name="footer.menu2" xml:space="preserve">
+    <value>&lt;p style="margin-left: -11px;padding-left: 0;width: 84px;"&gt;Как заказать&lt;/p&gt;</value>
+  </data>
+  <data name="footer.menu3" xml:space="preserve">
+    <value>акции</value>
+  </data>
+  <data name="footer.menu4" xml:space="preserve">
+    <value>&lt;p style="margin-left: -66px;
+    margin-right: 0;
+    width: 133px;"&gt; Условия и условия&lt;/p&gt;</value>
+  </data>
+  <data name="footerleft.Address" xml:space="preserve">
+    <value>939-0304 Imizu Toyamaken готовность Косуги Сираиси 138-1 Японии</value>
+  </data>
+  <data name="footerleft.copyright" xml:space="preserve">
+    <value>авторским © 2010-11Аван Международный K.K. Все права защищены</value>
+  </data>
+  <data name="footerleft.heading" xml:space="preserve">
+    <value>&lt;span style="font-size: 21px;"&gt;Аван Международный K.K&lt;span&gt;</value>
+  </data>
+  <data name="footerleft.phone" xml:space="preserve">
+    <value>Nu Telefon: +81-766-59-8751 Fax: +81-766-59-8750</value>
+  </data>
+  <data name="Freight" xml:space="preserve">
+    <value>грузовой</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>от</value>
+  </data>
+  <data name="Fuel" xml:space="preserve">
+    <value>топливо</value>
+  </data>
+  <data name="fueltype" xml:space="preserve">
+    <value>Тип топлива</value>
+  </data>
+  <data name="ImageView" xml:space="preserve">
+    <value>Посмотреть</value>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>проверка</value>
+  </data>
+  <data name="Insurance" xml:space="preserve">
+    <value>Страхование:</value>
+  </data>
+  <data name="InteriorColor" xml:space="preserve">
+    <value>Цвет салона</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>язык</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>расположение</value>
+  </data>
+  <data name="Make" xml:space="preserve">
+    <value>делать</value>
+  </data>
+  <data name="MakeCategory" xml:space="preserve">
+    <value>Сделать категории</value>
+  </data>
+  <data name="MakeModel" xml:space="preserve">
+    <value>Марка Модель</value>
+  </data>
+  <data name="membership.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;членство&lt;/span&gt;&amp;nbsp;Запрос</value>
+  </data>
+  <data name="membership.lblmessage" xml:space="preserve">
+    <value>Ваша учетная запись успешно завершен!
+                     Для регистрации в качестве члена</value>
+  </data>
+  <data name="membershipclick" xml:space="preserve">
+    <value>Запрос</value>
+  </data>
+  <data name="Mileage" xml:space="preserve">
+    <value>Пробег (км)</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>мобильный</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>модель</value>
+  </data>
+  <data name="ModelYear" xml:space="preserve">
+    <value>Модельный год</value>
+  </data>
+  <data name="MyInfo" xml:space="preserve">
+    <value>Моя информацией</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Negotiate" xml:space="preserve">
+    <value>&lt;span style="font-size:10px;"&gt;переговорах&lt;/span&gt;</value>
+  </data>
+  <data name="NegotiationDeal" xml:space="preserve">
+    <value>Переговоры сделки</value>
+  </data>
+  <data name="NewArrival" xml:space="preserve">
+    <value>Новое прибытие</value>
+  </data>
+  <data name="nowonsale" xml:space="preserve">
+    <value>Уже в продаже</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>опции</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>&lt;span style="font-size:9px"&gt;порядок&lt;/span&gt;</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>пароль</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>телефон</value>
+  </data>
+  <data name="Pricelable" xml:space="preserve">
+    <value>цена</value>
+  </data>
+  <data name="Priceranglable" xml:space="preserve">
+    <value>Цена позвонил</value>
+  </data>
+  <data name="QuickSearch" xml:space="preserve">
+    <value>Быстрый поиск</value>
+  </data>
+  <data name="Re-TypePassword" xml:space="preserve">
+    <value>пароль еще раз</value>
+  </data>
+  <data name="RegularView" xml:space="preserve">
+    <value>регулярный</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="SearchbyMake" xml:space="preserve">
+    <value>Поиск по маркам</value>
+  </data>
+  <data name="Seats" xml:space="preserve">
+    <value>мест</value>
+  </data>
+  <data name="Shipment" xml:space="preserve">
+    <value>отгрузка</value>
+  </data>
+  <data name="SpecialOffer" xml:space="preserve">
+    <value>специальное предложение</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>статус</value>
+  </data>
+  <data name="Steering" xml:space="preserve">
+    <value>рулевой</value>
+  </data>
+  <data name="stocklist.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;акции &lt;/span&gt; Поиск</value>
+  </data>
+  <data name="StockLocation" xml:space="preserve">
+    <value>расположение</value>
+  </data>
+  <data name="stocknumber" xml:space="preserve">
+    <value>номер акции</value>
+  </data>
+  <data name="stockpage" xml:space="preserve">
+    <value>Подробнее об акции страницы</value>
+  </data>
+  <data name="Stocktype" xml:space="preserve">
+    <value>акции тип</value>
+  </data>
+  <data name="SUbmitRequest" xml:space="preserve">
+    <value>Отправить запрос</value>
+  </data>
+  <data name="TabularView" xml:space="preserve">
+    <value>табличном виде</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>k</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>общий</value>
+  </data>
+  <data name="Transmission" xml:space="preserve">
+    <value>передача</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>тип</value>
+  </data>
+  <data name="Veh.Category" xml:space="preserve">
+    <value>категория</value>
+  </data>
+  <data name="VehicleGrade" xml:space="preserve">
+    <value>Категория автомобиля</value>
+  </data>
+  <data name="Vehicleoptions" xml:space="preserve">
+    <value>Автомобиль варианты</value>
+  </data>
+  <data name="VehName" xml:space="preserve">
+    <value>Фе. имя</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>смотреть</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>Показать Подробнее</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>веб-сайт</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>год</value>
+  </data>
+  <data name="yearmonth" xml:space="preserve">
+    <value>месяц</value>
+  </data>
+  <data name="AdditionalRequest" xml:space="preserve">
+    <value>Дополнительный запрос</value>
+  </data>
+  <data name="AutopartInformation" xml:space="preserve">
+    <value>Контактная информация</value>
+  </data>
+  <data name="Autoparts.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Автозапчасти&lt;/span&gt;</value>
+  </data>
+  <data name="Autoparts.text" xml:space="preserve">
+    <value>&lt;b&gt;Вы ищете автозапчасти из Японии? &lt;/ B&gt; &lt;i&gt; Многие полнофункциональную автозапчастей
+                     находятся на японские подержанные автомобили, которые пользуются большим спросом в качестве запасных частей для
+                    зарубежных рынках, а также на внутреннем рынке. Все необходимые запчасти для автомобилей
+                     тщательно отобраны специалистами. Вы можете заказать все виды Используемые части автомобиля,
+                     автоматический Части тела, перестроен Автозапчасти, восстановленные детали Авто, Авто электрических частей,
+                     Двигатель части всех видов марок. &lt;/i&gt;</value>
+  </data>
+  <data name="AutoPartsMoreDetails" xml:space="preserve">
+    <value>Подробнее (по убыванию, количество частей и т.д.)</value>
+  </data>
+  <data name="AutoPartsMoreDetails2" xml:space="preserve">
+    <value>Подробная информация (если таковые имеются доставки предпочтений пожалуйста, сообщите нам)</value>
+  </data>
+  <data name="AutopartVehicleInfo" xml:space="preserve">
+    <value>Автомобиль информацией</value>
+  </data>
+  <data name="AutoShippingInfo" xml:space="preserve">
+    <value>Информация о доставке</value>
+  </data>
+  <data name="EngineModel" xml:space="preserve">
+    <value>Модель двигателя</value>
+  </data>
+  <data name="ExpectedPrice" xml:space="preserve">
+    <value>Ожидаемая цена</value>
+  </data>
+  <data name="OfficePhone" xml:space="preserve">
+    <value>Служебный телефон</value>
+  </data>
+  <data name="PartCondition" xml:space="preserve">
+    <value>Часть условия</value>
+  </data>
+  <data name="PartsInfo" xml:space="preserve">
+    <value>части информацией</value>
+  </data>
+  <data name="sellcar.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Продать&lt;/span&gt;  автомобиль</value>
+  </data>
+  <data name="VehicleMake" xml:space="preserve">
+    <value>Сделать автомобиль</value>
+  </data>
+  <data name="AdditionalComments" xml:space="preserve">
+    <value>Дополнительные комментарии:</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>назад</value>
+  </data>
+  <data name="becomeagent.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Стать&lt;/span&gt; агентом</value>
+  </data>
+  <data name="End_Date" xml:space="preserve">
+    <value>Дата Енд</value>
+  </data>
+  <data name="InspectionCertificate" xml:space="preserve">
+    <value>Инспекционный сертификат (JPY 25,000)</value>
+  </data>
+  <data name="MakeDescription" xml:space="preserve">
+    <value>Сделать Описание</value>
+  </data>
+  <data name="negolist.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Переговоры  &lt;/span&gt;список</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>рядом</value>
+  </data>
+  <data name="order.DestinationPort" xml:space="preserve">
+    <value>Порт назначения</value>
+  </data>
+  <data name="Order1.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;Фондовой  &lt;/span&gt; Заказать</value>
+  </data>
+  <data name="orderstatus" xml:space="preserve">
+    <value>&lt;ul&gt;
+                        &lt;li class="active"&gt;шаг 1 [отгрузке детали]&lt;/li&gt;
+                        &lt;li&gt;шаг 2 [ порядок  детали] &lt;/li&gt;
+                        &lt;li&gt;шаг 3 [грузополучатель ] &lt;/li&gt;
+                        &lt;li&gt;шаг 4 [ полный порядок] &lt;/li&gt;
+                    &lt;/ul&gt;</value>
+  </data>
+  <data name="Quotation.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;цитата &lt;/span&gt;</value>
+  </data>
+  <data name="SelectStock" xml:space="preserve">
+    <value>Выбрать фондовую</value>
+  </data>
+  <data name="Start_Date" xml:space="preserve">
+    <value>Нач_дата</value>
+  </data>
+  <data name="Stockorder" xml:space="preserve">
+    <value>Фондовой Заказать</value>
+  </data>
+  <data name="StockRef" xml:space="preserve">
+    <value>запасы</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>СУММА</value>
+  </data>
+  <data name="ARIFRAUFINFO" xml:space="preserve">
+    <value>Привет всем! Я ARIF RAUF, я в настоящее время является управляющим директором Международного Аван KK, и мне удалось сосредоточиться на работе потоков, закупок, совершенствование процессов и документации, эффективность усовершенствований, управление информацией и решения заседания оптимизации компании.
+          &lt;br /&gt;
+           В мои обязанности также включают осуществление политики и процедур по поддержке стратегических направлений деятельности компании и управление персоналом информационных технологий.</value>
+  </data>
+  <data name="AuthorizedSignature" xml:space="preserve">
+    <value>подпись уполномоченного лица</value>
+  </data>
+  <data name="AWan" xml:space="preserve">
+    <value>Аван Международный K.K</value>
+  </data>
+  <data name="BANKDETAIL2" xml:space="preserve">
+    <value>РЕКВИЗИТЫ</value>
+  </data>
+  <data name="bankorderfin" xml:space="preserve">
+    <value>&lt;td height="40" align="left"&gt;
+                                                                                                    &lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;
+                                                                                                      Наименование банка: Банк оф Токио-Мицубиси UFJ &lt;br&gt;
+                                                                                                         Адрес банка: 2 -23-25 ​​KOURINBOU, Канадзава, Япония
+                                                                                                         &lt;br&gt;
+                                                                                                         Сфера деятельности: Канадзава ФИЛИАЛ
+                                                                                                         &lt;br&gt;
+                                                                                                         Имя учетной записи: Аван INTERNATIONAL K.K.
+                                                                                                         &lt;br&gt;
+                                                                                                         Номер счета: 0687182 &lt;br&gt;
+                                                                                                         Код Swift: BOTKJPJT &lt;br&gt;
+                                                                                                         Причина для денежных переводов: Оплата за механических транспортных средств и / или транспортных средств&lt;/font&gt;&lt;/td&gt;</value>
+  </data>
+  <data name="Consignee.NotifyParty" xml:space="preserve">
+    <value>Сообщите партии</value>
+  </data>
+  <data name="DUEDATE" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Получатель информации</value>
+  </data>
+  <data name="INSPECTIONCERT" xml:space="preserve">
+    <value>ПРОВЕРКА CERT</value>
+  </data>
+  <data name="LanguagesArif" xml:space="preserve">
+    <value>&lt;span style="width:360px;"&gt;&lt;b&gt;японский, русском, английском, хинди, урду.&lt;b/&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="LanguagesRizwanRauf" xml:space="preserve">
+    <value>Английский, арабский, урду</value>
+  </data>
+  <data name="Makecatgory" xml:space="preserve">
+    <value>СДЕЛАТЬ КАТЕГОРИИ</value>
+  </data>
+  <data name="ManagingDirector" xml:space="preserve">
+    <value>&lt;span style="width: 226px;"&gt;&lt;b&gt;Управляющий директор&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="MohammadalKhawajaInfo" xml:space="preserve">
+    <value>Всем привет, меня зовут MohammadalKhawaja и я присоединился к Международной Аван семьи в 2004 году.
+        &lt;br /&gt;
+        Я имел честь попасть на борт, потому что у нас общая философия. Мы искренне заботится о людях, которые доверили нам задачу найти наилучшее решение для своих нужд автомобильной. Мне не нравится давление на людей и ни один не делает Аван Международный KK. Ничто не возбуждает меня больше, чем когда клиент выражает искренне, насколько они пользуются их покупки автомобиля опыт и энтузиазм поделиться своим опытом с другими.
+        &lt;br /&gt;
+        Я предоставлять всю информацию до своих клиентов, чтобы принять правильное решение. Любой вопрос, для меня это справедливый вопрос, и я никогда не думайте, члены моей понять процесс. Если бы я слушать и понимать свои цели, я соответствует нужный автомобиль со своими потребностями. Таким образом, позвоните мне, если вы ищете для вашего следующего автомобиля и я помогу вам найти правильный автомобиль, который Вы ищете, а также.</value>
+  </data>
+  <data name="MohammadalTitle" xml:space="preserve">
+    <value>Управляющий директор</value>
+  </data>
+  <data name="MohammadalTitleLanguage" xml:space="preserve">
+    <value>Английский ,Арабский</value>
+  </data>
+  <data name="MohammadAwaisInfo" xml:space="preserve">
+    <value>Привет, меня зовут Мохаммед и Awais В настоящее время я управлению русский сектор Аван группы International. Я начал свою карьеру как консультант по продажам с Аван Международный KK и после много тяжелой работы и преданности своей работе сегодня я в этом месте.
+    &lt;br /&gt;
+    Одна вещь, я действительно хотел бы упомянуть здесь, что я отдал 8 лет жизни группы Аван международной и я очень очень благодарен Богу, что я принял лучшее решение в моей жизни до регистрации Аван International Group.
+    &lt;br /&gt;
+    Я приветствую всех, кто прямо или косвенно связаны с бизнес-автомобили, не посещают нас один раз, и я гарантирую вам, что вы будете предоставление лучших услуг.</value>
+  </data>
+  <data name="MohammadAwaisLanguages" xml:space="preserve">
+    <value>Английский ,русский,урду</value>
+  </data>
+  <data name="MohammadAwaisTitle" xml:space="preserve">
+    <value>&lt;span style="width: 257px;"&gt;&lt;b&gt;Управляющий директор, Россия&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="NomanRaufInfo" xml:space="preserve">
+    <value>Assalamu.alaikum, меня зовут М. Номан Рауф и В настоящее время я все управление работой в Пакистане Аван группы International.
+        &lt;br /&gt;
+      Я начал свою карьеру в качестве администратора с продаж Аван Международный KK и после много тяжелой работы и преданности своей работе сегодня я в этом месте.
+        &lt;br /&gt;
+    Я сделал окончания в области делового администрирования и бизнеса знает университета в Пакистане, есть опыт работы IoBM.My составляет около 3 лет с Аван INTERNATIONAL KK Моя работа заключается в управлении, Купля / продажа, хранение дружеские отношения со всеми нашими клиентами в Пакистане. Я могу предоставить всякого рода информации, связанной с Пакистаном условий ведения бизнеса и temrs.
+       &lt;br /&gt;
+       Я приветствую всех, кто прямо или косвенно связаны с бизнес-автомобили, не посещают нас один раз, и я гарантирую вам, что вы будете предоставление лучших услуг.</value>
+  </data>
+  <data name="NomanRaufTitle" xml:space="preserve">
+    <value>Менеджер по продажам Пакистан</value>
+  </data>
+  <data name="OrderConsignee.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;цитата &lt;/span&gt;</value>
+  </data>
+  <data name="orderfin.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;цитата &lt;/span&gt;</value>
+  </data>
+  <data name="ORDERFINTOTAL" xml:space="preserve">
+    <value>Общая сумма, причитающаяся</value>
+  </data>
+  <data name="orderfin_bankDetali" xml:space="preserve">
+    <value>&lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;
+                                                                                                        Наименование банка: Банк оф Токио-Мицубиси UFJ &lt;br&gt;
+                                                                                                         Адрес банка: 2 -23-25 ​​KOURINBOU, Канадзава, Япония
+                                                                                                         &lt;br&gt;
+                                                                                                         Сфера деятельности: Канадзава ФИЛИАЛ
+                                                                                                         &lt;br&gt;
+                                                                                                         Имя учетной записи: Аван INTERNATIONAL K.K.
+                                                                                                         &lt;br&gt;
+                                                                                                         Номер счета: 0687182 &lt;br&gt;
+                                                                                                         Код Swift: BOTKJPJT &lt;br&gt;
+                                                                                                         Причина для денежных переводов: Оплата за механических транспортных средств и / или Запчастей&lt;/font&gt;</value>
+  </data>
+  <data name="orderstatus2" xml:space="preserve">
+    <value>&lt;li&gt;1-[отгрузке детали]&lt;/li&gt;
+                        &lt;li&gt;2-[порядок  детали ] &lt;/li&gt;
+                        &lt;li&gt;3-[ грузополучатель ] &lt;/li&gt;
+                        &lt;li class="active"&gt;4-[завершением заказ] &lt;/li&gt;</value>
+  </data>
+  <data name="PaymentOptions" xml:space="preserve">
+    <value>Паымент параметры</value>
+  </data>
+  <data name="paymentterms" xml:space="preserve">
+    <value>оплата терминов</value>
+  </data>
+  <data name="PHOTO" xml:space="preserve">
+    <value>ФОТО</value>
+  </data>
+  <data name="portdischarge" xml:space="preserve">
+    <value>Порт разгрузки</value>
+  </data>
+  <data name="Portloading" xml:space="preserve">
+    <value>Порт погрузки</value>
+  </data>
+  <data name="QUANTITY" xml:space="preserve">
+    <value>КОЛИЧЕСТВО</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>цитата</value>
+  </data>
+  <data name="QuoteDate" xml:space="preserve">
+    <value>Цитировать дате</value>
+  </data>
+  <data name="QuoteDeals" xml:space="preserve">
+    <value>Предложения в Japenese Подержанные автомобили</value>
+  </data>
+  <data name="QuoteRef" xml:space="preserve">
+    <value>Цитата работы</value>
+  </data>
+  <data name="RizwanRaufInfo" xml:space="preserve">
+    <value>Привет, я RizwanRauf, я управляющий директор Tambiri Motors FZD который является отделение Дубае группы Аван International. Я закончил мой выпускной в 2006 году из Дубая и Join Tambiri Motors FZD как мой первый шаг в профессиональный мир. Мне очень нравится профессиональной среде и видим большой потенциал моей Каррере работы с группой Аван International.
+       &lt;br /&gt;
+       Моя работа заключается в управлении, покупка / Парусный спорт, содержание дружеских отношений со всеми нашими клиентами, улучшить наш бизнес, и сохранить здоровую окружающую среду и работу вокруг. Его почти 6 лет работы с Аван International Group, и я могу гарантировать вам, что Аван Международная группа К.К. действительно стоит иметь дело.</value>
+  </data>
+  <data name="saleteams.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;реализация  &lt;/span&gt;  Команды&lt;/ul&gt;</value>
+  </data>
+  <data name="Shahidoinfo" xml:space="preserve">
+    <value>Здравствуйте, меня зовут Shahido Сакураи. Я начала моей карьеры в качестве подержанных автомобилей консультант по продажам в 1999 году, и сегодня по благодати ALLAHA всемогущий, я владелец Аван международно GROIP LTD.
+           &lt;br /&gt;
+            20-летний опыт в области управления и предоставления услуг для клиентов. Мой стиль и подход к автомобилю бизнес и всегда был клиент по центру. Взять с собой многолетний опыт работы в автомобильной промышленности. Я всегда чувствовал, что если я могу помочь человеку получить то, что им нужно, то я бы лучше удачи создание клиента на всю жизнь. Я также знаю, что он принимает коллективные усилия для достижения этих высоких целей, и я большой сторонник команды и сообщества.
+            &lt;br /&gt;
+            Создание лучших методов ведения бизнеса, чтобы создать "Raving вентилятора" в Аван INTERNATIONAL KK, где мое внимание сегодня. Я знаю, что когда win / win ситуация создается в процессы, которые мы ввели в действие, а затем установить, что клиент на всю жизнь, не очень далеко!</value>
+  </data>
+  <data name="ShahidoLanguage" xml:space="preserve">
+    <value>&lt;B&gt;японский,Русский,английский,хинди,урду&lt;/B&gt;</value>
+  </data>
+  <data name="ShahidoTitle" xml:space="preserve">
+    <value>директор</value>
+  </data>
+  <data name="Shipto" xml:space="preserve">
+    <value>доставлено</value>
+  </data>
+  <data name="STOCKDETAIL" xml:space="preserve">
+    <value>СТОКОВЫЕ ДЕТАЛИ</value>
+  </data>
+  <data name="tilelRizwanRauf" xml:space="preserve">
+    <value>&lt;span style="width:257px;"&gt;Начальнику Оператион (Дубай)&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>название</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="default.aspx"&gt;&lt;span&gt;домой&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;о нас&lt;/span&gt;&lt;/a&gt;
+           &lt;div&gt;
+               &lt;ul&gt;
+                   &lt;li&gt;&lt;a href="CooperateOverView.aspx"&gt;&lt;span&gt;корпоративный&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                   &lt;li&gt;&lt;a href="AwanInter.aspx"&gt;&lt;span&gt;Аван Международный K.K&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                   &lt;li&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span&gt;Банковские реквизиты&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                   &lt;li&gt;&lt;a href="TermsandConditions.aspx"&gt;&lt;span&gt;Наши условия и условия&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                   &lt;li&gt;&lt;a href="SalesTeams.aspx"&gt;&lt;span&gt;Продажи группы&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                   &lt;li&gt;&lt;a href="gallery.aspx"&gt;&lt;span&gt;Фотогалерея &lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+               &lt;/ul&gt;
+           &lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;a href="stocklist.aspx?lv=1"&gt;&lt;span&gt;Акции&lt;/span&gt;&lt;/a&gt; &lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;другой&lt;/span&gt;&lt;/a&gt;
+           &lt;div&gt;
+               &lt;ul class="small3_img"&gt;
+                   &lt;li class="small_img1"&gt;&lt;a href="ShippingInfo.aspx"&gt;&lt;span class="small_img2"&gt;Информация
+                       о доставке&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                   &lt;li class="small_img1"&gt;&lt;a href="Glossary.aspx"&gt;&lt;span class="small_img2"&gt;Глоссарий терминов&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                   &lt;li class="small_img1"&gt;&lt;a href="http://www.auto-japanese.com/Pr_1year/index.php?company=4"&gt;
+                       &lt;span class="small_img2"&gt;Проверьте шасси&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+               &lt;/ul&gt;
+           &lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;клиент&lt;/span&gt;&lt;/a&gt;
+           &lt;div&gt;
+               &lt;ul class="small_img"&gt;
+                   &lt;li class="small_img1"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span class="small_img2"&gt;страницу входа&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                   &lt;li class="small_img1"&gt;&lt;a href="membership.aspx"&gt;&lt;span class="small_img2"&gt;член запрос&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+               &lt;/ul&gt;
+           &lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;платежи&lt;/span&gt;&lt;/a&gt;
+           &lt;div&gt;
+               &lt;ul class="small_img"&gt;
+                   &lt;li class="small_img1"&gt;&lt;a href="PayPal.aspx"&gt;&lt;span class="small_img2"&gt;Paypal интерфейс&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                   &lt;li class="small_img1"&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span class="small_img2"&gt;Банк&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+               &lt;/ul&gt;
+           &lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li style="width: 115px"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span style="width: 115px"&gt;вход в члены&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href="http://awan.ajes.com/"&gt;&lt;span&gt;аукцион&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+       &lt;li style="width: 100px"&gt;&lt;a href="HowtoOrder.aspx"&gt;&lt;span style="width: 100px"&gt;Как заказать&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href="FAQ.aspx"&gt;&lt;span&gt;ЧАВО&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+       &lt;li style="margin-left: 4px; width: 110px"&gt;&lt;a href="ContactUs.aspx"&gt;&lt;span style="margin-left: 4px;
+           width: 110px"&gt;связаться&lt;/span&gt;&lt;/a&gt; &lt;/li&gt;</value>
+  </data>
+  <data name="paypal.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Сделать оплату через PayPal / &lt;/ span&gt; Кредитная карта</value>
+  </data>
+  <data name="paypalExample" xml:space="preserve">
+    <value>Сумма должна включать +4% транзакций плата</value>
+  </data>
+  <data name="paypalExample2" xml:space="preserve">
+    <value>Пример: (если вы хотите заплатить $ 100, вы должны ввести 104 $)</value>
+  </data>
+  <data name="paypalPaymentfor" xml:space="preserve">
+    <value>Оплата</value>
+  </data>
+  <data name="TermsandConditions1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;условия&lt;/span&gt; &amp; услови&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="TermsandConditions2" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Аван Международный K.K Акции &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class_span1"&gt;
+               Вы называете это. У нас есть.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;
+                Широкий спектр транспортных средств, доступных для покупки в сети под Аван Международного
+              K.K Акции. Цены указаны на условиях FOB и C &amp; F термины по отношению к конкретному региону.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+               Широкий спектр транспортных средств, доступных для покупки в сети под Аван INTERNATIONAL
+                 K.K Акции. Цены указаны на условиях FOB и C &amp; F термины по отношению к конкретному региону.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions3" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Аукционы в Японии&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class_span1"&gt;
+                Исследуйте мир автомобилей!&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;
+               Аван МЕЖДУНАРОДНЫЙ KK предлагает более 200 000 автомобилей в неделю на нашем сайте
+                 аукционная система. Аван МЕЖДУНАРОДНЫЙ KK участвует ежедневно в аукционах по всей
+                 мира. Аван МЕЖДУНАРОДНЫЙ KKполучает аукциона данные и фотографии с аукциона
+                 на ежедневной основе. Эта информация загружается в электронной Motors и предложил через интернет
+                 наш Интернет странице аукциона.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                Депозит должен представить предложение на живой системе онлайн аукцион.
+                 Обслуживания клиентов Аван МЕЖДУНАРОДНЫЙ К. К. (CSC) лично подтверждает депозит
+                 Статус каждого клиента на регулярной основе. Услуги доступны 24/7. на
+                 успешный ставка; предоплаты обязан в течение пяти дней со дня покупки через
+                 Телеграфный перевод (ТТ) или прямого кредитования (Pay-Pal)&lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions4" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Условия торговли:&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+           • Клиент должен быть зарегистрирован на нашем сайте до совершения сделки. (Регистрация
+                 Абсолютно бесплатно!)&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                • Не требуется хранение до подтверждения любой автомобиль из Готовые фондовой бирже.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+             • Полная или частичная оплата обязан в течение семи дней с момента подтверждения через телеграфный
+                 Передача (TT)..&lt;/p&gt;
+            &lt;p class="class2"&gt;
+              • депозит требуется перед отгрузкой, а остальное за счет до выпуска
+                 оригинальных документов.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+               • Цены можно посмотреть полную подробную информацию об автомобиле как только вы получите учетные данные для входа.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+              • Цены указаны в долларах США (USD) и японской иены, как в C &amp; F
+                 или условиях ФОБ&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                • Клиенты могут оплатить в долларах США, японская йена, евро, пруд стерлингов и т.д.&lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions5" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;гарантия&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+             Есть 2 гарантии. Стандартная гарантия является обязательной.&lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+               стандартная гарантия&lt;/p&gt;
+            &lt;p class="class2"&gt;
+             Стандартная гарантия (как обязательное 50 долл. США): Материалы судно тонет, пожара или потери
+                 груза.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+               Зона покрытия: &lt;span class="class2"&gt;Полная сумма СИФ&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+               Зона покрытия:&lt;span class="class2"&gt;В Нагое, Япония разгрузки в пункте назначения
+                     Морской порт дворе.&lt;/span&gt;&lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+               Никакие претензии ПРИНИМАЮТСЯ после разгрузки автомобиля в вашем дворе порт назначения.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+                стандартная гарантия&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                 Серебряная гарантия (в качестве дополнительного, 110 долларов США): Обложки судно тонет, пожара или потери
+                 груза, повреждение (за исключением форс-мажорных обстоятельств) и кражи (за исключением оригинальных аудио / аксессуары).&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+               Покрытие предел:&lt;span class="class2"&gt;Полный объем FOB&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+             Зона покрытия: &lt;span class="class2"&gt;В Нагое, Япония, чтобы поднять точку в пункт назначения
+                     Морской порт дворе (до родов).&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                Никакие претензии ПРИНЯТ, после того как вы или ваш агент очистки улавливает ваш автомобиль в ваших
+                 двор назначения морского порта.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                Если вы спросите агента по клирингу, чтобы забрать автомобиль, пожалуйста, сообщите агенту они
+                 должны проверить состояние до родов (в морском порту двор).
+            &lt;/p&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="howorder1" xml:space="preserve">
+    <value>&lt;img class="abouticon" alt="" src="images/how_order.png" style="margin-right: 10px;
+                margin-left: 5px;"&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Шаг 1&lt;/span&gt; &lt;span class="class_span2"&gt;Выберите&lt;/span&gt;
+                &lt;span class="class_span2"&gt;-Найти автомобиль, вы хотите прямо с вашего компьютера.&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;Чтобы найти свой автомобиль intrest искать нашем складе по марке, модели и сделать многое другое опцию поиска.
+                ИЛИ
+                Если вы авторизованного членов мы обеспечиваем прямой доступ Аван Международный KK для японских подержанных аукционных автомобилей.
+                Чтобы получить этот доступ &lt;a href="SalesTeams.aspx"&gt; countact нас &lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Шаг 2&lt;/span&gt; &lt;span class="class_span2"&gt;Приказ вести переговоры с представитель по продажам для резервирования вашего транспортного средства.&lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p class="class"&gt;Примечание: Регистрация обязательна для бронирования/переговоров. Если вы еще не зарегистрированы, &lt;a href="membership.aspx"&gt;пожалуйста, зарегистрируйтесь сейчас.&lt;/a&gt; Убедитесь, что Контактная информация, которую вы предоставляете правильной и точной.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Процесс заказа в деталях&lt;/p&gt;
+            &lt;p class="class"&gt;Как только вы решили купить автомобиль, просто нажмите кнопку заказ ваш заказ или NEGOTIATE или разговаривать с нашим представитель по продажам через skype или электронной почте или телефону.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Подтверждение доставки и время отгрузки&lt;/p&gt;
+            &lt;p class="class"&gt;Это не займет много времени, чтобы поставлять свой автомобиль, но это лучше для подтверждения время точный доставки в ваш регион, прежде чем ваш заказ точное время доставки в ваш регион прежде чем ваши орд&lt;/p&gt;
+            &lt;br&gt;
+            &lt;br&gt;
+            &lt;p class="class_span2"&gt;Узнайте общей стоимости транспортного средства&lt;/p&gt;
+            &lt;p class="class"&gt;Дисплей цена на транспортное средство информации-только цена ФОБ. то есть стоимость автомобиля без каких-либо грузовые перевозки и дополнительные сборы. Однако он включает в себя стоимость транспортировки со двора в порт отправления.&lt;/p&gt;
+            &lt;p class="class"&gt;Существуют некоторые другие расходы, которые вам нужно знать.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Стоимость доставки:&lt;/p&gt;</value>
+  </data>
+  <data name="howorder2" xml:space="preserve">
+    <value>&lt;p class="class"&gt;Эта стоимость различен для разных стран.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Стоимость очистки после приземления в ближайший порт для вашего региона.&lt;/p&gt;
+            &lt;p class="class"&gt;Эти обвинения могут различаться в зависимости от региона, который живет в. Для подтверждения этих обвинений контакта вашего местного информационного агента и за помощь и консультации, поговорить с нашими специалистами.&lt;/p&gt;</value>
+  </data>
+  <data name="howorder3" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;Обязательные инспекции плата за некоторых стран&lt;/p&gt;
+            &lt;p class="class"&gt;Есть некоторые дополнительные инспекции сборов для таких стран, как Замбия, Кении, Уганде и Танзании.&lt;/p&gt;</value>
+  </data>
+  <data name="howorder4" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;Отправьте Ваш заказ&lt;/p&gt;
+            &lt;p class="class"&gt;Как вы получаете очищены с состояние автомобиля и стоимости переводят, провести обработать ваш заказ. # Получить вашу анкету счета&lt;/p&gt;</value>
+  </data>
+  <data name="howorder5" xml:space="preserve">
+    <value>&lt;p class="class"&gt;Ваши анкеты счет будет отправлен вам по электронной почте. Для обеспечения быстрой отгрузки, пожалуйста приступайте ваш платеж как можно раньше.&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Шаг 3&lt;/span&gt; &lt;span class="class_span2"&gt;Оплата-получить Performa счета и выплатить необходимую сумму через телеграфный перевод (банковский перевод) или платить Pal.&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;Примечание: Убедитесь, что будет взиматься плата передачи путем перевода банка, когда вы посылаете деньги к нам.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;Варианты перечислить ваши деньги&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Телеграфного перевода:&lt;/p&gt;
+            &lt;p class="class"&gt;Это наиболее рекомендуемый метод и могут быть организованы через банк с обслуживанием внешней транзакции.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Наиболее удобный вариант перечислить платеж кредитной картой&lt;/p&gt;
+            &lt;p class="class"&gt;Там будет 4%, обработка платы на верхней части лимит оплаты суммы счета через PAYPAL: минимальный 4й, максимальная USD10 000 (максимальная сумма зависит от вашей страны регистрации, так что обращайтесь к PAYPAL для условия и ограничения).&lt;/p&gt;</value>
+  </data>
+  <data name="howorder6" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;Куда отправить платеж:&lt;/p&gt;
+            &lt;p class="class"&gt;(На основе взаимной договоренности) все платежи должны производиться в полном объеме. После получения полной оплаты мы немедленно организовать доставку. Для получения дополнительной информации о доставке и платежей пожалуйста, прочитайте наши &lt;a href="TermsandConditions.aspx"&gt;Правила &amp; условия&lt;/a&gt;&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Подтверждение покупки&lt;/p&gt;
+            &lt;p class="class"&gt;В ситуации, когда ваши платежи не получили вовремя или если ваш автомобиль не доступен на нашем складе, мы будем либо предоставить все свои деньги обратно, или искать абсолютным замена для вашего транспортного средства. В противном случае можно выбрать другое транспортное средство с нашего склада на то же значение.&lt;/p&gt;
+            &lt;p class="class"&gt;Подтвердите дату вылета и прилета для вашего груза по электронной почте от нашего департамента логистики.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Важные документы необходимые документы, вам необходимо получить ваш автомобиль&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Экспорт сертификата&lt;/p&gt;
+            &lt;p class="class"&gt;Этот документ необходим для&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Счет-фактура таможенные&lt;/p&gt;
+            &lt;p class="class"&gt;Она используется вашим местным пользовательских Отделом для оценки эквивалентной стоимости вашего автомобиля.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;BL&lt;/p&gt;
+            &lt;p class="class"&gt;Для получения вашего автомобиля от вашего ближайшего порта в порту назначения (POD) требуются BL или коносамент.&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Другие документы&lt;/span&gt; &lt;span class="class_span2"&gt;могут потребоваться в зависимости от вашей страны регулирования. Мы можем также отправлять документы непосредственно агент очистки на ваш запрос. &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Шаг 4&lt;/span&gt; &lt;span class="class_span2"&gt;Отгрузки-получить ваши детали бронирования перевозки информацию и другие необходимые документы.&lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Шаг 5&lt;/span&gt; &lt;span class="class_span2"&gt;Оформление custom - либо нанять услуги от местного информационного агента или урегулировать налоговые и таможенные вопросы вашей собственной личностью.&lt;/span&gt;
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder7" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;Подтверждение о следующих&lt;/p&gt;
+            &lt;p class="class"&gt;Окончательный прибытии уведомления от агента очистки.&lt;/p&gt;
+            &lt;p class="class"&gt;Дата заезда всегда является предварительным. Поэтому для окончательного подтверждения, просьба связаться с вами очистки агента за неделю до фактической даты заезда&lt;/p&gt;
+            &lt;p class="class"&gt;Очистка ваш автомобиль это последний шаг, прежде чем диск вашего автомобиля от&lt;/p&gt;
+            &lt;p class="class"&gt;Получить ваш автомобиль в порту!&lt;/p&gt;
+            &lt;p class="class"&gt;Урегулирование местных сборов&lt;/p&gt;
+            &lt;p class="class"&gt;Оплатите стоимость очистки.&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Шаг 6&lt;/span&gt; &lt;span class="class_span2"&gt;Drive - после разминирования, получите ваш автомобиль, зарегистрированный в вашей стране и Наслаждайтесь вождения с!&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;После получения вашего автомобиля не забудьте проверить состояние и сравнить его с информационный бюллетень. В Аван международной K.K Япония каждое транспортное средство проверяется специалистов и экспертов механики.&lt;/p&gt;
+            &lt;p class="class"&gt;Для любых запросов и путаницы о состоянии автомобиля, вы можете &lt;a href="ContactUs.aspx"&gt;связаться с нами.&lt;/a&gt;
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder8" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Как заказ автомобилей из&lt;/span&gt; Аван международные K.K</value>
+  </data>
+  <data name="ContactUs.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;связаться с&lt;/span&gt;&amp;nbsp;нами</value>
+  </data>
+  <data name="awanPictures" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt; Аван Международный K.K&lt;/span&gt; в картинках</value>
+  </data>
+  <data name="salestemsheading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Продажи  &lt;/span&gt;  Команды &lt;/ul&gt;</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="auction1" xml:space="preserve">
+    <value>&lt;div&gt;
+  
+
+        &lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;Аукцион&lt;/span&gt;
+        &lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;&lt;/ul&gt;
+        &lt;p class="class"&gt;Как вы становитесь зарегистрированным членом AwanInternational K.K, вы получите доступ к более чем 100 аукционные дома и в результате около 30 000 автомобилей каждый день. Можно найти автомобиль, запчасти, просматривать его детали и даже торгах автомобиль прямо с рабочего стола в комфорте вашего дома.&lt;/p&gt;
+        &lt;p class="class"&gt;На AwanInternational K.K, весь процесс аукцион подержанных автомобилей так же просто, как 1, 2, 3 увидеть следующие шаги.&lt;/p&gt;
+        &lt;br&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;Шаг-1&lt;/span&gt; &lt;span class="class_span2"&gt;Стать зарегистрированным пользователем&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            &lt;a href="/user/register" target=""&gt;Зарегистрироваться&lt;/a&gt; , чтобы стать членом AwanInternational K.K и получить доступ к весь запас на несколько аукционов.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Шаг-2&lt;/span&gt; &lt;span class="class_span2"&gt;Залог&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;Депозит безопасности сумму, которая обычно $ 1 000 или 100 000 иен для участия в торгах на транспортное средство стоит меньше чем 1 млн. Мы должны провести эту сумму до того, как мы ставку на любой из автомобилей. Если заявка не успешно, залог полностью возмещаемый или регулируемые в на счет клиента по желанию заказчика.&lt;br&gt;
+        &lt;/p&gt;
+        &lt;table cellspacing="0" cellpadding="5" align="center" class="auctionTable"&gt;
+            &lt;tr&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;span class="class_span2"&gt;Торги депозит детали.&lt;/span&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auction1"&gt;
+                    Deposit Rank
+                &lt;/th&gt;
+                &lt;th class="auction2"&gt;Сумма вклада USD&lt;/th&gt;
+                &lt;th class="auction3"&gt;Покупка % бюджета 2000 USD&lt;/th&gt;
+                &lt;th class="auction4"&gt;Йен сумма депозита&lt;/th&gt;
+                &lt;th class="auction5"&gt;Покупка % бюджета 2000 иен&lt;/th&gt;
+                &lt;th class="auction6"&gt;Покупка лимит&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    A
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $10,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \1,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \20,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    No Limit
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    B
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $5,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \500,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \10,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    10 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    C
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $3,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $60,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \300,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \6,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    4 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    D
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $2,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $40,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \4,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    3 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    E
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $1,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $20,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \2,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    1 Unit
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;br&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;font class="class"&gt;&lt;b&gt;Выше депозит от клиента нам нужно разрешить ему для начала торгов.&lt;/b&gt;&lt;/font&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;Шаг-3&lt;/span&gt; &lt;span class="class_span2"&gt;Торги автомобилей с аукциона&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;Пожалуйста заполните номер лота, автомобиль имя и цена торгов в форме аукциона заказа.&lt;/p&gt;
+        &lt;p class="class"&gt;Мы только заряд фактической аукционная цена выиграл торги. Поэтому попробуйте для участия в торгах как вы можете с тем чтобы увеличить шансы на выигрыш ставка выше.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Шаг-4&lt;/span&gt; &lt;span class="class_span2"&gt;Результат аукциона&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;Как мы получаем успеха с вашей ставки, мы сообщим вам, что ставки есть успех.
+            Вы получите счет, включающий полная стоимость автомобиля. Цена будет рассчитываться с первоначальной продажная цена аукциона.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Шаг 5 &lt;span class="class_span2"&gt;последнего платежа&lt;/span&gt;&lt;p&gt;
+
+       
+        &lt;p class="class"&gt;Окончательный платеж будет выплачиваться в течение 5 рабочих дней. Выплаты по совершено время поможет нам сохранить ваш заказ от отмены.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Шаг 6 &lt;span class="class_span2"&gt;отгрузки&lt;/span&gt;&lt;p&gt;
+       
+         &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="auction2" xml:space="preserve">
+    <value>&lt;div&gt;
+        &lt;p class="class"&gt;
+            Отгрузка будет организовано сразу же после подтверждения оплаты.&lt;/p&gt;
+        &lt;p class="class"&gt;
+            Примечание: На &lt;a href="www.awan.co.jp"&gt;Awan.co.jp&lt;/a&gt; вы найдете лучшие услуги
+            морских перевозок с низкой&lt;/p&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;Шаг -7&lt;span class="class_span2"&gt; документов&lt;/span&gt;&lt;p&gt;
+                &lt;p class="class"&gt;
+                    Как корабль уходит из Японии, мы вышлем все документы по СУП, DHL или FedEx. Документы,
+                    которые включены являются;&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Экспорт сертификата&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Накладной&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Счет-фактура&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Морское страхование, если таковые имеются&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Грузополучателю инспекции и другие проверки, если таковые имеются&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Примечание: Существует никаких дополнительных и скрытых сборов за исключением CNF
+                    или FOB цены. Все сборы включены в указанные цены&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Оплата метод &amp; банковские сборы&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Вы можете организовать оплату через телеграфной передачи через ваш банк. Все банковские
+                    сборы должны быть оплачены отправителем. Убедитесь, что оплата производится в долларах
+                    США / Японская иена и пожалуйста, укажите номер вашего счета &amp; запасов в поле Описание.&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Оплата может быть произведена также онлайн через PayPal счет Вашей кредитной карты.&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Условия для оплаты через PayPal&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Будет плата за обработку 4% на верхней части суммы счета.&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    Лимит оплаты через PAYPAL: минимальный 4й, максимальная USD10 000&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    &lt;b&gt;(Максимальная сумма зависит от вашей страны регистрации, так что обращайтесь к PAYPAL
+                        для ваших ограничения.)&lt;/b&gt;&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    После оплаты, пожалуйста, пришлите нам подтверждение оплаты счета-фактуры проформа
+                    и/или полное имя, адрес, номер телефона/факса для контактных целей путем &lt;b&gt;info@awan.co.jp
+                        или по факсу +8176-6598750.&lt;/b&gt;
+                    &lt;br&gt;
+                    Сумма выплат по взаимной договоренности должны производиться в полном объеме. Мы
+                    организуем доставку только после получения платежа. Для дополнительной информации
+                    о доставке и платежей пожалуйста, прочитайте наши &lt;a href="TermsandConditions.aspx"&gt;
+                        Правила &amp; условия &lt;/a&gt;. или связаться с &lt;a href="mailto:info@awan.co.jp"&gt;info@awan.co.jp&lt;/a&gt;
+                &lt;/p&gt;
+                &lt;h3&gt;
+                    Аукцион ссылки&lt;/h3&gt;
+                &lt;p class="class"&gt;
+                    &lt;a href="https://www.iauc.co.jp/pv/top1.html"&gt;
+                        &lt;img src="images/iauc.gif" style="border: 0px;"&gt;
+                    &lt;/a&gt;
+                    &lt;br&gt;
+                    &lt;a href="http://was.autoserver.co.jp/asnete/top/logon.asp"&gt;
+                        &lt;img src="images/asnet.gif" style="border: 0px;"&gt;
+                    &lt;/a&gt;
+                &lt;/p&gt;
+                &lt;p class="class js_a"&gt;
+                    &lt;a href="http://www.japan-used-car-exporting.info/import/auto-auctions-in-japan.html"&gt;
+                        Полезные авто аукционы в Японии&lt;/a&gt;
+                    &lt;br&gt;
+                    &lt;a href="http://www.japan-used-car-exporting.info/import/map-of-auto-auctions-in-japan.html"&gt;
+                        Карта авто аукционы в Японии&lt;/a&gt;
+                &lt;/p&gt;
+            &lt;/span&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="glossary1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+   &lt;span style="color: #F0F0F0"&gt;Условия&lt;/span&gt; Словарь терминов
+            
+            &lt;/ul&gt;</value>
+  </data>
+  <data name="glossary2" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Товаротранспортная накладная (B/L)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Документ, который устанавливает условия договора между грузоотправителем и транспортные компании. Он является товарораспорядительным документом, договор перевозки и уведомления для товаров.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon6"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Уведомление прибытии&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Отправлять перевозчиком на приходе судна грузополучателю, «Уведомлять стороны» и - в соответствующих случаях - уведомление "также уведомлять партии.» Эти заинтересованные стороны перечислены в блоках 3, 4 и 10, соответственно, из накладной.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;    
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon1"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;За простой&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Штраф за счет грузоотправителей и грузополучателей для задержки перевозчика оборудования за пределы разрешенного свободное время. Свободное время и простой обвинения изложены в Хартии партии или грузовых тарифов.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon4"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Закон Божий&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Акт вне человеческого контроля, такие, как молния, наводнения или землетрясения.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;CFR или C &amp; F (стоимость и фрахт) (...Именованные порта назначения)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;Срок продажи, где продавец оплачивает расходы и фрахт, необходимые для доставки товара в указанный порт назначения, условия продажи, но риск потери или повреждения товара, как (продолжение), а также любые дополнительные расходы, возникающие после того, как товары были доставлены на борт судна, время перенесен от продавца к покупателю товар перешел поручни судна в порту отгрузки. Термин CFR требует, чтобы продавец очистил товары для экспорта.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;СИФ (стоимость, страхование и фрахт) (...Название места назначения):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;Срок от продажи которой продавец несет те же обязательства под CFR присущи также обязанность приобретения морского страхования покупателя против риска потери или повреждения товара во время перевозки. Продавец контракты для страхования и оплачивает страховую премию. Термина CIF требует, чтобы продавец очистил товары для экспорта.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="glossary3" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;FOB (свободно на борту) (...Название порта отгрузки):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 160px;"&gt;Международная срок продажи, что означает продавец выполняет свое обязательство доставить момента товар через поручни судна в указанном порту отгрузки. Это означает, что покупатель должен нести все расходы и риски потери или повреждения товара с этого момента. Термин FOB требует, чтобы продавец очистил товары для экспорта.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;(РО)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Сокращение срока, «ролл на / Roll Off». Метод океана грузовые перевозки с использованием судна с пандусы которая позволяет колесных транспортных средств, чтобы загружаться и разгружаться без кранов.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Счет-фактура Performa&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Счет предусмотренными поставщиком до отгрузки товара, информирование покупателя видов и количества грузов, отправляемых, их стоимость и технические характеристики (вес, размер, и т.д...)&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_5b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Коммерческий счет-фактура&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Представляет полную запись транзакций между экспортером и импортером с проданных товаров. Также сообщает содержимое груза и служит основой для всех других документов о партии.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_5v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Аккредитив (LC)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Документ, выданный Банком инструкции покупателем товаров, разрешающие продавца сделать указанную сумму денег в указанные сроки, обычно получение банком некоторых документов в течение заданного времени.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Подтвержденного аккредитива&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Аккредитив, выданные иностранным банком, действительность которых была подтверждена внутренним банка. Экспортер с подтвержденным аккредитивом заверил оплаты даже если иностранному покупателю или иностранный банк по умолчанию.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="glossary4" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Безотзывный аккредитив&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Аккредитив в котором отдельный платеж гарантируется банком, если все термины и условия будут выполнены, плательщику и которая не может быть отменено без совместного соглашения покупатель и продавец.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Подтверждающего банка&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Банк, который добавляет его подтверждение с другого банка (банк-эмитент) аккредитив и обещает выплатить бенефициару по представлении документов, указанных в аккредитиве.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Груз&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;(1) Запас товаров к дилеру и расположен в месте его бизнеса, но с названием, остающихся в источник поставок.&lt;br&gt;(2 Перевозка грузов грузополучателю.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Получатель&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Человек или компания, которому отгружаются товары.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Грузоотправитель&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Лицо или компания, которая обычно является поставщиком или владелец товары отгружены.
+                        Также называется грузоотправителя. Классификации, хранения или переключения области.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Экспедитор&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;Лицо, бизнес которого должен выступать в качестве агента от имени грузоотправителя. Экспедитор часто делает оговорку бронирования.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;Сотрудничество&lt;/span&gt; Обзор&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="cooperteoverview2" xml:space="preserve">
+    <value>&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+                &lt;p class="class"&gt;Аван международные K.K — японская торговая компания. Наша главную роль в Японии автомобиль экспорт промышленность, предоставление всех видов транспортных средств для индивидуальных покупателей, дилеры, предприятий и государственных организаций.&lt;/p&gt;
+                &lt;br&gt;
+                &lt;p class="class"&gt;Мы являемся одним из ведущих экспортеров автомобиля в Японии и обслуживает клиентов в во всем мире. Аван международных K.K В 16 февраля 1999 года. Мы имеем дело с широким спектром японских подержанных автомобилей, а также о совершенно новых транспортных средств, что позволит вам купить ваш автомобиль мечты, что вы ждали.&lt;/p&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview3" xml:space="preserve">
+    <value>&lt;h5&gt;Наши ценности&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;1. Принимать вызовы 2. Творчество 3. На срок поставки 4. Коллективная работа 5. В реальном времени, Интерактивные коммуникации.&lt;/p&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview4" xml:space="preserve">
+    <value>&lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;Принять вызовы&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_1.png"&gt;
+                        &lt;p class="class"&gt;Будучи членом «Таа аукцион группы, JAA аукцион группы, Honda аукцион группы, USS аукциона группы, HAA аукцион группы, JU аукцион группы и все другие японские аукционы», мы экспортного все типы японских автомобилей, в том числе крупных производителей, таких как Toyota, Honda, Nissan, Mitsubishi, Mazda, Subaru, Isuzu, Сузуки и Daihatsu с обширной выбором моделей, цветов и возраста. Мы можем также поставлять в кратчайшие сроки в любую точку мира&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;Творчество&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_2.png"&gt;
+                        &lt;p class="class"&gt;Аван международного наиболее важным фактором является скорость инноваций и нашего творческого мышления будет определять степень нашего успеха.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;На время доставки&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/Delivery.png"&gt;
+                        &lt;p class="class"&gt;Аван международного K.K — не только экспертов в японских подержанных автомобилей, мы также источников и экспорта корейских и американских автомобилей и авто запчастей, оборудования и используемых строительных транспортных средств, сделанных ведущих мировых производителей.&lt;/p&gt;
+                               
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;Коллективная работа&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/teamwork.png"&gt;
+                        &lt;p class="class"&gt;У нас есть творческие и организованного японских и международных сотрудников, которые привержены обеспечению уровня выдающихся обслуживания своих клиентов и для поддержания стандартов качества, безопасности и удовлетворенности на самом высоком уровне. Аван, системы ценностей привержена передового опыта в обеспечении качества и обслуживания клиентов, расширение прав и возможностей сотрудников.&lt;/p&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview5" xml:space="preserve">
+    <value>&lt;h5&gt;Быстрая связь трек...&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;Аван International, в отличие от многих других организаций, полностью поддерживает открытой культуры, позволяя сотрудникам выразить себя через «чат со мной», интерактивный инструмент в сети Интранет, где сотрудники могут иметь диалог друг с другом. Значения&lt;/p&gt;
+                    &lt;p class="class"&gt;Аван международного значения своих членов, сотрудников и инициирует программы обучения для международного Аван каждый раз в то время. Есть ум, совместное использование сеансов, при котором различные команды сидят друг с другом; детали проекта, прогресса и будущих планов; и иметь открытый форум обсуждения где каждый свободно выражать свои комментарии.&lt;/p&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="bankdetails.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt; Банка &lt;/ span&gt; Подробнее</value>
+  </data>
+  <data name="footer.menu5" xml:space="preserve">
+    <value>www.awan.co.jp| Все права защищены 2011</value>
+  </data>
+  <data name="footer.menu6" xml:space="preserve">
+    <value>О компании</value>
+  </data>
+  <data name="NomanRaufLanguage" xml:space="preserve">
+    <value>урду,английский ,французский</value>
+  </data>
+  <data name="NomanRaufName" xml:space="preserve">
+    <value>M Наумана Рауф</value>
+  </data>
+  <data name="RizwanRauf" xml:space="preserve">
+    <value>Ризван Рауф</value>
+  </data>
+  <data name="Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="PasswordRecovery" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt; пароль &lt;/ SPAN&gt; Восстановление</value>
+  </data>
+  <data name="ProvideYourEmail" xml:space="preserve">
+    <value>Обеспечить Ваш Email</value>
+  </data>
+  <data name="slider1" xml:space="preserve">
+    <value>Высокое качество тысячи японских используемые автомобили складе</value>
+  </data>
+  <data name="slider2" xml:space="preserve">
+    <value>Лучшие японские используется &amp; новые автомобили</value>
+  </data>
+  <data name="slider3" xml:space="preserve">
+    <value>Сотни тысяч используемых автомобилей и грузовиков из тысяч доверенных автодилеров.</value>
+  </data>
+  <data name="slider4" xml:space="preserve">
+    <value>Поиск нашего высокого качества запасов</value>
+  </data>
+  <data name="slider4a" xml:space="preserve">
+    <value>фондовая</value>
+  </data>
+  <data name="slider5" xml:space="preserve">
+    <value>Миллионы автомобилей для поиска</value>
+  </data>
+  <data name="slider6" xml:space="preserve">
+    <value>Новые автомобили</value>
+  </data>
+  <data name="slider7" xml:space="preserve">
+    <value>Авария авто</value>
+  </data>
+  <data name="slider8" xml:space="preserve">
+    <value>Низкий пробег</value>
+  </data>
+  <data name="kamranraufinfo" xml:space="preserve">
+    <value>Assalamu.alaikum, я Камран Рауф, я все управление деятельностью в Пакистане Аван International Group.
+ Я закончил мой выпускной в 2011 году из Пакистана и Join Аван Международный KK, как мой первый шаг в профессиональный мир.
+ Мне очень нравится как профессия и видим большой потенциал моей Каррере работы с Аван Международный KK
+ Моя работа заключается в управлении, Купля / продажа, хранение дружеские отношения со всеми нашими клиентами, улучшить наш бизнес, и сохранить здоровую окружающую среду и работу вокруг.
+ Его почти 3 года работы с Аван International Group, и я могу гарантировать вам, что Аван Международная группа К.К. действительно стоит иметь дело.
+ Я гарантирую вам, что вы будете предоставление лучших услуг</value>
+  </data>
+  <data name="kamranrauflanguage" xml:space="preserve">
+    <value>Урду, английский</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>переговоры сейчас</value>
+  </data>
+</root>

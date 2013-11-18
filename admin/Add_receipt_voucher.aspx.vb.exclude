@@ -1,0 +1,495 @@
+﻿Imports System.Data
+
+Partial Class admin_Add_receipt_voucher
+    Inherits System.Web.UI.Page
+    Dim ttl_amount As Double
+
+    Private Sub ApplyRights()
+        Try
+            Dim obj As New dsAdminTableAdapters.IsInRoleTableAdapter
+
+            Dim dt As New DataTable
+
+            dt.Merge(obj.GetData(CInt(Session("role_ID")), 15))
+
+            If dt.Rows(0).Item("Control_Name").ToString = "0" Then
+
+                Response.Redirect("notauthorized.aspx", False)
+            Else
+                For i As Integer = 0 To dt.Rows.Count - 1
+
+                    'If dt.Rows(i).Item("Control_Name").ToString.Trim.ToLower = "cmdprint" Then
+                    '    cmdprint.Enabled = CBool(dt.Rows(i).Item("Allow").ToString)
+                    'ElseIf dt.Rows(i).Item("Control_Name").ToString.Trim.ToLower = "cmdexport" Then
+                    '    cmdexport.Enabled = CBool(dt.Rows(i).Item("Allow").ToString)
+                    'ElseIf dt.Rows(i).Item("Control_Name").ToString.Trim.ToLower = "cmdsearch" Then
+                    '    cmdSearch.Enabled = CBool(dt.Rows(i).Item("Allow").ToString)
+                    'End If
+
+
+                Next
+            End If
+
+
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        If Not Page.IsPostBack Then
+
+            ApplyRights()
+
+
+            If Not Request.QueryString("ID") Is Nothing Then
+
+                Dim str As String = Request.QueryString("ID").Trim
+
+                Me.HiddenField1.Value = 0
+                Me.Hsession_ID.Value = str
+                Me.lblMode.Text = "Edit"
+                Me.Load_Data(str)
+                Me.cmdissue.Text = "Update"
+                Set_formDefault()
+
+            Else
+
+                Me.HiddenField1.Value = 1
+                Me.lblMode.Text = "New"
+                Me.Hsession_ID.Value = Session.SessionID
+                Me.txtTranDate.Text = Format(Now, "dd-MM-yyyy")
+                Me.cmdissue.Enabled = False
+                btnActions(False)
+
+                Set_formDefault()
+
+
+            End If
+
+
+        End If
+
+    End Sub
+    Private Sub btnActions(ByVal val As Boolean)
+        Try
+            cmdCancel.Disabled = Not val
+            cmdissue.Enabled = val
+        Catch ex As Exception
+
+        End Try
+    End Sub
+    Private Sub Load_Data(ByVal ID As Integer)
+        Try
+
+            'Dim obj As New myDATA
+
+            Dim obj As New dsStockTableAdapters.display_RECEIPTTableAdapter
+            Dim dt As New DataTable
+            dt.Merge(obj.GetData(ID))
+
+            If dt.Rows.Count <> 0 Then
+
+                With dt.Rows(0)
+                    If .Item("transaction_status").ToString = "2" Then
+                        Ctrl_Disabled(True)
+
+                    End If
+
+
+
+                    If .Item("customer_id").ToString = "0" Then
+                        Me.txtnewcustomer.Text = .Item("customer_name").ToString
+                    Else
+                        Me.ddlcustomers.SelectedValue = .Item("customer_id").ToString
+                        Me.txtnewcustomer.Text = String.Empty
+                        Me.txtnewcustomer.Enabled = False
+                    End If
+
+
+
+                    Me.ddlVoucherType.SelectedValue = .Item("reciept_type").ToString
+                    Me.txtTranDate.Text = .Item("Date").ToString
+                    Me.txtTTLamount.Text = .Item("amount").ToString
+                    Me.txtref.Text = .Item("ID").ToString
+                    Me.txtPrepared_by.Text = .Item("prepared_by").ToString
+                    Me.txtexplanation.Text = .Item("explanation").ToString
+                    Me.txtRecieved_by.Text = .Item("verified_by").ToString
+
+
+                End With
+
+            End If
+
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Add_master()
+        Try
+            Dim msg As String = String.Empty
+
+            Dim Customer_Name As String = String.Empty
+
+            If ddlcustomers.SelectedValue = 0 Then
+                Customer_Name = Me.txtnewcustomer.Text
+            ElseIf ddlcustomers.SelectedValue > 1 Then
+                Customer_Name = Me.ddlcustomers.SelectedItem.Text
+            ElseIf ddlcustomers.SelectedValue = 1 Then
+                Customer_Name = Me.txtnewcustomer.Text
+            End If
+
+
+            Dim obj As New dsStockTableAdapters.display_RECEIPTTableAdapter
+
+            If Me.cmdissue.Text <> "Update" Then
+
+                Dim New_ID As Integer = obj.load_NEW_RV
+                Dim message As String = String.Empty
+
+                message = obj.insert_RVmaster(Customer_Name, Me.txtTranDate.Text.ToUpper, Me.txtTTLamount.Text, New_ID, _
+                                                  Me.txtPrepared_by.Text, Me.txtexplanation.Text, _
+                                                   Me.txtRecieved_by.Text, Me.ddlcustomers.SelectedValue, Me.ddlVoucherType.SelectedValue, Hsession_ID.Value, CInt(Session("user_id")))
+
+                Dim msg1() As String = message.Split("@")
+                Me.txtref.Text = msg1(1)
+                AddErrorMessage(msg1(0))
+                Me.cmdissue.Text = "Update"
+                Me.HiddenField1.Value = 0
+                Me.Hsession_ID.Value = New_ID
+
+            Else
+
+
+                msg = obj.update_RVmaster(Customer_Name, Me.ddlcustomers.SelectedValue, txtexplanation.Text, txtTranDate.Text.ToUpper, _
+                                         txtTTLamount.Text, txtPrepared_by.Text, txtRecieved_by.Text, ddlVoucherType.SelectedValue, CInt(Session("user_id")), txtref.Text)
+                AddErrorMessage(msg)
+                Me.GridView1.DataBind()
+
+
+
+            End If
+
+
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Ctrl_Disabled(ByVal Val As Boolean)
+        Try
+
+            pnlgeneral.Disabled = Val
+            pnladditems.Disabled = Val
+            pnlauthorization.Disabled = Val
+            pnlrecieptdetails.Disabled = Val
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+    Private Function Validate_Page() As Boolean
+
+        Try
+
+            Dim obj As New dsStockTableAdapters.cmdVerified_Click_receiptTableAdapter
+            Dim dt As New Data.DataTable
+            dt.Merge(obj.GetData(Me.Hsession_ID.Value))
+            Dim cn As Integer = dt.Rows(0).Item(0).ToString
+
+            If cn > 0 Then
+
+            Else
+                AddErrorMessage("No receipt details added")
+
+                Return False
+
+            End If
+
+
+
+            If Me.ddlcustomers.SelectedValue = 0 And String.IsNullOrEmpty(txtnewcustomer.Text) = True Then
+
+                AddErrorMessage("Customer name required!")
+                Return False
+
+            End If
+
+
+
+
+
+
+            If GridView1.Rows.Count > 0 Then
+                Dim cnt_HasValidRow As Integer = 0
+                For i As Integer = 0 To Me.GridView1.Rows.Count - 1
+
+                    If Me.GridView1.Rows(i).Cells(8).Text = "0" Or Me.GridView1.Rows(i).Cells(8).Text = "1" Then
+                        cnt_HasValidRow = cnt_HasValidRow + 1
+                    Else
+
+
+                    End If
+
+                Next
+
+                If cnt_HasValidRow > 0 Then
+                    Return True
+                Else
+                    AddErrorMessage("No valid reciept detail item added")
+
+                    Return False
+                End If
+
+            Else
+                AddErrorMessage("No valid reciept detail item added")
+                Return False
+
+
+            End If
+
+
+
+
+
+
+
+            Return True
+
+
+        Catch ex As Exception
+
+        End Try
+    End Function
+
+
+    Private Sub Enable_Issue_If_rows_inGridview()
+        Try
+            Dim obj As New dsStockTableAdapters.Enable_Issue_If_rows_inGridview_receiptTableAdapter
+            Dim dt As New Data.DataTable
+            dt.Merge(obj.GetData(Me.Hsession_ID.Value))
+
+
+            If dt.Rows.Count > 0 Then
+
+                cmdissue.Enabled = True
+
+
+            Else
+
+                Me.cmdissue.Enabled = False
+
+
+            End If
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Protected Sub GridView1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles GridView1.Load
+        Enable_Issue_If_rows_inGridview()
+    End Sub
+
+    Protected Sub GridView1_RowDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles GridView1.RowDataBound
+        Try
+
+            If e.Row.RowType = DataControlRowType.DataRow Then
+
+                If e.Row.Cells(8).Text = 3 Then
+                    e.Row.ForeColor = System.Drawing.Color.Red
+                    e.Row.Cells(0).Enabled = False
+                ElseIf e.Row.Cells(8).Text = 0 Then
+                    e.Row.ForeColor = Drawing.Color.Green
+
+                End If
+
+                ttl_amount += Convert.ToDecimal(DataBinder.Eval(e.Row.DataItem, _
+            "amount"))
+
+
+                If e.Row.Cells(9).Text = "S" Or e.Row.Cells(9).Text = "SV" Then
+                    Dim lblSV2 As Label = e.Row.FindControl("lblsvr2")
+                    Dim lblSV2value As Label = e.Row.FindControl("lblsvr2Value")
+                    If Not lblSV2 Is Nothing Then
+
+                        lblSV2.Visible = True
+                        lblSV2value.Visible = True
+
+                    End If
+
+                End If
+
+
+            End If
+
+
+
+            If e.Row.RowType = DataControlRowType.Footer Then
+
+                e.Row.Cells(0).Text = "Total Amount :"
+                e.Row.Cells(3).Text = Format(ttl_amount, "###,###,###,###,###.##")
+                txtTTLamount.Text = Format(ttl_amount, "###############.##")
+                e.Row.Font.Bold = True
+
+            End If
+
+            If e.Row.RowState = DataControlRowState.Edit Or e.Row.RowState = 5 Then
+
+                Dim other_currency_amt As TextBox = e.Row.FindControl("txtother_currency_amt")
+                Dim amount_Dhs As TextBox = e.Row.FindControl("txtamount_Dhs")
+                Dim currencyRate As TextBox = e.Row.FindControl("txtcurrencyRate")
+                Dim ddlpayvia As DropDownList = e.Row.FindControl("ddlPayVia2")
+                Dim chkdetails_ID As HtmlGenericControl = e.Row.FindControl("chkdetails")
+
+                other_currency_amt.Attributes.Add("onblur", "javascript:CurrRate('" + other_currency_amt.ClientID + "','" + amount_Dhs.ClientID + "','" + currencyRate.ClientID + "');")
+                currencyRate.Attributes.Add("onblur", "javascript:CurrRate('" + other_currency_amt.ClientID + "','" + amount_Dhs.ClientID + "','" + currencyRate.ClientID + "');")
+                If ddlpayvia.SelectedValue <> "10" Then
+
+                    chkdetails_ID.Style.Add("display", "none")
+
+
+                End If
+
+                ddlpayvia.Attributes.Add("onchange", "javascript:checkdetails('" + ddlpayvia.ClientID + "','" + chkdetails_ID.ClientID + "');")
+
+
+                If e.Row.Cells(9).Text = "S" Or e.Row.Cells(9).Text = "SV" Then
+                    Dim lblSV As Label = e.Row.FindControl("lblsvr")
+                    Dim txtSV As TextBox = e.Row.FindControl("txtsvref2")
+                    lblSV.Visible = True
+                    txtSV.Visible = True
+                    txtSV.Enabled = True
+
+
+
+
+                End If
+
+
+
+
+            End If
+
+
+            e.Row.Cells(4).Visible = False
+            e.Row.Cells(8).Visible = False
+            e.Row.Cells(9).Visible = False
+
+
+        Catch ex As Exception
+
+        End Try
+
+
+
+
+
+    End Sub
+
+    Protected Sub cmdissue_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmdissue.Click
+
+
+        If Validate_Page() = True Then
+            Add_master()
+
+
+        Else
+
+        End If
+
+
+    End Sub
+    Private Sub AddErrorMessage(ByVal errorMessage As String)
+        Me.Page.Validators.Add( _
+                     New myCustomValidator(errorMessage, ""))
+    End Sub
+
+
+    Protected Sub ddlVoucherType_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddlVoucherType.SelectedIndexChanged
+        Try
+            If ddlVoucherType.SelectedValue = "S" Then
+
+                Me.pnlpartybalance.Visible = True
+                Dim acc As DropDownList = FormView1.FindControl("ddlaccounts")
+                acc.SelectedValue = 39
+                acc.Enabled = False
+                Dim ddlSV As DropDownList = FormView1.FindControl("ddlSVRef")
+                ddlSV.Visible = True
+                Dim lblSVref As Label = FormView1.FindControl("lblsvref")
+                lblSVref.Visible = True
+
+            Else
+
+                Me.pnlpartybalance.Visible = False
+                Dim acc As DropDownList = FormView1.FindControl("ddlaccounts")
+                acc.SelectedValue = 0
+                Dim ddlSV As DropDownList = FormView1.FindControl("ddlSVRef")
+                ddlSV.Visible = False
+                Dim lblSVref As Label = FormView1.FindControl("lblsvref")
+                lblSVref.Visible = False
+
+
+            End If
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+
+
+
+
+    Protected Sub odsRVdetails_Inserted(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.ObjectDataSourceStatusEventArgs) Handles odsRVdetails.Inserted
+        Try
+            AddErrorMessage(e.ReturnValue.ToString)
+
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Set_formDefault()
+        Try
+
+            Dim Curr_Rate As TextBox = FormView1.FindControl("txtamt_rate")
+            Curr_Rate.Text = appdata.Default_Currency_Rate
+            Dim Curr_Name As DropDownList = FormView1.FindControl("ddlcurr_name")
+            Curr_Name.SelectedValue = appdata.Default_Currency
+
+            If ddlVoucherType.SelectedValue = "S" Then
+                Dim ddlSV As DropDownList = FormView1.FindControl("ddlSVRef")
+                ddlSV.Visible = True
+                Dim lblSVref As Label = FormView1.FindControl("lblsvref")
+                lblSVref.Visible = True
+
+            End If
+
+
+
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+
+
+    Protected Sub FormView1_DataBound(ByVal sender As Object, ByVal e As System.EventArgs) Handles FormView1.DataBound
+        Set_formDefault()
+    End Sub
+End Class

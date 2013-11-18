@@ -1,0 +1,2155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuthorizedSignature" xml:space="preserve">
+    <value>Authorized Signature</value>
+  </data>
+  <data name="AutopartInformation" xml:space="preserve">
+    <value>Autopart Information</value>
+  </data>
+  <data name="Autoparts.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Auto&lt;/span&gt;  Parts</value>
+  </data>
+  <data name="Autoparts.text" xml:space="preserve">
+    <value>&lt;b&gt;Are You Looking For Auto Parts from Japan ?&lt;/b&gt; &lt;i&gt;Many fully functional auto-parts
+                    are found on Japanese used cars, which are very much in demand as spare parts for
+                    the overseas market as well as in the domestic market. All appropriate car parts
+                    are carefully selected by professionals. You can order all type of Used Car parts,
+                    Auto Body Parts, Rebuilt Auto Parts, Refurbished Auto Parts, Auto Electrical Parts,
+                    Engine Parts of all types of makes. &lt;/i&gt;</value>
+  </data>
+  <data name="AutoPartsMoreDetails" xml:space="preserve">
+    <value>More Details (Desc,parts number,etc)</value>
+  </data>
+  <data name="AutoPartsMoreDetails2" xml:space="preserve">
+    <value>Details (If any shipping preferences please tell us)</value>
+  </data>
+  <data name="AutopartVehicleInfo" xml:space="preserve">
+    <value>Vehicle Info</value>
+  </data>
+  <data name="AutoShippingInfo" xml:space="preserve">
+    <value>Shipping Info</value>
+  </data>
+  <data name="AWan" xml:space="preserve">
+    <value>Awan International K.K</value>
+  </data>
+  <data name="AwanInter.content" xml:space="preserve">
+    <value>&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+            &lt;p class="class"&gt;
+                Awan International K.K is a proud member of &lt;b&gt;Japanese Used Cars Association&lt;/b&gt;
+                which is the most reputable organization in the Japanese used car export industry.
+            &lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;
+                Being a &lt;a href=""&gt;certified company of different Japanese Used Cars Associations,&lt;/a&gt;
+                we are a legally registered entity in Japan and have the license to buy and sell
+                used vehicles as well as to export them. Japanese Associations also acknowledges
+                Awan International K.K as a credible and established used car dealer. It bounds
+                all members with the fair trade of used motor vehicles and prevents unfair transactions.
+                Additionally, it protects buyers from stolen vehicles, illegally rebuilt or modified
+                vehicles. Thus, provides support if complaints arise. We have been certified by
+                Japanese Used Cars Associations because we strive for fair deals with our buyers
+                and take a long term view on business.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;
+                There are thousands of used vehicle exporters online these days. Unfortunately,
+                most of them are fraud companies and cheat innocent buyers by taking their money
+                and then disappearing. When you deal with a Japanese Used Cars Associations certified
+                company as Awan International K.K, you are assured of the legitimacy and are guaranteed
+                of a fair deal.&lt;/p&gt;
+            &lt;br /&gt;
+            &lt;div class="clear"&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="AwanInter.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Why Awan &lt;/span&gt;&amp;nbsp;International K.K&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="bankAccount" xml:space="preserve">
+    <value>Name of Account</value>
+  </data>
+  <data name="bankAccountname" xml:space="preserve">
+    <value>Awan International K.K</value>
+  </data>
+  <data name="bankAccountname2" xml:space="preserve">
+    <value>Tambiri Motors</value>
+  </data>
+  <data name="bankAccountNumber" xml:space="preserve">
+    <value>Account Number</value>
+  </data>
+  <data name="bankAddress" xml:space="preserve">
+    <value>Bank Address</value>
+  </data>
+  <data name="bankAddresstxt" xml:space="preserve">
+    <value>2 -23-25 Kourinbou, Kanazawa, Japan</value>
+  </data>
+  <data name="bankAddresstxt2" xml:space="preserve">
+    <value>Al Aweer Branch, DOCUMZ, Dubai - U.A.E</value>
+  </data>
+  <data name="bankBranch" xml:space="preserve">
+    <value>Name of Branch</value>
+  </data>
+  <data name="bankBranchName" xml:space="preserve">
+    <value>Kanazawa Branch</value>
+  </data>
+  <data name="bankBranchName2" xml:space="preserve">
+    <value>Al Aweer Branch</value>
+  </data>
+  <data name="BANKDETAIL2" xml:space="preserve">
+    <value>BANK DETAILS</value>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>Name of Bank</value>
+  </data>
+  <data name="bankname2" xml:space="preserve">
+    <value>Mashreq Bank</value>
+  </data>
+  <data name="banknamefull" xml:space="preserve">
+    <value>The Bank of Tokyo Mitsubishi UFJ, Ltd.</value>
+  </data>
+  <data name="bankorderfin" xml:space="preserve">
+    <value>&lt;td height="30" align="left"&gt;
+                                                                                 &lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;
+                                                                                        &lt;br&gt;
+                                                                                        Note:
+                                                                                        &lt;br&gt;
+                                                                                        All bank charges are the responsibility by purchaser.&lt;br&gt;
+                                                                                        The name &amp;amp; address, phone no shows on this invoice will be on B/L, Please advise
+                                                                                        us if any changes before shipping&lt;/font&gt;
+                                                                                
+                                                                                   &lt;/td&gt;</value>
+  </data>
+  <data name="becomeagent.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt; Become Our  &lt;/span&gt; Agent</value>
+  </data>
+  <data name="BodyColor" xml:space="preserve">
+    <value>Body Color</value>
+  </data>
+  <data name="Chassislable" xml:space="preserve">
+    <value>Chassis</value>
+  </data>
+  <data name="ChassisNo" xml:space="preserve">
+    <value>Chassis No</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Clickmore" xml:space="preserve">
+    <value>Click here to view more</value>
+  </data>
+  <data name="colorlable" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="Consignee.NotifyParty" xml:space="preserve">
+    <value>Notify Party</value>
+  </data>
+  <data name="ContactNo" xml:space="preserve">
+    <value>Contact No</value>
+  </data>
+  <data name="ContactUs.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Contact&lt;/span&gt;&amp;nbsp;Us</value>
+  </data>
+  <data name="cooperteoverview1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;Cooperate&lt;/span&gt; Overview&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="cooperteoverview2" xml:space="preserve">
+    <value>&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+                &lt;p class="class"&gt;
+                    Awan international K.K is a Japanese trading company. Our major role in the Japanese
+                    vehicle export industry providing all kinds of vehicles to individual buyers, dealers,
+                    industries and government organizations.
+                &lt;/p&gt;
+                &lt;br&gt;
+                &lt;p class="class"&gt;
+                    We are one of the leading vehicle exporters in Japan and serves customers in all
+                    over the world. Awan International K.K Established in 16 Feb 1999. We deal with
+                    a wide variety of Japanese used vehicles as well as brand new vehicles allowing
+                    you to buy your dream vehicle that you have been waiting for.&lt;/p&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview3" xml:space="preserve">
+    <value>&lt;h5&gt;
+                    Our Values&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;
+                        1. Take challenges 2. Creativity 3. On Time Delivery 4. Teamwork 5. Real-time, interactive
+                        communication .&lt;/p&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview5" xml:space="preserve">
+    <value>&lt;h5&gt;
+                    Fast communication track ..&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;
+                        Awan International, unlike many other organizations, fully supports an open culture
+                        by allowing employees to express themselves through 'chat with me', an interactive
+                        tool on the intranet where employees can have a dialogue with one another. Values&lt;/p&gt;
+                    &lt;p class="class"&gt;
+                        Awan International values its members, employees and initiates training programs
+                        for Awan International every once in a while. There are mind sharing sessions wherein
+                        different teams sit with each other; share project details, progress and future
+                        plans; and have an open forum of discussion where each is free to express their
+                        comments.
+                    &lt;/p&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Door" xml:space="preserve">
+    <value>Door</value>
+  </data>
+  <data name="Drive" xml:space="preserve">
+    <value>Drive</value>
+  </data>
+  <data name="DUEDATE" xml:space="preserve">
+    <value>DUE DATE</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="End_Date" xml:space="preserve">
+    <value>End_Date</value>
+  </data>
+  <data name="EngineCClable" xml:space="preserve">
+    <value>Engine CC</value>
+  </data>
+  <data name="EngineModel" xml:space="preserve">
+    <value>Engine Model</value>
+  </data>
+  <data name="Enquiry" xml:space="preserve">
+    <value>Enquiry</value>
+  </data>
+  <data name="enquiry.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Stock &lt;/span&gt;&amp;nbsp;Enquiry</value>
+  </data>
+  <data name="enquiryContactInfo" xml:space="preserve">
+    <value>Contact Info</value>
+  </data>
+  <data name="enquiryStockdetails" xml:space="preserve">
+    <value>Stock details</value>
+  </data>
+  <data name="enquiryYourMessage" xml:space="preserve">
+    <value>Your Message</value>
+  </data>
+  <data name="ExpectedPrice" xml:space="preserve">
+    <value>Expected Price</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>&lt;h1 class="myform_span"&gt;
+            &lt;span&gt;FAQ&lt;/span&gt;
+        &lt;/h1&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#1: How to purchase Japanese used vehicle from us? &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                Follow these steps:&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;
+                1. View our Japan, Russia, UAE, and Pakistan &amp; South Africa used stock
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                2. Select your desired vehicle.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                3. Click Get Invoice button &amp; submit form with relevant information
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                4. Please check your mail, we will send you Performa invoice by mail or fax.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                5. Performa invoice contains the CIF price along with bank details &amp; mode of payment.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                6. Arrange payment – The desired vehicle will be reserved for you upon full receipt
+                of payment.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                7. Arrange payment – The desired vehicle will be reserved for you upon full receipt
+                of payment.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                8. Shipment of the vehicle&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                9. The vehicle has successfully reached to the port of discharge and you can receive
+                it.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#2: What is your vehicle's condition?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                All vehicles are sourced from Auto Auctions and through franchise dealers &amp; wholesalers
+                in and around the central region of Japan. These vehicles are thoroughly checked
+                by our team of professional buyer’s mechanic staffs before we stock them. All Japanese
+                vehicles listed on our list are owned by Awan.com. We are not third party agents
+                or broker.
+            &lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#3: How can I create an account in your website?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                You need to click here to create a new account and start shopping from us.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#4: How can I create an account in your website?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                You can print the Performa invoice by clicking on “Get Invoice” button if you select
+                a vehicle from our stock.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#5: In which countries do you export your vehicles?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                We can export to any country where there is a legal law to import Used vehicles
+                from Japan.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#6: How can I place my order?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                See our Japanese Used Car Stock, South Africa Used Car Stock or Pakistan Used Car
+                Stocklines:
+            &lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+                Follow these simple step by step guidelines:
+            &lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+                Select your desired vehicle.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                2. Get invoice.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                3. Make payment on invoice.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                4. Shipping confirmation is sent.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                5. Vehicle is shipped.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#7: What Documentation/ Information do you require from my side after i
+                have transferred the amount into your bank account?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                See our Japanese Used Car Stock, South Africa Used Car Stock or Pakistan Used Car
+                Stocklines:
+            &lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+                You are required to provide us with the following information / Documentation:
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                a) Consignee Name
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                b) Consignee Address
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                c) DHL Address:
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                d) Full contact information such as Contact No., Fax No., etc.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                e) If the consignee and the purchaser are different than please let us know.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                Please provide us with the above information in order to make sure that all the
+                shipping documentation is correctly prepared before the shipment.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;br /&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#8: What shipping documents will I receive? &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                You will receive the following shipping documents:
+            &lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+                1. Bill of Landing
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                2. Customs Invoice
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                3. Export / Deregistration Certificate
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                4. English translation of Export / Deregistration certificate
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#9: What is the payment method?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                The mode of payment is PayPal online credit card payment &amp; Telegraphic Transfer.
+                This is the preferred method of payment as it is the quickest, safest and simplest
+                method. It will take approx 3 days to receive and process your payment. You can
+                also view thebank details page bank details page on our website. Payment should
+                be made as soon as possible, in order to reserve vehicle as we work on the policy
+                of first come first out basis.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#10: What currencies do you accept for payment?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                We accept British pound (GBP), American dollar (USD), Euro and Japanese Yen.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#11: I cannot understand some of these shipping terms?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                Please read the section &lt;a href="#"&gt;Glossary of Shipping Terms&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q#12: How can assure Awan International K.K will assure us to send our vehicle
+                here?&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                We have been in exporting motor vehicle business for last 20 years (1988-2008).
+                We are proud to say, we never had a complaint stating that we have not shipped the
+                purchased unit or units. We have satisfied customers in most of the countries for
+                your references. Please do not hesitate to contact us if you need any references
+                from your country.&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="FOBPrice:" xml:space="preserve">
+    <value>FOB Price:</value>
+  </data>
+  <data name="footer.menu1" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="footer.menu2" xml:space="preserve">
+    <value>How to Order</value>
+  </data>
+  <data name="footer.menu3" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="footer.menu4" xml:space="preserve">
+    <value>&lt;p style=" margin-left: -55px;
+    width: 116px;"&gt;Terms &amp; Condition&lt;/p&gt;</value>
+  </data>
+  <data name="footer.menu5" xml:space="preserve">
+    <value>www.awan.co.jp | All Rights Reserved 2011</value>
+  </data>
+  <data name="footerleft.Address" xml:space="preserve">
+    <value>939-0304 Toyamaken Imizu shi Kosugi shiraishi 138-1 Japan</value>
+  </data>
+  <data name="footerleft.copyright" xml:space="preserve">
+    <value>Copyright © 2010-11 Awan International K.K. All Rights Reserved</value>
+  </data>
+  <data name="footerleft.heading" xml:space="preserve">
+    <value>Awan International K.K</value>
+  </data>
+  <data name="footerleft.phone" xml:space="preserve">
+    <value>Phone No: +81-766-59-8751 Fax: +81-766-59-8750</value>
+  </data>
+  <data name="Freight" xml:space="preserve">
+    <value>Freight</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Fuel" xml:space="preserve">
+    <value>Fuel</value>
+  </data>
+  <data name="fueltype" xml:space="preserve">
+    <value>fuel type</value>
+  </data>
+  <data name="GlobalStockLocationText" xml:space="preserve">
+    <value>Global Stock Location</value>
+  </data>
+  <data name="howorder1" xml:space="preserve">
+    <value>&lt;img class="abouticon" alt="" src="images/how_order.png" style="margin-right: 10px;
+                margin-left: 5px;"&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;STEP 1&lt;/span&gt; &lt;span class="class_span2"&gt;Select&lt;/span&gt;
+                &lt;span class="class_span2"&gt;-Find the Vehicle you wish right from your computer.&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;
+                             To find your intrest car search our stock by Make,Make model and many more search option. 
+               OR
+               If you are autorized members we provide direct access via Awan International K.K to Japanese used cars auction. 
+               To get this access  &lt;a href="SalesTeams.aspx"&gt; Contact Us   &lt;/a&gt;   .
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;STEP 2&lt;/span&gt; &lt;span class="class_span2"&gt;Order-Negotiate with
+                    a Sales Representative to reserve your Vehicle. &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                Note: Registration is compulsory for Reservation/Negotiation. If you are not registered
+                yet, &lt;a href="membership.aspx"&gt;please register now.&lt;/a&gt; Make sure the contact details
+                you provide are correct and accurate.
+            &lt;/p&gt;
+            &lt;p class="class_span2"&gt;Ordering Process in Detail&lt;/p&gt;
+            &lt;p class="class"&gt;
+                As soon as you decide to buy the car, just click the ORDER button to proceed your
+                order or NEGOTIATE or talk with our Sales Representative via skype or email or phone.
+            &lt;/p&gt;
+            &lt;p class="class_span2"&gt; Confirm Delivery and Shipment Time&lt;/p&gt;
+            &lt;p class="class"&gt;
+                It does not take long to ship your car, but it is better to confirm the exact delivery
+                time to your region before proceeding your order exact delivery time to your region
+                before proceeding your orde&lt;/p&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;p class="class_span2"&gt;Find out the Total cost of the Vehicle&lt;/p&gt;
+            &lt;p class="class"&gt;
+                The display price on the Vehicle information is only FOB price. i.e. the cost of
+                the Car without any freight and extra charges. However it includes the cost of transportation
+                from yard to the Port of Departure.
+            &lt;/p&gt;
+            &lt;p class="class"&gt;There are some other costs that you need to know.&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Shipping Cost:&lt;/p&gt;</value>
+  </data>
+  <data name="howorder2" xml:space="preserve">
+    <value>&lt;p class="class"&gt;
+                This cost is different for different countries.
+            &lt;/p&gt;
+            &lt;p class="class_span2"&gt;
+                Cost of clearing after landing to the nearest port to your region.
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                These charges may differ according to the region you are living in. To confirm these
+                charges contact your local clearing agent and for assistance and advice talk to
+                our experts.&lt;/p&gt;</value>
+  </data>
+  <data name="howorder3" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;
+                Compulsory Inspection Fee for some countries
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                There are some additional inspection fees for countries like Zambia, Kenya, Uganda,
+                and Tanzania.&lt;/p&gt;</value>
+  </data>
+  <data name="howorder4" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;
+                Submit your Order
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                As you get cleared with car condition and cost to remit, proceed to process your
+                order. # Get your proforma invoice
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder5" xml:space="preserve">
+    <value>&lt;p class="class"&gt;
+                Your proforma invoice will be sent to you by email. To ensure quick shipment, please
+                proceed with your payment as earliest as possible.
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;STEP 3&lt;/span&gt; &lt;span class="class_span2"&gt;Payment-Receive Performa
+                    invoice and pay the required amount through Telegraphic Transfer (Bank Transfer)
+                    or Pay Pal.&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;
+                Note: Please ensure that the transfer fee will be charged by remitting Bank when
+                you send the money to us.
+            &lt;/p&gt;
+            &lt;p class="class_span1"&gt; Options to remit your money&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Telegraphic Transfer:&lt;/p&gt;
+            &lt;p class="class"&gt;
+                It is the most recommended method and can be arranged through a bank with foreign
+                transaction service.&lt;/p&gt;
+            &lt;p class="class_span2"&gt; The most convenient option to remit payment by your credit card&lt;/p&gt;
+            &lt;p class="class"&gt;
+                There will be a 4% handling fee on top of the invoice amount Payment limit through
+                PAYPAL is:minimum USD100 , maximum USD10,000 (Maximum amount depends on your registering
+                country, so please consult to PAYPAL for terms and limitation).&lt;/p&gt;</value>
+  </data>
+  <data name="howorder6" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt; Where to send the payment:&lt;/p&gt;
+            &lt;p class="class"&gt;
+                All payments (based on mutual agreement) must be made in full. Once full payment
+                is received we will immediately arrange the shipping. For further information about
+                shipping and payments please read our &lt;a href="TermsandConditions.aspx"&gt;Terms &amp; Conditions&lt;/a&gt;&lt;/p&gt;
+            &lt;p class="class_span2"&gt;Purchase confirmation&lt;/p&gt;
+            &lt;p class="class"&gt;
+                In situation when your payments are not received on time or if your car is not available
+                in our stock, we will either give all your money back, or look for an absolute replacement
+                for your vehicle. Otherwise you can select another vehicle from our stock for the
+                same value.&lt;/p&gt;
+            &lt;p class="class"&gt;
+                Confirm the date of departure and arrival for your shipment through email from our
+                logistics department.
+            &lt;/p&gt;
+            &lt;p class="class_span2"&gt;
+                Important Documentations The necessary documents you need to receive your car are
+            &lt;/p&gt;
+            &lt;p class="class_span2"&gt;Export Certificate&lt;/p&gt;
+            &lt;p class="class"&gt;This document is necessary for&lt;/p&gt;
+            &lt;p class="class_span2"&gt;
+                Customs Invoice
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                It is used by your local custom department to evaluate the equivalent value of your
+                vehicle.&lt;/p&gt;
+            &lt;p class="class_span2"&gt; BL&lt;/p&gt;
+            &lt;p class="class"&gt;
+                BL or Bill of Lading is needed at the port of destination (POD) to receive your
+                vehicle from your nearest port.&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;Other documents&lt;/span&gt; &lt;span class="class_span2"&gt;may be required
+                    depending on your country's regulation. We can also send documents directly to the
+                    clearing agent on your request. &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;STEP 4&lt;/span&gt; &lt;span class="class_span2"&gt;Shipment-Receive your
+                    Booking details, shipment information and other necessary documentation. &lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;STEP 5&lt;/span&gt; &lt;span class="class_span2"&gt;Custom Clearance -
+                    Either hire Services from the Local Clearing Agent OR settle the Taxation and Customs
+                    issues by your self. &lt;/span&gt;
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder7" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;Confirm about the following&lt;/p&gt;
+            &lt;p class="class"&gt;Final arrival notice from the clearing agent.&lt;/p&gt;
+            &lt;p class="class"&gt;
+                Arrival Date is always tentative. Therefore for final confirmation, please contact
+                you clearing agent a week before the actual date of arrival&lt;/p&gt;
+            &lt;p class="class"&gt;
+                Clearing your car is the last step before you drive your car away
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                Retrieve your car at the port!
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                Settlement of local charges
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                Pay the cost of clearing.
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;STEP 6&lt;/span&gt; &lt;span class="class_span2"&gt;Drive - After Clearance,
+                    get your vehicle registered in your country and enjoy driving with!&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;
+                After receiving your car don't forget to check the condition and compare it with
+                the information sheet. At Awan Internation K.K Japan every vehicle is inspected
+                by professionals and expert mechanics.
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                For any queries and confusions about car's condition, feel free to &lt;a href="ContactUs.aspx"&gt;
+                    contact us.&lt;/a&gt;
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder8" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;How To Order Vehicles From&lt;/span&gt; Awan International
+            K.K</value>
+  </data>
+  <data name="ImageView" xml:space="preserve">
+    <value>Image View</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Consignee Information</value>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>Inspection</value>
+  </data>
+  <data name="INSPECTIONCERT" xml:space="preserve">
+    <value>INSPECTION CERT</value>
+  </data>
+  <data name="InspectionCertificate" xml:space="preserve">
+    <value>InspectionCertificate (JPY 25,000)</value>
+  </data>
+  <data name="Insurance" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="InteriorColor" xml:space="preserve">
+    <value>Interior Color</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LanguagesArif" xml:space="preserve">
+    <value>&lt;span&gt;&lt;b&gt;Japnese,Russian,English,Hindi,Urdu.&lt;b/&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="LanguagesRizwanRauf" xml:space="preserve">
+    <value>English,Arabic,Urdu</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="loginpages.emaillable" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="loginpages.Forgetpassworlable" xml:space="preserve">
+    <value>Forget your password</value>
+  </data>
+  <data name="loginpages.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Members &lt;/span&gt;Login Page</value>
+  </data>
+  <data name="loginpages.heading1" xml:space="preserve">
+    <value>&lt;a href="membership.aspx"&gt;Become our valuable member, all you have to do just fill in
+                    the form ! And that's it. &lt;/a&gt;</value>
+  </data>
+  <data name="loginpages.LogInlable" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="loginpages.passwordlable" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="Make" xml:space="preserve">
+    <value>Make</value>
+  </data>
+  <data name="MakeCategory" xml:space="preserve">
+    <value>Make Category</value>
+  </data>
+  <data name="Makecatgory" xml:space="preserve">
+    <value>MAKE CATEGORY</value>
+  </data>
+  <data name="MakeDescription" xml:space="preserve">
+    <value>Make Description</value>
+  </data>
+  <data name="MakeModel" xml:space="preserve">
+    <value>Make Model</value>
+  </data>
+  <data name="ManagingDirector" xml:space="preserve">
+    <value>Managing Director</value>
+  </data>
+  <data name="membership.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Membership &lt;/span&gt;&amp;nbsp;Request</value>
+  </data>
+  <data name="membership.lblmessage" xml:space="preserve">
+    <value>Your membership completed successfully! 
+                    To login as member</value>
+  </data>
+  <data name="membershipclick" xml:space="preserve">
+    <value>click here</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="default.aspx"&gt;&lt;span&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="CooperateOverView.aspx"&gt;&lt;span&gt;Corporate Overview&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="AwanInter.aspx"&gt;&lt;span&gt;Why Awan International K.K&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span&gt;Bank Details&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="TermsandConditions.aspx"&gt;&lt;span&gt;Our Terms &amp; Conditions&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="SalesTeams.aspx"&gt;&lt;span&gt;Sales Teams&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="gallery.aspx"&gt;&lt;span&gt;Photo Gallery &lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        
+        
+      &lt;li&gt;&lt;a href="stocklist.aspx?lv=1"&gt;&lt;span&gt;Stocks&lt;/span&gt;&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://awan.ajes.com/"&gt;&lt;span&gt;Auction&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+ &lt;li style="width:100px"&gt;&lt;a href="HowtoOrder.aspx"&gt;&lt;span style="width:100px"&gt;How to Order&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+         &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;Payments&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="PayPal.aspx"&gt;&lt;span class="small_img2"&gt;Paypal Interface&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span class="small_img2"&gt;Bank Details&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;Customer&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span class="small_img2"&gt;Members Login&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="membership.aspx"&gt;&lt;span class="small_img2"&gt;New Membership
+                        Request&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+ 
+
+
+      &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;Other Info&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small3_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="ShippingInfo.aspx"&gt;&lt;span class="small_img2"&gt;Shipping
+                        Info&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="Glossary.aspx"&gt;&lt;span class="small_img2"&gt;Glossary of
+                        Terms&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="http://www.auto-japanese.com/Pr_1year/index.php?company=4"&gt;&lt;span class="small_img2"&gt;
+                        Chassis Check&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;li&gt;&lt;a href="FAQ.aspx"&gt;&lt;span&gt;FAQ&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+      
+        
+        
+       
+         
+       
+        &lt;li style=" margin-left: 4px; width:110px" &gt;&lt;a href="ContactUs.aspx"&gt;
+        &lt;span style=" margin-left: 4px; width:110px"&gt;  Contact Us&lt;/span&gt;&lt;/a&gt; 
+        &lt;/li&gt;
+ &lt;li style="width:115px"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span style="width:115px"&gt;Members Login&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Mileage" xml:space="preserve">
+    <value>Mileage (KM)</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="ModelYear" xml:space="preserve">
+    <value>Model Year</value>
+  </data>
+  <data name="MohammadalKhawajaInfo" xml:space="preserve">
+    <value>Hello Everyone, My name is MohammadalKhawaja and i joined Awan International Family in 2004.
+       &lt;br /&gt;
+       I was honored to come on board because we share a common philosophy. We genuinely care about the people who have entrusted us with the task of finding the best solution to their automotive needs. I don’t like pressuring people and neither does Awan International KK. Nothing excites me more than when a customer expresses with sincerity how much they have enjoyed their car-buying experience and their enthusiasm to share their experience with others. 
+       &lt;br /&gt;
+       I provide the all the information to my clients to make the right decision. Any question to me is a fair question and I never assume my members understand the process. If I listen and understand their goals, I match the right vehicle to their needs. So, give me a call if you are looking for your next vehicle and I'll help you find the right vehicle you are looking for as well.</value>
+  </data>
+  <data name="MohammadalTitle" xml:space="preserve">
+    <value>Managing Director</value>
+  </data>
+  <data name="MohammadalTitleLanguage" xml:space="preserve">
+    <value>English,Arabic</value>
+  </data>
+  <data name="MohammadAwaisInfo" xml:space="preserve">
+    <value>Hi, My Name is Mohammad Awais and Currently I am managing the Russian Sector of Awan International Groups. I started my career as a Sales Consultant with Awan International KK and after lots of hard work and dedication to my work today I am at this Place.
+   &lt;br /&gt;
+   One thing I really like to mention here is that I have given 8 years of life to Awan International Group and I am so really Grateful to God that I am taken the Best Decision of my life to Join Awan International Group. 
+   &lt;br /&gt;
+   I WELCOME everyone who directly or Indirectly related to Cars Business , do visit Us once and I will guarantee you that you will be providing with the Best of Services.</value>
+  </data>
+  <data name="MohammadAwaisLanguages" xml:space="preserve">
+    <value>English,Russain,Urdu</value>
+  </data>
+  <data name="MohammadAwaisTitle" xml:space="preserve">
+    <value>&lt;span style="width: 257px;"&gt;&lt;b&gt;Managing Director-Russia&lt;/b&gt;&lt;span&gt;</value>
+  </data>
+  <data name="MyInfo" xml:space="preserve">
+    <value>My Info</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="negolist.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Negotiation &lt;/span&gt;List</value>
+  </data>
+  <data name="Negotiate" xml:space="preserve">
+    <value>Negotiate</value>
+  </data>
+  <data name="NegotiationDeal" xml:space="preserve">
+    <value>Negotiation Deal</value>
+  </data>
+  <data name="NewArrival" xml:space="preserve">
+    <value>NewArrival</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NomanRaufInfo" xml:space="preserve">
+    <value>Assalamu.alaikum, My Name is M. Noman Rauf and Currently I am managing all the work in pakistan of Awan International Groups.
+       &lt;br /&gt;
+     I started my career as a sales administrator with Awan International KK and after lots of hard work and dedication to my work today I am at this Place. 
+       &lt;br /&gt;
+   I have done my graduation in Business Administration from a well know business university in pakistan i.e IoBM.My work experience is about 3 years with AWAN INTERNATIONAL K.K. My work is to Manage the, Buying/Selling, Keeping Friendly relationship with all our Clients in pakistan. I can provide every kind of information related to pakistan business conditions &amp; temrs.
+      &lt;br /&gt;
+      I WELCOME everyone who directly or Indirectly related to Cars Business , do visit Us once and I will guarantee you that you will be providing with the Best of Services.</value>
+  </data>
+  <data name="NomanRaufTitle" xml:space="preserve">
+    <value>Sales Manager Pakistan</value>
+  </data>
+  <data name="nowonsale" xml:space="preserve">
+    <value>Now On Sale</value>
+  </data>
+  <data name="OfficePhone" xml:space="preserve">
+    <value>Office Phone</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="order.DestinationPort" xml:space="preserve">
+    <value>Destination Port</value>
+  </data>
+  <data name="Order1.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt; Stock    &lt;/span&gt; to Order</value>
+  </data>
+  <data name="OrderConsignee.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;Quotation &lt;/span&gt;</value>
+  </data>
+  <data name="orderfin.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;Quotation &lt;/span&gt;</value>
+  </data>
+  <data name="ORDERFINTOTAL" xml:space="preserve">
+    <value>TOTAL AMOUNT DUE:</value>
+  </data>
+  <data name="orderfin_bankDetali" xml:space="preserve">
+    <value>&lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;
+                                                                                                        Bank Name: BANK OF TOKYO -MITSUBISHI UFJ&lt;br&gt;
+                                                                                                        Bank Address: 2 -23-25 KOURINBOU, KANAZAWA, JAPAN
+                                                                                                        &lt;br&gt;
+                                                                                                        Branch Name: KANAZAWA BRANCH
+                                                                                                        &lt;br&gt;
+                                                                                                        Account Name: AWAN INTERNATIONAL K.K.
+                                                                                                        &lt;br&gt;
+                                                                                                        Account Number: 0687182&lt;br&gt;
+                                                                                                        Swift Code: BOTKJPJT&lt;br&gt;
+                                                                                                        Reason For Remittance: Payment for Motor Vehicle and/or Vehicle Parts&lt;/font&gt;</value>
+  </data>
+  <data name="orderstatus" xml:space="preserve">
+    <value>&lt;ul&gt;
+                        &lt;li class="active"&gt;Step 1 [Shipping details]&lt;/li&gt;
+                        &lt;li&gt;Step 2 [Order Details] &lt;/li&gt;
+                        &lt;li&gt;Step 3 [Consignee Info] &lt;/li&gt;
+                        &lt;li&gt;Step 4 [Complete Order] &lt;/li&gt;
+                    &lt;/ul&gt;</value>
+  </data>
+  <data name="orderstatus2" xml:space="preserve">
+    <value>&lt;li&gt;1-[Shipping details]&lt;/li&gt;
+                        &lt;li&gt;2-[Order Details] &lt;/li&gt;
+                        &lt;li&gt;3-[Consignee Info] &lt;/li&gt;
+                        &lt;li class="active"&gt;4-[Finalize Order] &lt;/li&gt;</value>
+  </data>
+  <data name="PartCondition" xml:space="preserve">
+    <value>Part Condition</value>
+  </data>
+  <data name="PartsInfo" xml:space="preserve">
+    <value>Parts Info</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PaymentOptions" xml:space="preserve">
+    <value>Payment Options</value>
+  </data>
+  <data name="paypal.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Make your payment using PayPal /&lt;/span&gt; Credit Card</value>
+  </data>
+  <data name="paypalExample" xml:space="preserve">
+    <value>Amount Should include +4% Transaction fee</value>
+  </data>
+  <data name="paypalExample2" xml:space="preserve">
+    <value>Example: (if you want to pay $100, You have to enter $104)</value>
+  </data>
+  <data name="paypalPaymentfor" xml:space="preserve">
+    <value>Payment For</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="PHOTO" xml:space="preserve">
+    <value>PHOTO</value>
+  </data>
+  <data name="portdischarge" xml:space="preserve">
+    <value>PORT OF DISCHARGE</value>
+  </data>
+  <data name="Portloading" xml:space="preserve">
+    <value>PORT OF LOADING</value>
+  </data>
+  <data name="Pricelable" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Priceranglable" xml:space="preserve">
+    <value>Price Range</value>
+  </data>
+  <data name="QUANTITY" xml:space="preserve">
+    <value>QUANTITY</value>
+  </data>
+  <data name="Quickcontact" xml:space="preserve">
+    <value>Quick contact</value>
+  </data>
+  <data name="Quickcontact.EmailRequired" xml:space="preserve">
+    <value>Email required</value>
+  </data>
+  <data name="Quickcontact.NameRequired" xml:space="preserve">
+    <value>Name required</value>
+  </data>
+  <data name="Quickcontact.send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="QuickContactStartText" xml:space="preserve">
+    <value>If you have a general Enquiy kindly send your request providing below details.</value>
+  </data>
+  <data name="QuickSearch" xml:space="preserve">
+    <value>QuickSearch</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>QUOTATION</value>
+  </data>
+  <data name="Quotation.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;Quotation &lt;/span&gt;</value>
+  </data>
+  <data name="QuoteDate" xml:space="preserve">
+    <value>Quote Date:</value>
+  </data>
+  <data name="QuoteDeals" xml:space="preserve">
+    <value>Deals in Japenese Used Cars</value>
+  </data>
+  <data name="QuoteRef" xml:space="preserve">
+    <value>Quote Ref:</value>
+  </data>
+  <data name="Re-TypePassword" xml:space="preserve">
+    <value>Re-Type Password</value>
+  </data>
+  <data name="RegularView" xml:space="preserve">
+    <value>Regular View</value>
+  </data>
+  <data name="RizwanRaufInfo" xml:space="preserve">
+    <value>HI, I am RizwanRauf, I am Managing Director of Tambiri Motors FZD which is the Dubai Branch of Awan International Group. I completed my Graduation in 2006 from Dubai and Join Tambiri Motors FZD as my First step in Professional world.  I really like the Professional Environment and see a great Potential of my Carrere working with Awan International Group.
+      &lt;br /&gt;
+      My work is to Manage the, Buying/Sailing, Keeping Friendly relationship with all our Clients, enhance our business, and Keep and Healthy work Environment around. Its almost 6 Years working with Awan International Group and I can Guarantee you that Awan International KK group really worth to Deal with.</value>
+  </data>
+  <data name="saleteams.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Sales&lt;/span&gt; Teams</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value> Search</value>
+  </data>
+  <data name="Searchbybodytype" xml:space="preserve">
+    <value>Search by Vehicle Type</value>
+  </data>
+  <data name="SearchbyMake" xml:space="preserve">
+    <value>Search by Make</value>
+  </data>
+  <data name="Seats" xml:space="preserve">
+    <value>Seats</value>
+  </data>
+  <data name="SelectStock" xml:space="preserve">
+    <value>Select Stock</value>
+  </data>
+  <data name="sellcar.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt; Sell Your &lt;/span&gt; Car</value>
+  </data>
+  <data name="Shahidoinfo" xml:space="preserve">
+    <value>Hello, my name is Shahido Sakurai. I have started my Carrier as a Used Cars Sales Consultant in 1999, and today by the Grace of ALLAHA almighty, I am the Owner of AWAN INTERNATION GROIP LTD.
+          &lt;br /&gt;
+           20 years’ experience in management and providing service to customer. My style and approach to the car business is and has always been customer centered. I bring with me many years of experience in the auto industry. I have always felt that if I can really help someone get what they needed, then I would have better luck creating a customer for life. I also know that it takes a team effort to achieve these lofty targets and I am a big supporter of team and community.
+           &lt;br /&gt;
+           Establishing best business practices to create the “Raving Fan’s” of AWAN INTERNATIONAL KK is where my focus is today. I know that when a win/win situation is established with the processes we have put in place, and then establishing that customer for life is not very far away!</value>
+  </data>
+  <data name="ShahidoLanguage" xml:space="preserve">
+    <value>&lt;b&gt;Japnese,Russian,English,Hindi,Urdu.&lt;/b&gt;</value>
+  </data>
+  <data name="ShahidoTitle" xml:space="preserve">
+    <value>CEO &amp; President</value>
+  </data>
+  <data name="Shipment" xml:space="preserve">
+    <value>Shipment</value>
+  </data>
+  <data name="shippinginfo" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+        &lt;span style="color: #F0F0F0"&gt;Shipping &lt;/span&gt;&amp;nbsp;Info&lt;/ul&gt;
+    &lt;ul class="myform_line"&gt;
+    &lt;/ul&gt;
+    &lt;div id="main_top_panel"&gt;
+        &lt;div&gt;
+            &lt;img class="ShippingInfo-img" alt="" src="images/cars_in_containers.png"&gt;
+            &lt;p class="class"&gt;
+                Japan has most advanced shipping and logistic facilities for handling the motor
+                cargos. Depending on the type of vessels, there are 2 methods of loading motor cargo.
+                One type of cargo is known as roll-on, roll-off (RORO), and the other is 20ft or
+                40ft Container Cargo.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;
+                RORO vessels (car carriers) are in tight supply as auto manufacturing is increasingly
+                globalized throughout the past decade. The frequency of shipment for RORO type of
+                cargo is lesser compared to other normal carrying vessels using 20ft or 40ft container
+                cargo. Also not every port is covered by RORO vessels so for many countries the
+                only choice left is Container loading.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;
+                Container loading shipment involves great effort and diligence and also requires
+                know-how and experience. We have extensive stuffing experience of many years and
+                you can be sure that your motor vehicles will be shipped securely, cost-effectively
+                and in safe environment. We have also acquired the most cost-competitive rates due
+                to our bulk shipments on regular basis. Below is an idea of container load shipment.
+                Usually we manage to stuff multiple vehicles on to a 40ft Container depending on
+                the sizes/dimensions of the vehicles.
+            &lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;
+                To View the Glossary of all types of shipping terms,&lt;a href="#"&gt; Click Here&lt;/a&gt;&lt;/p&gt;
+            &lt;p class="class js_a"&gt;
+                &lt;a href="http://japan-used-car-exporting.info/import/shipping-companies.html"&gt;&lt;b&gt;Famous
+                    Shipping Companies List &lt;/b&gt;&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;div class="clear"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="clear"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="Shipto" xml:space="preserve">
+    <value>Ship To</value>
+  </data>
+  <data name="SpecialOffer" xml:space="preserve">
+    <value>SpecialOffer</value>
+  </data>
+  <data name="Start_Date" xml:space="preserve">
+    <value>Start_Date</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Steering" xml:space="preserve">
+    <value>Steering</value>
+  </data>
+  <data name="STOCKDETAIL" xml:space="preserve">
+    <value>STOCK DETAIL</value>
+  </data>
+  <data name="stocklist.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Stock &lt;/span&gt;Search
+        </value>
+  </data>
+  <data name="StockLocation" xml:space="preserve">
+    <value>Stock Location</value>
+  </data>
+  <data name="stocknumber" xml:space="preserve">
+    <value>Stock no</value>
+  </data>
+  <data name="Stockorder" xml:space="preserve">
+    <value>Stock to order</value>
+  </data>
+  <data name="stockpage" xml:space="preserve">
+    <value>More on stock page</value>
+  </data>
+  <data name="StockRef" xml:space="preserve">
+    <value> Stock Ref</value>
+  </data>
+  <data name="Stocktype" xml:space="preserve">
+    <value>Stock Type</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Bank&lt;/span&gt; Details</value>
+  </data>
+  <data name="SUbmitRequest" xml:space="preserve">
+    <value>Submintrequrest</value>
+  </data>
+  <data name="TabularView" xml:space="preserve">
+    <value>Tabular View</value>
+  </data>
+  <data name="TermsandConditions1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;Terms&lt;/span&gt; &amp; Conditions
+            &lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="TermsandConditions2" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Awan International K.K Stocks &lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class_span1"&gt;
+                You Name It. We Have It.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;
+                Wide range of vehicles is available for your online purchase under AWAN INTERNATIONAL
+                K.K Stocks. Prices are quoted on FOB and C&amp;F terms with respect to particular region.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                All our prices are negotiable and inquiries are welcome. If you wish to visit us
+                to purchase directly then FOB or C&amp;F rates can also be negotiated upon request.
+            &lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions3" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Auctions in Japan&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class_span1"&gt;
+                Explore the world of Automobiles!&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;
+                AWAN INTERNATIONAL K.K offers more than 200,000 vehicles per week on our online
+                auction system. AWAN INTERNATIONAL K.K participates daily in auctions all over the
+                world. AWAN INTERNATIONAL K.K receives auction data and photographs from the auction
+                on daily basis. This information is loaded into e-Motors and offered online through
+                our Online Auction page.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                A refundable deposit is required to submit a live bid onto the online auction system.
+                AWAN INTERNATIONAL K.K's customer service (CSC) personally confirms the deposit
+                status of each customer at regular intervals. Services are available 24/7. Upon
+                successful Bid; deposit payment is required within Five days of the purchase via
+                Telegraphic Transfer (TT) or direct credit (Pay-Pal).&lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions4" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Terms of Trade:&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                • Customer should be registered on our Website before making a transaction. (Registration
+                is absolutely free!)&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                • No deposit is required before confirming any car from the Ready Stock.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                • Full or partial payment is required within seven days of confirmation via Telegraphic
+                Transfer (TT).&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                • A deposit is required before shipment with the remainder due prior to release
+                of the Original documents.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                • Prices can be viewed with full vehicle details once you receive login credentials.&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                • Prices are quoted in United States Dollars (USD) &amp; Japanese Yen, either in C&amp;F
+                or FOB terms&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                • Customers can pay in US Dollars, Japanese Yen, Euro, Pond Sterling etc.&lt;/p&gt;
+            &lt;br /&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions5" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Warranty&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+                There are 2 warranties. Standard Warranty is compulsory.&lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+                Standard Warranty&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                Standard Warranty (as compulsory US$ 50): Covers vessel sinking, fire, or loss of
+                cargo.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+                Coverage Area: &lt;span class="class2"&gt;Full CIF amount&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+                Coverage Area:&lt;span class="class2"&gt;From Nagoya, Japan to Unloading point at your destination
+                    seaport yard.&lt;/span&gt;&lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p class="class2"&gt;
+                NO CLAIM ACCEPTED, after unloading your vehicle at your destination seaport yard.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+                Standard Warranty&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                Silver Warranty (as optional, US$ 110): Covers vessel sinking, fire, or loss of
+                cargo, damage (except by force majeure) and theft (except original audio/accessories).&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+                Coverage Limit: &lt;span class="class2"&gt;Full FOB amount&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;
+                Coverage Area: &lt;span class="class2"&gt;From Nagoya, Japan to Pick up point at your destination
+                    seaport yard (BEFORE DELIVERY).&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class2"&gt;
+                NO CLAIM ACCEPTED, after you or your clearing agent picks up your vehicle at your
+                destination seaport yard.
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;
+                If you ask a clearing agent to pick up your vehicle, please tell the agent they
+                must check vehicle condition before delivery (at seaport yard).
+            &lt;/p&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="tilelRizwanRauf" xml:space="preserve">
+    <value>&lt;span style="width:257px;"&gt;&lt;b&gt;Head of Operation (Dubai)&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>Total Cost</value>
+  </data>
+  <data name="Transmission" xml:space="preserve">
+    <value>Transmission</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Veh.Category" xml:space="preserve">
+    <value>Veh.Category</value>
+  </data>
+  <data name="VehicleGrade" xml:space="preserve">
+    <value>Vehicle Grade</value>
+  </data>
+  <data name="VehicleMake" xml:space="preserve">
+    <value>Vehicle Make</value>
+  </data>
+  <data name="Vehicleoptions" xml:space="preserve">
+    <value>Vehicle options</value>
+  </data>
+  <data name="VehName" xml:space="preserve">
+    <value>Veh.Name</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>View Details</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="yearmonth" xml:space="preserve">
+    <value>year/month</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="AdvanceSearch" xml:space="preserve">
+    <value>Advance Search</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="ARIFRAUFINFO" xml:space="preserve">
+    <value>Hi Everyone! I am ARIF RAUF, I am currently the Managing Director of Awan International KK, and I manage concentrating on work-flow, Purchasing, process improvement &amp; documentation, efficiency enhancements, information management and meeting optimization solutions for the company.
+         &lt;br /&gt;
+          My responsibilities also include implementing policies and procedures to support the strategic direction of the company and the management of the Information Technology staff.</value>
+  </data>
+  <data name="cooperteoverview4" xml:space="preserve">
+    <value>&lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;
+                            Take Challenges&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_1.png"&gt;
+                        &lt;p class="class"&gt;
+                            As a member of the “TAA Auction group, JAA Auction group, Honda Auction group, USS
+                            Auction group, HAA Auction group, JU Auction group and all other Japanese Auctions”,
+                            we export all types of Japanese cars including major manufacturers such as Toyota,
+                            Honda, Nissan, Mitsubishi, Mazda, Subaru, Isuzu, Suzuki and Daihatsu with a vast
+                            selection of models, colors and age. We are also able to ship on short notice to
+                            anywhere in the world&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;
+                            Creativity&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_2.png"&gt;
+                        &lt;p class="class"&gt;
+                            Awan International most important factor is the speed of innovation and our creative
+                            thinking will determine the extent of our success.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;
+                            On Time Delivery&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/Delivery.png"&gt;
+                        &lt;p class="class"&gt;
+                            Awan International K.K is not only experts in Japanese used vehicles, we also
+                            source and export Korean and American cars and auto spare parts, machinery and
+                            used construction vehicles made by the world's leading manufacturers.
+                        &lt;/p&gt;
+                               
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;
+                            Teamwork&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/teamwork.png"&gt;
+                        &lt;p class="class"&gt;
+                            We have highly creative and organized Japanese and international staff that are
+                            committed to providing outstanding service levels to its customers and to maintaining
+                            quality, safety and satisfaction standards at the highest possible levels. The Awan
+                            value system is committed to excellence in delivering quality and customer service
+                            by empowering employees.
+                        &lt;/p&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="awanPictures" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Awan International K.K&lt;/span&gt; in pictures</value>
+  </data>
+  <data name="salestemsheading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Sales&lt;/span&gt;  Teams&lt;/ul&gt;</value>
+  </data>
+  <data name="auction1" xml:space="preserve">
+    <value>&lt;div&gt;
+  
+
+        &lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;Auction &lt;/span&gt;
+        &lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;&lt;/ul&gt;
+        &lt;p class="class"&gt;
+            As you become a registered member of AwanInternational K.K, you will get access
+            to more than 100 auction houses and as a result around 30,000 cars each day. You
+            can find a car, car parts, view its details, and even bid a car right from your
+            desktop at the comfort of your home.&lt;/p&gt;
+        &lt;p class="class"&gt;
+            At AwanInternational K.K, the entire process of used car auction is as easy as 1,
+            2, 3 See the steps below.&lt;/p&gt;
+        &lt;br /&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;Step-1&lt;/span&gt; &lt;span class="class_span2"&gt;Become a registered
+                member&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            &lt;a href="/user/register" target=""&gt;Register&lt;/a&gt; to become a member of AwanInternational
+            K.K and get access to the entire stock available at multiple auction houses.
+        &lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Step-2&lt;/span&gt; &lt;span class="class_span2"&gt;Security Deposit&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            Deposit an initial security amount which is usually $1,000 or Yen 100,000 to bid
+            for a vehicle worth less than 1 million. We need to hold this amount before we bid
+            on any of the cars. If the bid does not get successful, security deposit is fully
+            refundable or adjustable in the customer's account based on customer's request.
+            &lt;br /&gt;
+        &lt;/p&gt;
+        &lt;table cellspacing="0" cellpadding="5" align="center" class="auctionTable"&gt;
+            &lt;tr&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;span class="class_span2"&gt;Bidding Deposit Details.&lt;/span&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auction1"&gt;
+                    Deposit Rank
+                &lt;/th&gt;
+                &lt;th class="auction2"&gt;
+                    Deposit Amount USD
+                &lt;/th&gt;
+                &lt;th class="auction3"&gt;
+                    Buying Budget 2000% USD
+                &lt;/th&gt;
+                &lt;th class="auction4"&gt;
+                    Deposit Amount Yen
+                &lt;/th&gt;
+                &lt;th class="auction5"&gt;
+                    Buying Budget 2000% Yen
+                &lt;/th&gt;
+                &lt;th class="auction6"&gt;
+                    Purchasing Limit
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    A
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $10,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \1,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \20,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    No Limit
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    B
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $5,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \500,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \10,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    10 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    C
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $3,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $60,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \300,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \6,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    4 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    D
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $2,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $40,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \4,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    3 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    E
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $1,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $20,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \2,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    1 Unit
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;br /&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;font class="class"&gt;&lt;b&gt;We need above deposit from the customer to allow him to start
+                        bidding.&lt;/b&gt;&lt;/font&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;Step-3&lt;/span&gt; &lt;span class="class_span2"&gt;Bidding Cars from
+                Auction&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            Please, fill up lot number, car name and the bidding price in the Auction order
+            form.
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            We will only charge the actual auction price at which the bid is won. So try to
+            bid as higher as you can in order to increase the chances of winning the bid.
+        &lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Step-4&lt;/span&gt; &lt;span class="class_span2"&gt;Auction Result&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            As we get succeed with your bid, we will notify you that your bidding has got success.
+            You will receive an invoice that includes total price of car. The price will be
+            calculated with the original selling price of auction.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Step-5 &lt;span class="class_span2"&gt;Final Payment&lt;/span&gt;&lt;/p&gt;
+
+       
+        &lt;p class="class"&gt;
+            The final payment will be paid in 5 working days. Payments made on the committed
+            time will help us save your order from cancellation.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Step-6 &lt;span class="class_span2"&gt;Shipment&lt;/span&gt;&lt;/p&gt;
+       
+         &lt;/div&gt;</value>
+  </data>
+  <data name="auction2" xml:space="preserve">
+    <value>&lt;div&gt;
+       
+       
+       
+        &lt;p class="class"&gt;
+            The shipment will be arranged as soon as the payment is confirmed.
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            Note: At &lt;a href="www.awan.co.jp"&gt;Awan.co.jp&lt;/a&gt; you will find the best shipping
+            services with lowest
+        &lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;Step -7&lt;span class="class_span2"&gt; Documents&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            As the ship leaves from Japan, we will send all the documents by EMS, DHL or FedEx.
+            The documents included are;
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            Export Certificate
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            Bill Of Lading
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            Invoice
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            Marine Insurance if any
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            JAAI Inspection and other inspections, if any
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            Note: There are no extra or hidden charges other than CNF or CIF price. All the
+            charges are included in mentioned price
+        &lt;/p&gt;
+ 
+&lt;p class="class"&gt;Payment Method &amp; Bank Charges&lt;/p&gt;
+        &lt;p class="class"&gt;
+            &lt;/strong&gt; You can arrange payment via telegraphic transfer through your bank. All
+            bank charges must be paid by the sender. Please, ensure that payment is in US Dollars
+            / Japanese Yen, and please include your Invoice &amp; Stock number in the description
+            field.
+        &lt;/p&gt;
+        &lt;p class="class"&gt;Payment can also be made online via PayPal through your credit cards.&lt;/p&gt;
+        &lt;p class="class"&gt;Terms for Payment via PayPal&lt;/p&gt;
+        &lt;p class="class"&gt;There will be a 4% handling fee on top of the invoice amount.&lt;/p&gt;
+        &lt;p class="class"&gt;
+            Payment limit through PAYPAL is:minimum USD100, maximum USD10,000
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            &lt;b&gt;(Maximum amount depends on your registering country, so please consult to PAYPAL
+                for your limitation.)&lt;/b&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            Once the payment has been arranged, please, send us confirmation of payment with
+            Proforma Invoice and/or full name, address, Telephone/Fax number for contact purposes
+            by &lt;b&gt;info@awan.co.jp or Fax +8176-6598750.&lt;/b&gt;
+            &lt;br /&gt;
+            The amount of the payments decided on the mutual agreement must be made in full.
+            We will only arrange the shipping once the payment is received. For further information
+            about shipping and payments, please read our &lt;a href="TermsandConditions.aspx"&gt;Terms
+                &amp; Conditions &lt;/a&gt;. or contact &lt;a href="mailto:info@awan.co.jp"&gt;info@awan.co.jp&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;h3&gt;
+            Auction Links
+        &lt;/h3&gt;
+        &lt;p class="class"&gt;
+            &lt;a href="https://www.iauc.co.jp/pv/top1.html"&gt;
+                &lt;img src="images/iauc.gif" style="border: 0px;"&gt;
+            &lt;/a&gt;
+            &lt;br /&gt;
+            &lt;a href="http://was.autoserver.co.jp/asnete/top/logon.asp"&gt;
+                &lt;img src="images/asnet.gif" style="border: 0px;"&gt;
+            &lt;/a&gt;
+        &lt;/p&gt;
+        &lt;p class="class js_a"&gt;
+            &lt;a href="http://www.japan-used-car-exporting.info/import/auto-auctions-in-japan.html"&gt;
+                Useful Auto Auctions in Japan &lt;/a&gt;
+            &lt;br /&gt;
+            &lt;a href="http://www.japan-used-car-exporting.info/import/map-of-auto-auctions-in-japan.html"&gt;
+                Map of Auto Auctions in Japan &lt;/a&gt;
+        &lt;/p&gt;
+        
+ &lt;/div&gt;</value>
+  </data>
+  <data name="glossary1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+&lt;span style="color: #F0F0F0"&gt;Terms of&lt;/span&gt;&amp;nbsp;Glossary
+            
+            &lt;/ul&gt;</value>
+  </data>
+  <data name="glossary2" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Bill of Lading (B/L)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        A document that establishes the terms of a contract between a shipper and transportation
+                        company. It serves as a document of title, a contract of carriage and a receipt
+                        for goods.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon6"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Arrival Notice&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        A notification sent by the carrier on ship's arrival to the consignee, the "Notify
+                        Party" and - when applicable - the "Also Notify Party." These parties in interest
+                        are listed in blocks 3, 4 and 10, respectively, of the Bill of Lading.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;    
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon1"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Demurrage&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        A penalty charge against shippers or consignees for delaying the carrier's equipment
+                        beyond the allowed free time. The free time and demurrage charges are set forth
+                        in the charter party or freight tariff.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon4"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Act of God&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        An act beyond human control, such as lightning, flood or earthquake.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            CFR or C&amp;F (Cost and Freight) (...Named Port of Destination)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;
+                        A Term of Sale where the seller pays the costs and freight necessary to bring the
+                        goods to the named port of destination, Terms of Sale but the risk of loss of or
+                        damage to the goods, as (continued) well as any additional costs due to events occurring
+                        after the time the goods have been delivered on board the vessel, is transferred
+                        from the seller to the buyer when the goods pass the ship's rail in the port of
+                        shipment. The CFR term requires the seller to clear the goods for export.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            CIF (Cost, Insurance and Freight) (...Named Place of Destination):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;
+                        A Term of Sale where the seller has the same obligations as under the CFR but also
+                        has to procure marine insurance against the buyer's risk of loss or damage to the
+                        goods during the carriage. The seller contracts for insurance and pays the insurance
+                        premium. The CIF term requires the seller to clear the goods for export.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="glossary3" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            FOB (Free On Board) (...Named Port of Shipment):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 160px;"&gt;
+                        An International Term of Sale that means the seller fulfills his or her obligation
+                        to deliver when the goods have passed over the ship's rail at the named port of
+                        shipment. This means that the buyer has to bear all costs and risks to loss of or
+                        damage to the goods from that point. The FOB term requires the seller to clear the
+                        goods for export.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            (Ro/Ro)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        A shortening of the term, "Roll On/Roll Off." A method of ocean cargo service using
+                        a vessel with ramps which allows wheeled vehicles to be loaded and discharged without
+                        cranes.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Performa Invoice&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        An invoice provided by a supplier prior to the shipment of merchandise, informing
+                        the buyer of the kinds and quantities of goods to be sent, their value, and specifications
+                        (weight, size, etc...)
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_5b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Commercial Invoice&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        Represents a complete record of the transaction between the exporter and importer
+                        with regards to the goods sold. Also reports the content of the shipment and serves
+                        as the basis for all other documents about the shipment.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_5v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Letter of Credit (LC)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        A document, issued by a bank per instructions by a buyer of goods, authorizing the
+                        seller to draw a specified sum of money under specified terms, usually the receipt
+                        by the bank of certain documents within a given time.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Confirmed Letter of Credit&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        A letter of credit, issued by a foreign bank, whose validity has been confirmed
+                        by a domestic bank. An exporter with a confirmed letter of credit is assured of
+                        payment even if the foreign buyer or the foreign bank defaults.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="glossary4" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Irrevocable Letter of Credit&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        Letter of credit in which the specified payment is guaranteed by the bank if all
+                        terms and conditions are met by the drawee and which cannot be revoked without joint
+                        agreement of both the buyer and the seller.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Confirming Bank&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        The bank that adds its confirmation to another bank's (the issuing bank's) letter
+                        of credit and promises to pay the beneficiary upon presentation of documents specified
+                        in the letter of credit.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Consignment&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        (1) A stock of merchandise advanced to a dealer and located at his place of business,
+                        but with title remaining in the source of supply.
+                        &lt;br /&gt;
+                        (2) A shipment of goods to a consignee.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Consignee&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        A person or company to whom commodities are shipped.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Shipper&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        The person or company who is usually the supplier or owner of commodities shipped.
+                        Also called Consignor. A classification, storage or switching area.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;
+                            Freight Forwarder&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;
+                        A person whose business is to act as an agent on behalf of the shipper. A freight
+                        forwarder frequently makes the booking reservation.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="bankdetails.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Bank&lt;/span&gt; Details</value>
+  </data>
+  <data name="footer.menu6" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="AdditionalComments" xml:space="preserve">
+    <value>Additional Comments</value>
+  </data>
+  <data name="NomanRaufLanguage" xml:space="preserve">
+    <value>English , Urdu , French</value>
+  </data>
+  <data name="NomanRaufName" xml:space="preserve">
+    <value>M. Noman Rauf</value>
+  </data>
+  <data name="RizwanRauf" xml:space="preserve">
+    <value>RizwanRauf</value>
+  </data>
+  <data name="Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="PasswordRecovery" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt; Password  &lt;/span&gt;Recovery</value>
+  </data>
+  <data name="ProvideYourEmail" xml:space="preserve">
+    <value>Provide Your Email</value>
+  </data>
+  <data name="slider1" xml:space="preserve">
+    <value>High quality thousands of Japanese used cars stock</value>
+  </data>
+  <data name="slider2" xml:space="preserve">
+    <value>Best Japanese Used &amp; New Cars</value>
+  </data>
+  <data name="slider3" xml:space="preserve">
+    <value>Hundreds of thousands of Used Cars and Trucks from thousands of trusted car dealers.</value>
+  </data>
+  <data name="slider4" xml:space="preserve">
+    <value>Search our high quality stock</value>
+  </data>
+  <data name="slider4a" xml:space="preserve">
+    <value>stock</value>
+  </data>
+  <data name="slider5" xml:space="preserve">
+    <value>Millions of Cars to Search</value>
+  </data>
+  <data name="slider6" xml:space="preserve">
+    <value>New Cars</value>
+  </data>
+  <data name="slider7" xml:space="preserve">
+    <value>Accident Cars</value>
+  </data>
+  <data name="slider8" xml:space="preserve">
+    <value>Low Mileage</value>
+  </data>
+  <data name="kamranraufinfo" xml:space="preserve">
+    <value>Assalamu.alaikum, I am Kamran Rauf, I am Managing all the activities in  Pakistan  Awan International Group.
+I completed my Graduation in 2011 from Pakistan and Join Awan International K.K as my First step in Professional world.
+I really like the it as a profession  and see a great Potential of my Carrere working with Awan International K.K. 
+My work is to Manage the, Buying/Selling, Keeping Friendly relationship with all our Clients, enhance our business, and Keep and Healthy work Environment around.
+Its almost 3 Years working with Awan International Group and I can Guarantee you that Awan International KK group really worth to Deal with.
+I will guarantee you that you will be providing with the Best of Services</value>
+  </data>
+  <data name="kamranrauflanguage" xml:space="preserve">
+    <value>Urdu,English</value>
+  </data>
+  <data name="negotiate.now" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;Negotiate &lt;/span&gt;&amp;nbsp;Now</value>
+  </data>
+  <data name="Chassis No" xml:space="preserve">
+    <value>Chassis No.</value>
+  </data>
+  <data name="Doors" xml:space="preserve">
+    <value>Doors</value>
+  </data>
+  <data name="RegionalStock" xml:space="preserve">
+    <value>Regionl Stock</value>
+  </data>
+  <data name="Testimonials" xml:space="preserve">
+    <value>Testimonials</value>
+  </data>
+</root>

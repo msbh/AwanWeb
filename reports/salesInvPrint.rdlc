@@ -1,0 +1,2105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="ConnectionString">
+      <rd:DataSourceID>3aa78cf2-d6c2-4e81-b8b0-4f6a13bedbb6</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+    <DataSource Name="autoConnectionString">
+      <rd:DataSourceID>88627896-990b-4887-ad4a-706127ddf403</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11.6in</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="path">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_0</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0.01in</RightMargin>
+  <LeftMargin>0.4in</LeftMargin>
+  <PageHeader>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Rectangle Name="rectangle1">
+        <ReportItems>
+          <Image Name="image1">
+            <Sizing>Fit</Sizing>
+            <Width>1in</Width>
+            <MIMEType>image/png</MIMEType>
+            <Source>Embedded</Source>
+            <Style />
+            <ZIndex>1</ZIndex>
+            <Left>0.25in</Left>
+            <Value>logo1</Value>
+          </Image>
+          <Textbox Name="textbox3">
+            <rd:DefaultName>textbox3</rd:DefaultName>
+            <Top>0.125in</Top>
+            <Width>1.58in</Width>
+            <Style>
+              <FontSize>20pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Left>5.875in</Left>
+            <Height>0.375in</Height>
+            <Value>INVOICE </Value>
+          </Textbox>
+        </ReportItems>
+        <Width>7.755in</Width>
+      </Rectangle>
+    </ReportItems>
+    <Height>0.75in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageHeader>
+  <BottomMargin>0.02in</BottomMargin>
+  <rd:ReportID>9bb39901-017a-4dc0-ad2a-6b992438bd0e</rd:ReportID>
+  <EmbeddedImages>
+    <EmbeddedImage Name="logo1">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>iVBORw0KGgoAAAANSUhEUgAAAFoAAABUCAYAAAACoiByAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAF0pJREFUeNrsXQl8FFXSr9c99yQhCRAIl5xyoxwqyAIiQpRDVEQU8GAFDzyWXVdFP2/X1VXXxQ8UlEVQcVdFVBRQuW8QPEA55AYBAyEHySSTObr7fVU9b6AzmclMkpkkfj/q9ysy09Mz/frf9ar+Va+6YZxzOC+JF1NldtZQsz2a/rd2hQPnEtSTCsHCfPiOVf8XuQY2cyrIkjUhI2aVsegzfg5d1udDvg+hZnEdRyPUoahzY0NFBofkgpdTpkIaKwAV5GoPQNW80Cy9H7RocEWkXeyoaajJqGZUP2ohao6wwbAXL6Ned/0CmipnRwAlKodShccb6GGoU1HfjTTosgOxQF/7BqjPj0KpZoN4DeZo7io4cnpZ8G1L1MtQL0W9SLxviEoHpCurEhyox1A3o36Kusz4ewpevKxub0Hj1J6VA5pEZuK84gv0najtUDui7ooyCfVr0d50CBiT8J0ct0HIzNIZwDJcXPgeqM6Kdke1CCvvhno36hrUR1C36SNlsj7GSvvoBElv1D7i9eDoQOsOD+zMExffjFIf9TrU8ah9hVuoqpDfWS0M56MqB8MEyb2G+UF+elrFu5uhqXwUepm3gY9bqnPcTqgTUcegNomwj0u4By+qJCw8Lcp8pn3mo+ajLq8rQDdDvSHEujOJ3ET2z2boZ9kITlYCJdxRlWOS330A9UZUI8XIRd1J0x5R/JGBtl9iWo4A20dAa1xyaCBlCr89EnVIBAxp29vCtxfVBaAnoCYZ3lNEH4D6YfjdJaRzLgR6PZ65uSou6uGQC7ufAhgD/o0E2rdm5s/Bv0gnzODlVnBpyaBy+WxsSJaKXPVY0SkN2Hb8/G10XXTRXkbtH+Z4LYUr+aK2gXYIoENlRESg8eS7Wb5H13EcPDxmvtsV9XHU
+m8V7mi2LENwFZubbbAK1lIAt0NLgiNIS9vg7wT61LeRp9aFQSwFFh4jrFzldKoB28gHoa9kAPSw/YDRUv0X3RVY9B3VcmGMPqgtAX4/aKsz2AcKyXeXYBlNguG2xOPGY3NLjIgaACFLvIDhLrMxb4OE22Kd0hJ/83WC7/yI4pjYBF0/XXZPO3BixNw2DAGfCR0O22hSy8WKs814Jncw/w0THv6G16YAXf2uCON6AkDH0qm0fTYOfHOGzpoKFLCsfBI8grdsbLQiSqU9BfUq8fof8JWaQ35rRKeRqDWGV7ypYhWDtVS7UOXkAWAV9r78nMF9P3NBFAJcmaBwlJocQ+DXA/MiX2cndeHGeKnoBnkx5Bse0x49g3ydond0wluYiOJbUFtCXC40kQ8sBjRY40LIWklgxBsGI9HaE8JkUsKajzkLrPUJ+94jaGlZ4B8NG3+WQrzamdALx8rUG5h4qAltPAWwkoc9Hoz6Bg3kavze7mCfBtJIH4aXkqeCU3LsULi8UNDEoqUJrDejJUT4fYkhzA77ZvBUGWtfqQSqMtBIAXyoseCYCnGNCMHcpXeFLz0jY6usFfrpAzGsHVkIJya3ChzorOfZMwSjSgXn+ka20gS+9I+A2+/t4NPynLND24O/XBtAthQVVJO1FEPuBvIzM/DDOMR+DUW4o0JKgagTaV6j3IHPII4D3ov9d5s2CNd4BoBANZKWZCPBtuM8dqB3icB4vom7A39243HsVDLcuJsq5TQX5tEjVg+Mz1xbQE2KwIklY9Q/kQ1uhX25j2h/qmy8WIOfRhcMgdwKtGHK0RvBx6U2w3DsEOO3PPE0R4AfEcTPiHGeeRBd0daHaAParF8Il5q0FSAd/MQDNRU2kxoFOEhbFY6iWkO98iYbYC6mUFQN/SeD6EC28FrUN6j/R/+62s1Io5PUQ4JthmScLaVl9smAr+lFyUY+K6mA0KRTZHF3klCj+OigDUVvjGA8dVlpBbzPVlihoQj/
+xuT/IWCoFdLKJVbe6QMlCC1Ht6hNlXww+0gVmVnK0LyYoZqYwO5QGszJKND6kIFeKboGC3ELPKDiutCULRnVn4ecviAB2rgakUzf9DAjQn1G3on6Puhe3/4bWWYi0Thb0srkAbGyApmnhaKUlkAhph46pLXAPvYB00vB5SZCmxgz05jN+2F2kgkfj1Zlqf0I9jropBqDJsV7lkIrm7EMAc8xXmIq8JyTOtSWIhF/Dk6YTIxfxC1It4tjAigmc58SsCRin7m4oq8vd2cp8aEUKK1qC36Pju8UMI2BldD3ebC3T+5tKrE6lz06hfhdgL+xeN7e/EpKyB6WjXs8OgAzid4OSX+kU/NXDbvj0cCmATapqibSfKD1+gHo4xnL8sEKt3pzpxQ8BFDO/uEgh144A1s/tLtRnURvrp4VB08xc+7tYtn8+wLJuQRfzz9vqS/mUzV2ApnK/oGrtBNBcAl7s4kknXTxlO1roN7htCdBR8QA28Ex/t/TW31Z6hn2ILikUs8aBkZw1QGM9/Ziok8QOtF3CQ5qq5TjuE3/Xhlz1iuQPiAHRqPwK9ulMdoB6tQDY20A+/tVV1hXv9LVsWtpMPoa+QJV93HozBtM7eMCvWsJ6RlAy60u53RE2Cpy/BDgzLKQCVoZ8GjmyPEMkQ6HVutA6dVB213Rm2EYEMJL1ApxYpKFIbBZHYCZ/Rn0eGZQd/W9+Azn7/aHWpbMHWlfuaiidxihkbYkAT+AB+tcq2sHIFWn8rAsgCvgJHUMB07RAcYn/U9Sakw1fU8IE/KB8X9NA0+BsYirtqySPHRYG6G4B3yn3x4wxP0M+9tq1ti9n9besPZ4mFVDB6WLM2u4Ttebkao79NeGrNxjiS5bh86LgRTIYR9CF/FiTQBNVul283iYG4K/E9weLi+QRThkdNnsFuEOxMtcrQ+2Lpl1n+/S3dPS/Hm7rUcIdDwn/a47T+OmY/4N6jXj/XQjQp2gXJ8YJ4aeDVPKgcD81Bv
+SNhhWM1WEiczRpLTJF4rnvYeDHoKp90N+68jkEeF870z4CuFMJdz4iqJg5AefQj4NExa4Tgicb5VcCurGcTUBLoigWjEXemgKaDnyPYSptEK9LK2lR6CakrmjFR5qbDg661f7uqt6WzVQrzkCAHxalUGcCz8NpA19bAXRI+ZY4vQqZUja5j3QD0EuNOyUaaKrPXiJeHzZMJW+lfoXbepqZ5+nh9o+mjbJ/rKQwF7i5Y6IohTZP9JTUiIczV5pIWIysogDtYL+ESVJjBFoFublebAI4bZi9NQL0fYbXm4SfDVq0Ev34aMzc+Rla8SP3Ot84cJFpOwHcHZMHqtRdVZO1AwvzeQXQ6YbNe/AUTqdLJ4n+gcpN7cV24uBnagrodoIxBGWN4bVPBMQKjm9C7ixPHWz7avZ4+1xIlc6YXTyZ6haPiXpHTUuOoZh/NmGmrqkMpJLEtf3c1ENsf7/c2SRwYJMEWwgWVzYbPvOKbfYIrmK1jbnvm+R8e0+W9WucBtZupdw+w1CsqWnJx2TnV5EStzVsX06epLXpENDqjQ/MxPmPiFyhRoBOFTXioOwVhSAj0OH9NHe8eIHp4FOTndOVTqbdtJpyD07YfwiaWFUpCLCDs31yVC69MNYAimxiP84m9Lt621EHA63bQoGwm/knqnUki9Lt8+Hoa6KAvilYAzg7xcpmUL5gDcBAUE4Dt999mWX9Zw8mvY5TsTgVQablqPFVHMMh4Ssp+m8XRSIeQhuJ3z9imHmRgF4jVt0vMFg0ZonmwmZozZ3RINDiu4lzmhfWESYAZNlA6SCEP4PBlRiAlr8DbrlthP2TPRMccynKd0duPE9kgJWVFRBYaqIVl+IoF+JpwXepQbFeBVAvYfqquM6gbCLje53KrkOsKyGFFdHMu1Kk7Kci8dx4CxVtuhveE9PYEgZob6BGbF0gAx90l3PGnkmOt0Hh8k0KN62uAshfo14pMskFUUA2yqoQdhQqyCzgWylQlBsit
+k1BG/XVk3Kgr2Ujnog+IVqi/m9FCUW8JXThlSpYR0OMXsWAx5NZ4ZtN5JNj/pQ0rWikfRFgwHsMSf9HFVtXOaGUeIRIkVdXccwfGJKpUPkPug4fjo3QvF4winVUhh1gXYeM4yQZBy1I7IBASxnUhOugQDE0ZNu6sjVaGazMbxpkWzJltO2TZbTOZ2ce2aUlzwjjciqSPATgBQ7szUonQOHlnUBZtoyUSMDnU3vDD/4eA4D5iXY8HGxNG2xdDl6kd4rmoUD4RegPqqpHb0ZPBNCUrYWuQqwNoW4wxj7fP9Yxf1mxlkz+2OnllnmiJhJjENAWmplvqofbD9gwK5Mw5lPXvx99plb1SRqsTRjHv5D6Qjb7LodjSuuxwHzP6D4Yj3OL431oyvaBw9EDere4nQpIankGpUFaUtu4A50eQulA+Mlt597aoL35Zxhh+wKKtBQCJVUEkEGxJg0I7KOl3DFvYelo2OTri6nvCeho3gMdTL9AM/k4BqZCHfQqtPQeFxSwXdAgccb8i3rvFnuHoWuQkDXxmUFHQPfOUKixWdKhaVofNdqPxxPoMVB+Of8nUYjRw4GEDG+8/X1Aa6SKG9VtP4NA83csXHapk7kf2KV0OjSrZDIcVjDbZX74VWkJW3399EXZDClXp1pDbYt14Akkb+yA+wTYQaCp9Ws7Nbu7NXsfYNrsc/yYwyGlDbI7dCxcjenH4wW0Cc41ExplgyERgSz7QrjY/CNRoQYQKOZfGgsAZuZ/Ek/plQWem/h/3WPRWjEusZJztT3xIkdrCDneIbDB1wd6W7bqM6c9Ak7dooq+Ah51YTnPwIpekHFu5GtpVkxW8kBTt0BwYZorsI81BrdFgXqap0aBJkrVNcz2QH0DrSpdPgEY/Gh5iVzM5zGCvNfB3Hed1hqum+OeBJu8V4h2gnAnxwM5EVMQJROs914JGxHwgdY1cKNtATSUc4kdRDteMKmim5Z2SEyDAjWVX2T6bvMh27XQMUk+
+GyVSWQtoZBsKGSntahToyRHS3u9pUGR09zhnQQMpL8nN7QtjcRfoKhYiyPd+7+91eia6ilNqc7JiiiwPiWzOVVFhk1bGKTCuLL0BT9IP9zvfQBSj1qJsorL4rD6VcBZ0MO3zlZh80L/ZKHiyrbE0Q0uDL1ZqyldX6F6QrDDbf0aQc+gQk5OmQ2/zFrObO/4DgS74CqvPGGieJOr2cekt8EHpOARMJpBpcfctkdrPEfw5aiWZAD+pNdb9NYvuPBqJBdizbQ1eBJuWybjuVZpVy7dWV+i2rzDLR/IC2ny34w24xroEinnSTJFYVCS5aMUTs7Umi+aWTIQtyCrQTeBvK38TVhyUrNiADrgUaoyMgfbZOWj7kPe+WvbbHJxwBuzSqVoFmoLa2DAT/3X86TcmYEo9wv4llGhOqincGcVV7ECQx33nv2TXjOIHIQ+tEK24nahbhM6CYMtXDHRF0W+ToKIQlTJ5BMAVrdTRJmPYa+0yryssNy+QD1sszaoFVHWBHifANp7ZTOBJU0bYF8Ao20IC+TakSM9UnICo36C7GPepZ3Tee+7bA+1VrIRWsmdA+A5QKrC3ELw3ihBzyIA9/s5wqWULrdCEt3uu5jmtjfLqJ3VMSDmzOrUOiyjul01juX3yQOtXcIdjLp1UHwR5VkV2jACvwARj1LTiv+TNLZmEsFA90kd+8mOI3GZLdeQBsboOunDz8AK6eApd1MgenSuQKKkO0FTJMnYczUdLnnSRZRvcj8FP4ywT/SIFP3vEK8W8a89oqaP+5nqyZLX3amq17YAWSGXOv8Rw/KzYh+qD42pb+Kh0DNiYB2pDqgO0kdJ9hJZ8RxvzTu3Pzn+RFclopfNE6TC8u2DqpmKefP3fXU8U7fT3ok7Qm/F768MUdiLJAKhMiwGyjyWeEbDdf7F+e/PvBehuIkmBQBptvTVVOq3+1fkqpEoFVNx5zlC7DXNQbWsqOzNyUel1BQeUbg4Emeq4/y3v7ysUik4
+9Yy1DoSGAqtWD6SX3wxn8K9fwU0eqGgzvFt/FNNo0NokV+x9P/js0kbOhlNuoTPpYJH8pM7ZdY/Zr57hvyP3am9UFQaYaQu8qjiNLlGErEDO0M+2B/pZ1SPNs6KEtUMDTwSkdA+BSnQY6QwTB5Tgfx2B64RnvmAWdzTvplt7Ggo6F7e+VmGm3DJ4RbxVPOrWi9Pp+IBUtQp+cVo3x06x5ouI8RINctRH0sXwLbeWD+q3NHh1wWVce5+dhxBNo6tqn1YQbMPi5r7Z9BkNtS6FY07tVqQjfNML3aBV8uJn5j19o2gurpTM91djuE4nmwohr76uI3pEFP+F6FjKlk7SKo1v5BfJhoPVJBlqNgB0z0PptZ1zCvIJRjWEYWnJxd+s6uNMxRy9F4mD/CIGlnnDyK6OskPsPf+IZBdt9PcmaLOVbi6tEMQdVDHSgGHdSaQsNLfkwxLocrdqKJ06kT6OgTI0vdQfoPpatUGrfyyWT+SXybTbmgyzbEn2gPm6mZfhXInyVbp4ZgZazV0FLOoUZ3w5/D6Jy8eo2Ql4IM6OzDo+eIRYhlyaIOZeBLvoQ6zJIZYWV6iNOKNADraugpfMzsMhO4RC5HlwCKxmc+i/Sw9UuRH3jJ5qcyawIGrBgyRfi9Tiuy8Wx86NVQH9Tm8C8knsCxSZxnwuBT5U9Vpdch5s7cZqFGiIfH6FYRC5mFBV/aNnnqNoSqdWD+lMEgOlrqfGyaKKEdIfXkliqeQzHMtExG7qZd+i3zpHBBJpjfHU2YSGh5aiXw2ynjGBMkHoRZ/3ccx0c8nfVF1DFonhSHM/j6ljTcSSYsMbXH5rKJ6Czaae+5EWGIDMloVZdXaCpzyyzXJgHoHuuv9KnDAtM2QP6zZYuMHQe2OJ4HoMg5k5/L+z3d4P33LfBCa0pHMGZdkJtCqeQAjLgte86wgg95mZimO3kBBecRR0jeiP5JFxu2QgL3GPFA0d0scfxPNqLusv2WNNxmmGLvdecLW
+5Jihee90ph1+Nq06Il4TJCF+HoiS//LpukqJjypsI33sGBu1vLVuDieR6DY9+d6zNLwUAeUDMG9STI1jLqnOsg/xv6wCaqV5RbRKOb5Tf6+kKR2ghCeLM9zucypHK7c+HGgqqCCepWmZQs8bmQbVQ7nhJ2luIJndQywx0q3k9bvTRMvKgzUhWgqX/D2PVOpc0JFdUbAkGGh5TTzt74GC+hRvV+/1+AJs76sOH9QeFGKrhvkOmryGHm7bSYg1fcaV7dB3oKnFteoltzqbM/O5onTNZpHS+bOQR8OjV2U0/zbCj7nIuqysAE+P6apXcSM6H/45MD4GHEVj20qv1DtO/5WCmYNMzEFUV/eGu5vDjQ07xauBKqZY/FSXAFPfq2CufTEgJN8JuQV0KlaLHCq/MsksoDvS/7U8h17Sr3ZPDTrp0P4rY0WsBMsjV5rmvzCZ/EcgAqOnXQUqCn3y6MLeLJ0E2Q1Ir17tYzSucZh9034nwbDbE/CeGc+9Bg072tHdAntRJ3K+OwOiUnropX7onoa/dMhcM5X4NJLlOKyESQd0nMnKZqnsUNUrpcO6Trmwm7/EtyfDB8SwGllWTVAyDQOzIsxgC6Ba2zz+eXpcLIRta66zrIks2yMxRoYhp0iy71UUzkXEvo/8DgVs/+PFV6lgttJIpXtwgOH8n8yHW0wd84+HsLhvVFWk0BjIr7p2pprKdE1kl1DXrmJ3Uq7Q2zn1UExd8d67hdTNmXUFfWkXHTUtoTwnrJpVD/iJFDDv29sQ6KXn+FwH11z9bUoPw8wAJiEGqxXSqU2g9G6v5c4X/A32hUi7Ov0kCPFmntNZDoyrhBLnTK8EdkDYH/uSFmoVbbN3RVeZ/2Tln6vVg0neWjwhfuqMlB9apngjkXV+fW7zI3+Nd5H50lAuDzcF4SCjQViqjjyHsepsQBTY0p9MiFxechSizQlBC8eR6exAJN1TmqpO05D08CWYeieRr5lOI1PEJbq6J6Ud3nk
+asu0K0aDjmS5mjjkqTwlS+q3jksGeeRq6Sw8/9DZ92pdZyXOMj/CTAAri/6oTUM8J4AAAAASUVORK5CYII=</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <DataSets>
+    <DataSet Name="members_SaleInvoice">
+      <Fields>
+        <Field Name="sales_ID">
+          <DataField>sales_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Customer_ID">
+          <DataField>Customer_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="sales_Ref">
+          <DataField>sales_Ref</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CalculationType">
+          <DataField>CalculationType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TTL_Amount">
+          <DataField>TTL_Amount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Curr_Rate">
+          <DataField>Curr_Rate</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Curr_ID">
+          <DataField>Curr_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Inspection">
+          <DataField>Inspection</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="Amount">
+          <DataField>Amount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Freight_Amt">
+          <DataField>Freight_Amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Inspection_Amt">
+          <DataField>Inspection_Amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Insurance_Amt">
+          <DataField>Insurance_Amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Session_ID">
+          <DataField>Session_ID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="make">
+          <DataField>make</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="model_description">
+          <DataField>model_description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TOTAL_COST">
+          <DataField>TOTAL_COST</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="FOB_PRICE">
+          <DataField>FOB_PRICE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="color">
+          <DataField>color</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="portName">
+          <DataField>portName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CountryName">
+          <DataField>CountryName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="image1">
+          <DataField>image1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FirstName_Not">
+          <DataField>FirstName_Not</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Email_Not">
+          <DataField>Email_Not</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Address_Not">
+          <DataField>Address_Not</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Phone_Not">
+          <DataField>Phone_Not</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Fax_Not">
+          <DataField>Fax_Not</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="City_Not">
+          <DataField>City_Not</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FirstName_Con">
+          <DataField>FirstName_Con</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="City_Con">
+          <DataField>City_Con</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Phone_Con">
+          <DataField>Phone_Con</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Fax_Con">
+          <DataField>Fax_Con</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Address_Con">
+          <DataField>Address_Con</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Email_Con">
+          <DataField>Email_Con</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="salesInvoice_Date">
+          <DataField>salesInvoice_Date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Country_Not">
+          <DataField>Country_Not</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Country_Con">
+          <DataField>Country_Con</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CHASSIS_NO">
+          <DataField>CHASSIS_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FILE_REF">
+          <DataField>FILE_REF</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="paymentmodeTEXT">
+          <DataField>paymentmodeTEXT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MODEL">
+          <DataField>MODEL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DRIVE">
+          <DataField>DRIVE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MAKE_CATEGORY">
+          <DataField>MAKE_CATEGORY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Country_ID">
+          <DataField>Country_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Port_ID">
+          <DataField>Port_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MAKE_ID">
+          <DataField>MAKE_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MAKE_MODEL_ID">
+          <DataField>MAKE_MODEL_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="COLOR_ID">
+          <DataField>COLOR_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="PaymentMode">
+          <DataField>PaymentMode</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Country_ID_con">
+          <DataField>Country_ID_con</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Country_ID_not">
+          <DataField>Country_ID_not</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="shipmenttype_ID">
+          <DataField>shipmenttype_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Comments">
+          <DataField>Comments</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Vanning_Amt">
+          <DataField>Vanning_Amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Consignee_ID">
+          <DataField>Consignee_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Notify_ID">
+          <DataField>Notify_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="perfInvoice_ID">
+          <DataField>perfInvoice_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="user_ID">
+          <DataField>user_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="staff_comments">
+          <DataField>staff_comments</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Stock_ID">
+          <DataField>Stock_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="SalesPerson_ID">
+          <DataField>SalesPerson_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Due_Date">
+          <DataField>Due_Date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Discount_Amt">
+          <DataField>Discount_Amt</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Saleperson_Name">
+          <DataField>Saleperson_Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Sub_TTL">
+          <DataField>Sub_TTL</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="dischargePortName">
+          <DataField>dischargePortName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="discharge_portID">
+          <DataField>discharge_portID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>autoConnectionString</DataSourceName>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>dbo.Select_Sales</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>members</rd:DataSetName>
+        <rd:TableName>SaleInvoice</rd:TableName>
+        <rd:TableAdapterName>SaleInvoiceTableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>7.76in</Width>
+  <Body>
+    <ReportItems>
+      <Rectangle Name="rectangle2">
+        <Left>0.005in</Left>
+        <ZIndex>21</ZIndex>
+        <ReportItems>
+          <Textbox Name="Sub_TTL">
+            <rd:DefaultName>Sub_TTL</rd:DefaultName>
+            <Visibility>
+              <Hidden>true</Hidden>
+            </Visibility>
+            <Top>2.375in</Top>
+            <Width>1in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>43</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.75in</Left>
+            <Height>0.25in</Height>
+            <Value>=Sum(Fields!Sub_TTL.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox5">
+            <Visibility>
+              <Hidden>=IIF(format(cdbl(Fields!Discount_Amt.Value),"###,####,###.##")="0",True,False)</Hidden>
+            </Visibility>
+            <Top>2.375in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>42</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.75in</Left>
+            <Height>0.25in</Height>
+            <Value>Discount:</Value>
+          </Textbox>
+          <Textbox Name="textbox51">
+            <Visibility>
+              <Hidden>=iif(format(cdbl(Fields!Vanning_Amt.Value),"###,####,###.##")="0",True,False)</Hidden>
+            </Visibility>
+            <Top>1.625in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>41</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.75in</Left>
+            <Height>0.25in</Height>
+            <Value>Vanning:</Value>
+          </Textbox>
+          <Textbox Name="textbox48">
+            <Visibility>
+              <Hidden>=iif(format(cdbl(Fields!Insurance_Amt.Value),"###,####,###.##")="0",True,False)</Hidden>
+            </Visibility>
+            <Top>1.375in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>40</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.75in</Left>
+            <Height>0.25in</Height>
+            <Value>Insurance:</Value>
+          </Textbox>
+          <Textbox Name="textbox47">
+            <Visibility>
+              <Hidden>=iif(format(cdbl(Fields!Inspection_Amt.Value),"###,####,###.##")="0",True,False)</Hidden>
+            </Visibility>
+            <Top>1.125in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>39</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.75in</Left>
+            <Height>0.25in</Height>
+            <Value>Inspection:</Value>
+          </Textbox>
+          <Textbox Name="textbox46">
+            <Visibility>
+              <Hidden>=iif(format(cdbl(Fields!Freight_Amt.Value),"###,####,###.##")="0",True,False)</Hidden>
+            </Visibility>
+            <Top>0.875in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>38</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.75in</Left>
+            <Height>0.25in</Height>
+            <Value>Freight:</Value>
+          </Textbox>
+          <Textbox Name="Vanning_Amt">
+            <rd:DefaultName>Vanning_Amt</rd:DefaultName>
+            <Visibility>
+              <Hidden>=iif(format(cdbl(Fields!Vanning_Amt.Value),"###,####,###.##")="0",True,False)</Hidden>
+            </Visibility>
+            <Top>1.625in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>37</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>6.78in</Left>
+            <Height>0.25in</Height>
+            <Value>=format(cdbl(Fields!Vanning_Amt.Value),"###,####,###.##")</Value>
+          </Textbox>
+          <Textbox Name="Insurance_Amt">
+            <rd:DefaultName>Insurance_Amt</rd:DefaultName>
+            <Top>1.375in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>36</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>6.78in</Left>
+            <Height>0.25in</Height>
+            <Value>=format(cdbl(Fields!Insurance_Amt.Value),"###,####,###.##")</Value>
+          </Textbox>
+          <Textbox Name="Inspection_Amt">
+            <rd:DefaultName>Inspection_Amt</rd:DefaultName>
+            <Visibility>
+              <Hidden>=iif(format(cdbl(Fields!Inspection_Amt.Value),"###,####,###.##")="0",True,False)</Hidden>
+            </Visibility>
+            <Top>1.125in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>35</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>6.78in</Left>
+            <Height>0.25in</Height>
+            <Value>=format(cdbl(Fields!Inspection_Amt.Value),"###,####,###.##")</Value>
+          </Textbox>
+          <Textbox Name="Freight_Amt">
+            <rd:DefaultName>Freight_Amt</rd:DefaultName>
+            <Visibility>
+              <Hidden>=iif(format(cdbl(Fields!Freight_Amt.Value),"###,####,###.##")="0",True,False)</Hidden>
+            </Visibility>
+            <Top>0.875in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>34</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>6.78in</Left>
+            <Height>0.25in</Height>
+            <Value>=format(cdbl(Fields!Freight_Amt.Value),"###,####,###.##")</Value>
+          </Textbox>
+          <Textbox Name="textbox13">
+            <Top>0.625in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>33</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.75in</Left>
+            <Height>0.25in</Height>
+            <Value>Price:</Value>
+          </Textbox>
+          <Image Name="image3">
+            <Sizing>Fit</Sizing>
+            <Top>0.875in</Top>
+            <Width>0.9in</Width>
+            <Source>External</Source>
+            <Style />
+            <ZIndex>32</ZIndex>
+            <Left>0.1cm</Left>
+            <Height>0.75in</Height>
+            <Value>=Parameters!path.Value</Value>
+          </Image>
+          <Textbox Name="TTL_Amount">
+            <rd:DefaultName>TTL_Amount</rd:DefaultName>
+            <Visibility>
+              <Hidden>true</Hidden>
+            </Visibility>
+            <Top>2.375in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>31</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>4.875in</Left>
+            <Height>0.25in</Height>
+            <Value>=Sum(Fields!TTL_Amount.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox49">
+            <Top>1.625in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>30</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>4.75in</Left>
+            <Height>0.25in</Height>
+            <Value>1</Value>
+          </Textbox>
+          <Textbox Name="Discount_Amt_1">
+            <Visibility>
+              <Hidden>=IIF(format(cdbl(Fields!Discount_Amt.Value),"###,####,###.##")="0",True,False)</Hidden>
+            </Visibility>
+            <Top>2.375in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>29</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>6.78in</Left>
+            <Height>0.25in</Height>
+            <Value>=format(cdbl(Fields!Discount_Amt.Value),"###,####,###.##")</Value>
+          </Textbox>
+          <Textbox Name="textbox45">
+            <Width>1.125in</Width>
+            <Style>
+              <BackgroundColor>DarkGray</BackgroundColor>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>28</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>4.625in</Left>
+            <Height>0.25in</Height>
+            <Value>QUANTITY</Value>
+          </Textbox>
+          <Line Name="line10">
+            <Top>0.25in</Top>
+            <Width>0in</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>27</ZIndex>
+            <Left>4.625in</Left>
+          </Line>
+          <Line Name="line7">
+            <Top>0.25in</Top>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>26</ZIndex>
+            <Left>7.75in</Left>
+          </Line>
+          <Textbox Name="TTL_Amount_2">
+            <rd:DefaultName>TTL_Amount_2</rd:DefaultName>
+            <Visibility>
+              <Hidden>true</Hidden>
+            </Visibility>
+            <Top>2.5in</Top>
+            <Width>0.125in</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>25</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.375in</Left>
+            <Height>0.25in</Height>
+            <Value>=format(cdbl(Fields!TTL_Amount.Value),"###,####,###.##")</Value>
+          </Textbox>
+          <Textbox Name="Amount_1">
+            <rd:DefaultName>Amount_1</rd:DefaultName>
+            <Top>0.625in</Top>
+            <Width>0.95in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>24</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>6.78in</Left>
+            <Height>0.25in</Height>
+            <Value>=format(cdbl(Fields!Amount.Value),"###,####,###.##")</Value>
+          </Textbox>
+          <Textbox Name="Amount">
+            <rd:DefaultName>Amount</rd:DefaultName>
+            <Top>1.625in</Top>
+            <Width>2in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <TextAlign>Left</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>23</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.5in</Left>
+            <Height>0.22in</Height>
+            <Value>=Fields!Inspection_Amt.Value</Value>
+          </Textbox>
+          <Textbox Name="DRIVE">
+            <rd:DefaultName>DRIVE</rd:DefaultName>
+            <Top>1.42in</Top>
+            <Width>2in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>22</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.5in</Left>
+            <Height>0.22in</Height>
+            <Value>=First(Fields!DRIVE.Value)</Value>
+          </Textbox>
+          <Textbox Name="MODEL">
+            <rd:DefaultName>MODEL</rd:DefaultName>
+            <Top>1.21in</Top>
+            <Width>2in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>21</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.5in</Left>
+            <Height>0.22in</Height>
+            <Value>=First(Fields!MODEL.Value)</Value>
+          </Textbox>
+          <Textbox Name="CHASSIS_NO">
+            <rd:DefaultName>CHASSIS_NO</rd:DefaultName>
+            <Top>1in</Top>
+            <Width>2in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>20</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.5in</Left>
+            <Height>0.22in</Height>
+            <Value>=First(Fields!CHASSIS_NO.Value)</Value>
+          </Textbox>
+          <Textbox Name="model_description">
+            <rd:DefaultName>model_description</rd:DefaultName>
+            <Top>0.79in</Top>
+            <Width>2in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>19</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.5in</Left>
+            <Height>0.22in</Height>
+            <Value>=First(Fields!model_description.Value)</Value>
+          </Textbox>
+          <Textbox Name="make">
+            <rd:DefaultName>make</rd:DefaultName>
+            <Top>0.58in</Top>
+            <Width>2in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>18</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.5in</Left>
+            <Height>0.22in</Height>
+            <Value>=First(Fields!make.Value)</Value>
+          </Textbox>
+          <Textbox Name="FILE_REF">
+            <rd:DefaultName>FILE_REF</rd:DefaultName>
+            <Top>0.375in</Top>
+            <Width>2in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>17</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>2.5in</Left>
+            <Height>0.22in</Height>
+            <Value>=First(Fields!FILE_REF.Value)</Value>
+          </Textbox>
+          <Textbox Name="textbox23">
+            <Top>1.21in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>16</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.25in</Left>
+            <Height>0.22in</Height>
+            <Value>YEAR:</Value>
+          </Textbox>
+          <Textbox Name="textbox31">
+            <rd:DefaultName>textbox31</rd:DefaultName>
+            <Top>1in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>15</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.25in</Left>
+            <Height>0.22in</Height>
+            <Value>CHASSIS NO:</Value>
+          </Textbox>
+          <Textbox Name="textbox30">
+            <rd:DefaultName>textbox30</rd:DefaultName>
+            <Top>1.42in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>14</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.25in</Left>
+            <Height>0.22in</Height>
+            <Value>STEERING:</Value>
+          </Textbox>
+          <Textbox Name="textbox29">
+            <rd:DefaultName>textbox29</rd:DefaultName>
+            <Top>1.625in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>13</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.25in</Left>
+            <Height>0.22in</Height>
+            <Value>INSPECTION CERT:</Value>
+          </Textbox>
+          <Textbox Name="textbox28">
+            <rd:DefaultName>textbox28</rd:DefaultName>
+            <Top>0.79in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>12</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.25in</Left>
+            <Height>0.22in</Height>
+            <Value>MODEL:</Value>
+          </Textbox>
+          <Textbox Name="textbox27">
+            <rd:DefaultName>textbox27</rd:DefaultName>
+            <Top>0.58in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>11</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.25in</Left>
+            <Height>0.22in</Height>
+            <Value>MAKE:</Value>
+          </Textbox>
+          <Textbox Name="textbox26">
+            <rd:DefaultName>textbox26</rd:DefaultName>
+            <Top>0.375in</Top>
+            <Width>1.25in</Width>
+            <Style>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>10</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1.25in</Left>
+            <Height>0.22in</Height>
+            <Value>STOCK NO:</Value>
+          </Textbox>
+          <Line Name="line6">
+            <Top>0.25in</Top>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>9</ZIndex>
+            <Height>0in</Height>
+          </Line>
+          <Line Name="line5">
+            <Top>3.25in</Top>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>8</ZIndex>
+          </Line>
+          <Line Name="line4">
+            <Top>0.25in</Top>
+            <Width>0in</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>7</ZIndex>
+          </Line>
+          <Line Name="line3">
+            <Top>0.25in</Top>
+            <Width>0in</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>6</ZIndex>
+            <Left>1in</Left>
+          </Line>
+          <Line Name="line2">
+            <Top>0.25in</Top>
+            <Width>0in</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>5</ZIndex>
+            <Left>6.75in</Left>
+          </Line>
+          <Line Name="line9">
+            <Top>0.25in</Top>
+            <Width>0in</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <Left>5.75in</Left>
+          </Line>
+          <Textbox Name="textbox24">
+            <Width>1in</Width>
+            <Style>
+              <BackgroundColor>DarkGray</BackgroundColor>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>5.75in</Left>
+            <Height>0.25in</Height>
+            <Value>DETAILS</Value>
+          </Textbox>
+          <Textbox Name="textbox41">
+            <Style>
+              <BackgroundColor>DarkGray</BackgroundColor>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>6.75in</Left>
+            <Height>0.25in</Height>
+            <Value>AMOUNT</Value>
+          </Textbox>
+          <Textbox Name="textbox54">
+            <Width>3.625in</Width>
+            <Style>
+              <BackgroundColor>DarkGray</BackgroundColor>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>1in</Left>
+            <Height>0.25in</Height>
+            <Value>DESCRIPTION OF GOODS / DETAILS</Value>
+          </Textbox>
+          <Textbox Name="textbox56">
+            <Width>1in</Width>
+            <Style>
+              <BackgroundColor>DarkGray</BackgroundColor>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Center</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <Height>0.25in</Height>
+            <Value>PHOTO</Value>
+          </Textbox>
+        </ReportItems>
+        <Top>2.75in</Top>
+        <Width>7.75in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+      </Rectangle>
+      <Textbox Name="textbox38">
+        <Top>0.75in</Top>
+        <Width>1.375in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>20</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2.125in</Left>
+        <Height>0.22in</Height>
+        <Value>Japan</Value>
+      </Textbox>
+      <Textbox Name="textbox33">
+        <Top>0.75in</Top>
+        <Width>0.625in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>19</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.22in</Height>
+        <Value> Country : </Value>
+      </Textbox>
+      <Textbox Name="textbox8">
+        <Top>0.625in</Top>
+        <Width>2.125in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>18</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2in</Left>
+        <Height>0.22in</Height>
+        <Value>( +81) 766598750    
+</Value>
+      </Textbox>
+      <Textbox Name="textbox7">
+        <rd:DefaultName>textbox7</rd:DefaultName>
+        <Top>0.625in</Top>
+        <Width>0.625in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>17</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Height>0.21in</Height>
+        <Value>Phone      :</Value>
+      </Textbox>
+      <Textbox Name="textbox35">
+        <Top>0.5in</Top>
+        <Width>0.625in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>16</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Height>0.21in</Height>
+        <Value>Address   :</Value>
+      </Textbox>
+      <Textbox Name="textbox2">
+        <Top>0.25in</Top>
+        <Width>2.875in</Width>
+        <Style>
+          <FontStyle>Italic</FontStyle>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>15</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Height>0.21in</Height>
+        <Value>Deals In Japanese Used Cars</Value>
+      </Textbox>
+      <Textbox Name="textbox1">
+        <Width>3.5in</Width>
+        <Style>
+          <FontSize>14pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>14</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Height>0.32in</Height>
+        <Value>Awan International K.K</Value>
+      </Textbox>
+      <Textbox Name="textbox22">
+        <Top>0.25in</Top>
+        <Width>0.75in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>13</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.875in</Left>
+        <Height>0.21in</Height>
+        <Value>DATE : </Value>
+      </Textbox>
+      <Textbox Name="textbox4">
+        <rd:DefaultName>textbox4</rd:DefaultName>
+        <Top>0.065in</Top>
+        <Width>0.75in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>12</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.875in</Left>
+        <Height>0.21in</Height>
+        <Value>INVOICE #</Value>
+      </Textbox>
+      <Textbox Name="textbox62">
+        <Top>1.125in</Top>
+        <Width>2.13in</Width>
+        <Style>
+          <FontSize>9pt</FontSize>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>11</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.625in</Left>
+        <Height>1in</Height>
+        <Value>=First(Fields!FirstName_Not.Value, "members_SaleInvoice")  + vbcrlf +
+First(Fields!Address_Not.Value, "members_SaleInvoice") + vbcrlf +
+First(Fields!City_Not.Value, "members_SaleInvoice") + vbcrlf +
+First(Fields!Phone_Not.Value, "members_SaleInvoice") + vbcrlf +
+First(Fields!Fax_Not.Value, "members_SaleInvoice")</Value>
+      </Textbox>
+      <Table Name="table1">
+        <ZIndex>10</ZIndex>
+        <DataSetName>members_SaleInvoice</DataSetName>
+        <Top>2.25in</Top>
+        <Width>7.75in</Width>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Saleperson_Name">
+                      <rd:DefaultName>Saleperson_Name</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Saleperson_Name.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="portName">
+                      <rd:DefaultName>portName</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!portName.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="dischargePortName">
+                      <rd:DefaultName>dischargePortName</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!dischargePortName.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="paymentmodeTEXT">
+                      <rd:DefaultName>paymentmodeTEXT</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!paymentmodeTEXT.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Due_Date">
+                      <rd:DefaultName>Due_Date</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Due_Date.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.25in</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox12">
+                      <rd:DefaultName>textbox12</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>9pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>SALES PERSON</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox42">
+                      <rd:DefaultName>textbox42</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>9pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>PORT OF LOADING</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox43">
+                      <rd:DefaultName>textbox43</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>9pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>PORT OF DISCHARGE</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox50">
+                      <rd:DefaultName>textbox50</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>9pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>PAYMENT TERMS</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox52">
+                      <rd:DefaultName>textbox52</rd:DefaultName>
+                      <Style>
+                        <BorderColor>
+                          <Default>DimGray</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <FontSize>9pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <TextAlign>Center</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>DUE DATE</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.1875in</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>2.125in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.625in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.625in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.375in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1in</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>0.4375in</Height>
+      </Table>
+      <Textbox Name="textbox40">
+        <Top>1.125in</Top>
+        <Width>0.375in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>9</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Height>0.23in</Height>
+        <Value>TO :</Value>
+      </Textbox>
+      <Textbox Name="textbox39">
+        <Top>0.75in</Top>
+        <Width>0.625in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>8</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Height>0.22in</Height>
+        <Value>Email        :</Value>
+      </Textbox>
+      <Textbox Name="textbox37">
+        <Top>0.625in</Top>
+        <Width>1.25in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>7</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.625in</Left>
+        <Height>0.22in</Height>
+        <Value>(+81) 804-2528-786</Value>
+      </Textbox>
+      <Textbox Name="textbox36">
+        <Top>0.75in</Top>
+        <Width>1.375in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.625in</Left>
+        <Height>0.22in</Height>
+        <Value>awanint@yahoo.com</Value>
+      </Textbox>
+      <Textbox Name="textbox34">
+        <rd:DefaultName>textbox34</rd:DefaultName>
+        <Top>0.5in</Top>
+        <Width>2.875in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>5</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.625in</Left>
+        <Height>0.22in</Height>
+        <Value> 939-0304 Toyamaken Imizu shi Kosugi shiraishi 138-1                          </Value>
+      </Textbox>
+      <Textbox Name="textbox9">
+        <rd:DefaultName>textbox9</rd:DefaultName>
+        <Top>1.125in</Top>
+        <Width>0.875in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>4.75in</Left>
+        <Height>0.23in</Height>
+        <Value>SHIP TO   :</Value>
+      </Textbox>
+      <Textbox Name="textbox11">
+        <rd:DefaultName>textbox11</rd:DefaultName>
+        <Top>1.125in</Top>
+        <Width>2.125in</Width>
+        <Style>
+          <FontSize>9pt</FontSize>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.375in</Left>
+        <Height>1in</Height>
+        <Value>=First(Fields!FirstName_Con.Value, "members_SaleInvoice")  + vbcrlf +
+First(Fields!Address_Con.Value, "members_SaleInvoice") + vbcrlf +
+First(Fields!City_Con.Value, "members_SaleInvoice") + vbcrlf +
+First(Fields!Country_Con.Value, "members_SaleInvoice") + vbcrlf +
+First(Fields!Phone_Con.Value, "members_SaleInvoice") + vbcrlf +
+First(Fields!Fax_Con.Value, "members_SaleInvoice")</Value>
+      </Textbox>
+      <Textbox Name="textbox10">
+        <Top>0.065in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.625in</Left>
+        <Height>0.21in</Height>
+        <Value>=First(Fields!sales_Ref.Value, "members_SaleInvoice")</Value>
+      </Textbox>
+      <Textbox Name="salesInvoice_Date">
+        <rd:DefaultName>salesInvoice_Date</rd:DefaultName>
+        <Top>0.25in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.625in</Left>
+        <Height>0.21in</Height>
+        <Value>=First(Fields!salesInvoice_Date.Value)</Value>
+      </Textbox>
+      <Textbox Name="textbox6">
+        <rd:DefaultName>textbox6</rd:DefaultName>
+        <Top>0.625in</Top>
+        <Width>0.375in</Width>
+        <Style>
+          <FontFamily>Calibri</FontFamily>
+          <FontSize>8pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Left</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>1.625in</Left>
+        <Height>0.21in</Height>
+        <Value>FAX :</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>6in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <PageFooter>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Textbox Name="textbox55">
+        <Top>4.125in</Top>
+        <Width>3.75in</Width>
+        <Style>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>16</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>2in</Left>
+        <Value>THANK YOU FOR YOUR BUSINESS</Value>
+      </Textbox>
+      <Textbox Name="textbox60">
+        <Top>0.625in</Top>
+        <Width>0.88in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>15</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.875in</Left>
+        <Height>0.21in</Height>
+        <Value>=REPORTITEMS!TTL_Amount_2.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox59">
+        <Top>0.41in</Top>
+        <Width>0.88in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>14</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.875in</Left>
+        <Height>0.21in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox58">
+        <Top>0.21in</Top>
+        <Width>0.88in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>13</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.875in</Left>
+        <Height>0.21in</Height>
+        <Value />
+      </Textbox>
+      <Textbox Name="textbox57">
+        <Top>0.625in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>12</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.875in</Left>
+        <Height>0.21in</Height>
+        <Value>TOTAL         :</Value>
+      </Textbox>
+      <Textbox Name="textbox32">
+        <Top>0.41in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>11</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.875in</Left>
+        <Height>0.21in</Height>
+        <Value>SALES TAX :</Value>
+      </Textbox>
+      <Textbox Name="textbox25">
+        <Width>0.88in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>10</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>6.875in</Left>
+        <Height>0.22in</Height>
+        <Value>=format(cdbl(REPORTITEMS!Sub_TTL.Value),"###,###,###,###.##")</Value>
+      </Textbox>
+      <Textbox Name="textbox21">
+        <rd:DefaultName>textbox21</rd:DefaultName>
+        <Top>3.25in</Top>
+        <Width>1.75in</Width>
+        <Style>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>9</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>3.75in</Left>
+        <Height>0.375in</Height>
+        <Value>Authorized Signature:            Awan International K.K.</Value>
+      </Textbox>
+      <Line Name="line8">
+        <Top>3.125in</Top>
+        <Width>4.005in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>8</ZIndex>
+        <Left>3.75in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Image Name="image2">
+        <Sizing>AutoSize</Sizing>
+        <Top>1.5in</Top>
+        <Width>0.9375in</Width>
+        <MIMEType>image/png</MIMEType>
+        <Source>Embedded</Source>
+        <Style />
+        <ZIndex>7</ZIndex>
+        <Left>5.75in</Left>
+        <Height>0.875in</Height>
+        <Value>logo1</Value>
+      </Image>
+      <Textbox Name="textbox20">
+        <rd:DefaultName>textbox20</rd:DefaultName>
+        <Top>1.58in</Top>
+        <Width>3.625in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.51in</Height>
+        <Value>All bank charges are the responsibility by purchaser.                                                        The name &amp; address, phone no shows on this invoice will be on B/L,                          Please advise us if any changes before shipping</Value>
+      </Textbox>
+      <Textbox Name="textbox19">
+        <rd:DefaultName>textbox19</rd:DefaultName>
+        <Top>1.375in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>9pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>5</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.125in</Left>
+        <Height>0.21in</Height>
+        <Value>Note:</Value>
+      </Textbox>
+      <Textbox Name="TTL_Amount_1">
+        <rd:DefaultName>TTL_Amount_1</rd:DefaultName>
+        <Width>1in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.875in</Left>
+        <Height>0.22in</Height>
+        <Value>=REPORTITEMS!Discount_Amt_1.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox18">
+        <Width>1.375in</Width>
+        <Style>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>3</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>4.5in</Left>
+        <Height>0.22in</Height>
+        <Value>TOTAL DISCOUNT:</Value>
+      </Textbox>
+      <Textbox Name="textbox17">
+        <Top>0.21in</Top>
+        <Width>1in</Width>
+        <Style>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>5.875in</Left>
+        <Height>0.21in</Height>
+        <Value>SUB TOTAL :</Value>
+      </Textbox>
+      <Textbox Name="textbox16">
+        <rd:DefaultName>textbox16</rd:DefaultName>
+        <Top>0.21in</Top>
+        <Width>4.5in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>9pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Height>0.98in</Height>
+        <Value>Bank Name:Bank of Tokyo - Mitsubishi UFJ                                                                               Bank Address: 2 - 23 - 25 Kourinbou, Kanazawa, JAPAN                                                                               Branch Name: KANAZAWA BRANCH                                                                                 Account Number: 0687182                                                                                        Swift Code: BOTKJPJT                                                                                       Reason For Remittance: Payment for Motor Vehicle and/or Vehicle parts   </Value>
+      </Textbox>
+      <Textbox Name="textbox15">
+        <rd:DefaultName>textbox15</rd:DefaultName>
+        <Width>4.5in</Width>
+        <Style>
+          <BackgroundColor>DarkGray</BackgroundColor>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <FontSize>9pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.21in</Height>
+        <Value>BANK DETAILS</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>4.375in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageFooter>
+  <TopMargin>0.3in</TopMargin>
+  <PageHeight>11.6in</PageHeight>
+</Report>

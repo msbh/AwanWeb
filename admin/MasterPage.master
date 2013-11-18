@@ -1,0 +1,121 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="admin_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin</title>
+    <link rel="icon" href="http://www.awan.co.jp/favicon.ico" type="image/x-icon" />
+    <link rel="SHORTCUT ICON" href="http://www.awan.co.jp/favicon.ico" type="image/x-icon" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/jquery-1.4.2.js" type="text/javascript"></script>
+
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+
+    <script src="js/jquery.watermarker.js" type="text/javascript"></script>
+
+    <link href="js/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+       <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+  
+   
+    <div id="bigbigwrapper">
+        <div id="bigwrapper">
+            <div style="color: #C0C0C0; height: 50px; font-size: xx-large">
+                Awan International K.K. - Welcome to Administration Panel
+            </div>
+            <div id="menu">
+                <ul class="menu">
+                    <li><a href="Default.aspx" class="parent"><span>Logout</span></a></li>
+                    <li><a href="membershipList.aspx" class="parent"><span>Membership</span></a>
+                        <div>
+                            <ul>
+                                <li><a href="membershipList.aspx"><span>Membership List</span></a></li>
+                              
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="stocklist.aspx" class="parent"><span>Stock Management</span></a>
+                        <div>
+                            <ul>
+                                <li><a href="stocklist.aspx"><span>Stock List</span></a></li>
+                                <li><a href="stockdetails.aspx"><span>New Stock</span></a></li>
+                                 <li><a href="stockEmaillist.aspx"><span>Email Stock</span></a></li>
+                                 
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="parent"><span>Negotiat. & Enq.</span></a>
+                        <div>
+                            <ul>
+                                <li><a href="negotiationList.aspx"><span>Negotiation</span></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="enquirylist.aspx"><span>Enquiry List</span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="quotationlist.aspx" class="parent"><span>Quotations</span></a>
+                        <div>
+                            <ul>
+                                <li><a href="quotationlist.aspx"><span>Quotation List</span></a></li>
+                                <li><a href="performalist.aspx"><span>Performa List</span></a></li>
+                                <li><a href="salesinvoicelist.aspx"><span>Sales Invoices List</span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="parent"><span>Services</span></a>
+                        <div>
+                            <ul>
+                                <li><a href="SellYCarList.aspx"><span>Sell Your Car Requests List</span></a></li>
+                                <li><a href="becomeagentlist.aspx"><span>Become Agent Requests List</span></a></li>
+                                <li><a href="autopartlist.aspx"><span>Auto Parts / Accessories </span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="last"><a href=""><span>Master Data</span></a>
+                        <div>
+                            <ul>
+                                <li><a href="make.aspx"><span>Manage Make</span></a></li>
+                                
+                                <li><a href="makemodel.aspx"><span>Manage Make Model</span></a></li>
+                                <li><a href="salespersons.aspx"><span>Manage Sales Persons</span></a></li>
+                                
+                                <li><a href="colors.aspx"><span>Manage Color</span></a></li>
+                                <li><a href="display_type.aspx"><span>Manage Display Type</span></a></li>
+                                <li><a href="country.aspx"><span>Manage Countries</span></a></li>
+                                <li><a href="ports.aspx"><span>Manage Ports</span></a></li>
+                                <li><a href="freightcharges.aspx"><span>Manage Freight Charges</span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="last"><a href=""><span>Admin</span></a>
+                        <div>
+                            <ul>
+                                <li><a href="operators.aspx"><span>Operators</span></a></li>
+                                <li><a href="../download_setup/AwanLiveChat_setup.msi"><span>Download Operator Console</span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="centerColumn">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer">
+                <p>
+                    Awan International K.K | Control Panel</p>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

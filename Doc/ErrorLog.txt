@@ -1,0 +1,974 @@
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: uploading file 1
+Source: msg
+Exception: uploading file 1
+Source: msg
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\23.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\23.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\23.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\23.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: uploading file 1-completed
+Source: msg
+Exception: uploading file 1-completed
+Source: msg
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: uploading file 2
+Source: msg
+Exception: uploading file 2
+Source: msg
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\1.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\1.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\1.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\1.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: uploading file 2 - completed
+Source: msg
+Exception: uploading file 2 - completed
+Source: msg
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\17.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\17.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:42:16 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\17.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\17.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:44:13 ****
+Inner Exception: Starting 1 delete....
+Source: remove_files
+Exception: Starting 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:44:13 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images23.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images23.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:44:13 ****
+Inner Exception: Ending 1 delete....
+Source: remove_files
+Exception: Ending 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:44:13 ****
+Inner Exception: Starting 2 delete....
+Source: remove_files
+Exception: Starting 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:44:13 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images1.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images1.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:44:13 ****
+Inner Exception: Ending 2 delete....
+Source: remove_files
+Exception: Ending 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:44:13 ****
+Inner Exception: Starting 3 delete....
+Source: remove_files
+Exception: Starting 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:44:13 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images17.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images17.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:44:13 ****
+Inner Exception: Ending 3 delete....
+Source: remove_files
+Exception: Ending 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:46:23 ****
+Inner Exception: Starting 1 delete....
+Source: remove_files
+Exception: Starting 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:46:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/23.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/23.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:46:23 ****
+Inner Exception: Ending 1 delete....
+Source: remove_files
+Exception: Ending 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:46:23 ****
+Inner Exception: Starting 2 delete....
+Source: remove_files
+Exception: Starting 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:46:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/1.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/1.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:46:23 ****
+Inner Exception: Ending 2 delete....
+Source: remove_files
+Exception: Ending 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:46:23 ****
+Inner Exception: Starting 3 delete....
+Source: remove_files
+Exception: Starting 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:46:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/17.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/17.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:46:23 ****
+Inner Exception: Ending 3 delete....
+Source: remove_files
+Exception: Ending 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: uploading file 1
+Source: msg
+Exception: uploading file 1
+Source: msg
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._13.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._13.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._13.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._13.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: uploading file 1-completed
+Source: msg
+Exception: uploading file 1-completed
+Source: msg
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: uploading file 2
+Source: msg
+Exception: uploading file 2
+Source: msg
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._27.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._27.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._27.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._27.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: uploading file 2 - completed
+Source: msg
+Exception: uploading file 2 - completed
+Source: msg
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._18.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._18.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:47:23 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._18.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\._18.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:48:09 ****
+Inner Exception: Starting 1 delete....
+Source: remove_files
+Exception: Starting 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:48:09 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/._13.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/._13.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:48:09 ****
+Inner Exception: Ending 1 delete....
+Source: remove_files
+Exception: Ending 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:48:09 ****
+Inner Exception: Starting 2 delete....
+Source: remove_files
+Exception: Starting 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:48:09 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/._27.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/._27.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:48:09 ****
+Inner Exception: Ending 2 delete....
+Source: remove_files
+Exception: Ending 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:48:09 ****
+Inner Exception: Starting 3 delete....
+Source: remove_files
+Exception: Starting 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:48:09 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/._18.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/._18.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:48:09 ****
+Inner Exception: Ending 3 delete....
+Source: remove_files
+Exception: Ending 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: uploading file 1
+Source: msg
+Exception: uploading file 1
+Source: msg
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\20.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\20.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\20.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\20.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: uploading file 1-completed
+Source: msg
+Exception: uploading file 1-completed
+Source: msg
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: uploading file 2
+Source: msg
+Exception: uploading file 2
+Source: msg
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\22.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\22.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\22.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\22.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: uploading file 2 - completed
+Source: msg
+Exception: uploading file 2 - completed
+Source: msg
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\34.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\34.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:49:31 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\34.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\34.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:50:07 ****
+Inner Exception: Starting 1 delete....
+Source: remove_files
+Exception: Starting 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:50:20 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/20.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/20.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:50:20 ****
+Inner Exception: Ending 1 delete....
+Source: remove_files
+Exception: Ending 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:50:20 ****
+Inner Exception: Starting 2 delete....
+Source: remove_files
+Exception: Starting 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:50:20 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/22.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/22.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:50:20 ****
+Inner Exception: Ending 2 delete....
+Source: remove_files
+Exception: Ending 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:50:20 ****
+Inner Exception: Starting 3 delete....
+Source: remove_files
+Exception: Starting 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:50:20 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/34.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/34.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:50:20 ****
+Inner Exception: Ending 3 delete....
+Source: remove_files
+Exception: Ending 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: uploading file 1
+Source: msg
+Exception: uploading file 1
+Source: msg
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\3.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\3.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\3.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\3.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: uploading file 1-completed
+Source: msg
+Exception: uploading file 1-completed
+Source: msg
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: uploading file 2
+Source: msg
+Exception: uploading file 2
+Source: msg
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\5.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\5.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\5.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\5.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: uploading file 2 - completed
+Source: msg
+Exception: uploading file 2 - completed
+Source: msg
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\6.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\6.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\6.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\6.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\7.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\7.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\7.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\7.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\8.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\8.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\8.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\8.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\10.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\10.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\10.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\10.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\11.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\11.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\11.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\11.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\13.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\13.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\13.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\13.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\15.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\15.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\15.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\15.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\17.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\17.jpg
+Source: saveas_Started....
+
+**** 29/3/2012 PM 8:52:28 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\17.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\17.jpg
+Source: saveas_Ending....
+
+**** 29/3/2012 PM 8:53:13 ****
+Inner Exception: Starting 1 delete....
+Source: remove_files
+Exception: Starting 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/3.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/3.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Ending 1 delete....
+Source: remove_files
+Exception: Ending 1 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 2 delete....
+Source: remove_files
+Exception: Starting 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/5.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/5.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Ending 2 delete....
+Source: remove_files
+Exception: Ending 2 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 3 delete....
+Source: remove_files
+Exception: Starting 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/6.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/6.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Ending 3 delete....
+Source: remove_files
+Exception: Ending 3 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 4 delete....
+Source: remove_files
+Exception: Starting 4 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/7.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/7.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Ending 4 delete....
+Source: remove_files
+Exception: Ending 4 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 5 delete....
+Source: remove_files
+Exception: Starting 5 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/8.jpg
+Source: PATH
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images/8.jpg
+Source: PATH
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 5 delete....
+Source: remove_files
+Exception: Starting 5 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 6 delete....
+Source: remove_files
+Exception: Starting 6 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Ending 6 delete....
+Source: remove_files
+Exception: Ending 6 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 7 delete....
+Source: remove_files
+Exception: Starting 7 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Ending 7 delete....
+Source: remove_files
+Exception: Ending 7 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 8 delete....
+Source: remove_files
+Exception: Starting 8 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Ending 8 delete....
+Source: remove_files
+Exception: Ending 8 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 9 delete....
+Source: remove_files
+Exception: Starting 9 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Ending 9 delete....
+Source: remove_files
+Exception: Ending 9 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Starting 10 delete....
+Source: remove_files
+Exception: Starting 10 delete....
+Source: remove_files
+
+**** 29/3/2012 PM 8:53:15 ****
+Inner Exception: Ending 10 delete....
+Source: remove_files
+Exception: Ending 10 delete....
+Source: remove_files
+
+**** 6/4/2012 AM 8:41:17 ****
+Inner Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+Exception: ~\Upload_Images
+Source: inside_savefile_vpath
+
+**** 6/4/2012 AM 8:41:17 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images
+Source: inside_savefile_filepath
+
+**** 6/4/2012 AM 8:41:17 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\img676.jpg
+Source: saveas_Started....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\img676.jpg
+Source: saveas_Started....
+
+**** 6/4/2012 AM 8:41:17 ****
+Inner Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\img676.jpg
+Source: saveas_Ending....
+Exception: C:\D_drive_Jahangir\others\New_AwanWeb\New_AwanWeb\Upload_Images\img676.jpg
+Source: saveas_Ending....
+
+**** 2/27/2013 12:22:25 AM ****
+Exception: Incorrect syntax near ')'.
+Source: dataaccess.filldatatable
+
+**** 4/1/2013 2:01:14 AM ****
+Exception: Invalid column name 'user_keyID'.
+Source: Login_btn
+
+**** 4/1/2013 2:02:19 AM ****
+Exception: Invalid column name 'user_keyID'.
+Source: Login_btn
+
+**** 4/1/2013 2:03:07 AM ****
+Exception: Invalid column name 'user_keyID'.
+Source: Login_btn
+
+**** 4/1/2013 2:03:15 AM ****
+Exception: Invalid column name 'user_keyID'.
+Source: Login_btn
+
+**** 4/1/2013 2:04:08 AM ****
+Exception: Invalid column name 'user_keyID'.
+Source: Login_btn
+
+**** 4/1/2013 2:04:26 AM ****
+Exception: Invalid column name 'user_keyID'.
+Source: Login_btn
+
+**** 4/1/2013 2:05:46 AM ****
+Exception: Invalid column name 'user_keyID'.
+Source: Login_btn
+

@@ -1,0 +1,1632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalRequest" xml:space="preserve">
+    <value>追加の要求</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>アドレス</value>
+  </data>
+  <data name="AdvanceSearch" xml:space="preserve">
+    <value>アドバンス検索</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>金額</value>
+  </data>
+  <data name="ARIFRAUFINFO" xml:space="preserve">
+    <value>こんにちはみんな ！アリフ RAUF 私は、私は現在、管理監督のアワン国際株式会社と私は作業フローを集中、購買プロセスの改善とドキュメント、効率の向上、情報管理、最適化ソリューションは、企業の会議を管理します。&lt;br&gt;私の責任にはもポリシーと、会社の戦略的な方向と情報技術スタッフの管理をサポートするための手順の実装が含まれます。</value>
+  </data>
+  <data name="AuthorizedSignature" xml:space="preserve">
+    <value>正式に署名されました。</value>
+  </data>
+  <data name="AutopartInformation" xml:space="preserve">
+    <value>Autopart 情報</value>
+  </data>
+  <data name="Autoparts.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;自動&lt;/span&gt;部品</value>
+  </data>
+  <data name="Autoparts.text" xml:space="preserve">
+    <value>&lt;b&gt;日本の自動車部品を探していますか？&lt;/b&gt; &lt;i&gt;は、国内市場で非常に多くの予備部品として需要、海外向けも日本の中古車の多くの完全に機能部品を発見されています。すべての適切な車の部品は、慎重に専門家によって選択されます。すべてのタイプの車を使用パーツ、車体部品、自動車部品、再構築改装自動車部品、電気部品、エンジンはのすべての種類を注文することができます。&lt;/i&gt;</value>
+  </data>
+  <data name="AutoPartsMoreDetails" xml:space="preserve">
+    <value>詳細 （説明、部品番号など)</value>
+  </data>
+  <data name="AutoPartsMoreDetails2" xml:space="preserve">
+    <value>（送料の設定教えてください場合) の詳細</value>
+  </data>
+  <data name="AutopartVehicleInfo" xml:space="preserve">
+    <value>車両情報</value>
+  </data>
+  <data name="AutoShippingInfo" xml:space="preserve">
+    <value>出荷情報</value>
+  </data>
+  <data name="AWan" xml:space="preserve">
+    <value>アワン国際株式会社</value>
+  </data>
+  <data name="AwanInter.content" xml:space="preserve">
+    <value>&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+            &lt;p class="class"&gt;アワン インターナショナル株式会社日本中古車輸出業界で最も評判の良い組織です&lt;b&gt;使用車の会&lt;/b&gt;の一員です。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;私たちは法的に登録されているエンティティ日本でしてライセンスを&lt;a href=""&gt;会社別日本語使用車連合を認定&lt;/a&gt;されている中古車も、エクスポートする売買し、なさい。日本の団体も、信頼性と設立の中古車ディーラーとしてアワン国際株式会社を認めています。それはすべてのメンバーに使用される自動車の公正な貿易との境界し、不公正な取引を防止します。また、それは盗まれた車から、不正再構築または変更のバイヤーを保護します。したがって、苦情が発生した場合のサポートを提供します。私たちは私たちのバイヤーとの公正な取引のための努力し、ビジネスでの長期的な視野を取るため私たち日本使用車協会認定されています。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;これらの日何千人もの中古車輸出業者、オンラインです。残念ながら、それらのほとんどの詐欺会社と詐欺罪のない買い手彼らのお金を取ってし、投稿です。関連付けを日本使用車会社アワン国際株式会社として認定契約しの正当性を確実に、公正な取引の保証されています。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;div class="clear"&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="AwanInter.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;なぜアワン&lt;/span&gt;インターナショナル株式会社
+        &lt;ul class="myform_line"&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="awanPictures" xml:space="preserve">
+    <value>写真の&lt;span style="color: #F0F0F0"&gt;アワン インターナショナル株式会社&lt;/span&gt;</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="bankAccount" xml:space="preserve">
+    <value>アカウントの名前</value>
+  </data>
+  <data name="bankAccountname" xml:space="preserve">
+    <value>アワン国際株式会社</value>
+  </data>
+  <data name="bankAccountname2" xml:space="preserve">
+    <value>Tambiri モーター</value>
+  </data>
+  <data name="bankAccountNumber" xml:space="preserve">
+    <value>アカウント番号</value>
+  </data>
+  <data name="bankAddress" xml:space="preserve">
+    <value>銀行の住所</value>
+  </data>
+  <data name="bankAddresstxt" xml:space="preserve">
+    <value>2-23-25 Kourinbou、金沢、日本</value>
+  </data>
+  <data name="bankAddresstxt2" xml:space="preserve">
+    <value>アル Aweer 支店、DOCUMZ、ドバイ - U.A.E</value>
+  </data>
+  <data name="bankBranch" xml:space="preserve">
+    <value>分岐の名前</value>
+  </data>
+  <data name="bankBranchName" xml:space="preserve">
+    <value>金沢支店</value>
+  </data>
+  <data name="bankBranchName2" xml:space="preserve">
+    <value>アル Aweer 支店</value>
+  </data>
+  <data name="BANKDETAIL2" xml:space="preserve">
+    <value>銀行の詳細</value>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>銀行の名前</value>
+  </data>
+  <data name="bankname2" xml:space="preserve">
+    <value>Mashreq 銀行</value>
+  </data>
+  <data name="banknamefull" xml:space="preserve">
+    <value>株式会社東京三菱 UFJ 銀行</value>
+  </data>
+  <data name="bankorderfin" xml:space="preserve">
+    <value>&lt;td height="30" align="left"&gt;
+                                                                                 &lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;
+                                                                                        &lt;br&gt;注:&lt;br&gt;すべての銀行手数料は購入者によって責任です。&lt;br&gt;名前と住所、電話の b/l 通常では、この請求書に表示がされません変更かどうかは出荷前に教えてください。&lt;/font&gt;
+                                                                                
+                                                                                   &lt;/td&gt;</value>
+  </data>
+  <data name="becomeagent.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;になる私たち&lt;/span&gt;エージェント</value>
+  </data>
+  <data name="BodyColor" xml:space="preserve">
+    <value>体の色</value>
+  </data>
+  <data name="Chassislable" xml:space="preserve">
+    <value>シャーシ</value>
+  </data>
+  <data name="ChassisNo" xml:space="preserve">
+    <value>シャーシはありません</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>市</value>
+  </data>
+  <data name="Clickmore" xml:space="preserve">
+    <value>詳細はこちらです。</value>
+  </data>
+  <data name="colorlable" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>会社名</value>
+  </data>
+  <data name="Consignee.NotifyParty" xml:space="preserve">
+    <value>党を通知します。</value>
+  </data>
+  <data name="ContactNo" xml:space="preserve">
+    <value>お問い合わせ</value>
+  </data>
+  <data name="ContactUs.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;お問い合わせ&lt;/span&gt;私たち</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>国</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>通貨</value>
+  </data>
+  <data name="Door" xml:space="preserve">
+    <value>ドア</value>
+  </data>
+  <data name="Drive" xml:space="preserve">
+    <value>УПРАВЛЯТЬ</value>
+  </data>
+  <data name="DUEDATE" xml:space="preserve">
+    <value>期日</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>電子メール</value>
+  </data>
+  <data name="End_Date" xml:space="preserve">
+    <value>対して占める</value>
+  </data>
+  <data name="EngineCClable" xml:space="preserve">
+    <value>エンジン CC</value>
+  </data>
+  <data name="EngineModel" xml:space="preserve">
+    <value>エンジン モデル</value>
+  </data>
+  <data name="Enquiry" xml:space="preserve">
+    <value>お問い合わせ</value>
+  </data>
+  <data name="enquiry.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;株式&lt;/span&gt;お問い合わせ</value>
+  </data>
+  <data name="enquiryContactInfo" xml:space="preserve">
+    <value>連絡先情報</value>
+  </data>
+  <data name="enquiryStockdetails" xml:space="preserve">
+    <value>在庫詳細</value>
+  </data>
+  <data name="enquiryYourMessage" xml:space="preserve">
+    <value>あなたのメッセージ</value>
+  </data>
+  <data name="ExpectedPrice" xml:space="preserve">
+    <value>予定価格</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>&lt;h1 class="myform_span"&gt;
+            &lt;span&gt;FAQ&lt;/span&gt;
+        &lt;/h1&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q # 1: 車両から日本語を購入する方法を使用ですか？&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;これらの手順を実行します。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;1. 表示、日本、ロシア、アラブ首長国連邦、およびパキスタン ＆ 南アフリカ株式を使用&lt;/p&gt;
+            &lt;p class="class2"&gt;2. 必要な車両を選択します。&lt;/p&gt;
+            &lt;p class="class2"&gt;3 取得請求書ボタンをクリックし、フォーム情報を送信&lt;/p&gt;
+            &lt;p class="class2"&gt;4. ご確認メール、私たち、Performa 請求メールまたは fax で送信されます。&lt;/p&gt;
+            &lt;p class="class2"&gt;5. Performa 請求書には、CIF 価格と銀行の詳細 ＆ お支払いのモードが含まれます。&lt;/p&gt;
+            &lt;p class="class2"&gt;6. お支払い-の手配、希望の車両をによる支払いの領収書に予約されます。&lt;/p&gt;
+            &lt;p class="class2"&gt;7. お支払い-の手配、希望の車両をによる支払いの領収書に予約されます。&lt;/p&gt;
+            &lt;p class="class2"&gt;8、車両の出荷&lt;/p&gt;
+            &lt;p class="class2"&gt;9. 車両は、正常に放電のポートに達し、それを受け取ることができます。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q ＃ 2： あなたの車の条件は何ですか？&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;すべての車オークションからとフランチャイズ店とし、日本の中央部の周りの卸し業者を供給しています。私たちがそれらをストックする前にこれらの車は徹底的にプロのバイヤーのメカニック スタッフの私達のチームによってチェックされます。私たちのリストにすべての日本車は、Awan.com によって所有しています。私たちは、サード パーティ製エージェントまたはブローカーです。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q ＃ 3： することができます作成方法は、アカウントのあなたのウェブサイトか。&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;ここをクリックして新しいアカウントを作成し、私たちからショッピングを開始する必要があります。&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q ＃ 4： することができます作成方法は、アカウントのあなたのウェブサイトか。&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;在庫車両を選択した場合「請求書を取得」ボタンをクリックして、、実行して請求書を印刷することができます。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q # 5: どの国であなたの車をエクスポートを行うか？&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;我々 すべての国を書き出すことができますここでは日本からの中古車をインポートするのには、法的な法律。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q # 6: 私の注文を配置することができますか？&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;私たち日本車車両、南アフリカ使用車株式やパキスタン使用車を参照してください Stocklines。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;これらの簡単なステップ バイ ステップのガイドラインに従ってください。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;ご希望の車両を選択します。&lt;/p&gt;
+            &lt;p class="class2"&gt;2. 請求書を取得します。&lt;/p&gt;
+            &lt;p class="class2"&gt;3. 支払を請求書に確認します。&lt;/p&gt;
+            &lt;p class="class2"&gt;4. 送料確認が送信されます。&lt;/p&gt;
+            &lt;p class="class2"&gt;5. 車を出荷します。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q # 7: ドキュメント ・情報は、お客様の銀行口座に転送量が後に私の側からする必要が？&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;私たち日本車車両、南アフリカ使用車株式やパキスタン使用車を参照してください Stocklines。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;私たちは、次の情報を提供する必要があります/ドキュメント。&lt;/p&gt;
+            &lt;p class="class2"&gt;a） 荷受名&lt;/p&gt;
+            &lt;p class="class2"&gt;b） 荷受アドレス&lt;/p&gt;
+            &lt;p class="class2"&gt;c) DHL のアドレス:&lt;/p&gt;
+            &lt;p class="class2"&gt;d) 完全な連絡先情報、連絡先番号、Fax 番号など。&lt;/p&gt;
+            &lt;p class="class2"&gt;e）、荷受人と購入が異なっている場合よりもお知らせください。&lt;/p&gt;
+            &lt;p class="class2"&gt;私たちは、上記の情報を配布のすべてのドキュメントが、出荷前に正しく準備されていることを確認するためにください。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;br&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q ＃ 8： どのような書類を受け取るでしょうか？&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;次の出荷書類が表示されます。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;1. 着陸の手形&lt;/p&gt;
+            &lt;p class="class2"&gt;2 関税請求&lt;/p&gt;
+            &lt;p class="class2"&gt;3. エクスポート/証明書の登録解除&lt;/p&gt;
+            &lt;p class="class2"&gt;4. 輸出の翻訳英語/証明書の登録解除&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q # 9: 支払方法は何ですか？&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;お支払いのモードは、PayPal のオンライン クレジット カード決済と電信の転送です。最速、最も安全な最も簡単な方法は、この支払いの方法です。約 3 日間受信してお支払いを処理するかかります。当社のウェブサイト上 thebank 詳細ページ銀行詳細ページを表示することもできます。できるだけ早く我々 は最初に来るのポリシーに最初の基礎を仕事として車を予約するために支払いする必要があります。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q ＃ 10： どのような通貨を支払を受け入れるか？&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;我々 は英国ポンド （ポンド）、アメリカのドル （米ドル）、ユーロと日本円を受け入れます。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q # 11: 私はいくつかこれらの出荷条件を理解することはできませんか？&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;&lt;a href="#"&gt;出荷用語の用語集&lt;/a&gt;のセクションをお読みください。
+            &lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;Q # 12: アワン国際株式会社は、ここで私たちの車を送信する保証されますどのように保証できるか。&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;我々 は、最後の 20 年 (1988年-2008） の自動車事業をエクスポートするのにしています。私たちと言うには、我々 は我々 が購入したユニットまたはユニット出荷がないことを示す苦情が誇りに思っています。私たちはあなたの参照のための国のほとんどの顧客を満足しています。お気軽にお問い合わせあなたの国からの参照が必要な場合。
+            &lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax 番号</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>最初の名前</value>
+  </data>
+  <data name="FOBPrice:" xml:space="preserve">
+    <value>FOB 価格:</value>
+  </data>
+  <data name="footer.menu1" xml:space="preserve">
+    <value>お問い合わせ</value>
+  </data>
+  <data name="footer.menu2" xml:space="preserve">
+    <value>ご注文方法</value>
+  </data>
+  <data name="footer.menu3" xml:space="preserve">
+    <value>利用規約 ＆ 条件</value>
+  </data>
+  <data name="footer.menu4" xml:space="preserve">
+    <value>株式</value>
+  </data>
+  <data name="footer.menu5" xml:space="preserve">
+    <value>www.awan.co.jp|すべての権利予約 2011</value>
+  </data>
+  <data name="footer.menu6" xml:space="preserve">
+    <value>我々について</value>
+  </data>
+  <data name="footerleft.Address" xml:space="preserve">
+    <value>939-0304 富山県射水市小杉白石 138-1 日本</value>
+  </data>
+  <data name="footerleft.copyright" xml:space="preserve">
+    <value>著作権 © 2010年-11 アワン インターナショナル株式会社すべての権利予約</value>
+  </data>
+  <data name="footerleft.heading" xml:space="preserve">
+    <value>アワン国際株式会社</value>
+  </data>
+  <data name="footerleft.phone" xml:space="preserve">
+    <value>電話: 075-766-59-8751 Fax: 075-766-59-8750</value>
+  </data>
+  <data name="Freight" xml:space="preserve">
+    <value>貨物</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>差出人</value>
+  </data>
+  <data name="Fuel" xml:space="preserve">
+    <value>燃料</value>
+  </data>
+  <data name="fueltype" xml:space="preserve">
+    <value>燃料タイプ</value>
+  </data>
+  <data name="GlobalStockLocationText" xml:space="preserve">
+    <value>グローバル株式の場所</value>
+  </data>
+  <data name="howorder1" xml:space="preserve">
+    <value>&lt;img class="abouticon" alt="" src="images/how_order.png" style="margin-right: 10px;
+                margin-left: 5px;"&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;ステップ 1&lt;/span&gt;&lt;span class="class_span2"&gt;選択&lt;/span&gt;&lt;span class="class_span2"&gt;-希望のちょうどあなたのコンピューターから、車両を検索します&lt;/span&gt;。 
+                &lt;/p&gt;
+            &lt;p class="class"&gt;あなたのintrest車はmakeによって私達の在庫を検索する検索するには、モデルと、より多くの検索オプションを確認します。
+               OR
+               あなたはメンバーをautorizedされている場合我々は日本の中古車オークションへアワンインターナショナル株式会社を介して直接アクセスを提供します。
+               このアクセスは私たちを &lt;a href="SalesTeams.aspx"&gt; contact &lt;/a&gt;取得する。&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;ステップ 2&lt;/span&gt;&lt;span class="class_span2"&gt;営業あなたの車を予約すると注文をネゴシエートします&lt;/span&gt;。 
+            &lt;/p&gt;
+            &lt;p class="class"&gt;注: 登録予約・ ネゴシエーションを強制されています。まだ登録されていない場合&lt;a href="membership.aspx"&gt;今すぐ登録してください&lt;/a&gt;。お問い合わせ正しい、正確であるかどうかを確認します。&lt;/p&gt;
+            &lt;p class="class_span2"&gt;プロセス詳細の順序&lt;/p&gt;
+            &lt;p class="class"&gt;車を購入するとすぐに、ちょうどあなたの順序または NEGOTIATE を続行または当社営業 skype または電子メールまたは電話を介して話順序ボタンをクリックします。&lt;/p&gt;
+            &lt;p class="class_span2"&gt;配信と出荷時間を確認します。&lt;/p&gt;
+            &lt;p class="class"&gt;それあなたの車を出荷することが長くはないが、お住まいの地域ご注文前に、の正確な配信時間を確認することをお勧め正確な納期のお住まいの地域に、orde 前に、&lt;/p&gt;
+            &lt;br&gt;
+            &lt;br&gt;
+            &lt;p class="class_span2"&gt;車のコストを見つける&lt;/p&gt;
+            &lt;p class="class"&gt;車両情報の表示価格は FOB 価格のみです。すなわち、車、貨物、追加料金なしのコストです。しかしヤードから出発のポートへの交通手段の費用が含まれています。&lt;/p&gt;
+            &lt;p class="class"&gt;あなたが知る必要があるいくつか他のコストです。&lt;/p&gt;
+            &lt;p class="class_span2"&gt;配送料金：&lt;/p&gt;</value>
+  </data>
+  <data name="howorder2" xml:space="preserve">
+    <value>&lt;p class="class"&gt;このコストは、別の国の異なるです。&lt;/p&gt;
+            &lt;p class="class_span2"&gt;クリア後にお住まいの地域に最も近いポートに着陸の費用。&lt;/p&gt;
+            &lt;p class="class"&gt;これらの料金は、生活している地域によると異なる場合があります。支援やアドバイスのための私達の専門家に話をあなたのローカル消去エージェント料金連絡先を確認しには。&lt;/p&gt;</value>
+  </data>
+  <data name="howorder3" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;いくつかの国の義務の検査料&lt;/p&gt;
+            &lt;p class="class"&gt;いくつか追加の検査費用のザンビア、ケニア、ウガンダ、タンザニアのような国です。&lt;/p&gt;</value>
+  </data>
+  <data name="howorder4" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;ご注文を送信します。&lt;/p&gt;
+            &lt;p class="class"&gt;車の条件と送金にコストをクリアを得るには、ご注文の処理に進みます。＃ プロフォルマ請求書を取得します。&lt;/p&gt;</value>
+  </data>
+  <data name="howorder5" xml:space="preserve">
+    <value>&lt;p class="class"&gt;プロフォルマ請求書を電子メールで送信されます。クイックの出荷を確認するには、お支払いをできるだけ早くと進んでください。&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;ステップ 3&lt;/span&gt; &lt;span class="class_span2"&gt;請求書し、電信転送 （銀行振込） または Pal. を支払う必要な金額を支払うを実行して支払いを受ける&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;注： 振込手数料は、お金を送信するときに銀行振込みいただくこと確認してください。&lt;/p&gt;
+            &lt;p class="class_span1"&gt;あなたのお金を送金するオプション&lt;/p&gt;
+            &lt;p class="class_span2"&gt;電信送金:&lt;/p&gt;
+            &lt;p class="class"&gt;それは、最も推奨される方法で、銀行を介して外部トランザクション サービスを配置することができます。&lt;/p&gt;
+            &lt;p class="class_span2"&gt;クレジット カードによるお支払いを送金する最も便利なオプション&lt;/p&gt;
+            &lt;p class="class"&gt;4 ％ の手数料請求書支払い上限 PAYPAL を通じての上にある: 最小 1億ドル、最大 USD10, 000 (最大量登録国は、そのために PAYPAL を条件と制限を参照してください)。&lt;/p&gt;</value>
+  </data>
+  <data name="howorder6" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;お支払いを送信する場所。&lt;/p&gt;
+            &lt;p class="class"&gt;（合意に基づく) すべての支払いは、完全に行う必要があります。全額の支払いを受信した後すぐに出荷を手配をいたします。詳細についてはについて送料とお支払いください私達の&lt;a href="TermsandConditions.aspx"&gt;契約条件&lt;/a&gt;読む&lt;/p&gt;
+            &lt;p class="class_span2"&gt;購入確認書&lt;/p&gt;
+            &lt;p class="class"&gt;お支払い時に受信されていないまたはあなたの車の在庫がない場合は、我々 もときの状況ですべてのお金を与えるか、絶対交換あなたの車を確認します。それ以外の場合当社の在庫は同じ値から別の車を選択できます。&lt;/p&gt;
+            &lt;p class="class"&gt;あなたの出荷の物流部門からの電子メールを介しての出発と到着の日を確認します。&lt;/p&gt;
+            &lt;p class="class_span2"&gt;重要なドキュメントをあなたの車を受信する必要があります、必要な書類は&lt;/p&gt;
+            &lt;p class="class_span2"&gt;証明書をエクスポートします。&lt;/p&gt;
+            &lt;p class="class"&gt;このドキュメントが必要です。&lt;/p&gt;
+            &lt;p class="class_span2"&gt;関税請求&lt;/p&gt;
+            &lt;p class="class"&gt;ローカルのカスタム部門ではそれのあなたの車の等価の値を評価するに使用します。&lt;/p&gt;
+            &lt;p class="class_span2"&gt;BL&lt;/p&gt;
+            &lt;p class="class"&gt;BL や船荷先 （POD） のポートであなたの車を最寄りのポートからの受信に必要です。&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;他のドキュメント&lt;/span&gt; &lt;span class="class_span2"&gt;は、あなたの国の規制によって必要があります。私たちもあなたの要求をクリアするエージェントに直接ドキュメントを送信できます。&lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;ステップ 4&lt;/span&gt;&lt;span class="class_span2"&gt;出荷受信予約の詳細、出荷情報およびその他の必要なドキュメント&lt;/span&gt;。 
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;ステップ 5&lt;/span&gt;&lt;span class="class_span2"&gt;カスタム クリアランス - クリア代理店からのサービスを雇う、またはあなたの自己によって課税と関税の問題を解決します&lt;/span&gt;。 
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder7" xml:space="preserve">
+    <value>&lt;p class="class_span2"&gt;次のことを確認します。&lt;/p&gt;
+            &lt;p class="class"&gt;クリアするエージェントからの最終到着通知。&lt;/p&gt;
+            &lt;p class="class"&gt;到着日は常に予定です。したがって最終的な確認を、到着の実際の日付の前に、エージェントをオフください。&lt;/p&gt;
+            &lt;p class="class"&gt;すぐにあなたの車を運転する前にあなたの車をクリアする最後のステップです。&lt;/p&gt;
+            &lt;p class="class"&gt;あなたの車で、ポートを取得 ！&lt;/p&gt;
+            &lt;p class="class"&gt;ローカルの料金の決済&lt;/p&gt;
+            &lt;p class="class"&gt;クリアのコストを支払います。&lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;ステップ 6&lt;/span&gt; &lt;span class="class_span2"&gt;ドライブ - クリアランス後、あなたの国で登録されているあなたの車を取得し、運転を楽しむ ！&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;あなたの車を受信後条件をチェックし、情報シートと比較することを忘れないでください。アワン国際株式会社日本ですべての車の専門家と専門家の力学によって検査されます。&lt;/p&gt;
+            &lt;p class="class"&gt;任意のクエリと車の条件についての混乱は、気軽に&lt;a href="ContactUs.aspx"&gt;お問い合わせします&lt;/a&gt;。
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder8" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;方法&lt;/span&gt;アワン国際株式会社</value>
+  </data>
+  <data name="ImageView" xml:space="preserve">
+    <value>イメージの表示</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>荷受人情報</value>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>検査</value>
+  </data>
+  <data name="INSPECTIONCERT" xml:space="preserve">
+    <value>検査証明書</value>
+  </data>
+  <data name="InspectionCertificate" xml:space="preserve">
+    <value>検査証明書 (25,000 円)</value>
+  </data>
+  <data name="Insurance" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="InteriorColor" xml:space="preserve">
+    <value>インテリアカラー</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="LanguagesArif" xml:space="preserve">
+    <value>&lt;span&gt;&lt;b&gt;日本、ロシア語、英語、ヒンディー語、ウルドゥー語。&lt;b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="LanguagesRizwanRauf" xml:space="preserve">
+    <value>英語、アラビア語、ウルドゥー語</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>場所</value>
+  </data>
+  <data name="loginpages.emaillable" xml:space="preserve">
+    <value>電子メール</value>
+  </data>
+  <data name="loginpages.Forgetpassworlable" xml:space="preserve">
+    <value>パスワードを忘れた</value>
+  </data>
+  <data name="loginpages.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;メンバー&lt;/span&gt;ログイン ページ</value>
+  </data>
+  <data name="loginpages.heading1" xml:space="preserve">
+    <value>&lt;a href="membership.aspx"&gt;私たちだけのフォームに記入することが貴重なメンバーになる ！。&lt;/a&gt;</value>
+  </data>
+  <data name="loginpages.LogInlable" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="loginpages.passwordlable" xml:space="preserve">
+    <value>パスワード:</value>
+  </data>
+  <data name="Make" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="MakeCategory" xml:space="preserve">
+    <value>カテゴリします。</value>
+  </data>
+  <data name="Makecatgory" xml:space="preserve">
+    <value>作成カテゴリ</value>
+  </data>
+  <data name="MakeDescription" xml:space="preserve">
+    <value>説明をします。</value>
+  </data>
+  <data name="MakeModel" xml:space="preserve">
+    <value>モデルを作る</value>
+  </data>
+  <data name="ManagingDirector" xml:space="preserve">
+    <value>マネージング ディレクター</value>
+  </data>
+  <data name="membership.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;メンバーシップ&lt;/span&gt;要求</value>
+  </data>
+  <data name="membership.lblmessage" xml:space="preserve">
+    <value>あなたの会員は、正常に完了しました ！メンバーとしてログインするには</value>
+  </data>
+  <data name="membershipclick" xml:space="preserve">
+    <value>ここをクリックします。</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="default.aspx"&gt;&lt;span&gt;ホーム&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;我々について&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="CooperateOverView.aspx"&gt;&lt;span&gt;企業&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="AwanInter.aspx"&gt;&lt;span&gt;なぜアワン国際株式会社&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span&gt;銀行の詳細&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="TermsandConditions.aspx"&gt;&lt;span&gt;利用規約 ＆ 条件&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="SalesTeams.aspx"&gt;&lt;span&gt;セールス ・ チーム&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="gallery.aspx"&gt;&lt;span&gt;フォト ギャラリー&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        
+        
+        
+      &lt;li&gt;&lt;a href="stocklist.aspx?lv=1"&gt;&lt;span&gt;株式&lt;/span&gt;&lt;/a&gt; &lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;その他の情報&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small3_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="ShippingInfo.aspx"&gt;&lt;span class="small_img2"&gt;出荷情報&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="Glossary.aspx"&gt;&lt;span class="small_img2"&gt;用語集&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="http://www.auto-japanese.com/Pr_1year/index.php?company=4"&gt;&lt;span class="small_img2"&gt;シャーシのチェック&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;顧客&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span class="small_img2"&gt;メンバー ログイン&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="membership.aspx"&gt;&lt;span class="small_img2"&gt;新しいメンバーシップ要求&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;支払い&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="PayPal.aspx"&gt;&lt;span class="small_img2"&gt;Paypal のインターフェイス&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span class="small_img2"&gt;銀行の詳細&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+         &lt;li style="width:115px"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span style="width:115px"&gt;メンバー ログイン&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://awan.ajes.com/"&gt;&lt;span&gt;オークション&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li style="width:100px"&gt;&lt;a href="HowtoOrder.aspx"&gt;&lt;span style="width:100px"&gt;ご注文方法&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+         
+        &lt;li&gt;&lt;a href="FAQ.aspx"&gt;&lt;span&gt;よくある質問&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li style=" margin-left: 4px; width:110px"&gt;&lt;a href="ContactUs.aspx"&gt;
+        &lt;span style=" margin-left: 4px; width:110px"&gt;お問い合わせ&lt;/span&gt;&lt;/a&gt; 
+        &lt;/li&gt;</value>
+  </data>
+  <data name="Mileage" xml:space="preserve">
+    <value>走行距離 (KM)</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>モバイル</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>モデル</value>
+  </data>
+  <data name="ModelYear" xml:space="preserve">
+    <value>年式</value>
+  </data>
+  <data name="MohammadalKhawajaInfo" xml:space="preserve">
+    <value>みなさん、こんにちは私の名前 MohammadalKhawaja、私は 2004 年のアワン国際家族に参加しました。&lt;br&gt;私は、我々 は共通の理念を共有するために来ることができて光栄だった。私たち私たちの自動車のニーズに最適なソリューションを見つけることを委託している人々 について本当に気に。人とどちらに圧力をかけてアワン インターナショナル株式会社は好きではないです。どのくらい彼らの車の購入の経験と経験を他のユーザーと共有する自分たちの熱意を楽しんでいる、誠意をもってお客様をとき表現よりも何も私を興奮します。&lt;br&gt;私は私のクライアントに、右の意思決定をするには、すべての情報を提供します。私に質問を公平な質問だし、私は決して私のメンバーは、プロセスを理解すると仮定します。耳を傾けるを使用自分の目標を理解すると、私は、右側の車を自分のニーズと一致します。だから、私場合は、次の車を探しているし、私も探している右側の車を見つけるを助ける呼び出しを与えます。</value>
+  </data>
+  <data name="MohammadalTitle" xml:space="preserve">
+    <value>マネージング ディレクター</value>
+  </data>
+  <data name="MohammadalTitleLanguage" xml:space="preserve">
+    <value>英語、アラビア語</value>
+  </data>
+  <data name="MohammadAwaisInfo" xml:space="preserve">
+    <value>こんにちは、私の名前はムハンマド Awais は、現在、ロシアのセクターのアワン国際グループを管理します。私はアワン国際株式会社と販売のコンサルタントとしての私のキャリアを開始したし、のハードワークと献身を今日の多くの後私はこの場所で。&lt;br&gt;1 つの事私は本当にここで私は 8 年間の人生のアワン国際グループに与えているし、私はので、実際には私の人生の最高の意思決定参加アワン国際グループに撮影して  こと神に感謝して言及したいです。&lt;br&gt;私は誰もが直接または間接的車ビジネスに関連して私たちを一度訪問して私は、最高のサービスを提供することが保証されます歓迎します。</value>
+  </data>
+  <data name="MohammadAwaisLanguages" xml:space="preserve">
+    <value>英語、Russain、ウルドゥー語</value>
+  </data>
+  <data name="MohammadAwaisTitle" xml:space="preserve">
+    <value>&lt;span style="width: 257px;"&gt;&lt;b&gt;マネージング ディレクター-ロシア&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="MyInfo" xml:space="preserve">
+    <value>私の情報</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="negolist.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;交渉&lt;/span&gt;一覧</value>
+  </data>
+  <data name="Negotiate" xml:space="preserve">
+    <value>ネゴシエート</value>
+  </data>
+  <data name="NegotiationDeal" xml:space="preserve">
+    <value>交渉の契約</value>
+  </data>
+  <data name="NewArrival" xml:space="preserve">
+    <value>新着</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="NomanRaufInfo" xml:space="preserve">
+    <value>Assalamu.alaikum、私の名前は， ノーマン Rauf と現在はパキスタンのアワン国際グループ内のすべての作業の管理です。&lt;br&gt;私は私のキャリアを開始した、アワン国際株式会社と販売管理者としてとのハードワークと献身を今日の多くの後私はこの場所で。&lt;br&gt;私の卒業式で経営からよくやったビジネス大学パキスタンすなわち IoBM.My の仕事の経験では約 3 年アワン国際株式会社を知っています。私の仕事には、購入/販売、パキスタンの私たちのすべてのクライアントでの維持友好関係。あらゆる種類のパキスタン ビジネス条件と temrs に関連する情報を提供することができます。&lt;br&gt;私は誰もが直接または間接的車ビジネスに関連して私たちを一度訪問して私は、最高のサービスを提供することが保証されます歓迎します。</value>
+  </data>
+  <data name="NomanRaufTitle" xml:space="preserve">
+    <value>販売マネージャー パキスタン</value>
+  </data>
+  <data name="nowonsale" xml:space="preserve">
+    <value>発売中</value>
+  </data>
+  <data name="OfficePhone" xml:space="preserve">
+    <value>オフィスの電話番号</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>順序</value>
+  </data>
+  <data name="order.DestinationPort" xml:space="preserve">
+    <value>宛先ポート</value>
+  </data>
+  <data name="Order1.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;在庫&lt;/span&gt;注文に</value>
+  </data>
+  <data name="OrderConsignee.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;二重引用符&lt;/span&gt;</value>
+  </data>
+  <data name="orderfin.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;二重引用符&lt;/span&gt;</value>
+  </data>
+  <data name="ORDERFINTOTAL" xml:space="preserve">
+    <value>支払合計額:</value>
+  </data>
+  <data name="orderfin_bankDetali" xml:space="preserve">
+    <value>&lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;銀行名： 三菱東京 UFJ 銀行&lt;br&gt;銀行住所: 2-23-25 KOURINBOU、金沢、日本&lt;br&gt;支店名: 金沢支店&lt;br&gt;アカウント名: アワン インターナショナル株式会社&lt;br&gt;口座番号： 0687182&lt;br&gt;Swift コード: BOTKJPJT&lt;br&gt;送金のため： 支払自動車・自動車部品&lt;/font&gt;</value>
+  </data>
+  <data name="orderstatus" xml:space="preserve">
+    <value>&lt;ul&gt;
+                        &lt;li class="active"&gt;ステップ 1 [送料詳細]&lt;/li&gt;
+                        &lt;li&gt;ステップ 2 [受注明細]&lt;/li&gt;
+                        &lt;li&gt;手順 3 [荷受情報]&lt;/li&gt;
+                        &lt;li&gt;ステップ 4 [注文の完了]&lt;/li&gt;
+                    &lt;/ul&gt;</value>
+  </data>
+  <data name="orderstatus2" xml:space="preserve">
+    <value>&lt;li&gt;1-[配布の詳細]&lt;/li&gt;
+                        &lt;li&gt;2-[受注明細]&lt;/li&gt;
+                        &lt;li&gt;3-[荷受情報]&lt;/li&gt;
+                        &lt;li class="active"&gt;4-[注文を完了]&lt;/li&gt;</value>
+  </data>
+  <data name="PartCondition" xml:space="preserve">
+    <value>一部の条件</value>
+  </data>
+  <data name="PartsInfo" xml:space="preserve">
+    <value>パーツ情報</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="PaymentOptions" xml:space="preserve">
+    <value>支払いオプション</value>
+  </data>
+  <data name="paypal.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;あなたの支払いを PayPal を使用する/&lt;/span&gt;クレジット カード</value>
+  </data>
+  <data name="paypalExample" xml:space="preserve">
+    <value>量 +4 を含める必要があります ％ の取引手数料</value>
+  </data>
+  <data name="paypalExample2" xml:space="preserve">
+    <value>例: (100 ドルを支払う場合は、あなた $104 入力する必要が）</value>
+  </data>
+  <data name="paypalPaymentfor" xml:space="preserve">
+    <value>お支払いについて</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="PHOTO" xml:space="preserve">
+    <value>写真</value>
+  </data>
+  <data name="portdischarge" xml:space="preserve">
+    <value>ポートの放電</value>
+  </data>
+  <data name="Portloading" xml:space="preserve">
+    <value>ポートの読み込み</value>
+  </data>
+  <data name="Pricelable" xml:space="preserve">
+    <value>価格</value>
+  </data>
+  <data name="Priceranglable" xml:space="preserve">
+    <value>価格が鳴った</value>
+  </data>
+  <data name="QUANTITY" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="Quickcontact" xml:space="preserve">
+    <value>クイック コンタクト</value>
+  </data>
+  <data name="Quickcontact.EmailRequired" xml:space="preserve">
+    <value>メール アドレス必須</value>
+  </data>
+  <data name="Quickcontact.NameRequired" xml:space="preserve">
+    <value>名前必須</value>
+  </data>
+  <data name="Quickcontact.send" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="QuickContactStartText" xml:space="preserve">
+    <value>一般的な Enquiy を親切がある場合は、要求の下の詳細を提供するを送信します。</value>
+  </data>
+  <data name="QuickSearch" xml:space="preserve">
+    <value>クイックサーチ</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>二重引用符</value>
+  </data>
+  <data name="Quotation.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;二重引用符&lt;/span&gt;</value>
+  </data>
+  <data name="QuoteDate" xml:space="preserve">
+    <value>日付を引用：</value>
+  </data>
+  <data name="QuoteDeals" xml:space="preserve">
+    <value>日本のお得情報中古車</value>
+  </data>
+  <data name="QuoteRef" xml:space="preserve">
+    <value>Ref を引用：</value>
+  </data>
+  <data name="Re-TypePassword" xml:space="preserve">
+    <value>パスワードの再入力します。</value>
+  </data>
+  <data name="RegularView" xml:space="preserve">
+    <value>通常の表示</value>
+  </data>
+  <data name="RizwanRaufInfo" xml:space="preserve">
+    <value>こんにちは、私は RizwanRauf、私の管理監督の Tambiri モーターは、ドバイ支店のアワン国際グループ FZD。私の最初のステップとしてプロの世界でドバイと参加 Tambiri モーター FZD 2006 で卒業を完了します。本当に、プロの環境のように、私カレール アワン国際グループが作業の大きな可能性を参照してください。&lt;br&gt;私の仕事に、購入・ セーリング、維持友好関係を私たちのすべてのクライアントでは、事業を強化して維持と健康周辺環境です。そのほぼ 6 アワン国際グループとその本当に価値があるアワン国際株式会社グループとの取引を保証することができます作業年。</value>
+  </data>
+  <data name="salestemsheading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;売り上げ高&lt;/span&gt;チーム</value>
+  </data>
+  <data name="saleteams.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;売り上げ高&lt;/span&gt;チーム</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="Searchbybodytype" xml:space="preserve">
+    <value>車種別検索</value>
+  </data>
+  <data name="SearchbyMake" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="Seats" xml:space="preserve">
+    <value>席</value>
+  </data>
+  <data name="SelectStock" xml:space="preserve">
+    <value>株式を選択します。</value>
+  </data>
+  <data name="sellcar.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;販売、&lt;/span&gt;車</value>
+  </data>
+  <data name="Shahidoinfo" xml:space="preserve">
+    <value>こんにちは、私の名前は Shahido 桜井です。1999 年には、使用車販売コンサルタントとしての私のキャリア始めているし、今日、恵みの ALLAHA が全能の神、所有者のアワン国際 GROIP 会社私は&lt;br&gt;経験 20 年の管理とサービスをお客様に提供します。私スタイル車ビジネスへのアプローチとお客様の中心は常にされています。私は私が、自動車業界での経験の多くの年をもたらします。私は本当に彼らが必要を取得することができる場合は常に、感じているし、顧客の生活を作成するより良い運があります。またこれらの崇高な目標を達成するために、チームの努力は、私の大きな支持チームとコミュニティのことを知っています。&lt;br&gt;「きょうの」のファン アワン国際株式会社を作成する最高のビジネス慣行を確立することは私のフォーカス今日です。勝利/勝利の状況でプロセスが確立されると私たちに置いているし、お客様の生活を確立する非常に遠くはないぞ。</value>
+  </data>
+  <data name="ShahidoLanguage" xml:space="preserve">
+    <value>&lt;b&gt;日本、ロシア語、英語、ヒンディー語、ウルドゥー語。&lt;/b&gt;</value>
+  </data>
+  <data name="ShahidoTitle" xml:space="preserve">
+    <value>監督</value>
+  </data>
+  <data name="Shipment" xml:space="preserve">
+    <value>出荷</value>
+  </data>
+  <data name="shippinginfo" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+        &lt;span style="color: #F0F0F0"&gt;出荷&lt;/span&gt;情報&lt;/ul&gt;
+    &lt;ul class="myform_line"&gt;
+    &lt;/ul&gt;
+    &lt;div id="main_top_panel"&gt;
+        &lt;div&gt;
+            &lt;img class="ShippingInfo-img" alt="" src="images/cars_in_containers.png"&gt;
+            &lt;p class="class"&gt;日本はモーター貨物を処理するための配布とロジスティック施設最も進んだ。容器の種類に応じて、モーター貨物をロードの 2 つの方法です。ロールオン式、ロールオフとして (RORO)、貨物の 1 つの種類が知られているし、他の 20 フィート 40 フィート コンテナー貨物か。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;自動製造は、過去 10 年間でますますグローバル化、RORO 船 (自動車運搬船） タイトな供給されます。RORO 型貨物が低いは出荷の周波数 20 フィートまたは 40 フィート コンテナー貨物を使用して他の通常運ぶの船に比較。多くの国の唯一の選択肢は左コンテナー読み込みはすべてポートも RORO 船で覆われています。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;コンテナー出荷の読み込みが偉大な努力と勤勉さしもノウハウと経験を必要とします。私たちの多くの年の大規模な詰め物経験があるし、あなたは、自動車を安全に、コスト、安全な環境で発送することができます。私達のバルク郵送物定期的のために私たちにも、最もコスト競争力のある料金を取得しています。以下に、コンテナーの負荷の出荷を勧めします。通常は、40 フィート コンテナーによって、車のサイズ ・寸法に複数の車のものを管理します。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;すべての種類の配布の用語は、&lt;a href="#"&gt;ここをクリックして&lt;/a&gt;の用語集を表示するには&lt;/p&gt;
+            &lt;p class="class js_a"&gt;
+                &lt;a href="http://japan-used-car-exporting.info/import/shipping-companies.html"&gt;&lt;b&gt;有名な配送会社一覧&lt;/b&gt;&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;div class="clear"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="clear"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="Shipto" xml:space="preserve">
+    <value>出荷先します。</value>
+  </data>
+  <data name="SpecialOffer" xml:space="preserve">
+    <value>特別オファー</value>
+  </data>
+  <data name="Start_Date" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="Steering" xml:space="preserve">
+    <value>ステアリング</value>
+  </data>
+  <data name="STOCKDETAIL" xml:space="preserve">
+    <value>在庫詳細</value>
+  </data>
+  <data name="stocklist.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;株式&lt;/span&gt;検索</value>
+  </data>
+  <data name="StockLocation" xml:space="preserve">
+    <value>在庫場所</value>
+  </data>
+  <data name="stocknumber" xml:space="preserve">
+    <value>在庫なし</value>
+  </data>
+  <data name="Stockorder" xml:space="preserve">
+    <value>在庫注文に</value>
+  </data>
+  <data name="stockpage" xml:space="preserve">
+    <value>在庫のページの詳細</value>
+  </data>
+  <data name="StockRef" xml:space="preserve">
+    <value>株式の Ref</value>
+  </data>
+  <data name="Stocktype" xml:space="preserve">
+    <value>株式の種類</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;銀行&lt;/span&gt;詳細</value>
+  </data>
+  <data name="SUbmitRequest" xml:space="preserve">
+    <value>要求を送信する</value>
+  </data>
+  <data name="TabularView" xml:space="preserve">
+    <value>表形式ビュー</value>
+  </data>
+  <data name="TermsandConditions1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;利用規約&lt;/span&gt;＆ 条件&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="TermsandConditions2" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;アワン国際株式会社株式&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class_span1"&gt;という名前を付けます。我々 はそれがあります。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;車の広い範囲は、オンライン購入アワン国際株式会社株式の下で利用可能です。価格は FOB と C ＆ F の用語を特定の地域に記載されています。&lt;/p&gt;
+            &lt;p class="class2"&gt;私たちのすべての価格は交渉は、お問い合わせを歓迎します。直接購入する私たちを訪問する場合フォブまたは C ＆ F 料金はまた要求時にネゴシエートできます。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions3" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;日本のオークション&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class_span1"&gt;自動車の世界を探検しよう ！&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;アワン国際株式会社以上 200,000 台数: 私たちオンラインのオークション システムを提供しています。アワン国際株式会社毎日オークション、世界各地で参加しています。アワン国際株式会社毎日オークションからオークション データと写真を受け取る。この情報が e-モーターに読み込まれ、オンライン、オンライン オークション ページを提供します。&lt;/p&gt;
+            &lt;p class="class2"&gt;デポジットはオンライン オークション システムにライブ入札を提出する必要です。アワン国際株式会社カスタマー サービス (CSC) 個人的に一定の間隔で各顧客の預金ステータスを確認します。サービス利用可能な 24/7 です。落札時に;デポジットお支払い電信転送 (TT) または直接クレジット （ペイパル） 経由で購入の 5 日間が必要です。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions4" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;貿易の条件:&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;• 顧客トランザクションを行う前に当社のウェブサイト上を登録する必要があります。（登録は無料です ！）&lt;/p&gt;
+            &lt;p class="class2"&gt;• 準備の株式から車を確認する前に預金の必要はありません。&lt;/p&gt;
+            &lt;p class="class2"&gt;• 完全か部分的な支払確認を介して電信転送 (TT) の 7 日以内が必要です。&lt;/p&gt;
+            &lt;p class="class2"&gt;• 預金のための残りを出荷する前に必要な元のドキュメントのリリースの前に。&lt;/p&gt;
+            &lt;p class="class2"&gt;ログイン資格情報を受信したら • 価格における車両の詳細を表示できます。&lt;/p&gt;
+            &lt;p class="class2"&gt;• 価格はアメリカ合衆国ドル （米ドル） と日本円、C ＆ F または FOB 条件で引用されます。&lt;/p&gt;
+            &lt;p class="class2"&gt;• 顧客は米ドル、日本円、ユーロなど池ポンドを支払うことができます。&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions5" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"&gt;
+            &lt;a href="#"&gt;保証&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"&gt;
+            &lt;p class="class2"&gt;2 保証されます。標準保証の義務です。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;標準保証&lt;/p&gt;
+            &lt;p class="class2"&gt;標準保証 (強制米国$ 50) として: 沈没船、火災、または貨物の損失をカバーしています。&lt;/p&gt;
+            &lt;p class="class_span1"&gt;サービス エリア:&lt;span class="class2"&gt;フル CIF 量&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;範囲:&lt;span class="class2"&gt;から名古屋、日本国のアンロード先シーポート ヤード時点&lt;/span&gt;。&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;要求を受け入れ、あなたの車を先港でのアンロード後ヤードないです。&lt;/p&gt;
+            &lt;p class="class_span1"&gt;標準保証&lt;/p&gt;
+            &lt;p class="class2"&gt;銀保証 （オプション、米国$ 110) として: 沈没船、火災、または貨物、（で不可低力を除く) の破損や盗難 (元のオーディオ ・付属品） 以外の損失をカバーしています。&lt;/p&gt;
+            &lt;p class="class_span1"&gt;報道制限:&lt;span class="class2"&gt;における FOB 量&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;範囲:&lt;span class="class2"&gt;から名古屋、ポイント先シーポート ヤード (前に配信) でピックアップする&lt;/span&gt;。&lt;/p&gt;
+            &lt;p class="class2"&gt;ない主張受け入れ後、またはクリアする代理店先シーポート ヤードであなたの車を取得します。&lt;/p&gt;
+            &lt;p class="class2"&gt;あなたの車をクリアするエージェントを求める場合は、エージェントは車両状態 （海港ヤード) に配信する前に確認する必要があります教えてください。&lt;/p&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="tilelRizwanRauf" xml:space="preserve">
+    <value>&lt;span style="width:257px;"&gt;&lt;b&gt;頭の操作 (ドバイ)&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>宛先</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>合計コスト</value>
+  </data>
+  <data name="Transmission" xml:space="preserve">
+    <value>伝送</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="Veh.Category" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="VehicleGrade" xml:space="preserve">
+    <value>車両グレード</value>
+  </data>
+  <data name="VehicleMake" xml:space="preserve">
+    <value>車を</value>
+  </data>
+  <data name="Vehicleoptions" xml:space="preserve">
+    <value>車のオプション</value>
+  </data>
+  <data name="VehName" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>ビュー</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>詳細の表示</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>ウェブサイト</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="yearmonth" xml:space="preserve">
+    <value>年月</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>salestemsheading</value>
+  </data>
+  <data name="auction1" xml:space="preserve">
+    <value>&lt;div&gt;
+  
+
+        &lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;オークション&lt;/span&gt;
+        &lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;&lt;/ul&gt;
+        &lt;p class="class"&gt;AwanInternational 株式会社の登録メンバーになると、毎日以上 100 オークションハウス、結果として約 30,000 台へのアクセスを取得します。車、車の部品を見つける、その詳細を表示し、も、車、デスクトップからあなたの家の快適さで入札することができます。&lt;/p&gt;
+        &lt;p class="class"&gt;AwanInternational 株式会社では、中古車オークションの全体のプロセスは 1、2、3 として簡単です次の手順を参照してください。&lt;/p&gt;
+        &lt;br&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;ステップ 1&lt;/span&gt; &lt;span class="class_span2"&gt;登録会員になります。&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            AwanInternational の会員となる&lt;a href="/user/register" target=""&gt;登録&lt;/a&gt;株式会社と get アクセスに複数のオークションハウスで利用可能な全体の株式。&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;ステップ 2&lt;/span&gt; &lt;span class="class_span2"&gt;保証金&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;1,000 ドル以上 100,000 円未満 100万の価値がある車の入札には通常、最初のセキュリティの金額を預金します。我々 は、我々 車のいずれかに入札する前にこの金額を保持する必要があります。成功の入札価格を取得しない場合は、保証金完全返金または顧客の要求に基づいて、お客様のアカウントで調節可能です。&lt;br&gt;
+        &lt;/p&gt;
+        &lt;table cellspacing="0" cellpadding="5" align="center" class="auctionTable"&gt;
+            &lt;tr&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;span class="class_span2"&gt;預金の詳細を入札します。&lt;/span&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auction1"&gt;
+                    Deposit Rank
+                &lt;/th&gt;
+                &lt;th class="auction2"&gt;デポジットの金額 us ドル&lt;/th&gt;
+                &lt;th class="auction3"&gt;予算 2000年 ％ 米ドル購入&lt;/th&gt;
+                &lt;th class="auction4"&gt;保証金の額円&lt;/th&gt;
+                &lt;th class="auction5"&gt;予算 2000年 ％ 円を購入&lt;/th&gt;
+                &lt;th class="auction6"&gt;制限を購入&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    A
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $10,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \1,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \20,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    No Limit
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    B
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $5,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \500,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \10,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    10 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    C
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $3,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $60,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \300,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \6,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    4 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    D
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $2,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $40,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \4,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    3 Units
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    E
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $1,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $20,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \2,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    1 Unit
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;br&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;font class="class"&gt;&lt;b&gt;我々、顧客からの預金の上彼の入札を開始するを許可する必要があります。&lt;/b&gt;&lt;/font&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;ステップ 3&lt;/span&gt; &lt;span class="class_span2"&gt;車オークションからの入札&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;ください、ロット番号、車名およびオークションの注文フォームで入札価格を入力します。&lt;/p&gt;
+        &lt;p class="class"&gt;我々 だけで、入札に勝ったが、実際のオークション価格をお支払いいただきます。だから、入札に勝つチャンスを増やすためにすることができます高い入札してください。&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;ステップ 4&lt;/span&gt; &lt;span class="class_span2"&gt;入札結果について&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;私たちを得るあなたの入札に成功、私たちあなたの入札が成功を持っていることを通知します。車の合計価格を含む請求書を受信します。価格は、オークションの元の販売価格を計算します。&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;ステップ 5&lt;span class="class_span2"&gt;の最後の支払い&lt;/span&gt;&lt;p&gt;
+
+       
+        &lt;p class="class"&gt;最後のお支払いは 5 営業日で支払われます。コミットの時間で支払いはご注文をキャンセルから救うに役立ちます。&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;ステップ 6&lt;span class="class_span2"&gt;出荷&lt;/span&gt;&lt;p&gt;
+       
+         &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="auction2" xml:space="preserve">
+    <value>&lt;div&gt;
+        &lt;p class="class"&gt;
+            お支払いを確認次第、発送が配置されます。&lt;/p&gt;
+        &lt;p class="class"&gt;
+            注:、最も最適な出荷サービスが見つかります&lt;a href="www.awan.co.jp"&gt;Awan.co.jp&lt;/a&gt;で&lt;/p&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;ステップ-7&lt;span class="class_span2"&gt;ドキュメント&lt;/span&gt;&lt;p&gt;
+                &lt;p class="class"&gt;
+                    日本からの船の葉、フェデックスや DHL EMS でのすべてのドキュメントを送信します。ドキュメントである;&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    証明書をエクスポートします。&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    船荷証券&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    請求書&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    場合は、任意の海上保険&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    JAAI 検査やその他の検査は、存在する場合&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    注: 余分なまたは隠された料金 CNF または CIF 価格以外はありません。すべての料金上記料金に含まれています。&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    お支払い方法 ＆ 銀行手数料&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    あなたの銀行を電信送金を介して支払いを手配してくれます。すべての銀行手数料は、送信者によって支払われる必要があります。支払米ドルであることを確認してください、/日本円と、請求書および在庫数の説明フィールドを含めてください。&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    あなたのクレジット カードを PayPal 経由でオンライン支払にすることもできます。&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    PayPal 経由でお支払いの条件&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    請求金額の 4 ％ の手数料があります。&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    ペイパルを通じて支払い制限： 最低 1億ドル、最大 USD10, 000&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    &lt;b&gt;(最大量登録国は、これを制限は PAYPAL にしてください)。&lt;/b&gt;&lt;/p&gt;
+                &lt;p class="class"&gt;
+                    支払いを配置すると、プロフォーマインボイス請求書や氏名、住所、電話・ Fax 番号でお支払いの確認のお問い合わせの目的で送ってください&lt;b&gt;info@awan.co.jp
+                        または Fax +8176-6598750.&lt;/b&gt; 。
+                    &lt;br&gt;
+                    合意した支払の量は、完全に行う必要があります。いったん入金されると我々 のみ配送を手配をいたします。送料とお支払いについての詳細は、当社の&lt;a href="TermsandConditions.aspx"&gt;契約条件&lt;/a&gt;をお読みください。または&lt;a
+                        href="mailto:info@awan.co.jp"&gt;info@awan.co.jp&lt;/a&gt;にお問い合わせください。
+                &lt;/p&gt;
+                &lt;h3&gt;
+                    オークションのリンク&lt;/h3&gt;
+                &lt;p class="class"&gt;
+                    &lt;a href="https://www.iauc.co.jp/pv/top1.html"&gt;
+                        &lt;img src="images/iauc.gif" style="border: 0px;"&gt;
+                    &lt;/a&gt;
+                    &lt;br&gt;
+                    &lt;a href="http://was.autoserver.co.jp/asnete/top/logon.asp"&gt;
+                        &lt;img src="images/asnet.gif" style="border: 0px;"&gt;
+                    &lt;/a&gt;
+                &lt;/p&gt;
+                &lt;p class="class js_a"&gt;
+                    &lt;a href="http://www.japan-used-car-exporting.info/import/auto-auctions-in-japan.html"&gt;
+                        日本の便利な自動オークション&lt;/a&gt;
+                    &lt;br&gt;
+                    &lt;a href="http://www.japan-used-car-exporting.info/import/map-of-auto-auctions-in-japan.html"&gt;
+                        日本の自動車オークションの地図&lt;/a&gt;
+                &lt;/p&gt;
+            &lt;/span&gt;
+    &lt;/div&gt;</value>
+  </data>
+  <data name="glossary1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+&lt;span style="color: #F0F0F0"&gt;利用規約&lt;/span&gt;用語集
+            
+            &lt;/ul&gt;</value>
+  </data>
+  <data name="glossary2" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;船荷証券 （b/l 通常)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;荷送人と交通機関企業間の契約の条件を確立するドキュメント。それはドキュメントのタイトル、契約運送約款および商品の領収書として機能します。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon6"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;到着通知&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;船の到着のキャリアで、荷受人、「通知党」して - 必要に応じて - を通知、「また通知党。」これらの当事者の利益ブロック 3、4、10、それぞれ、船荷証券の一覧表示されます。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;    
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon1"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;減価&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;荷主または許可された空き時間を超えて、キャリアの機器を遅らせるためには、委託先に対しての手数料。無料の時間と減価料金憲章のパーティや貨物の関税で定められています。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon4"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;神の行為&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;落雷、洪水や地震などの人間の制御を超えて行為。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;CFR または C &amp; (費用および貨物） F （.移動先ポート)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;ここで、売り手、費用および貨物先、販売条件が、リスクの損失または破損、商品の名前付きのポートとして商品を持参する必要を支払う販売の用語 （商品、船ボードに配信された時間を転送後、売り手から買い手に商品船のレールの出荷ポートに渡すときに発生するイベントのために追加の費用としても続き）。CFR 用語では、輸出品をクリアするには、売り手が必要です。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;（費用、保険および貨物) CIF （.名前付きの場所先):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;用語のここで、売り手、同じ義務、CFR と下がも海上の保険商品に損害の買い手のリスクに対して、運送中の調達を販売。販売のための保険契約し、保険料を支払います。CIF の用語では、輸出品をクリアするには、売り手が必要です。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="glossary3" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;FOB （ボード上無料） （.名前付きポートの出荷):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 160px;"&gt;国際的な売り手を意味販売商品出荷の名前付きポートで、船のレール上に渡されるとを提供する彼または彼女の義務を果たします。これは、買い手のすべてのコストとリスクの損失または損傷、商品にそのポイントから負担がであることを意味します。FOB 用語では、輸出品をクリアするには、売り手が必要です。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;(Ro/Ro)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;期間の短縮ロール/ロール ・ オフ。ランプに容器を使用して海貨物サービスのメソッドに読み込まれ、クレーンなしに放電する車を動かされました。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;Performa 請求&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;値、および仕様の商品の数量と種類送信するには、購入者に通知、仕入先、商品の出荷の前に請求書を提供 (重量、サイズなど.)。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_5b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;コマーシャルインボイス&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;エクスポーターとインポーターを販売している商品間のトランザクションの完全な記録を表します。また、出荷の内容を報告し、出荷についての他のすべてのドキュメントのための基礎としています。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_5v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;信用状 (LC)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;商品の購入によって指示に従って銀行によって発行されたドキュメント、お金指定の条件では、通常、領収書、銀行の特定ドキュメント、特定の時間内での指定した金額を描画するには、売り手の承認。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;クレジットの確認の手紙&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;その妥当性は、国内の銀行によって確認されている、外国銀行の発行した信用状。外国のバイヤーや外国の銀行の既定値も、輸出信用の確認の手紙の支払いが保証されます。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="glossary4" xml:space="preserve">
+    <value>&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;取消不能信用状&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;信用状のすべての条項および条件、支払い人によって満たされている場合は、指定された支払、銀行によって保証されて、買い手と売り手の両方の共同の合意なく取り消すことはできません。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;銀行を確認します。&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;この銀行は、確認するには別の銀行の発行銀行の手紙のクレジットを追加し、文字のクレジットで指定されたドキュメントのプレゼンテーション時に受益者の支払うことを約束します。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;委託&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;1）、ディーラーに、残りの供給ソースのタイトルがビジネスの彼の場所にある商品の在庫。&lt;br&gt;2） 委託商品の出荷。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;荷受人&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;個人または会社に商品が出荷されます。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;荷送人&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;人、サプライヤーまたは出荷商品の所有者は通常会社。荷送とも呼ばれます。分類、ストレージ、スイッチ領域。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;運送会社&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;そのビジネスのエージェントとして、荷送人に代わって行動する人。貨物取り扱い業者は頻繁に予約予約になります。&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;協力&lt;/span&gt;概要&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="cooperteoverview2" xml:space="preserve">
+    <value>&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+                &lt;p class="class"&gt;アワン国際株式会社日本の商社です。日本の車で主要な役割は業界のあらゆる車のディーラー、業界および政府機関の個々 の買い手に提供をエクスポートします。&lt;/p&gt;
+                &lt;br&gt;
+                &lt;p class="class"&gt;私たち日本の主要な車の輸出業者の 1 つと、世界中の顧客サービスを提供します。アワン国際株式会社 1999 年 2 月 16 日に設立。私たちはさまざまな日本の中古車をあなたが待っているあなたの夢の車を購入することができますも、ブランドの新しい車を対処します。&lt;/p&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview3" xml:space="preserve">
+    <value>&lt;h5&gt;我々 の値&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;1. 2 の課題を取る。創造性 3。納期に 4。チームワーク 5。リアルタイムでインタラクティブなコミュニケーション。&lt;/p&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview4" xml:space="preserve">
+    <value>&lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;チャレンジします。&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_1.png"&gt;
+                        &lt;p class="class"&gt;メンバーとして、「TAA オークション グループ、JAA オークション グループ、ホンダ オークション グループ、USS オークション グループ、HAA オークション グループ、JU オークション グループとすべてのその他日本のオークション」、我々 エクスポートなど日本車すべての種類トヨタ ホンダ日産三菱マツダ スバルいすゞスズキ、ダイハツ モデル、色、年齢の広大な選択をなどの大手メーカー。また急にどこに出荷することは、世界で&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;創造性&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_2.png"&gt;
+                        &lt;p class="class"&gt;アワン国際イノベーションと我々 の創造的思考の速度要因である最も重要な成功の程度を決定します。&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;時間配信に&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/Delivery.png"&gt;
+                        &lt;p class="class"&gt;アワン国際株式会社だけでなく車の日本語の専門家を使用、私たちもソース韓国とアメリカの車をエクスポートしスペア部品、機械および建設車両の世界の主要な製造業者を使用します。&lt;/p&gt;
+                               
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;チームワーク&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/teamwork.png"&gt;
+                        &lt;p class="class"&gt;我々 は顧客と、最高のレベルでの品質、安全性と満足度の基準を維持するための優れたサービス ・ レベルを提供することにコミットしている非常に創造的、組織的日本および国際的なスタッフがあります。値システム コミット卓越した品質と顧客サービスの提供に力を与える従業員によってアワン。&lt;/p&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview5" xml:space="preserve">
+    <value>&lt;h5&gt;高速通信経路。&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;アワン国際、他の多くの企業とは異なり、完全、オープン文化従業員別の 1 つとの対話が 'チャット' 私と一緒に、インタラクティブなツールをイントラネットで表現を従業員を許可することでサポートします。値&lt;/p&gt;
+                    &lt;p class="class"&gt;アワン国際値のメンバー、従業員およびトレーニング プログラム アワン国際を一度中に開始。前記異なるチームで座ってセッションを共有する心がある;プロジェクトの詳細、進行状況および今後の計画を共有;それぞれのコメントを表現する自由が、オープン フォーラムの議論をしています。&lt;/p&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="bankdetails.heading" xml:space="preserve">
+    <value>&lt;span style="color:#F0F0F0"&gt;銀行&lt;/ SPAN&gt;詳細</value>
+  </data>
+  <data name="AdditionalComments" xml:space="preserve">
+    <value>追加コメント</value>
+  </data>
+  <data name="NomanRaufLanguage" xml:space="preserve">
+    <value>ウルドゥー語、英語、フランス語</value>
+  </data>
+  <data name="NomanRaufName" xml:space="preserve">
+    <value>ナウマンラウフ</value>
+  </data>
+  <data name="Skype" xml:space="preserve">
+    <value>スカイプ</value>
+  </data>
+  <data name="RizwanRauf" xml:space="preserve">
+    <value>リズワンラウフ</value>
+  </data>
+  <data name="PasswordRecovery" xml:space="preserve">
+    <value>&lt;span style="color:#F0F0F0"&gt;パスワード&lt;/ span&gt;の回復</value>
+  </data>
+  <data name="ProvideYourEmail" xml:space="preserve">
+    <value>あなたの電子メールを提供</value>
+  </data>
+  <data name="slider1" xml:space="preserve">
+    <value>日本高材料の何千もの高品質の車を使用</value>
+  </data>
+  <data name="slider2" xml:space="preserve">
+    <value>最高の日本車 ＆ 新しい使用</value>
+  </data>
+  <data name="slider3" xml:space="preserve">
+    <value>何百もの何千もの中古車と信頼できる車のディーラーの何千ものトラック。</value>
+  </data>
+  <data name="slider4" xml:space="preserve">
+    <value>高品質の在庫を検索します。</value>
+  </data>
+  <data name="slider4a" xml:space="preserve">
+    <value>バッグ</value>
+  </data>
+  <data name="slider5" xml:space="preserve">
+    <value>検索する人の車</value>
+  </data>
+  <data name="slider6" xml:space="preserve">
+    <value>新しい車</value>
+  </data>
+  <data name="slider7" xml:space="preserve">
+    <value>自動車事故</value>
+  </data>
+  <data name="slider8" xml:space="preserve">
+    <value>低燃費</value>
+  </data>
+  <data name="kamranraufinfo" xml:space="preserve">
+    <value>Assalamu.alaikum、私はカムランラウフ、私はパキスタンAwan·インターナショナル·グループ内のすべてのアクティビティを管理しています。
+私はプロの世界での私の最初のステップとして、パキスタンとJoin Awanインターナショナル株式会社から、2011年に卒業を完了しました。
+私は実際に職業としてそれを好きとAwanインターナショナル株式会社で働く私のカレルの大きな可能性を参照してください。
+私の仕事は、購入/販売、すべてのお客様との友好関係を維持管理することで、当社の事業を強化し、周りを保ち、健康的な職場環境。
+そのほぼ3年はAwan·インターナショナル·グループでの作業と私は対処することAwanインターナショナル株式会社グループは、本当に価値があることを保証することができます。
+私は、あなたがサービスのベストを提供されることを保証します</value>
+  </data>
+  <data name="kamranrauflanguage" xml:space="preserve">
+    <value>ウルドゥー語、英語</value>
+  </data>
+  <data name="negotiate.now" xml:space="preserve">
+    <value>今すぐ交渉する</value>
+  </data>
+</root>

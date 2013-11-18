@@ -1,0 +1,324 @@
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Src="~/Controls/header.ascx" TagName="header" TagPrefix="psc" %>
+<%@ Register Src="~/Controls/footer.ascx" TagName="footer" TagPrefix="psc" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>Japanese Used Cars Exporter Dealer Trader</title>
+    <meta name="description" content="Japanese used cars exporter, Japan used car dealer, 
+    Japan used cars exporter, Japanese used cars, 
+    Japanese used car dealer,Japanese used cars sale, 
+    Japanese used car auction, 
+    Japan used car sale,Japanese used cars trader, 
+    Japan used cars auction, Japan used car trader. 
+    Japanese vehicles ,Buses , Trucks , Micro buses,SUV,Jeeps" />
+    <link rel="icon" href="http://www.awan.co.jp/favicon.ico" type="image/x-icon" />
+    <link rel="SHORTCUT ICON" href="http://www.awan.co.jp/favicon.ico" type="image/x-icon" />
+    <link href="css/single.css" rel="stylesheet" type="text/css" />
+     
+ <script type="text/javascript" src="css/testimonial/jquery.js"></script> 
+    <link rel="stylesheet" type="text/css" media="all" href="css/testimonial/style.css" /> 
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <Scripts>
+            <asp:ScriptReference Path="~/js/oneinall.js" />
+            <asp:ScriptReference Path="~/js/jquery.advancedSlider.js" />
+            <asp:ScriptReference Path="~/js/jquery.simplemodal.js" />
+            <asp:ScriptReference Path="~/js/confirm.js" />
+        </Scripts>
+    </asp:ScriptManager>
+    
+    
+        <script type="text/javascript" src="js/jquery.cycle.min.js"></script>
+
+
+
+            
+             
+                 <script type="text/javascript" src="js/jquery.custom.js"></script> 
+    <script type="text/javascript" src="js/jquery.tweetable.js"></script>
+    
+    <script type="text/javascript">
+        var __lc = {};
+        __lc.license = 2351111;
+
+        (function() {
+            var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+            lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+        })();
+    </script>
+
+    <script language="javascript" type="text/javascript">
+
+        function PopupCenter(pageURL, title, w, h) {
+            var left = (screen.width / 2) - (w / 2);
+            var top = (screen.height / 2) - (h / 2);
+            var targetWin = window.open(pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+        }
+
+        function openChat() {
+
+            var win = window.open('http://awancojp000.eweb702.discountasp.net/livechat/Chat.aspx', 'chat', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=510');
+            win.focus();
+            win.opener = window;
+            return false;
+
+
+
+        }
+
+
+
+    </script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $("a,button", ".js_a").button();
+
+            $('.input_text').each(function() {
+
+                var default_value = this.value;
+
+                $(this).focus(function() {
+
+                    if (this.value == default_value) {
+
+                        this.value = '';
+
+                    }
+
+                });
+
+                $(this).blur(function() {
+
+                    if (this.value == '') {
+
+                        this.value = default_value;
+
+                    }
+
+                });
+
+            });
+
+
+            $('brand_img marquee').marquee('pointer').mouseover(function() {
+                $(this).trigger('stop');
+            }).mouseout(function() {
+                $(this).trigger('start');
+
+            });
+
+
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+
+        var slider;
+
+        $(document).ready(function() {
+            slider = $('#slider1').advancedSlider({ width: '100%',
+                height: 402,
+                //   scrollbarSkin:'scrollbar-1',
+                slideshow: true,
+                // thumbnailType: 'tooltipAndScroller',
+                slideshowControls: false,
+                timerAnimation: false,
+                navigationArrows: false,
+                preloadNearbyImages: true,
+                shadow: false,
+                slideButtons: false,
+
+                thumbnailArrows: false,
+                thumbnailButtons: false,
+                thumbnailMouseScroll: false,
+                thumbnailMouseWheel: false,
+                thumbnailOrientation: 'vertical',
+                thumbnailScrollbar: false,
+                scaleType: 'outsideFit',
+                alignType: 'centerCenter',
+                thumbnailCaptionEffect: 'fade',
+                captionShowEffect: 'fade',
+                captionHideEffectDuration: 1000,
+                keyboardNavigation: false,
+                lightbox: false,
+                overrideTransition: false,
+                thumbnailScrollerResizeable: false,
+                fadePreviousSlide: true,
+                alignType: 'centerCenter',
+                //slideshowDelay: 10000,
+                //effectType: 'swipe',
+                //swipeOrientation: 'horizontal',
+                //swipeDuration: 700,
+                //horizontalSlices: 1, 
+                //verticalSlices: 1,
+                //videoEndAction: 'resetVideo',
+                //slideStart: 2,
+                //swipeThreshold: 100
+
+                slideProperties: {
+                    0: { effectType: 'scale', horizontalSlices: '6', verticalSlices: '3', slicePattern: 'spiralCenterToMarginCW', sliceDelay: '80',
+                        captionSize: '35', captionHideEffect: 'slide'
+                    },
+                    1: { effectType: 'fade', horizontalSlices: '1', verticalSlices: '1', slicePattern: 'leftToRight', captionPosition: 'custom',
+                        captionShowEffect: 'fade', captionHeight: 160, slideshowDelay: 12000
+                    },
+                    2: { effectType: 'slide', horizontalSlices: '10', verticalSlices: '1', slicePattern: 'rightToLeft', sliceDuration: '700' },
+                    3: { effectType: 'height', horizontalSlices: '10', verticalSlices: '1', slicePattern: 'leftToRight', slicePoint: 'centerBottom',
+                        sliceDuration: '500', captionSize: '40'
+                    },
+                    4: { effectType: 'scale', horizontalSlices: '10', verticalSlices: '5', sliceDuration: '800' },
+                    5: { effectType: 'height', horizontalSlices: '1', verticalSlices: '15', slicePattern: 'bottomToTop', slicePoint: 'centerTop',
+                        sliceDuration: '700', captionPosition: 'left', captionSize: '150', captionHideEffect: 'slide'
+                    },
+                    6: { effectType: 'slide', horizontalSlices: '6', verticalSlices: '3', slicePattern: 'topLeftToBottomRight',
+                        slideStartPosition: 'rightBottom', slideStartRatio: '0.5', sliceDuration: '700'
+                    },
+                    7: { effectType: 'fade', horizontalSlices: '10', verticalSlices: '5' },
+                    8: { effectType: 'slide', horizontalSlices: '15', verticalSlices: '1', slideMask: 'true', slicePattern: 'rightToLeft',
+                        slideStartPosition: 'verticalAlternative', sliceDuration: '800'
+                    },
+                    9: { effectType: 'fade', horizontalSlices: '10', verticalSlices: '5' }
+                }
+            });
+
+
+
+
+
+        });
+      
+      
+      
+    </script>
+
+    <div id="wrapper">
+        <div id="header">
+            <psc:header ID="header1" runat="server" />
+            <div class="advanced-slider" id="slider1" style="height: 365px;">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="images/sliderimages/car1.png" class="image" />
+                        <div class="caption">
+                            <%=appdata.GetLanguageString("slider1")%>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/sliderimages/car2.png" class="image" />
+                        <div class="caption">
+                            <b><i>
+                                <%=appdata.GetLanguageString("slider2")%>
+                            </i></b>
+                            <br />
+                            <br />
+                            <%=appdata.GetLanguageString("slider3")%>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/sliderimages/car3.png" class="image" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/sliderimages/car4.png" class="image" />
+                        <div class="caption">
+                            <%=appdata.GetLanguageString("slider4")%>
+                            <a href="stocklist.aspx?lv=1">stock</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/sliderimages/car1.png" class="image" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/sliderimages/car2.png" class="image" />
+                        <div class="caption">
+                            <u>
+                                <%=appdata.GetLanguageString("slider5")%>
+                            </u>
+                            <br />
+                            <br />
+                            <ul>
+                                <li>
+                                    <%=appdata.GetLanguageString("slider6")%></li><li>
+                                        <%=appdata.GetLanguageString("slider7")%></li><li>
+                                            <%=appdata.GetLanguageString("slider8")%>Low Mileage</li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brand_img">
+                <marquee behavior="scroll" direction="left" class="serchbylogo" onmouseover="this.stop();"
+                    onmouseout="this.start();">
+
+                    <ul class="pointer">
+           
+             <li><a href="stocklist.aspx?lv=1&make=1" class=" sprite5 Toyota-icon"></a></li> 
+           
+             <li><a href="stocklist.aspx?lv=1&make=8" class=" sprite5 nissan-icon"></a></li>
+             
+             <li><a href="stocklist.aspx?lv=1&make=7" class="sprite5 honda-icon"></a></li>
+
+             <li><a href="stocklist.aspx?lv=1&make=2" class="sprite5 suzuki-icon"></a></li>
+
+             <li><a href="stocklist.aspx?lv=1&make=46" class="sprite5  KIA-icon"></a></li>
+
+             <li><a href="stocklist.aspx?lv=1&make=3" class="sprite5 isuzu-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=21"class="sprite5 OPLE-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=9"class="sprite5 Mitsubishi-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=31"class="sprite5 Chevrolet-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=20"class="sprite5 Mazda-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=10"class="sprite5 Daihatsu-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=1" class="sprite5 Lexus-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=51"class="sprite5 Jaguar-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=35" class="sprite5 Mini-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=30" class="sprite5 Ford-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=16" class="sprite5 audi-icon"></a></li>
+            
+            <li><a href="stocklist.aspx?lv=1&make=13" class="sprite5 BMW-icon"></a></li>
+
+            <li><a href="stocklist.aspx?lv=1&make=22" class="sprite5 Porche-icon"></a></li>
+
+          <li><a href="stocklist.aspx?lv=1&make=24" class="sprite5 VOLVO-icon"></a></li>
+         
+          <li><a href="stocklist.aspx?lv=1&make=8" class=" sprite5 HINO-icon"></a></li> 
+         
+          <li><a href="stocklist.aspx?lv=14&make=" class="sprite5 BENZ-icon"></a></li>
+
+
+            </ul>
+
+
+            </marquee>
+            </div>
+        </div>
+        <div id="Content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <psc:footer ID="footer1" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

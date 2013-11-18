@@ -1,0 +1,168 @@
+/*
+Theme name: Diverso
+Theme URI: http://www.yourinspirationweb.com
+Description: A minimal and "diverso" wordpress theme.
+Version: 1.3
+Author: <a href="http://www.yourinspirationweb.com/en/" title="Your Inspiration Web">YIW</a>
+Author URI: http://www.yourinspirationweb.com/en/
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: black, grey, white, light, minimal
+*/
+
+/***********************************************************************
+******************* reset.css ******************************************
+************************************************************************/
+
+/***********************************************************************/     
+
+
+/* ====================== START CONTENT ====================== */       
+a {color:#c57901;}
+a:hover {color:#1a1a1a;}
+      
+.home #content {padding-top:40px;}
+           
+.gradient {background:#fbfafa url('images/section-gradient.gif') repeat-x top left;}
+.gradient-small {background:#fcfbfb url('images/testimonials-gradient.png') repeat-x top left;}
+
+.image-sphere-style .sphere, .image-sphere-style .sphere img {border-radius:100px;-moz-border-radius:100px;-webkit-border-radius:100px;display:block;margin:0;}
+.image-sphere-style .sphere {border:5px solid #B9B7B7;}
+
+/* sidebar shortcodes in content */
+.post-sidebar {clear:both;padding:0 20px;margin:20px 0;}
+.post-sidebar .widget_text {margin-top:1em;margin-bottom:1em;}
+.post-sidebar h3 {color:#20201f;font-size:1.214em;border-bottom:1px solid #bebaba;font-weight:normal;padding-bottom:0.357em;margin-top:0;}
+.cufon-delicious .post-sidebar h3 {letter-spacing:-1px;}
+
+/* testimonials slider */
+.testimonials-slider {position:relative;}
+.testimonials-slider .testimonial-list {padding:30px 0;position:relative;}
+.testimonials-slider .shadow {width:100%;height:10px;background:url('images/sections-shadow.png');position:absolute;z-index:1;left:-10px;padding-right:10px;}
+.testimonials-slider .top.shadow {top:0}
+.testimonials-slider .bottom.shadow {bottom:-10px;}     
+.testimonials-slider ul {margin:0;list-style:none;width:80%;margin:0 auto;}    
+.testimonials-slider ul li {width:100%;}    
+.testimonials-slider ul li blockquote p {font-size:1.5em;color:#656363;text-align:center;margin:0;padding:0 20px;}
+.testimonials-slider ul li p.meta {font-size:1.0714em;color:#656363;text-align:center;padding:0;margin:0;}
+.testimonials-slider ul li p.meta strong {color:#373737;}
+.testimonials-slider ul li a {color:#656363;}
+.testimonials-slider ul li a:hover {color:#1c1c1c;}
+.testimonials-slider .prev, .testimonials-slider .next {cursor:pointer;width:27px;height:27px;background:url('images/widgets-controls.png') no-repeat;overflow:hidden;position:absolute;top:40px;}
+.testimonials-slider .prev {background-position:left top;left:20px;text-indent:-100px;}
+.testimonials-slider .next {background-position:right top;right:20px;text-indent:100px;}
+.testimonials-slider .prev:hover {background-position:left bottom;}
+.testimonials-slider .next:hover {background-position:right bottom;}
+
+/* header map */
+.header-map {position:relative;border-top:15px solid #edecec;padding-bottom:10px;background:#b3b2b2;margin-bottom:30px;}
+.header-map iframe {}
+.header-map #map-wrap {width:100%;height:0px;overflow:hidden;}
+.header-map #map-wrap.opened {width:100%;height:400px;overflow:hidden;}
+.header-map #map {width:100%;height:400px;}
+.header-map .tab-label {display:block;width:59px;height:20px;background:url('images/map-tab.png') no-repeat;position:absolute;bottom:-20px;right:30px;padding:0 25px 0 10px;line-height:15px;color:#221f1f;font-family:'Droid Sans', sans-serif;font-size:0.857em;text-shadow:1px 1px 2px #fff;}
+.header-map .shadow {position:absolute;top:0;left:0;height:5px;width:100%;}
+/* ====================== END CONTENT ====================== */ 
+
+   
+
+/* ====================== START HOME SECTIONS ====================== */                        
+.home-sections h1, .home-sections h2, .home-sections h3, .home-sections h4, .home-sections h5, .home-sections h6 {color:#454545;margin-top:0;margin-bottom:0.3em;} 
+.home-sections h1 span, .home-sections h2 span, .home-sections h3 span, .home-sections h4 span, .home-sections h5 span, .home-sections h6 span {color:#a6a4a4;} 
+.home-sections p {margin:1.5em 0 0 !important;}
+
+.home-sections .section {padding:40px 0 40px 20px;min-height:170px;position:relative;min-height:180px;}
+.home-sections .section .section-title {width:205px;position:absolute;top:40px;left:20px;}
+.home-sections .section .section-title h2 {margin:0;width:195px;height:164px;line-height:160px;font-size:22px;font-weight:normal;color:#8d8c8c;text-align:right;letter-spacing:0px;padding-right:10px;}
+.home-sections .section .section-title h4 {color:#a6a4a4;margin:40px 0 0.5em;font-weight:normal;font-size:1.714em;}
+.home-sections .section .section-title h4 span {color:#2c2b2b;}
+.home-sections .section .section-title p {margin:0.3em 0 0.5em !important;}
+.home-sections .section .section-content {margin-left:250px;padding-right:20px;}
+.home-sections .section .shadow {width:100%;height:10px;background:url('images/sections-shadow.png') no-repeat top center;position:absolute;bottom:-10px;z-index:1;left:-10px;padding-right:10px;}
+.cufon-delicious .home-sections .section .section-content h1, 
+.cufon-delicious .home-sections .section .section-content h2, 
+.cufon-delicious .home-sections .section .section-content h3 {letter-spacing:-1px;}  
+.home-sections .post-sidebar {margin-top:20px;}
+.home-sections .post-sidebar .one-third {margin-bottom:20px;}
+.home-sections .section .box-sections {width:210px;}
+
+/* nums */
+.home-sections .section.s-1 .section-title  h2 {background:url('images/nums/01.png');}
+.home-sections .section.s-2 .section-title  h2 {background:url('images/nums/02.png');}
+.home-sections .section.s-3 .section-title  h2 {background:url('images/nums/03.png');}
+.home-sections .section.s-4 .section-title  h2 {background:url('images/nums/04.png');}
+.home-sections .section.s-5 .section-title  h2 {background:url('images/nums/05.png');}
+.home-sections .section.s-6 .section-title  h2 {background:url('images/nums/06.png');}
+.home-sections .section.s-7 .section-title  h2 {background:url('images/nums/07.png');}
+.home-sections .section.s-8 .section-title  h2 {background:url('images/nums/08.png');}
+.home-sections .section.s-9 .section-title  h2 {background:url('images/nums/09.png');}
+.home-sections .section.s-10 .section-title h2 {background:url('images/nums/10.png');}
+
+/* tabs */
+.home-sections .tabs-container{
+	margin-top:-40px;
+	border:none;
+	width:103.2%;
+}
+.home-sections .tabs-container .tabs {margin:0;list-style:none;overflow:hidden;position:relative;height:60px;}
+.home-sections .tabs-container .tabs li{ background:none; border:none !important; width:16.65%;float:left;text-align:center;}
+.home-sections .tabs-container .tabs h4{
+	padding:0;
+	margin:0;
+	font-size:16px;
+	font-weight:normal;
+	background:#e8e8e8;
+	border-left:1px solid #d5d5d5;  
+	height:60px;
+	line-height:60px;
+	overflow:hidden;
+}
+.home-sections .tabs-container .tabs h4 a {display:block;}
+.home-sections .tabs h4 a, .home-sections .tabs h4 a:visited, .home-sections .tabs h4 a:hover{color:#666 !important;}
+.home-sections .tabs .active h4 a, .home-sections .tabs h4 a:visited, .home-sections .tabs h4 a:hover{color:#302f2f !important;}
+.home-sections .tabs-container .tabs .current h4, .home-sections .tabs-container .tabs h4:hover{background:none;}
+.home-sections .tabs-container div.panel {padding-left:0;}
+.home-sections .tabs-container .tabs li:first-child.current h4 {border-left-color:transparent;}
+
+.home-sections .tabs-container .border-box{
+	border:none !important;
+	background:none;
+	padding-top:20px;
+}
+
+/* testimonials */
+.home-sections .cites {min-height:90px;}
+.home-sections .cites .text {height:90px;}
+.home-sections .cites .text p {padding-right:20px;}
+.home-sections .testimonials {list-style:none;margin:0;}
+.home-sections .testimonials li {width:86px;float:left;margin-right:25px;cursor:pointer;}
+.home-sections .testimonials li img {margin:0;width:78px;height:78px;background:#fff;display:block;}
+.image-square-style .home-sections .testimonials li img {padding:3px;border:1px solid #ccc;}
+.home-sections .testimonials li .shadow-thumb {margin:0 auto;width:60px;height:8px;background:url('images/shadows-blog/60.png');}
+.image-sphere-style .home-sections .testimonials li .shadow-thumb {background:none;}
+.home-sections .testimonials li h4 {margin:0;font-size:1.2em;line-height:1.2em;font-weight:normal;color:#252525;}
+.home-sections .testimonials li a.website {margin:0;font-size:0.86em;color:#4c4a4a;}
+.home-sections .testimonials li.active h4, .home-sections .testimonials li:hover h4 {color:#2c2b2b;}
+.home-sections .testimonials li img, .home-sections .testimonials li .shadow-thumb {opacity:0.34;filter:alpha(opacity:34);}
+.home-sections .testimonials li.active img, .home-sections .testimonials li.active .shadow-thumb,
+.home-sections .testimonials li:hover img, .home-sections .testimonials li:hover .shadow-thumb {opacity:1;filter:alpha(opacity:100);}
+.image-sphere-style .home-sections .testimonials li {text-align:center;}
+/* ====================== END HOME SECTIONS ====================== */ 
+
+
+
+/*testimonials*/
+.testimonials-list { margin-bottom:0; padding: 25px 0; }
+.testimonials-list .thumb-testimonial { float:left; text-align:left; width: 143px; position: relative; }
+.testimonials-list .thumb-testimonial img { width: 133px; height: 133px; margin-bottom: 0; }
+.image-square-style .testimonials-list .thumb-testimonial img {padding:3px;border:1px solid #ccc;}  
+.testimonials-list .thumb-testimonial p { clear:both; background-color: #fff; padding: 10px 10px 0px; text-align:right; }
+.testimonials-list .name-testimonial { line-height: 1.5em; margin:0;  }  
+.testimonials-list.no-thumb .thumb-testimonial { height:40px; width:110px; }
+.testimonials-list.no-thumb .thumb-testimonial p.name-testimonial { left:0; bottom:auto; top:0; }
+.testimonials-list span.title { font-size: 1.286em; color:#464545; display:block; }
+.testimonials-list span.website a { font-size: 1em; color:#7b7a7a; display:block; }
+.testimonials-list .the-post { padding:20px 0 0 35px; background:url('images/bg/sep-testimonials.png') no-repeat left 15px; margin-left:150px; }
+.testimonials-list .the-post p {margin:0;color:#585555;font-family:'Droid Sans', sans-serif !important;font-size:0.85em;}
+.testimonials-list.no-thumb .the-post { margin-left:115px; }
+  

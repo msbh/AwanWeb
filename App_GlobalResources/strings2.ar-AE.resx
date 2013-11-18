@@ -1,0 +1,1752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalRequest" xml:space="preserve">
+    <value>طلب إضافي</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="AdvanceSearch" xml:space="preserve">
+    <value>بحث متقدم</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>المبلغ</value>
+  </data>
+  <data name="ARIFRAUFINFO" xml:space="preserve">
+    <value>مرحبا الجميع! أنا رؤوف عارف وأنا حاليا "إدارة المدير باوآن الدولي" ط إدارة تركز على تدفق العمل الشرائية وتحسين عملية &amp; الوثائق، تحسينات الكفاءة، إدارة المعلومات وتلبية الحلول الأمثل للشركة.&lt;br&gt;وتشمل مسؤولياتي أيضا تنفيذ سياسات وإجراءات لدعم التوجه الاستراتيجي للشركة وإدارة موظفي "تكنولوجيا المعلومات".</value>
+  </data>
+  <data name="AuthorizedSignature" xml:space="preserve">
+    <value>توقيع معتمد</value>
+  </data>
+  <data name="AutopartInformation" xml:space="preserve">
+    <value>معلومات أوتوبارت</value>
+  </data>
+  <data name="Autoparts.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;السيارات&lt;/span&gt;  أجزاء&lt;/P&gt;</value>
+  </data>
+  <data name="Autoparts.text" xml:space="preserve">
+    <value>&lt;b&gt;هل تبحث عن قطع غيار السيارات من اليابان؟&lt;/b&gt; &lt;i&gt;تم العثور على العديد من قطع غيار السيارات تعمل بكامل طاقتها على السيارات المستعملة اليابانية، التي كثيرا في الطلب كقطع غيار للسوق فيما وراء البحار، وكذلك الحال في السوق المحلية. يتم تحديد جميع قطع غيار السيارات المناسبة بعناية بالمهنيين. يمكنك من أجل كل نوع "السيارة المستخدمة" أجزاء، أجزاء الجسم السيارات، قطع غيار السيارات بناؤها، تجديد قطع غيار السيارات، قطع غيار السيارات الكهربائية، "أجزاء المحرك" لجميع أنواع يجعل. &lt;/i&gt;</value>
+  </data>
+  <data name="AutoPartsMoreDetails" xml:space="preserve">
+    <value>مزيد من التفاصيل (Desc، عدد الأجزاء، إلخ)</value>
+  </data>
+  <data name="AutoPartsMoreDetails2" xml:space="preserve">
+    <value>التفاصيل (إذا كان أي تفضيلات الشحن الرجاء أخبارنا)</value>
+  </data>
+  <data name="AutopartVehicleInfo" xml:space="preserve">
+    <value>معلومات المركبة</value>
+  </data>
+  <data name="AutoShippingInfo" xml:space="preserve">
+    <value>معلومات الشحن</value>
+  </data>
+  <data name="AWan" xml:space="preserve">
+    <value>أوان K.K الدولية</value>
+  </data>
+  <data name="AwanInter.content" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt; 
+
+&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+            &lt;p class="class"&gt;أوان الدولي K.K هو فخور عضو &lt;b&gt;رابطة السيارات اليابانية المستخدمة&lt;/b&gt; تكون المنظمة أكثر السمعة في صناعة تصدير السيارات المستعملة اليابانية.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;يجري &lt;a href=""&gt;شهادة الشركة مختلف اليابانية استخدمت السيارات الجمعيات،&lt;/a&gt; ونحن كيان مسجلة قانونيا في اليابان ويكون الترخيص لشراء وبيع المركبات المستعملة، وكذلك لتصدير عليها. كما تسلم الجمعيات اليابانية أوان الدولي K.K كتاجر سيارات المستعملة ذات مصداقية والراسخة. حدود جميع الأعضاء مع التجارة العادلة للسيارات المستعملة، ويمنع المعاملات غير العادلة.
+                بالإضافة إلى ذلك، فإنه يحمي المشترين من السيارات المسروقة، المركبات بعد إعادة بنائه بصورة غير مشروعة أو التي تم تعديلها. وهكذا، يقدم الدعم إذا لم تنشأ الشكاوى. لدينا شهادات من "رابطات السيارات اليابانية المستخدمة" لأننا تناضل من أجل صفقات عادلة بأعمالنا المشترين واتخاذ رؤية بعيدة المدى على الأعمال التجارية.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;وهناك آلاف مصدرين المركبات المستخدمة على شبكة الإنترنت هذه الأيام. ولسوء الحظ، معظمهم من المشترين الأبرياء الشركات والغش والاحتيال بأخذ أموالهم وثم يختفي. عندما يمكنك التعامل مع "اليابانية استخدمت السيارات الجمعيات" شهادة الشركة كاوان الدولي K.K، تكفل للشرعية ومضمونه لصفقة عادلة.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;div class="clear"&gt;
+            &lt;/div&gt;
+            
+             &lt;/div&gt;</value>
+  </data>
+  <data name="AwanInter.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;
+&lt;span style="color: #F0F0F0"&gt;لماذا أوان&lt;/span&gt; الدولية K.K
+        &lt;ul class="myform_line"&gt;&lt;/ul&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>مرة أخرى</value>
+  </data>
+  <data name="bankAccount" xml:space="preserve">
+    <value>اسم الحساب</value>
+  </data>
+  <data name="bankAccountname" xml:space="preserve">
+    <value>أوان K.K الدولية</value>
+  </data>
+  <data name="bankAccountname2" xml:space="preserve">
+    <value>موتورز تامبيري</value>
+  </data>
+  <data name="bankAccountNumber" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <data name="bankAddress" xml:space="preserve">
+    <value>عنوان المصرف</value>
+  </data>
+  <data name="bankAddresstxt" xml:space="preserve">
+    <value>2-23-كورينبو 25، كانازاوا، اليابان</value>
+  </data>
+  <data name="bankAddresstxt2" xml:space="preserve">
+    <value>فرع عفر، دوكومز، دبي-الإمارات العربية المتحدة</value>
+  </data>
+  <data name="bankBranch" xml:space="preserve">
+    <value>اسم الفرع</value>
+  </data>
+  <data name="bankBranchName" xml:space="preserve">
+    <value>فرع كانازاوا</value>
+  </data>
+  <data name="bankBranchName2" xml:space="preserve">
+    <value>فرع عفر</value>
+  </data>
+  <data name="BANKDETAIL2" xml:space="preserve">
+    <value>التفاصيل المصرفية</value>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>اسم البنك</value>
+  </data>
+  <data name="bankname2" xml:space="preserve">
+    <value>بنك المشرق</value>
+  </data>
+  <data name="banknamefull" xml:space="preserve">
+    <value>بنك طوكيو ميتسوبيشي يو آﻻف جي القابضة المحدودة</value>
+  </data>
+  <data name="bankorderfin" xml:space="preserve">
+    <value>&lt;td height="30" align="left"&gt;
+                                                                                 &lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;
+                                                                                        &lt;br&gt;ملاحظة:&lt;br&gt;جميع الرسوم المصرفية هي من المسؤولية بالمشتري.&lt;br&gt;الاسم والعنوان، الهاتف لا يظهر على هذه الفاتورة ستكون على B/L، يرجى تقديم المشورة لنا إذا أي تغييرات قبل الشحن&lt;/font&gt;
+                                                                                
+                                                                                   &lt;/td&gt;</value>
+  </data>
+  <data name="becomeagent.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;تصبح لدينا&lt;/span&gt; عامل&lt;/p&gt;</value>
+  </data>
+  <data name="BodyColor" xml:space="preserve">
+    <value>لون الجسم</value>
+  </data>
+  <data name="Chassislable" xml:space="preserve">
+    <value>هيكل</value>
+  </data>
+  <data name="ChassisNo" xml:space="preserve">
+    <value>تشاسيسنو</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>مدينة</value>
+  </data>
+  <data name="Clickmore" xml:space="preserve">
+    <value>انقر هنا لعرض المزيد</value>
+  </data>
+  <data name="colorlable" xml:space="preserve">
+    <value>لون</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>تعليقات</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>اسم الشركة</value>
+  </data>
+  <data name="Consignee.NotifyParty" xml:space="preserve">
+    <value>يخطر الطرف</value>
+  </data>
+  <data name="ContactNo" xml:space="preserve">
+    <value>لا توجد جهة الاتصال</value>
+  </data>
+  <data name="ContactUs.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;جهة الاتصال&lt;/span&gt; الولايات المتحدة&lt;/P&gt;</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>البلد</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="Door" xml:space="preserve">
+    <value>الباب</value>
+  </data>
+  <data name="Drive" xml:space="preserve">
+    <value>УПРАВЛЯТЬ</value>
+  </data>
+  <data name="DUEDATE" xml:space="preserve">
+    <value>تاريخ الاستحقاق</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="End_Date" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="EngineCClable" xml:space="preserve">
+    <value>مشغل CC</value>
+  </data>
+  <data name="EngineModel" xml:space="preserve">
+    <value>طراز محرك</value>
+  </data>
+  <data name="Enquiry" xml:space="preserve">
+    <value>الاستفسار</value>
+  </data>
+  <data name="enquiry.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;الأوراق المالية&lt;/span&gt; الاستفسار&lt;/p&gt;</value>
+  </data>
+  <data name="enquiryContactInfo" xml:space="preserve">
+    <value>معلومات الاتصال</value>
+  </data>
+  <data name="enquiryStockdetails" xml:space="preserve">
+    <value>تفاصيل الأسهم</value>
+  </data>
+  <data name="enquiryYourMessage" xml:space="preserve">
+    <value>الرسالة الخاصة بك</value>
+  </data>
+  <data name="ExpectedPrice" xml:space="preserve">
+    <value>السعر المتوقع</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>&lt;h1 class="myform_span" dir="rtl"&gt;
+            &lt;span&gt;الأسئلة المتداولة&lt;/span&gt;
+        &lt;/h1&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;
+        &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 1: كيفية شراء اليابانية استخدام المركبات منا؟&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;اتبع هذه الخطوات:&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;1-عرض أعمالنا اليابان، وروسيا، ودولة الإمارات العربية المتحدة، وباكستان &amp; جنوب أفريقيا استخدام المخزون&lt;/p&gt;
+            &lt;p class="class2"&gt;2. حدد الاتصال السيارة المرغوبة.&lt;/p&gt;
+            &lt;p class="class2"&gt;3. انقر فوق الزر الحصول على فاتورة &amp; إرسال النموذج بالمعلومات ذات الصلة&lt;/p&gt;
+            &lt;p class="class2"&gt;4-يرجى مراجعة البريد الخاص بك، سوف نرسل لك الفاتورة Performa بالبريد أو الفاكس.&lt;/p&gt;
+            &lt;p class="class2"&gt;5-Performa الفاتورة يحتوي على السعر سيف جنبا إلى جنب مع تفاصيل البنك &amp; طريقة الدفع.&lt;/p&gt;
+            &lt;p class="class2"&gt;6-ترتيب الدفع-سيخصص السيارة المطلوبة لك عند تلقي المبلغ الكامل.&lt;/p&gt;
+            &lt;p class="class2"&gt;7-ترتيب الدفع-سيخصص السيارة المطلوبة لك عند تلقي المبلغ الكامل.&lt;/p&gt;
+            &lt;p class="class2"&gt;8-أما شحن السيارة&lt;/p&gt;
+            &lt;p class="class2"&gt;9-المركبات بنجاح وصلت إلى ميناء التفريغ ويمكنك الحصول عليه.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 2: ما هو شرط للمركبات الخاصة بك؟&lt;/a&gt;
+        &lt;/h2&gt;
+          &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;تأتي جميع المركبات من "مزادات ذاتية" وعن طريق تجار الامتياز &amp; تجار الجملة في وحول منطقة وسط اليابان. دقة يتم فحص هذه المركبات بفريقنا التابعون ميكانيكي المشتري المهنية قبل نحن المخزون منها. وتمتلك جميع السيارات اليابانية المدرجة على القائمة Awan.com. نحن لسنا وكلاء طرف ثالث أو وسيط.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+    &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 3: كيف يمكن إنشاء حساب في موقع الويب الخاص بك؟&lt;/a&gt;
+        &lt;/h2&gt;
+          &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;
+            &lt;/p&gt;
+            &lt;p class="class2"&gt;تحتاج إلى انقر هنا لإنشاء حساب جديد وبدء التسوق من الولايات المتحدة.&lt;/p&gt;
+        &lt;/div&gt;
+       &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 4: كيف يمكن إنشاء حساب في موقع الويب الخاص بك؟&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;يمكنك طباعة الفاتورة Performa بالنقر فوق الزر "الحصول على فاتورة" إذا قمت بتحديد أداة من المخزون لدينا.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+  &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 5: في البلدان التي يمكنك القيام بتصدير المركبات الخاصة بك؟&lt;/a&gt;
+        &lt;/h2&gt;
+         &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;نحن يمكن تصديرها إلى أي بلد حيث يوجد قانون قانونية لاستيراد السيارات المستعملة من اليابان.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 6: كيف يمكن وضع طلبي؟&lt;/a&gt;
+        &lt;/h2&gt;
+     &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;انظر لدينا مخزون السيارات اليابانية المستخدمة أو مخزون السيارات تستخدم جنوب أفريقيا أو سيارة استخدمت باكستان ستوكلينيس:&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;اتبع هذه الإرشادات خطوة بخطوة بسيطة:&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;حدد الاتصال السيارة المرغوبة.&lt;/p&gt;
+            &lt;p class="class2"&gt;2-الحصول على الفاتورة.&lt;/p&gt;
+            &lt;p class="class2"&gt;3-جعل الدفع على الفاتورة.&lt;/p&gt;
+            &lt;p class="class2"&gt;4-يتم إرسال تأكيد النقل البحري.&lt;/p&gt;
+            &lt;p class="class2"&gt;5-مركبة يتم شحنها.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+    &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 7: ما هي الوثائق/هل المعلومات تتطلب من جانبي بعد أنا حولت المبلغ إلى الحساب المصرفي الخاص بك؟&lt;/a&gt;
+        &lt;/h2&gt;
+      &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;انظر لدينا مخزون السيارات اليابانية المستخدمة أو مخزون السيارات تستخدم جنوب أفريقيا أو سيارة استخدمت باكستان ستوكلينيس:&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;كنت مطالباً بتزويدنا بالمعلومات التالية/الوثائق:&lt;/p&gt;
+            &lt;p class="class2"&gt;أ) اسم المرسل إليه&lt;/p&gt;
+            &lt;p class="class2"&gt;ب) عنوان المرسل إليه&lt;/p&gt;
+            &lt;p class="class2"&gt;ج) عنوان مكتبة داغ همرشولد:&lt;/p&gt;
+            &lt;p class="class2"&gt;د) معلومات الاتصال الكاملة مثل رقم الاتصال، ورقم الفاكس، إلخ.&lt;/p&gt;
+            &lt;p class="class2"&gt;ﻫ) إذا كان المرسل إليه والمشتري تختلف من الرجاء إعلامنا.&lt;/p&gt;
+            &lt;p class="class2"&gt;يرجى تزويدنا بالمعلومات المذكورة أعلاه بغية التأكد من أن جميع وثائق الشحن مستعدة بشكل صحيح قبل الشحن.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;br&gt;
+      &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 8: ما هي مستندات الشحن وسوف تتلقى؟&lt;/a&gt;
+        &lt;/h2&gt;
+      &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;وسوف تتلقى وثائق الشحن التالية:&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;1-مشروع قانون للهبوط&lt;/p&gt;
+            &lt;p class="class2"&gt;2-الجمارك الفاتورة&lt;/p&gt;
+            &lt;p class="class2"&gt;3-تصدير/شطب التسجيل الشهادات&lt;/p&gt;
+            &lt;p class="class2"&gt;4-الترجمة الإنكليزية للتصدير/شطب التسجيل الشهادات&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+        &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 9: ما هي طريقة الدفع؟&lt;/a&gt;
+        &lt;/h2&gt;
+    &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;طريقة الدفع يتم سداد بطاقة الائتمان عبر الإنترنت بأي بال &amp; "نقل البرقية".
+                هذا هو الأسلوب المفضل للدفع كما هو أسلوب أسرع وأكثر أماناً وأبسط. سوف يستغرق حوالي 3 أيام استقبال ومعالجة الدفع الخاصة بك. يمكنك أيضا عرض صفحة تفاصيل البنك صفحة تفاصيل ثيبانك على موقعنا على شبكة الإنترنت. وقت ممكن، ينبغي دفع لكي نحتفظ بالسيارة ونحن نعمل على سياسة يأتي أولاً من الأساس.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+     &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 10: ما هي العملات هل تقبل الدفع؟&lt;/a&gt;
+        &lt;/h2&gt;
+    &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;نقبل بالجنيه الاسترليني (GBP)، الدولار الأمريكي (USD)، اليورو والين الياباني.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+       &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 11: لا يمكن فهم بعض هذه شروط الشحن؟&lt;/a&gt;
+        &lt;/h2&gt;
+    &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;الرجاء قراءة المقطع &lt;a href="#"&gt;مسرد المصطلحات الشحن&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;
+     &lt;h2 class="acc_trigger" dir="rtl"&gt;
+            &lt;a href="#"&gt;Q # 12: كيف يمكن ضمان أوان الدولي K.K سيضمن لنا أن نرسل ووسيلتنا هنا؟&lt;/a&gt;
+        &lt;/h2&gt;
+     &lt;div class="acc_container" dir="rtl" style="display: block;margin-left: 409px;"&gt;
+            &lt;p class="class2"&gt;لقد كنا في تصدير السيارات التجارية للسنوات العشرين الماضية (1988-2008).
+                ونحن فخورون أن أقول، لم تكن لدينا شكوى تفيد أن نحن لم تشحن الوحدة المشتراة أو الوحدات. ونحن قد استوفوا العملاء في معظم البلدان للمراجع الخاصة بك. نرجو إلا تترددوا في الاتصال بنا إذا كنت بحاجة إلى أي إشارات من بلدكم.
+            &lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>فاكس</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>الاسم الأول</value>
+  </data>
+  <data name="FOBPrice:" xml:space="preserve">
+    <value>السعر "فوب":</value>
+  </data>
+  <data name="footer.menu1" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="footer.menu2" xml:space="preserve">
+    <value>كيفية الطلب</value>
+  </data>
+  <data name="footer.menu3" xml:space="preserve">
+    <value>عبارات &amp;amp; شروط</value>
+  </data>
+  <data name="footer.menu4" xml:space="preserve">
+    <value>الأوراق المالية</value>
+  </data>
+  <data name="footer.menu5" xml:space="preserve">
+    <value>www.awan.co.jp| جميع الحقوق محفوظة لعام 2011</value>
+  </data>
+  <data name="footer.menu6" xml:space="preserve">
+    <value>من نحن</value>
+  </data>
+  <data name="footerleft.Address" xml:space="preserve">
+    <value>&lt;div dir="rtl" style="width: 301px; margin-left: -6px;"&gt;939-0304 إيميزو توياماكين شي كوسُغي شيرايشي 138-1 اليابان&lt;/div&gt;</value>
+  </data>
+  <data name="footerleft.copyright" xml:space="preserve">
+    <value>&lt;div style="width: 240px; margin-left: 49px;" dir="rtl"&gt;حقوق الطبع والنشر © 2010-11 أوان الدولية K.K&lt;/div&gt;</value>
+  </data>
+  <data name="footerleft.heading" xml:space="preserve">
+    <value>&lt;div dir="rtl" style="margin-left: 160px;"&gt;أوان K.K الدولية&lt;/div&gt;</value>
+  </data>
+  <data name="footerleft.phone" xml:space="preserve">
+    <value>&lt;div dir="rtl" style="margin-left: 120px;"&gt;
+ &lt;p style="margin-left: 14px;"&gt;    فاكس: +81-766-59-8750  &lt;/p&gt;
+ &lt;p&gt;
+ الهاتف لا: +81-766-59-8751 
+ &lt;/p&gt;
+ &lt;/div&gt;</value>
+  </data>
+  <data name="Freight" xml:space="preserve">
+    <value>الشحن</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="Fuel" xml:space="preserve">
+    <value>الوقود</value>
+  </data>
+  <data name="fueltype" xml:space="preserve">
+    <value>نوع الوقود</value>
+  </data>
+  <data name="GlobalStockLocationText" xml:space="preserve">
+    <value>&lt;div dir="ltr" style="margin-left: 114px;"&gt;موقع الأسهم العالمية&lt;/div&gt;</value>
+  </data>
+  <data name="howorder1" xml:space="preserve">
+    <value>&lt;img class="abouticon" alt="" src="images/how_order.png" style="margin-right: 10px;
+                margin-left: 5px;"&gt;
+            &lt;p dir="rtl"&gt;
+                &lt;span class="class_span1"&gt;الخطوة 1&lt;/span&gt; &lt;span class="class_span2"&gt;حدد&lt;/span&gt;
+                &lt;span class="class_span2"&gt;-العثور على السيارة ترغبون في حق من الكمبيوتر الخاص بك.&lt;/span&gt;
+                &lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;
+            
+            العثور على سيارة اهتمامكم البحث مخزوننا من جعل، جعل نموذج والعديد من خيار البحث أكثر.
+                أو
+                إذا كنت autorized أعضاء نحن توفير وصول مباشر عبر أوان الدولية إلى KK اليابانية مزاد السيارات المستعملة. للحصول على هذا الوصول
+               &lt;a href="SalesTeams.aspx"&gt; اتصل بنا
+   &lt;/a&gt; 
+            
+            
+             
+            
+            &lt;/p&gt;
+            &lt;p dir="rtl"&gt;
+                &lt;span class="class_span1"&gt;الخطوة 2&lt;/span&gt; &lt;span class="class_span2"&gt;أمر التفاوض مع "مندوب مبيعات" لحجز المركبات الخاصة بك.&lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;ملاحظة: التسجيل إلزامي بالنسبة للتحفظ/التفاوض. إذا لم تكن مسجلاً بعد، &lt;a href="membership.aspx"&gt;يرجى التسجيل الآن-&lt;/a&gt; تأكد من بيانات الاتصال التي قمت بتوفير صحيحة ودقيقة.&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;يأمر عملية بالتفصيل&lt;/p&gt;
+            &lt;p class="class"dir="rtl"&gt;بمجرد أن تقرر شراء السيارة، فقط انقر فوق الزر الأمر للمضي في النظام الخاص بك أو التفاوض أو التحدث مع لنا "مندوب مبيعات" عبر سكايب أو البريد الإلكتروني أو الهاتف.&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;تأكيد التسليم ووقت الشحن&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;أنها لا تستغرق وقتاً طويلاً لشحن السيارة الخاصة بك، ولكن من الأفضل أن تأكيد وقت التسليم الدقيق للمنطقة الخاصة بك قبل الشروع في النظام الخاص بك الضبط وقت التسليم للمنطقة الخاصة بك قبل أن نمضي بك اوردي&lt;/p&gt;
+            &lt;br&gt;
+            &lt;br&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;معرفة التكلفة الإجمالية للمركبة&lt;/p&gt;
+            &lt;p class="class "dir="rtl"&gt;سعر العرض على المعلومات المركبة هو السعر "فوب" فقط. أي تكلفة السيارة دون أي رسوم الشحن والرسوم الإضافية. إلا أنه يشمل تكلفة النقل من ساحة ميناء المغادرة.&lt;/p&gt;
+            &lt;p class="class"dir="rtl"&gt;وهناك بعض التكاليف الأخرى التي تحتاج إلى معرفته.&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;تكلفة الشحن:&lt;/p&gt;</value>
+  </data>
+  <data name="howorder2" xml:space="preserve">
+    <value>&lt;p class="class" dir="rtl"&gt;هذه التكلفة يختلف باختلاف البلدان.&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;التكلفة للمقاصة بعد هبوطها إلى أقرب ميناء للمنطقة الخاصة بك.&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;قد تختلف هذه التهم وفقا للمنطقة أنك تعيش في. لتأكيد هذه التهم اتصال وكيل التخليص المحلي الخاص بك والتحدث إلى خبرائنا للمساعدة والمشورة.&lt;/p&gt;</value>
+  </data>
+  <data name="howorder3" xml:space="preserve">
+    <value>&lt;p class="class_span2" dir="rtl"&gt;رسوم التفتيش الإجباري لبعض البلدان&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;وهناك بعض رسوم التفتيش إضافية لدول مثل زامبيا وكينيا، وأوغندا، وتنزانيا.&lt;/p&gt;</value>
+  </data>
+  <data name="howorder4" xml:space="preserve">
+    <value>&lt;p class="class_span2" dir="rtl"&gt;تقديم الطلب الخاص بك&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;كما يمكنك الحصول على مسح بحالة السيارة والتكلفة يحولن، الشروع في معالجة طلبك. # الحصول على الفاتورة المبدئية&lt;/p&gt;</value>
+  </data>
+  <data name="howorder5" xml:space="preserve">
+    <value>&lt;p class="class" dir="rtl"&gt;سيتم إرسال الفاتورة المبدئية إليك عبر البريد الإلكتروني. ولضمان الشحن السريع، يرجى المتابعة مع الدفع الخاص بك في أقرب وقت ممكن.&lt;/p&gt;
+            &lt;p dir="rtl"&gt;
+             &lt;span class="class_span1" &gt;  الخطوة 3&lt;/span&gt; &lt;span class="class_span2 &gt;Performa الحصول على دفع الفاتورة ودفع المبلغ المطلوب عن طريق نقل البرقية (تحويل مصرفي) أو دفع Pal.&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;ملاحظة: الرجاء التأكد من أن تكون رسوم نقل بالتحويلات المصرفية عند قيامك بإرسال الأموال إلى الولايات المتحدة.&lt;/p&gt;
+            &lt;p class="class_span1"dir="rtl"&gt;خيارات تحويل الأموال الخاصة بك&lt;/p&gt;
+            &lt;p class="class_span2"dir="rtl"&gt;التحويل البرقي:&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;وهو الأسلوب المستحسن أكثر ويمكن ترتيب عن طريق أحد البنوك مع خدمة المعاملات الخارجية.&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;الخيار الأكثر ملاءمة لتحويل الدفع ببطاقة الائتمان الخاصة بك&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;يكون هناك 4% رسوم على أعلى من حد دفع مبلغ الفاتورة عن طريق بأي بال المناولة: 
+            USD100 الدنيا، USD10 الأقصى، 000 (مبلغ الحد الأقصى مرهون ببلدكم التسجيل، حتى يرجى الرجوع إلى بأي بال للمصطلحات والحد منها).&lt;/p&gt;</value>
+  </data>
+  <data name="howorder6" xml:space="preserve">
+    <value>&lt;p class="class_span2" dir="rtl"&gt;أين لإرسال الدفع:&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;جميع المدفوعات (على أساس الاتفاق المتبادل) يجب أن تتم بالكامل. حالما يتم تلقي السداد الكامل فإننا سوف فورا ترتيب الشحن. للحصول على مزيد من المعلومات حول النقل البحري والمدفوعات الرجاء قراءة &lt;a href="TermsandConditions.aspx"&gt;شروط &amp; الشروط&lt;/a&gt;&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;تأكيد الشراء&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;في حالة عندما لم يتم تلقي المدفوعات الخاصة بك في الوقت المحدد أو إذا لم يتوفر السيارة الخاصة بك في الأسهم لدينا، ونحن سوف أما إعطاء جميع أموالك إلى الوراء، أو البحث عن بديل مطلق للمركبات الخاصة بك. وإلا يمكنك تحديد مركبة أخرى من المخزون لدينا لنفس القيمة.&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;تأكيد تاريخ المغادرة والوصول للشحن الخاص بك عن طريق البريد الإلكتروني من قسم النقل والإمداد.&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;وثائق هامة الوثائق الضرورية التي تحتاج إلى الحصول على السيارة الخاصة بك&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;شهادة تصدير&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;وهذه الوثيقة ضرورة&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;فاتورة الجمارك&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;أنه يستخدم من قبل إدارة المخصص الخاص بك المحلية لتقييم القيمة المعادلة للمركبات الخاصة بك.&lt;/p&gt;
+            &lt;p class="class_span2" dir="rtl"&gt;BL&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;ويلزم BL أو سند في ميناء المقصد (POD) لتلقي البريد المركبات من الخاص بك أقرب ميناء.&lt;/p&gt;
+            &lt;p dir="rtl"&gt;
+                &lt;span class="class_span1"&gt;وثائق أخرى&lt;/span&gt;قد يلزم &lt;span class="class_span2"&gt;تبعاً للتنظيم الخاص بك في البلاد. ونحن أيضا إرسال الوثائق مباشرة إلى وكيل التخليص على الطلب الخاص بك. &lt;/span&gt; 
+            &lt;/p&gt;
+           &lt;p dir="rtl"&gt;
+                &lt;span class="class_span1"&gt;الخطوة 4&lt;/span&gt; &lt;span class="class_span2"&gt;شحن-تلقي تفاصيل الحجز الخاصة بك، معلومات الشحن وغيرها من الوثائق الضرورية.&lt;/span&gt;
+            &lt;/p&gt;
+            &lt;p dir="rtl"&gt;
+                &lt;span class="class_span1"&gt;الخطوة 5&lt;/span&gt; &lt;span class="class_span2"&gt;"إزالة مخصص"-استئجار خدمات من "وكيل التخليص المحلي" أو تسوية قضايا الضرائب والجمارك بالذات الخاصة بك.&lt;/span&gt;
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder7" xml:space="preserve">
+    <value>&lt;p class="class_span2" dir="rtl"&gt;تأكيد حول ما يلي&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;إشعار وصول النهائي من وكيل التخليص.&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;تاريخ وصول دائماً مؤقت. ولذلك لتأكيد نهائي، الرجاء الاتصال يمكنك مسح عامل في الأسبوع قبل التاريخ الفعلي لوصول&lt;/p&gt;
+         &lt;p class="class" dir="rtl"&gt;تطهير الخاص بك السيارة هو الخطوة الأخيرة قبل لك محرك السيارة الخاصة بك بعيداً&lt;/p&gt;
+          &lt;p class="class" dir="rtl"&gt;استرداد السيارة الخاصة بك في الميناء!&lt;/p&gt;
+            &lt;p class="class" dir="rtl"&gt;تسوية الرسوم المحلية&lt;/p&gt;
+          &lt;p class="class" dir="rtl"&gt;دفع تكاليف المقاصة.&lt;/p&gt;
+            &lt;p dir="rtl"&gt;
+                &lt;span class="class_span1" &gt;الخطوة 6&lt;/span&gt; &lt;span class="class_span2" dir="rtl"&gt;محرك الأقراص-"بعد التخليص" والحصول على السيارات الخاصة بك المسجلة في بلدكم والتمتع بالقيادة مع!&lt;/span&gt;&lt;/p&gt;
+             &lt;p class="class" dir="rtl"&gt;بعد استلام السيارة الخاصة بك لا تنسى أن تحقق الشرط ومقارنتها بورقة المعلومات. في "اليابان K.K المقلص أوان" يتم تفتيش كل سيارة من المهنيين والخبراء الميكانيكا.&lt;/p&gt;
+       &lt;p class="class" dir="rtl"&gt;لأي استفسارات ووالتباسات حول حالة السيارة، لا تتردد في &lt;a href="ContactUs.aspx" dir="rtl"&gt;اتصل بنا-&lt;/a&gt;
+            &lt;/p&gt;</value>
+  </data>
+  <data name="howorder8" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;كيفية ترتيب المركبات من&lt;/span&gt; أوان K.K الدولية&lt;/div&gt;</value>
+  </data>
+  <data name="ImageView" xml:space="preserve">
+    <value>عرض الصورة</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>معلومات المرسل إليه</value>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>التفتيش</value>
+  </data>
+  <data name="INSPECTIONCERT" xml:space="preserve">
+    <value>شهادة التفتيش</value>
+  </data>
+  <data name="InspectionCertificate" xml:space="preserve">
+    <value>إينسبيكتيونسيرتيفيكاتي (الين 25,000)</value>
+  </data>
+  <data name="Insurance" xml:space="preserve">
+    <value>التأمين</value>
+  </data>
+  <data name="InteriorColor" xml:space="preserve">
+    <value>إينتيريوركولور</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>لغة</value>
+  </data>
+  <data name="LanguagesArif" xml:space="preserve">
+    <value>&lt;span style="width: 233px;"&gt;&lt;b style="width: 199px;"&gt;جابنيسي، الروسية، والإنجليزية، الهندية، الأوردو.&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="LanguagesRizwanRauf" xml:space="preserve">
+    <value>الإنكليزية والعربية والأوردو</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>اسم العائلة</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>موقع</value>
+  </data>
+  <data name="loginpages.emaillable" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="loginpages.Forgetpassworlable" xml:space="preserve">
+    <value>نسيت كلمة المرور الخاصة بك</value>
+  </data>
+  <data name="loginpages.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;أعضاء&lt;/span&gt;صفحة تسجيل الدخول</value>
+  </data>
+  <data name="loginpages.heading1" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;
+&lt;a href="membership.aspx"&gt;أصبحت دولنا الأعضاء قيمة، كل ما عليك فقط تعبئة النموذج! وهذا كل شيء.&lt;/a&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="loginpages.LogInlable" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="loginpages.passwordlable" xml:space="preserve">
+    <value>كلمة المرور:</value>
+  </data>
+  <data name="Make" xml:space="preserve">
+    <value>جعل</value>
+  </data>
+  <data name="MakeCategory" xml:space="preserve">
+    <value>جعل الفئة</value>
+  </data>
+  <data name="Makecatgory" xml:space="preserve">
+    <value>جعل الفئة</value>
+  </data>
+  <data name="MakeDescription" xml:space="preserve">
+    <value>جعل الوصف</value>
+  </data>
+  <data name="MakeModel" xml:space="preserve">
+    <value>جعل نموذج</value>
+  </data>
+  <data name="ManagingDirector" xml:space="preserve">
+    <value>المدير التنفيذي</value>
+  </data>
+  <data name="membership.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;عضوية&lt;/span&gt; طلب&lt;/p&gt;</value>
+  </data>
+  <data name="membership.lblmessage" xml:space="preserve">
+    <value>العضوية الخاصة بك بنجاح! 
+                    تسجيل الدخول كعضو</value>
+  </data>
+  <data name="membershipclick" xml:space="preserve">
+    <value>انقر هنا</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="default.aspx"&gt;&lt;span&gt;الصفحة الرئيسية&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;من نحن&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="CooperateOverView.aspx"&gt;&lt;span&gt;الشركات&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="AwanInter.aspx"&gt;&lt;span&gt;لماذا أوان K.K الدولية&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span&gt;التفاصيل المصرفية&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="TermsandConditions.aspx"&gt;&lt;span&gt;ظروفنا &amp; الشروط&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="SalesTeams.aspx"&gt;&lt;span&gt;فرق المبيعات&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="gallery.aspx"&gt;&lt;span&gt;معرض الصور&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        
+        
+        
+      &lt;li&gt;&lt;a href="stocklist.aspx?lv=1"&gt;&lt;span&gt;الأرصدة&lt;/span&gt;&lt;/a&gt; &lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;معلومات أخرى&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small3_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="ShippingInfo.aspx"&gt;&lt;span class="small_img2"&gt;النقل البحري معلومات&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="Glossary.aspx"&gt;&lt;span class="small_img2"&gt;مسرد المصطلحات&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="http://www.auto-japanese.com/Pr_1year/index.php?company=4"&gt;&lt;span class="small_img2"&gt;الاختيار الشاسيه&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;العملاء&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span class="small_img2"&gt;تسجيل دخول الأعضاء&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="membership.aspx"&gt;&lt;span class="small_img2"&gt;عضوية جديدة تطلب&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+       &lt;li&gt;&lt;a href="#"&gt;&lt;span&gt;المدفوعات&lt;/span&gt;&lt;/a&gt;
+            &lt;div&gt;
+                &lt;ul class="small_img"&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="PayPal.aspx"&gt;&lt;span class="small_img2"&gt;واجهة بأي بال&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="small_img1"&gt;&lt;a href="bankdetails.aspx"&gt;&lt;span class="small_img2"&gt;التفاصيل المصرفية&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+         &lt;li style="width:115px"&gt;&lt;a href="LoginPage.aspx"&gt;&lt;span style="width:115px"&gt;تسجيل دخول الأعضاء&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://awan.ajes.com/"&gt;&lt;span&gt;مزاد&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li style="width:100px"&gt;&lt;a href="HowtoOrder.aspx"&gt;&lt;span style="width:100px"&gt;كيفية الطلب&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+         
+        &lt;li&gt;&lt;a href="FAQ.aspx"&gt;&lt;span&gt;الأسئلة المتداولة&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li style=" margin-left: 4px; width:110px"&gt;&lt;a href="ContactUs.aspx"&gt;
+        &lt;span style=" margin-left: 4px; width:110px"&gt;اتصل بنا&lt;/span&gt;&lt;/a&gt; 
+        &lt;/li&gt;</value>
+  </data>
+  <data name="Mileage" xml:space="preserve">
+    <value>الأميال (كم)</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>موبايل</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>نموذج</value>
+  </data>
+  <data name="ModelYear" xml:space="preserve">
+    <value>السنة النموذجية</value>
+  </data>
+  <data name="MohammadalKhawajaInfo" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;
+مرحبا الجميع، واسمي موهامادالخاواجا والتحقت "أوان الأسرة الدولية" في عام 2004.&lt;br&gt;وقد كرمت القادمة على متن لأننا نشترك في فلسفة مشتركة. حقا أننا نهتم بالناس الذين قد عهد إلينا بمهمة إيجاد أفضل حل لحاجاتهم السيارات. لا أعرف مثل الضغط على الناس ولا لا "أوان الدولي". لا شيء مني وأكثر عندما يعرب أحد عملاء بإخلاص كم تمتعت تجربتهم شراء سيارة وحماسهم لتبادل الخبرات مع الآخرين.&lt;br&gt;أقدم كافة المعلومات لموكلي اتخاذ القرار الصحيح. أي مسألة بالنسبة لي مسألة عادلة وافترض ابدأ فهم أعضاء بلدي العملية. إذا كان الاستماع، وفهم أهدافهم، أنا تطابق السيارة الصحيح إلى احتياجاتهم. لذا، يقدم دعوة إذا كنت تبحث عن الخاص بك السيارة القادمة وسوف تساعد في العثور على السيارة الصحيح تبحث كذلك.
+&lt;/p&gt;</value>
+  </data>
+  <data name="MohammadalTitle" xml:space="preserve">
+    <value>المدير التنفيذي</value>
+  </data>
+  <data name="MohammadalTitleLanguage" xml:space="preserve">
+    <value>عربي إنجليزي</value>
+  </data>
+  <data name="MohammadAwaisInfo" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;
+مرحبا، اﻹسﻻمي هو محمد عويس وحاليا أنا إدارة "القطاع الروسي من المجموعات الدولية على أوان". لقد بدأت حياتي المهنية "مستشار المبيعات" "أوان الدولي" وبعد الكثير من العمل الشاق والتفاني لعملي اليوم وأنا في هذا المكان.&lt;br&gt;شيئا واحداً حقا أن أذكر هنا أنه قد أعطيت للفريق الدولي المعني باوآن 8 سنوات حياة وأنا ذلك فعلا جزيل إلى الله أنا أنا اتخاذ "أفضل قرار" في حياتي للانضمام إلى الفريق الدولي أوان.&lt;br&gt;وأرحب بكل شخص مباشرة أو غير مباشرة تتعلق "السيارات التجارية"، قم بزيارتنا مرة واحدة وسوف أضمن لكم أن كنت ستقدم مع "أفضل الخدمات".
+
+&lt;/p&gt;</value>
+  </data>
+  <data name="MohammadAwaisLanguages" xml:space="preserve">
+    <value>الإنكليزية، روسين، الأردية</value>
+  </data>
+  <data name="MohammadAwaisTitle" xml:space="preserve">
+    <value>&lt;span style="width: 257px;"&gt;&lt;b&gt;مدير إدارة-روسيا&lt;/b&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="MyInfo" xml:space="preserve">
+    <value>معلومات بي</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>اسم</value>
+  </data>
+  <data name="negolist.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;التفاوض&lt;/span&gt;قائمة</value>
+  </data>
+  <data name="Negotiate" xml:space="preserve">
+    <value>التفاوض</value>
+  </data>
+  <data name="NegotiationDeal" xml:space="preserve">
+    <value>التفاوض على صفقة</value>
+  </data>
+  <data name="NewArrival" xml:space="preserve">
+    <value>نيواريفال</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>القادم</value>
+  </data>
+  <data name="NomanRaufInfo" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;
+Assalamu.alaikum، اﻹسﻻمي هو م. نعمان رؤوف، وحاليا أنا إدارة جميع الأعمال في باكستان من "المجموعات الدولية أوان".&lt;br&gt;لقد بدأت حياتي المهنية كمسؤول مبيعات "أوان الدولي" وبعد الكثير من العمل الشاق والتفاني لعملي اليوم وأنا في هذا المكان.&lt;br&gt;وقد فعلت بي التخرج في إدارة الأعمال من بئر يعرف جامعة الأعمال في باكستان أي خبرة العمل IoBM.My حوالي 3 سنوات "أوان الدولي ك." عملي لإدارة، الشراء/البيع، العلاقة "الحفاظ على الصداقة" مع جميع عملائنا في باكستان. يمكن أن أقدم كل نوع من المعلومات المتصلة بالشروط التجارية باكستان &amp; تيمرس.&lt;br&gt;وأرحب بكل شخص مباشرة أو غير مباشرة تتعلق "السيارات التجارية"، قم بزيارتنا مرة واحدة وسوف أضمن لكم أن كنت ستقدم مع "أفضل الخدمات".
+
+&lt;/p&gt;</value>
+  </data>
+  <data name="NomanRaufTitle" xml:space="preserve">
+    <value>باكستان مدير المبيعات</value>
+  </data>
+  <data name="nowonsale" xml:space="preserve">
+    <value>الآن للبيع</value>
+  </data>
+  <data name="OfficePhone" xml:space="preserve">
+    <value>هاتف المكتب</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>خيارات</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>ترتيب</value>
+  </data>
+  <data name="order.DestinationPort" xml:space="preserve">
+    <value>منفذ الوجهة</value>
+  </data>
+  <data name="Order1.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span class="myform_span"&gt;الأوراق المالية&lt;/span&gt; للنظام&lt;/p&gt;</value>
+  </data>
+  <data name="OrderConsignee.heading" xml:space="preserve">
+    <value>&lt;span class="myform_span"&gt;اقتباس&lt;/span&gt;</value>
+  </data>
+  <data name="orderfin.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span class="myform_span"&gt;اقتباس&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="ORDERFINTOTAL" xml:space="preserve">
+    <value>إجمالي المبلغ المستحق:</value>
+  </data>
+  <data name="orderfin_bankDetali" xml:space="preserve">
+    <value>&lt;font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" style="font-size: 10px;"&gt;اسم البنك: بنك طوكيو-ميتسوبيشي يو آﻻف جيه القابضة&lt;br&gt;عنوان المصرف:-23 2-كورينبو 25، كانازاوا، اليابان&lt;br&gt;اسم الفرع: فرع كانازاوا&lt;br&gt;اسم الحساب: أوان ك. الدولية&lt;br&gt;رقم الحساب: 0687182&lt;br&gt;رمز سريعة: بوتكجبجت&lt;br&gt;السبب للتحويلات المالية: دفع للسيارات و/أو أجزاء المركبة&lt;/font&gt;</value>
+  </data>
+  <data name="orderstatus" xml:space="preserve">
+    <value>&lt;ul&gt;
+                        &lt;li class="active"&gt;الخطوة 1 [تفاصيل الشحن]&lt;/li&gt;
+                        &lt;li&gt;الخطوة 2 [تفاصيل الطلبات]&lt;/li&gt;
+                        &lt;li&gt;الخطوة 3 [معلومات المرسل إليه]&lt;/li&gt;
+                        &lt;li&gt;الخطوة 4 [النظام الكامل]&lt;/li&gt;
+                    &lt;/ul&gt;</value>
+  </data>
+  <data name="orderstatus2" xml:space="preserve">
+    <value>&lt;li&gt;1-[تفاصيل الشحن]&lt;/li&gt;
+                        &lt;li&gt;2-[تفاصيل الطلبات]&lt;/li&gt;
+                        &lt;li&gt;3-[معلومات المرسل إليه]&lt;/li&gt;
+                        &lt;li class="active"&gt;4-[وضع الصيغة النهائية للنظام]&lt;/li&gt;</value>
+  </data>
+  <data name="PartCondition" xml:space="preserve">
+    <value>الشرط جزء</value>
+  </data>
+  <data name="PartsInfo" xml:space="preserve">
+    <value>أجزاء من المعلومات</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="PaymentOptions" xml:space="preserve">
+    <value>خيارات الدفع</value>
+  </data>
+  <data name="paypal.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;جعل الدفع الخاص بك باستخدام بأي بال/&lt;/span&gt; بطاقة الائتمان&lt;/p&gt;</value>
+  </data>
+  <data name="paypalExample" xml:space="preserve">
+    <value>وينبغي أن يشمل المبلغ + 4% رسوم المعاملات</value>
+  </data>
+  <data name="paypalExample2" xml:space="preserve">
+    <value>مثال: (إذا كنت تريد أن يدفع 100 دولار، يجب عليك إدخال مبلغ 104)</value>
+  </data>
+  <data name="paypalPaymentfor" xml:space="preserve">
+    <value>دفع ثمن</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="PHOTO" xml:space="preserve">
+    <value>الصور الفوتوغرافية</value>
+  </data>
+  <data name="portdischarge" xml:space="preserve">
+    <value>ميناء التفريغ</value>
+  </data>
+  <data name="Portloading" xml:space="preserve">
+    <value>ميناء التحميل</value>
+  </data>
+  <data name="Pricelable" xml:space="preserve">
+    <value>السعر</value>
+  </data>
+  <data name="Priceranglable" xml:space="preserve">
+    <value>رن السعر</value>
+  </data>
+  <data name="QUANTITY" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="Quickcontact" xml:space="preserve">
+    <value>&lt;div dir="rtl" style="width: 127px; margin-left: 184px;"&gt;
+            الاتصال السريع
+            
+            &lt;/div&gt;</value>
+  </data>
+  <data name="Quickcontact.EmailRequired" xml:space="preserve">
+    <value>البريد الإلكتروني مطلوب</value>
+  </data>
+  <data name="Quickcontact.NameRequired" xml:space="preserve">
+    <value>اسم مطلوب</value>
+  </data>
+  <data name="Quickcontact.send" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="QuickContactStartText" xml:space="preserve">
+    <value>&lt;div dir="rtl" style="width: 320px;"&gt;
+    
+              إذا كان لديك انكويي العامة يرجى إرسال تقديم الطلب الخاص بك أدناه تفاصيل.
+            
+             &lt;/div&gt;</value>
+  </data>
+  <data name="QuickSearch" xml:space="preserve">
+    <value>كويكسيرتش</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>اقتباس</value>
+  </data>
+  <data name="Quotation.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span class="myform_span"&gt;اقتباس&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="QuoteDate" xml:space="preserve">
+    <value>استشهد بتاريخ:</value>
+  </data>
+  <data name="QuoteDeals" xml:space="preserve">
+    <value>صفقات في المبلغين استخدام السيارات</value>
+  </data>
+  <data name="QuoteRef" xml:space="preserve">
+    <value>اقتبس Ref:</value>
+  </data>
+  <data name="Re-TypePassword" xml:space="preserve">
+    <value>أعد كتابة كلمة المرور</value>
+  </data>
+  <data name="RegularView" xml:space="preserve">
+    <value>طريقة العرض العادية</value>
+  </data>
+  <data name="RizwanRaufInfo" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt; 
+مرحبا، أنا ريزوانروف، وأنا "إدارة المدير في تامبيري موتورز فزد" هو فرع دبي للفريق الدولي أوان. أكملت بلدي التخرج في عام 2006 من دبي وفزد موتورز تامبيري الانضمام كالاول خطوة في العالم المهني.  أنا حقا مثل "البيئة المهنية" ونرى إمكانية كبيرة لبلدي كارير العمل مع الفريق الدولي المعني باوآن.&lt;br&gt;هو عملي لإدارة، الشراء/الإبحار، العلاقة "الحفاظ على الصداقة" مع جميع عملائنا، تعزيز أعمالنا، وإبقاء وسليم البيئة المحيطة بالعمل. في 6 سنوات تقريبا تعمل مع المجموعة الدولية، ويمكن أن أضمن لكم أن مجموعة "أوان الدولي" فعلا يستحق للتعامل مع أوان.
+
+&lt;/p&gt;</value>
+  </data>
+  <data name="saleteams.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;المبيعات&lt;/span&gt; فرق  &lt;/p&gt;</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>البحث</value>
+  </data>
+  <data name="Searchbybodytype" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;البحث حسب نوع المركبة&lt;/p&gt;</value>
+  </data>
+  <data name="SearchbyMake" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;البحث عن طريق جعل&lt;/p&gt;</value>
+  </data>
+  <data name="Seats" xml:space="preserve">
+    <value>مقاعد</value>
+  </data>
+  <data name="SelectStock" xml:space="preserve">
+    <value>حدد الأوراق المالية</value>
+  </data>
+  <data name="sellcar.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;بيع الخاص بك&lt;/span&gt; سيارة&lt;/p&gt;</value>
+  </data>
+  <data name="Shahidoinfo" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;
+
+مرحبا، اﻹسﻻمي شاهيدو ساكوراي. لقد بدأ بلدي الناقل "مستشار مبيعات السيارات المستخدمة" في عام 1999، واليوم "نعمة على" سبحانه وتعالى، أنا مالك أوان المقلص جرويب المحدودة.&lt;br&gt;من الخبرة 20 عاماً في إدارة وتقديم الخدمات للعملاء. بلدي أسلوب ونهج لقطاع السيارات وكان دائماً العملاء توسيط. أنني أحمل معي سنوات عديدة من الخبرة في صناعة السيارات. لقد دائماً رأي أنه إذا كان يمكن حقا أن تساعد أي شخص الحصول على ما تحتاج إليه، ثم أود أن يكون حظ أفضل تهيئة عميل للحياة. وأعلم أيضا أن يستغرق جهدا جماعياً لتحقيق هذه الأهداف النبيلة، وأنا مؤيد كبير للفريق والمجتمع.&lt;br&gt;تحديد أفضل الممارسات التجارية لإنشاء "الاهتياج المروحة في" من "أوان الدولي" حيث تركيزي اليوم. أنا أعرف أن عندما تنشأ حالة مفيد مع العمليات أننا وضعنا في مكان، وثم إنشاء هذا العميل للحياة ليس بعيداً جداً!
+&lt;/p&gt;</value>
+  </data>
+  <data name="ShahidoLanguage" xml:space="preserve">
+    <value>&lt;b&gt;جابنيسي، الروسية، والإنجليزية، الهندية، الأوردو.&lt;/b&gt;</value>
+  </data>
+  <data name="ShahidoTitle" xml:space="preserve">
+    <value>المدير</value>
+  </data>
+  <data name="Shipment" xml:space="preserve">
+    <value>شحن</value>
+  </data>
+  <data name="shippinginfo" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+&lt;ul class="myform_heading"&gt;
+        &lt;span style="color: #F0F0F0"&gt;النقل البحري&lt;/span&gt; معلومات&lt;/ul&gt;
+    &lt;ul class="myform_line"&gt;
+    &lt;/ul&gt;
+    &lt;div id="main_top_panel"&gt;
+        &lt;div&gt;
+            &lt;img class="ShippingInfo-img" alt="" src="images/cars_in_containers.png"&gt;
+            &lt;p class="class"&gt;قد تقدمت اليابان معظم مرافق الشحن والإمداد لمناولة الشحنات السيارات. اعتماداً على النوع السفن، توجد أساليب 2 لتحميل البضائع السيارات.
+                نوع واحد من البضائع هو المعروف المدرجيه، رول-إيقاف التشغيل (RORO)، والآخر هو 20 ft أو 40 قدم الشحن بالحاويات.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;RORO السفن (شركات السيارات) في العرض مشددة كما يزداد عولمة صناعة السيارات طوال العقد الماضي. تواتر شحنة RORO نوع البضائع هو أقل بالمقارنة مع سفن تحمل طبيعية أخرى استخدام الشحن بالحاويات 20 ft أو 40 قدم. أيضا ليس كل منفذ مغطى بالسفن RORO حتى لكثير من البلدان الخيار الوحيد الذي غادر تحميل الحاويات.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;الحاوية تحميل الشحنة ينطوي على جهد كبير والحرص ويتطلب أيضا الدراية والخبرة. ولدينا خبرة واسعة حشو لسنوات عديدة، ويمكنك أن تكون متأكداً من أنه سيتم شحن السيارات الخاصة بك بشكل اﻷمن وفعال من حيث التكلفة وفي بيئة آمنة. التي اكتسبناها أيضا معدلات تكلفة تنافسية أكثر نظراً إلى أن الشحنات السائبة بصفة منتظمة. يوجد أدناه فكرة عن حاوية شحن الحمولة.
+                وعادة ما تمكنا من الأشياء مركبات متعددة إلى نهاية المباراة 40 حاوية استناداً إلى الأحجام/أبعاد المركبات.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class"&gt;لعرض مسرد لجميع أنواع شروط الشحن،&lt;a href="#"&gt; اضغط هنا&lt;/a&gt;&lt;/p&gt;
+            &lt;p class="class js_a"&gt;
+                &lt;a href="http://japan-used-car-exporting.info/import/shipping-companies.html"&gt;&lt;b&gt;الشهير قائمة شركات النقل البحري&lt;/b&gt;&lt;/a&gt;
+            &lt;/p&gt;
+            &lt;div class="clear"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="clear"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;/div&gt;</value>
+  </data>
+  <data name="Shipto" xml:space="preserve">
+    <value>السفينة إلى</value>
+  </data>
+  <data name="SpecialOffer" xml:space="preserve">
+    <value>سبيسيالوفير</value>
+  </data>
+  <data name="Start_Date" xml:space="preserve">
+    <value>تاريخ البدء</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>مركز</value>
+  </data>
+  <data name="Steering" xml:space="preserve">
+    <value>التوجيهي</value>
+  </data>
+  <data name="STOCKDETAIL" xml:space="preserve">
+    <value>تفاصيل الأسهم</value>
+  </data>
+  <data name="stocklist.heading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;الأوراق المالية&lt;/span&gt;البحث&lt;/P&gt;</value>
+  </data>
+  <data name="StockLocation" xml:space="preserve">
+    <value>موقع الأسهم</value>
+  </data>
+  <data name="stocknumber" xml:space="preserve">
+    <value>لا الأسهم</value>
+  </data>
+  <data name="Stockorder" xml:space="preserve">
+    <value>الأوراق المالية للنظام</value>
+  </data>
+  <data name="stockpage" xml:space="preserve">
+    <value>مزيد من المعلومات حول صفحة الأسهم</value>
+  </data>
+  <data name="StockRef" xml:space="preserve">
+    <value>Ref الأسهم</value>
+  </data>
+  <data name="Stocktype" xml:space="preserve">
+    <value>نوع المخزون</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;مصرف&lt;/span&gt; تفاصيل</value>
+  </data>
+  <data name="SUbmitRequest" xml:space="preserve">
+    <value>سوبمينتريكوريست</value>
+  </data>
+  <data name="TabularView" xml:space="preserve">
+    <value>عرض جدولي</value>
+  </data>
+  <data name="TermsandConditions1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading" dir='RTL'&gt;
+            &lt;span style="color: #F0F0F0"&gt;شروط&lt;/span&gt; &amp; الشروط&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="TermsandConditions2" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger" dir='RTL'&gt;
+            &lt;a href="#" dir='RTL'&gt; مخزون K.K أوان الدولية&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container" dir='RTL'style="display: block; margin-right: -5px; margin-left: 405px;"&gt;
+            &lt;p class="class_span1"&gt;تستطيع أن تسمية. لدينا.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;مجموعة واسعة من المركبات متاحة للشراء عبر الإنترنت الخاص بك تحت أوان K.K الدولي الأرصدة. الأسعار التي نقلت بشروط "فوب" وو &amp; ج فيما يتعلق بمنطقة معينة.&lt;/p&gt;
+            &lt;p class="class2"&gt;جميع أسعارنا القابلة للتداول والتحقيقات موضع ترحيب. إذا كنت ترغب بزيارة الولايات المتحدة لشراء مباشرة ثم أسعار فوب أو F &amp; ج يمكن التفاوض أيضا بشأن بناء على طلبها.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions3" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"dir='RTL'&gt;
+            &lt;a href="#"&gt;المزادات في اليابان&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container" dir='RTL'style="display: block; margin-right: -5px; margin-left: 405px;"&gt;          &lt;p class="class_span1"&gt;استكشاف عالم السيارات!&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;يوفر أوان الدولي K.K المركبات 200,000 أكثر من كل أسبوع على نظامنا المزاد عبر الإنترنت. وتشارك أوان الدولي K.K يوميا في المزادات في العالم أجمع. ويتلقى أوان الدولي K.K مزاد البيانات والصور الفوتوغرافية من المزاد على أساس يومي. هذه المعلومات يتم تحميلها في هـ-المحركات وعرضت على الإنترنت من خلال صفحة "المزاد عبر الإنترنت".&lt;/p&gt;
+            &lt;p class="class2"&gt;مسترد مطلوب تقديم عطاء يعيش الصعود إلى نظام المزاد عبر الإنترنت.
+                ويؤكد أوان الدولي K.K خدمة العملاء (CSC) شخصيا مركز إيداع لكل عميل على فترات منتظمة. الخدمات هي المتوفرة 24/7. عند محاولة ناجحة؛ مطلوب دفع إيداع في غضون خمسة أيام شراء عن طريق نقل البرقية (TT) أو الائتمان المباشر (الأجور-Pal).&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions4" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger"dir='RTL'&gt;
+            &lt;a href="#"&gt;التبادل التجاري:&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"dir='RTL'style="display: block; margin-right: -5px; margin-left: 405px;"&gt;
+            &lt;p class="class2"&gt;ينبغي تسجيل العملاء • على موقعنا على شبكة الإنترنت قبل إجراء معاملة. (التسجيل مجاني تماما!)&lt;/p&gt;
+            &lt;p class="class2"&gt;• مطلوب لم تودع قبل تأكيد أي سيارة من "مخزون جاهز".&lt;/p&gt;
+            &lt;p class="class2"&gt;• دفع كامل أو جزئي المطلوب في غضون سبعة أيام تأكيد عن طريق البرقية تحويل (TT).&lt;/p&gt;
+            &lt;p class="class2"&gt;• عربون مطلوب قبل الشحن مع البقية الواجب قبل أن الإفراج عن الوثائق الأصلية.&lt;/p&gt;
+            &lt;p class="class2"&gt;ويمكن مشاهدة أسعار • مع تفاصيل السيارة كاملة حالما تتلقى أوراق اعتماد تسجيل الدخول.&lt;/p&gt;
+            &lt;p class="class2"&gt;• الأسعار هي نقلت بدولارات الولايات المتحدة (USD) &amp; الين الياباني، أما في و ج &amp; أو شروط "فوب"&lt;/p&gt;
+            &lt;p class="class2"&gt;يمكن دفع العملاء • دولار أمريكي، والين الياباني، اليورو، بركة الجنيه الاسترليني إلخ.&lt;/p&gt;
+            &lt;br&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="TermsandConditions5" xml:space="preserve">
+    <value>&lt;h2 class="acc_trigger" dir='RTL'&gt;
+            &lt;a href="#"&gt;الضمان&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class="acc_container"dir='RTL'style="display: block; margin-right: -5px; margin-left: 405px;"&gt;
+            &lt;p class="class2"&gt;وهناك ضمانات 2. الضمان القياسي إلزامي.&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;الضمان القياسي&lt;/p&gt;
+            &lt;p class="class2"&gt;الضمان القياسي (كالولايات المتحدة الإلزامي دولار 50): يغطي غرق السفينة أو الحرائق أو فقدان للبضائع.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;مجال التغطية: &lt;span class="class2"&gt;سيف كامل المبلغ&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;مجال التغطية:&lt;span class="class2"&gt;من ناغويا، اليابان لإلغاء نقطة في ساحة ميناء الوجهة الخاص بك.&lt;/span&gt;&lt;/p&gt;
+            &lt;br&gt;
+            &lt;p class="class2"&gt;ولم تعلن أي مقبولة، بعد تفريغ المركبات الخاصة بك في ساحة ميناء الوجهة الخاص بك.&lt;/p&gt;
+            &lt;p class="class_span1"&gt;الضمان القياسي&lt;/p&gt;
+            &lt;p class="class2"&gt;الفضة الضمان (كالولايات المتحدة الاختياري، مبلغ 110): يغطي غرق السفينة أو الحرائق أو فقدان البضائع والأضرار (باستثناء بالقوة القاهرة) والسرقة (باستثناء الصوت الأصلي/الملحقات).&lt;/p&gt;
+            &lt;p class="class_span1"&gt;الحد الأقصى للتغطية: &lt;span class="class2"&gt;المبلغ الكامل "فوب"&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class_span1"&gt;مجال التغطية: &lt;span class="class2"&gt;من ناغويا، اليابان إلى التقاط النقطة في ساحة ميناء الوجهة الخاص بك (قبل التسليم)-&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class2"&gt;قبول لا ادعاء، بعد لك أو وكيلك تطهير تلتقط الخاص بك السيارة في ساحة ميناء الوجهة الخاص بك.&lt;/p&gt;
+            &lt;p class="class2"&gt;إذا كنت أطلب من عامل تطهير لالتقاط المركبات الخاصة بك، الرجاء تقول الوكيل أنهم يجب أن تحقق شرط مركبة قبل الولادة (في ساحة الميناء).&lt;/p&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="tilelRizwanRauf" xml:space="preserve">
+    <value>&lt;span style="width:257px;"&gt;&lt;b&gt;رئيس عملية (دبي)&lt;/b&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>التكلفة الإجمالية</value>
+  </data>
+  <data name="Transmission" xml:space="preserve">
+    <value>انتقال</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="Veh.Category" xml:space="preserve">
+    <value>Veh.Category</value>
+  </data>
+  <data name="VehicleGrade" xml:space="preserve">
+    <value>الصف مركبة</value>
+  </data>
+  <data name="VehicleMake" xml:space="preserve">
+    <value>جعل المركبات</value>
+  </data>
+  <data name="Vehicleoptions" xml:space="preserve">
+    <value>خيارات السيارة</value>
+  </data>
+  <data name="VehName" xml:space="preserve">
+    <value>Veh.Name</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>طريقة العرض</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>عرض التفاصيل</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>موقع على شبكة الإنترنت</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>السنة</value>
+  </data>
+  <data name="yearmonth" xml:space="preserve">
+    <value>الشهر/السنة</value>
+  </data>
+  <data name="awanPictures" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;&lt;span style="color: #F0F0F0"&gt;الصور &lt;/span&gt; K.K أوان الدولية&lt;/P&gt;</value>
+  </data>
+  <data name="salestemsheading" xml:space="preserve">
+    <value>&lt;p dir="rtl"&gt;
+&lt;span style="color: #F0F0F0"&gt;مبيعات&lt;/span&gt;  الفرق &lt;/p&gt;  &lt;/ul&gt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="auction1" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+
+        &lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;مزاد علني&lt;/span&gt;
+        &lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;&lt;/ul&gt;
+        &lt;p class="class"&gt;
+           كما يمكنك أن تصبح عضوا مسجلا KK AwanInternational، سوف تحصل على وصول
+             إلى بيوت المزاد أكثر من 100، ونتيجة لحوالي 30000 سيارة يوميا. أنت
+             ويمكن العثور على سيارة وقطع غيار السيارات، عرض تفاصيلها، ومحاولة حتى سيارة حق من حسابك
+             سطح المكتب في الراحة من منزلك.&lt;/p&gt;
+        &lt;p class="class"&gt;
+          في أوان الدولية KK، والعملية برمتها من مزاد للسيارات المستعملة سهلا كما هو 1،
+             2، (3) انظر الخطوات أدناه.&lt;/p&gt;
+        &lt;br /&gt;
+        &lt;p&gt;
+            &lt;span class="class_span1"&gt;الخطوة-1&lt;/span&gt; &lt;span class="class_span2"&gt;تصبح مسجلة
+                 عضو&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+            &lt;a href="/user/register" target=""&gt;تسجيل&lt;/a&gt; لتصبح عضوا في أوان الدولية KK والحصول على كامل رصيد متوفر في بيوت المزادات متعددة.
+        &lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;الخطوة-2&lt;/span&gt; &lt;span class="class_span2"&gt;Security Deposit&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+          إيداع مبلغ الأمنية الأولية التي عادة ما تكون 1000 $ أو 100000 ين للمزايدة
+   لسيارة تقل قيمتها عن 1 مليون دولار. نحن بحاجة الى عقد هذا المبلغ قبل أن المزايدة على أي من السيارات. إذا كانت محاولة لا تحصل على النجاح، والأمن ودائع غير مستردة بالكامل أو قابل للتعديل في حساب العميل بناء على طلب الزبون.
+            &lt;br /&gt;
+        &lt;/p&gt;
+        &lt;table cellspacing="0" cellpadding="5" align="center" class="auctionTable"&gt;
+            &lt;tr&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;span class="class_span2"&gt;مزايدة تفاصيل الإيداع.&lt;/span&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auction1"&gt;
+                  ودائع رتبة
+                &lt;/th&gt;
+                &lt;th class="auction2"&gt;
+                    إيداع المبلغ دولار
+                &lt;/th&gt;
+                &lt;th class="auction3"&gt;
+                   شراء الدولار ميزانية عام 2000٪
+                &lt;/th&gt;
+                &lt;th class="auction4"&gt;
+                    الين إيداع المبلغ
+                &lt;/th&gt;
+                &lt;th class="auction5"&gt;
+                   شراء الين الميزانية٪ 2000
+                &lt;/th&gt;
+                &lt;th class="auction6"&gt;
+                   شراء الحد
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    A
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $10,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \1,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \20,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                   لا حدود
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    B
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $5,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \500,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \10,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    10 الوحدات
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    C
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $3,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $60,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \300,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \6,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    4 الوحدات
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    D
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $2,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $40,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \200,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \4,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    3 الوحدات
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th class="auctiondowm1"&gt;
+                    E
+                &lt;/th&gt;
+                &lt;th class="auctiondowm2"&gt;
+                    $1,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm3"&gt;
+                    $20,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm4"&gt;
+                    \100,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm5"&gt;
+                    \2,000,000
+                &lt;/th&gt;
+                &lt;th class="auctiondowm6"&gt;
+                    1 وحدة
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;br /&gt;
+                &lt;td colspan="6"&gt;
+                    &lt;font class="class"&gt;&lt;b&gt; نحن بحاجة إلى فوق ودائع من العملاء ليتسنى له أن يبدأ تقديم العطاءات .&lt;/b&gt;&lt;/font&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;3-الخطوة&lt;/span&gt; &lt;span class="class_span2"&gt;مزايدة سيارات من المزاد&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;
+           من فضلك، وتملأ عددا كثيرا، واسم السيارة وسعر المزايدة في المزاد شكل النظام.
+        &lt;/p&gt;
+        &lt;p class="class"&gt;
+            ونحن التهمة الوحيدة سعر المزاد الفعلي الذي يتم فازت بعطاء. وذلك في محاولة للمزايدة على أعلى ما تستطيع من أجل زيادة فرص الفوز في العطاء.
+        &lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;4-الخطوة&lt;/span&gt; &lt;span class="class_span2"&gt;مزاد النتيجة&lt;/span&gt;&lt;/p&gt;
+        &lt;p class="class"&gt;  كما حصلنا على النجاح مع أدخل، سنقوم بإعلامك أن المناقصة قد حصلت على النجاح. سوف تتلقى فاتورة يتضمن السعر الإجمالي للسيارة. وسيتم حساب السعر مع سعر البيع الأصلي للمزاد.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;5-الخطوة &lt;span class="class_span2"&gt;نهائي الدفع&lt;/span&gt;&lt;/p&gt;
+
+
+        &lt;p class="class"&gt;سيتم دفع الدفعة النهائية في 5 أيام عمل. والمبالغ التي دفعت في ذلك الوقت ملتزمة مساعدتنا على حفظ النظام الخاص بك من الإلغاء.&lt;/p&gt;
+        &lt;p&gt;&lt;span class="class_span1"&gt;6-الخطوة &lt;span class="class_span2"&gt;شحنة&lt;/span&gt;&lt;/p&gt;
+        
+        
+        &lt;/div&gt;</value>
+  </data>
+  <data name="auction2" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+            &lt;p class="class"&gt;
+                وسيتم ترتيب شحن حالما يتم تأكيد الدفع.
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                ملاحظة: في &lt;a href="www.awan.co.jp"&gt;Awan.co.jp&lt;/a&gt; وسوف تجد أفضل خدمات الشحن بأقل
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;span class="class_span1"&gt;7-الخطوة&lt;span class="class_span2"&gt;وثائق&lt;/span&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;
+                كما يترك السفينة من اليابان، وسوف نرسل جميع الوثائق من قبل الإدارة البيئية، دي إتش
+                إل أو فيديكس. وشملت الوثائق هي؛
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                تصدير شهادة
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                بوليصة الشحن
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                فاتورة
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                البحرية التأمين إن وجدت
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                JAAI التفتيش وعمليات التفتيش الأخرى، إن وجدت
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                ملاحظة: لا توجد أي رسوم إضافية أو الخفية أو غيرها من كنف سعر CIF. كل وشملت التهم
+                المذكورة في السعر
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                طريقة الدفع ورسوم البنك&lt;/p&gt;
+            &lt;p class="class"&gt;
+                &lt;/strong&gt;يمكنك ترتيب الدفع عن طريق حوالة البرقية من خلال البنك الذي تتعامل معه.
+                جميع يجب أن تدفع رسوم مصرفية من قبل المرسل. من فضلك، وضمان الدفع بالدولار الأميركي
+                / الين الياباني، ويرجى تضمين الفاتورة وعدد الأسهم في حقل الوصف.
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                ويمكن أيضا أن يتم الدفع على الانترنت عن طريق باي بال من خلال بطاقات الائتمان الخاصة
+                بك.&lt;/p&gt;
+            &lt;p class="class"&gt;
+                شروط الدفع عن طريق باي بال&lt;/p&gt;
+            &lt;p class="class"&gt;
+                سيكون هناك رسوم المناولة بنسبة 4٪ على الجزء العلوي من مبلغ الفاتورة.&lt;/p&gt;
+            &lt;p class="class"&gt;
+                حد الدفع عن طريق باي بال هو: USD100 الحد الأدنى والحد الأقصى USD10، 000
+            &lt;/p&gt;
+            &lt;p class="class"&gt;
+                &lt;b&gt;(الحد الأقصى للمبلغ يعتمد على بلدكم تسجيل، لذلك يرجى الرجوع إلى PAYPAL لتحديد الخاص
+                    بك.)&lt;/b&gt;&lt;/p&gt;
+            &lt;p class="class"&gt;
+                مرة واحدة وقد تم ترتيب عملية الدفع، من فضلك، أرسل لنا التأكد من الدفع مع فاتورة
+                أولية و / أو الاسم الكامل والعنوان ورقم الهاتف / الفاكس لأغراض الاتصال عن طريق الفاكس
+                أو info@awan.co.jp &lt;b&gt;+8176-6598750. &lt;/b&gt;
+                &lt;br /&gt;
+                ولا بد من بذل مبلغ المدفوعات قررت على اتفاق متبادل في كامل. وسوف نقوم بترتيب فقط
+                الشحن مرة واحدة يتم تلقي الدفع. لمزيد من المعلومات حول الشحن والمدفوعات، الرجاء
+                الاطلاع على الشروط والأحكام &lt;a href="TermsandConditions.aspx"&gt;&lt;/a&gt;. أو الاتصال &lt;a
+                    href="mailto:info@awan.co.jp"&gt;info@awan.co.jp &lt;/a&gt;
+            &lt;/p&gt;
+            &lt;h3&gt;
+                مزاد خيارات
+            &lt;/h3&gt;
+            &lt;p class="class"&gt;
+                &lt;a href="https://www.iauc.co.jp/pv/top1.html"&gt;
+                    &lt;img src="images/iauc.gif" style="border: 0px;"&gt;
+                &lt;/a&gt;
+                &lt;br /&gt;
+                &lt;a href="http://was.autoserver.co.jp/asnete/top/logon.asp"&gt;
+                    &lt;img src="images/asnet.gif" style="border: 0px;"&gt;
+                &lt;/a&gt;
+            &lt;/p&gt;
+            &lt;p class="class js_a"&gt;
+                &lt;a href="http://www.japan-used-car-exporting.info/import/auto-auctions-in-japan.html"&gt;
+                    مزادات السيارات في اليابان مفيد&lt;/a&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.japan-used-car-exporting.info/import/map-of-auto-auctions-in-japan.html"&gt;
+                    خريطة للمزادات السيارات في اليابان &lt;/a&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;</value>
+  </data>
+  <data name="glossary1" xml:space="preserve">
+    <value>&lt;ul class="myform_heading" dir="rtl"&gt;
+&lt;span style="color: #F0F0F0"&gt;شروط&lt;/span&gt; مسرد المصطلحات
+            
+            &lt;/ul&gt;</value>
+  </data>
+  <data name="glossary2" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+             &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;سند (B/L)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;وثيقة تحدد شروط العقد بين شركة الشاحن والنقل. وهي بمثابة سند ملكية، عقد النقل وإيصالاً للسلع.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+             &lt;div class="span-8 last"&gt;
+                &lt;div class="icon6"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;إشعار وصول&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;إشعار أرسله الناقل على وصول السفينة إلى المرسل إليه، "إخطار الطرف"-وعند الاقتضاء-"أيضا بإخطار الطرف." يتم سرد هذه الأطراف ذات المصلحة في كتل 3 و 4 و 10، على التوالي، لسند الشحن.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;    
+             &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon1"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;غرامات التأخير&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;رسم عقوبة ضد الشاحن أو المرسل إليهم لإرجاء المعدات الناقل خارج الوقت المسموح به مجاناً. رسوم الوقت وغرامات التأخير الحرة ترد في ميثاق الحزب أو الشحن التعريفة.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+             &lt;div class="span-8 last"&gt;
+                &lt;div class="icon4"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;قانون الله&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;فعل خارجة عن إرادة الإنسان، مثل البرق أو الفيضانات أو الزلازل.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+             &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;CFR أو ج &amp; F (التكلفة والشحن) (...منفذ الوجهة المسماة)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;الأجل للبيع حيث يدفع البائع في التكاليف والشحن اللازمة لتقديم البضائع إلى الميناء المسماة للوجهة، و "شروط البيع" ولكن خطر فقدان أو تلف للبضائع، ك (تابع) فضلا عن أي تكاليف إضافية نتيجة للأحداث التي تقع بعد الوقت الذي قد تم تسليم البضاعة على ظهر السفينة، يتم نقل من البائع إلى المشتري عند تمرير البضائع السكك الحديدية السفينة في ميناء الشحن. ويتطلب مصطلح CFR البائع تخليص البضاعة للتصدير.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+             &lt;div class="span-8 last"&gt;
+                &lt;div class="icon5"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;سيف (التكلفة والتأمين والشحن) (...تسمية مكان المقصد):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 180px;"&gt;الأجل للبيع حيث البائع له نفس الالتزامات بموجب CFR لكن أيضا لشراء التأمين البحري ضد إخطار المشتري من هلاك أو تلف للبضائع أثناء النقل. البائع عقود التأمين ويدفع قسط التأمين. ويتطلب سيف البائع تخليص البضاعة للتصدير.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+&lt;/div&gt;</value>
+  </data>
+  <data name="glossary3" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;فوب (مجاناً على متن) (...يسمى ميناء الشحن):&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1" style="height: 160px;"&gt;"مصطلح البيع الدولي" يعني البائع يفي بالتزام بلده أو بتسليم عندما مرت البضائع عبر السكك الحديدية السفينة في ميناء الشحن المسماة. وهذا يعني أن المشتري يجب أن تتحمل جميع تكاليف ومخاطر فقدان أو تلف للبضائع من هذه النقطة. مصطلح "فوب" يتطلب البائع تخليص البضاعة للتصدير.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;(رو/رو)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;اختصار للمصطلح، "رول على/دحر قبالة". أسلوب للمحيطات خدمات نقل البضائع باستخدام سفينة مع سلالم الذي يسمح عجلات المركبات يمكن وتفريغه بدون الرافعات.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;فاتورة Performa&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;فاتورة المقدمة من مورد قبل شحن البضائع، وإبلاغ المشتري لأنواع وكميات من البضائع لإرسالها، القيمة، ومواصفات (الوزن، والحجم، إلخ...)&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_5b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;الفاتورة التجارية&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;ويمثل سجلاً كاملا للصفقة بين المصدر والمستورد فيما يتعلق بالبضائع المبيعة. أيضا تقارير محتويات الشحنة ويخدم كأساس لجميع الوثائق الأخرى عن الشحنة.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_5v"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;خطاب (LC)&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;وثيقة صادرة عن مصرف كل تعليمات المشتري البضائع، يأذن البائع أن يوجه مبلغاً معيناً من المال تحت شروط معينة، وعادة ما تلقي المصرف لوثائق معينة خلال فترة زمنية معينة.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;خطاب المؤكدة&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;خطاب، صادر عن مصرف أجنبي، وقد أكد صحتها أحد المصارف محلية. مصدر مع خطاب تأكيد مضمونة الدفع حتى إذا كان المشتري الأجنبي أو المصرف الأجنبي الافتراضات.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+&lt;/div&gt;</value>
+  </data>
+  <data name="glossary4" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+&lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;خطاب&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;خطاب في التي يكفلها الدفع المحدد الضفة إذا تم استيفاء جميع الشروط والتي دراوي والتي لا يمكن أن تلغي بدون اتفاق مشترك لكل من البائع والمشتري.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon_3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;يؤكد البنك&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;المصرف الذي يضيف تأكيده لآخر البنك (البنك المصدر) لخطاب الاعتماد ووعود بدفع المستفيد بعد تقديم الوثائق المحددة في خطاب الاعتماد.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon3"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;الشحنة&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;(1) زون بضائع متقدمة إلى تاجر وتقع في محله للأعمال التجارية، ولكن مع العنوان المتبقية في مصدر للإمداد.&lt;br&gt;(2) شحنة بضائع إلى المرسل إليه.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;المرسل إليه&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;الشخص أو الشركة الذين يتم شحن السلع.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 append-1"&gt;
+                &lt;div class="icon_4b"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;الشاحن&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;الشخص أو الشركة التي هي عادة من قبل المورد أو مالك السلع المشحونة.
+                        كما دعا المرسل. التصنيف أو التخزين أو مجال التحويل.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="span-8 last"&gt;
+                &lt;div class="icon2"&gt;
+                    &lt;div class="site"&gt;
+                        &lt;h6&gt;وكيل الشحن&lt;/h6&gt;
+                    &lt;/div&gt;
+                    &lt;p class="span_text1"&gt;شخص الأعمال التي تعمل كوكيل نيابة عن الشاحن. وكثيراً ما يجعل وكيل شحن التحفظ الحجز.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+&lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview1" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+&lt;ul class="myform_heading"&gt;
+            &lt;span style="color: #F0F0F0"&gt;تتعاون&lt;/span&gt; نظرة عامة&lt;/ul&gt;
+        &lt;ul class="myform_line"&gt;
+        &lt;/ul&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview2" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+&lt;img width="177" height="117" class="ShippingInfo-img" alt="" src="images/photo-about.jpg"&gt;
+                &lt;p class="class"&gt;أوان K.K الدولية شركة تجارية يابانية. لدينا دوراً رئيسيا في المركبة اليابانية تصدير الصناعة تقديم جميع أنواع المركبات إلى المشترين الفردية، وتجار والصناعات والمنظمات الحكومية.&lt;/p&gt;
+                &lt;br&gt;
+                &lt;p class="class"&gt;نحن أحد مصدري السيارات الرائدة في اليابان وخدمة العملاء في جميع أنحاء العالم. أوان K.K دولية أنشئت في 16 فبراير 1999. نتعامل مع مجموعة واسعة من المركبات المستعملة اليابانية المركبات، فضلا عن العلامة التجارية الجديدة مما يسمح لك بشراء السيارة الحلم الخاص بك أن كنت تنتظر.&lt;/p&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview3" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+&lt;h5&gt;قيمنا&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;1-أن التحديات 2. الإبداع 3. على إنجاز 4 من الوقت. 5 من العمل الجماعي. الاتصالات في الوقت الحقيقي، والتفاعلية.&lt;/p&gt;
+                &lt;/div&gt;
+                
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview4" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+&lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;أن التحديات&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_1.png"&gt;
+                        &lt;p class="class"&gt;كعضو "المزاد ﻷعمالهم مجموعة المزاد JAA المجموعة، مجموعة المزاد هوندا، مجموعة المزاد حاملة الطائرات، الأطلس مجموعة المزاد ومجموعة المزاد جو وجميع المزادات اليابانية الأخرى"، ونحن تصدير جميع أنواع السيارات اليابانية بما في ذلك الشركات المصنعة الكبرى مثل تويوتا وهوندا، ونيسان، ميتسوبيشي، مازدا، سوبارو، ايسوزو، سوزوكي ودايهاتسو مع نخبة واسعة من النماذج والألوان وسن. كما أننا قادرون على السفينة في وقت قصير إلى أي مكان في العالم&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;الإبداع&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/icon_2.png"&gt;
+                        &lt;p class="class"&gt;أوان الدولي أهم عامل هو سرعة الابتكار وتفكيرنا الخلاق ستحدد مدى النجاح الذي حققناه.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn1"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;في وقت التسليم&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/Delivery.png"&gt;
+                        &lt;p class="class"&gt;هو أوان الدولي K.K ليس فقط خبراء اللغة اليابانية السيارات المستعملة، نحن أيضا المصدر وتصدير السيارات الكورية والأمريكية والسيارات من قطع الغيار، الآلات وتستخدم مركبات البناء المقدمة من الشركات الرائدة في العالم.&lt;/p&gt;
+                               
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="aboutcolumn2"&gt;
+                    &lt;div&gt;
+                        &lt;h5&gt;العمل الجماعي&lt;/h5&gt;
+                        &lt;img class="abouticon" alt="" src="images/teamwork.png"&gt;
+                        &lt;p class="class"&gt;لدينا الموظفين اليابانية والدولية العالية الإبداعية والمنظمة ملتزمة بتوفير مستويات الخدمة المتميزة لعملائها وللحفاظ على معايير الجودة والسلامة وارتياح على أعلى المستويات الممكنة. أوان منظومة قيمة ملتزمة بالتميز في تقديم خدمة نوعية والعملاء بتمكين العاملين.&lt;/p&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="clear"&gt;
+                &lt;/div&gt;
+                &lt;/div&gt;</value>
+  </data>
+  <data name="cooperteoverview5" xml:space="preserve">
+    <value>&lt;div dir="rtl"&gt;
+&lt;h5&gt;تعقب الاتصال السريع...&lt;/h5&gt;
+                &lt;div&gt;
+                    &lt;p class="class"&gt;أوان الدولي، خلافا للعديد من المنظمات الأخرى، تؤيد تأييدا تاما بثقافة مفتوحة بالسماح للموظفين التعبير عن أنفسهم من خلال 'محادثة مع لي'، وأداة تفاعلية على شبكة الإنترنت حيث يمكن أن يكون الموظفون حوارا مع بعضها البعض. القيم&lt;/p&gt;
+                    &lt;p class="class"&gt;الدولي أوان قيم أعضائها العاملين وتبدأ برامج التدريب "الدولية أوان" لمرة واحدة كل من حين إلى حين. وهناك مراعاة تقاسم دورات الجلوس فيه فرق مختلفة مع بعضها البعض؛ مشاركة تفاصيل المشروع والتقدم والخطط المستقبلية؛ ويكون منتدى مفتوح لمناقشة كل فيها حرية التعبير عن تعليقاتهم.&lt;/p&gt;
+                &lt;/div&gt;
+
+&lt;/div&gt;</value>
+  </data>
+  <data name="bankdetails.heading" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt; البنك &lt;/ SPAN&gt; تفاصيل</value>
+  </data>
+  <data name="AdditionalComments" xml:space="preserve">
+    <value>تعليقات إضافية</value>
+  </data>
+  <data name="NomanRaufLanguage" xml:space="preserve">
+    <value>الأردية والإنجليزية والفرنسية</value>
+  </data>
+  <data name="NomanRaufName" xml:space="preserve">
+    <value>نعمان رؤوف</value>
+  </data>
+  <data name="Rizwan Rauf" xml:space="preserve">
+    <value>رضوان رؤوف</value>
+  </data>
+  <data name="Skype" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="PasswordRecovery" xml:space="preserve">
+    <value>&lt;p dir"rtl"&gt;&lt;span style="color: #F0F0F0"&gt; كلمة &lt;/ SPAN&gt; الاسترداد&lt;/p&gt;</value>
+  </data>
+  <data name="ProvideYourEmail" xml:space="preserve">
+    <value>&lt;p dir "rtl"&gt;توفير البريد الإلكتروني&lt;/p&gt;</value>
+  </data>
+  <data name="slider1" xml:space="preserve">
+    <value>جودة عالية الآلاف من اليابانيين استخدام مخزون السيارات</value>
+  </data>
+  <data name="slider2" xml:space="preserve">
+    <value>أفضل السيارات اليابانية المستعملة &amp; جديد</value>
+  </data>
+  <data name="slider3" xml:space="preserve">
+    <value>مئات الآلاف من استخدام السيارات والشاحنات من آلاف تجار السيارات الموثوق بها.</value>
+  </data>
+  <data name="slider4" xml:space="preserve">
+    <value>البحث لدينا رصيد عالي الجودة</value>
+  </data>
+  <data name="slider4a" xml:space="preserve">
+    <value>الأوراق المالية</value>
+  </data>
+  <data name="slider5" xml:space="preserve">
+    <value>ملايين سيارات إلى البحث</value>
+  </data>
+  <data name="slider6" xml:space="preserve">
+    <value>سيارات جديدة</value>
+  </data>
+  <data name="slider7" xml:space="preserve">
+    <value>حوادث السيارات</value>
+  </data>
+  <data name="slider8" xml:space="preserve">
+    <value>مسافات منخفضة</value>
+  </data>
+  <data name="kamranraufinfo" xml:space="preserve">
+    <value>alaikum، وأنا كامران رؤوف، وأنا على إدارة جميع الأنشطة الدولية في باكستان مجموعة أوان.
+ أكملت تخرجي في عام 2011 من باكستان والتسجيل أوان KK الدولية كخطوة لقائي الاول في العالم المهني.
+ أود حقا على أنها مهنة ونرى إمكانات كبيرة من كارير عملي مع أوان الدولية KK
+ عملي هو إدارة عمليات الشراء، / البيع، وحفظ علاقة ودية مع جميع عملائنا، وتعزيز أعمالنا، والحفاظ على بيئة صحية والعمل حولها.
+ لها ما يقرب من 3 سنوات في العمل مع المجموعة الدولية للأوان، وأستطيع أن أضمن لكم أن أوان الدولية KK مجموعة قيمة حقا للتعامل مع.
+ وأنا أضمن لكم ان تكونوا مع تقديم أفضل الخدمات</value>
+  </data>
+  <data name="kamranrauflanguage" xml:space="preserve">
+    <value>الأردية والإنجليزية</value>
+  </data>
+  <data name="negotiate.now" xml:space="preserve">
+    <value>&lt;span style="color: #F0F0F0"&gt;الآن&lt;/span&gt;&amp;nbsp;  التفاوض</value>
+  </data>
+</root>

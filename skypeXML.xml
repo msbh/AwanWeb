@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skype SkypeName="awanint" UpdateTime="5" 
+       PHPSource="php/skypePHP.php" 
+       IconSource="icons" 
+       HeadText="Hi.. I am Shahido Sakurai [newline]SkypName:                     [awanint] " 
+       AddText="Add me as a Skype contact" 
+       ChatText="Start a Skype chat with me" 
+       CallText="Call me via Skype" 
+       DownloadText="" 
+       Language="en">
+  <!--DESCRIPTION OF ALL VALUES
+
+SkypeName: Enter your Skype username!
+
+UpdateTime: Number of seconds from one status check to the next
+
+PHPSource: Path to the PHP file, relative to the SWF file
+
+IconSource: Path to the folder containing the status icons, relative to the SWF file
+
+HeadText: The text at the top of the App. [skypeName] will be replaced by your Skype username.
+
+AddText: The text of the add button
+
+ChatText: The text of the chat button
+
+CallText: The text of the call button
+
+DownloadText: The text of the download button
+
+Language: Abbreviation of your language (en, fr, de, ja, zh-cn, zh-tw, pt, pt-br, it, es, pl, se)-->
+</Skype>

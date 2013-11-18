@@ -1,0 +1,184 @@
+<%@ Master Language="VB" CodeFile="MasterPage2.master.vb" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Src="~/Controls/slidebar.ascx" TagName="slidebar" TagPrefix="psc" %>
+<%@ Register Src="~/Controls/header.ascx" TagName="header" TagPrefix="psc" %>
+<%@ Register Src="~/Controls/footer.ascx" TagName="footer" TagPrefix="psc" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+       <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>Japanese Used Cars Exporter Dealer Trader</title>
+    <meta name="description" content="Japanese used cars exporter, Japan used car dealer, 
+    Japan used cars exporter, Japanese used cars, 
+    Japanese used car dealer,Japanese used cars sale, 
+    Japanese used car auction, 
+    Japan used car sale,Japanese used cars trader, 
+    Japan used cars auction, Japan used car trader. 
+    Japanese vehicles ,Buses , Trucks , Micro buses,SUV,Jeeps"  />
+    
+    <link rel="icon" href="http://www.awan.co.jp/favicon.ico" type="image/x-icon" />
+    <link rel="SHORTCUT ICON" href="http://www.awan.co.jp/favicon.ico" type="image/x-icon" />
+ 
+    
+    <link href="css/single.css" rel="stylesheet" type="text/css" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <Scripts>
+          <asp:ScriptReference Path="~/js/oneinall.js" />
+        <asp:ScriptReference Path="~/js/jquery.simplemodal.js" />
+            <asp:ScriptReference Path="~/js/confirm.js" />
+         
+           <%-- <asp:ScriptReference Path="~/js/jquery.js" />
+            <asp:ScriptReference Path="~/js/jquery-1.6.2.min.js" />
+            <asp:ScriptReference Path="~/js/jquery-ui-1.8.16.custom.min.js" />
+            <asp:ScriptReference Path="~/js/ui/jquery.ui.core.js" />
+            <asp:ScriptReference Path="~/js/ui/jquery.ui.widget.js" />
+            <asp:ScriptReference Path="~/js/ui/jquery.ui.datepicker.js" />
+            <asp:ScriptReference Path="~/js/ui/jquery.ui.button.js" />
+            <asp:ScriptReference Path="~/js/jquery.advancedSlider.min.js" />
+            <asp:ScriptReference Path="~/js/jquery.marquee.js" />
+             <asp:ScriptReference Path="~/js/jquery.cookie.js" />
+            <asp:ScriptReference Path="~/js/jquery.lightbox-0.5.js" />
+            <asp:ScriptReference Path="~/js/jquery.translate-1.4.7-debug-all.js" />
+            <asp:ScriptReference Path="~/js/custom.js" />--%>
+            
+            
+            
+        </Scripts>
+    </asp:ScriptManager>
+
+  <script type="text/javascript">
+    var __lc = {};
+    __lc.license = 2351111;
+
+    (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+    </script>
+
+    <script type="text/javascript">
+     $(document).ready(function() {
+
+         $("#radio").buttonset();
+
+         $("input:submit,input:image, button", "#myform").button();
+         $("a,button", ".js_a").button();
+
+         // Accordion
+         $("#accordion").accordion({ header: "h3",
+         active: false,
+         navigation: true,
+         animated: 'easeslide'
+          });
+
+          $("input[id$=txtStart_Date]").datepicker({ dateFormat: 'dd-mm-yy' });
+          $("input[id$=txtEnd_Date]").datepicker({ dateFormat: 'dd-mm-yy' });
+        
+
+
+         // Tabs
+     
+
+       $("#tabs").tabs({
+           cookie: {
+               // store cookie for a day, without, it would be a session cookie
+               expires: 1
+           }
+       });
+
+       
+       
+       
+
+       // Tabs
+       $('#tabsstock').tabs({
+           cookie: {
+               // store cookie for a day, without, it would be a session cookie
+               expires: 1
+           }
+       });
+         
+         $('.input_text').each(function() {
+             var default_value = this.value;
+             $(this).focus(function() {
+                 if (this.value == default_value) {
+                     this.value = '';
+                 }
+             });
+             $(this).blur(function() {
+                 if (this.value == '') {
+                     this.value = default_value;
+                 }
+             });
+         });
+
+
+     });
+
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            //Set default open/close settings
+            $('.acc_container').hide(); //Hide/close all containers
+            $('.acc_trigger').addClass('active').next().show(); //Add "active" class to first trigger, then show/open the immediate next container
+
+            //On Click
+            $('.acc_trigger').click(function() {
+                if ($(this).next().is(':hidden')) { //If immediate next container is closed...
+                    $('.acc_trigger').removeClass('active').next().slideUp(); //Remove all .acc_trigger classes and slide up the immediate next container
+                    $(this).toggleClass(':hidden').next().slideDown(); //Add .acc_trigger class to clicked trigger and slide down the immediate next container
+                }
+
+                else {
+                    $(this).toggleClass("active").next().slideToggle("slow");
+
+
+
+                }
+
+                return false; //Prevent the browser jump to the link anchor
+            });
+
+            $('#searchbox_text').each(function() {
+                var default_value = this.value;
+                $(this).focus(function() {
+                    if (this.value == default_value) {
+                        this.value = '';
+                    }
+                });
+                $(this).blur(function() {
+                    if (this.value == '') {
+                        this.value = default_value;
+                    }
+                });
+            });
+
+
+
+
+        });
+    </script>
+    <div id="wrapper">
+    <div id="header">
+        <psc:header ID="header1" runat="server" />
+    </div>
+    <div id="Content">
+        <psc:slidebar ID="sidebar1" runat="server" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <psc:footer ID="footer1" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

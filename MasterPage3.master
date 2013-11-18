@@ -1,0 +1,114 @@
+<%@ Master Language="VB" CodeFile="MasterPage3.master.vb" Inherits="MasterPage3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Src="~/Controls/slidebar.ascx" TagName="slidebar" TagPrefix="psc" %>
+<%@ Register Src="~/Controls/header.ascx" TagName="header" TagPrefix="psc" %>
+<%@ Register Src="~/Controls/footer.ascx" TagName="footer" TagPrefix="psc" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title></title>
+
+     <link rel="icon" href="http://www.awan.co.jp/favicon.ico" type="image/x-icon" />
+    <link rel="SHORTCUT ICON" href="http://www.awan.co.jp/favicon.ico" type="image/x-icon" />
+ 
+
+    <link href="css/single.css" rel="stylesheet" type="text/css" />
+    
+    
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <Scripts>
+         <asp:ScriptReference Path="~/js/oneinall.js" />
+            <asp:ScriptReference Path="~/js/jquery.simplemodal.js" />
+            <asp:ScriptReference Path="~/js/confirm.js" />
+            
+             <%--  <asp:ScriptReference Path="~/js/jquery.js" />
+            <asp:ScriptReference Path="~/js/jquery-1.6.2.min.js" />
+            <asp:ScriptReference Path="~/js/jquery-ui-1.8.16.custom.min.js" />
+            <asp:ScriptReference Path="~/js/ui/jquery.ui.core.js" />
+            <asp:ScriptReference Path="~/js/ui/jquery.ui.widget.js" />
+            <asp:ScriptReference Path="~/js/ui/jquery.ui.datepicker.js" />
+            <asp:ScriptReference Path="~/js/ui/jquery.ui.button.js" />
+            <asp:ScriptReference Path="~/js/jquery.advancedSlider.min.js" />
+            <asp:ScriptReference Path="~/js/jquery.marquee.js" />
+             <asp:ScriptReference Path="~/js/jquery.cookie.js" />
+            <asp:ScriptReference Path="~/js/jquery.lightbox-0.5.js" />
+            <asp:ScriptReference Path="~/js/jquery.translate-1.4.7-debug-all.js" />
+            <asp:ScriptReference Path="~/js/custom.js" />--%>
+        </Scripts>
+    </asp:ScriptManager>
+
+
+  <script type="text/javascript">
+    var __lc = {};
+    __lc.license = 2351111;
+
+    (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+    </script>
+
+    <script type="text/javascript">
+     $(document).ready(function() {
+
+     
+         $("input:submit,input:image, button", "#myform").button();
+         $("a,button", ".js_a").button();
+
+         $('#searchbox_text').each(function() {
+             var default_value = this.value;
+             $(this).focus(function() {
+                 if (this.value == default_value) {
+                     this.value = '';
+                 }
+             });
+             $(this).blur(function() {
+                 if (this.value == '') {
+                     this.value = default_value;
+                 }
+             });
+         });
+     
+     
+         $('.input_text').each(function() {
+             var default_value = this.value;
+             $(this).focus(function() {
+                 if (this.value == default_value) {
+                     this.value = '';
+                 }
+             });
+             $(this).blur(function() {
+                 if (this.value == '') {
+                     this.value = default_value;
+                 }
+             });
+         });
+
+
+     });
+
+    </script>
+    <div id="wrapper">
+    <div id="header">
+        <psc:header ID="header1" runat="server" />
+    </div>
+    <div id="Content">
+        <psc:slidebar ID="sidebar1" runat="server" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <psc:footer ID="footer1" runat="server" />
+    
+    
+    </div>
+    </form>
+</body>
+</html>

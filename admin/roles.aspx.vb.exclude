@@ -1,0 +1,358 @@
+﻿Imports masterTableAdapters
+Imports System.Data
+
+Partial Class admin_roles
+    Inherits System.Web.UI.Page
+    Dim update_flag As Boolean = False
+
+    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmdAddRole.Click
+        update_flag = False
+
+        ClearData()
+
+    End Sub
+    Private Sub ClearData()
+        Try
+            Me.txtrolename.Text = String.Empty
+            Me.HiddenField1.Value = String.Empty
+            Me.keyValue.Value = String.Empty
+
+            Me.rdBoth.Checked = False
+            Me.rdLeftHand.Checked = False
+            Me.rdRightHand.Checked = False
+
+            Me.chkRallcountries.Checked = False
+            Me.chkLallcountries.Checked = False
+            Me.chkBallcountries.Checked = False
+
+            Me.chkLcountries.Visible = True
+            Me.chkLcountries.Items.Clear()
+            Me.chkLcountries.DataBind()
+
+
+            Me.chkRcountries.Visible = True
+            Me.chkRcountries.Items.Clear()
+            Me.chkRcountries.DataBind()
+
+            Me.chkBothCountries.Visible = True
+            Me.chkBothCountries.Items.Clear()
+            Me.chkBothCountries.DataBind()
+
+            update_flag = False
+
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+    
+    Private Sub Save_Record()
+        Try
+            Dim strCriteria As String = String.Empty
+
+            Dim countriesNotIn_R As String = String.Empty
+            Dim countriesNotIn_R_selected As String = String.Empty
+
+            Dim countriesNotIn_L As String = String.Empty
+            Dim countriesNotIn_L_selected As String = String.Empty
+
+            Dim countriesNotIn_B As String = String.Empty
+            Dim countriesNotIn_B_selected As String = String.Empty
+
+
+            If rdRightHand.Checked = False And rdLeftHand.Checked = False And rdBoth.Checked = False Then
+
+                Me.lblmessage.Text = "Atleast select one option"
+
+            ElseIf rdRightHand.Checked = True And rdLeftHand.Checked = False And rdBoth.Checked = False Then
+
+
+
+                Dim strCountry As String = String.Empty
+
+                If chkRallcountries.Checked = True Then
+
+                Else
+
+                    For i As Integer = 0 To Me.chkRcountries.Items.Count - 1
+
+                        If chkRcountries.Items(i).Selected = False Then
+                            countriesNotIn_R = "," & chkRcountries.Items(i).Value & "" + countriesNotIn_R
+                        Else
+                            countriesNotIn_R_selected = "," & chkRcountries.Items(i).Value & "" + countriesNotIn_R_selected
+                        End If
+
+
+                    Next
+                    countriesNotIn_R = countriesNotIn_R.Remove(0, 1)
+                    countriesNotIn_R_selected = countriesNotIn_R_selected.Remove(0, 1)
+
+                    strCountry = " and main.globalLocationID not in (" & countriesNotIn_R & ")"
+
+                End If
+
+                strCriteria = "and dbo.spec.drive <> 'L' " & strCountry
+
+
+
+            ElseIf rdRightHand.Checked = False And rdLeftHand.Checked = True And rdBoth.Checked = False Then
+
+
+
+
+
+                Dim strCountry As String = String.Empty
+
+                If chkLallcountries.Checked = True Then
+
+                Else
+
+                    For i As Integer = 0 To Me.chkLcountries.Items.Count - 1
+
+                        If chkLcountries.Items(i).Selected = False Then
+                            countriesNotIn_L = "," & chkLcountries.Items(i).Value & "" + countriesNotIn_L
+                        Else
+                            countriesNotIn_L_selected = "," & chkLcountries.Items(i).Value & "" + countriesNotIn_L_selected
+                        End If
+
+
+                    Next
+                    countriesNotIn_L = countriesNotIn_L.Remove(0, 1)
+                    countriesNotIn_L_selected = countriesNotIn_L_selected.Remove(0, 1)
+
+
+                    strCountry = " and main.globalLocationID not in (" & countriesNotIn_L & ")"
+
+                End If
+
+                strCriteria = "and dbo.spec.drive <> 'R' " & strCountry
+
+
+            ElseIf rdRightHand.Checked = False And rdLeftHand.Checked = False And rdBoth.Checked = True Then
+
+
+                Dim strCountry As String = String.Empty
+
+                If chkBallcountries.Checked = True Then
+
+                Else
+
+                    For i As Integer = 0 To Me.chkBothCountries.Items.Count - 1
+
+                        If chkBothCountries.Items(i).Selected = False Then
+                            countriesNotIn_B = "," & chkBothCountries.Items(i).Value & "" + countriesNotIn_B
+                        Else
+                            countriesNotIn_B_selected = "," & chkBothCountries.Items(i).Value & "" + countriesNotIn_B_selected
+                        End If
+
+
+                    Next
+                    countriesNotIn_B = countriesNotIn_B.Remove(0, 1)
+                    countriesNotIn_B_selected = countriesNotIn_B_selected.Remove(0, 1)
+
+                    strCountry = " and main.globalLocationID not in (" & countriesNotIn_B & ")"
+
+                End If
+
+                strCriteria = strCountry
+
+            End If
+
+
+            Dim obj As New roleTableAdapter
+
+            If update_flag = False Then
+
+                obj.Insert(Me.txtrolename.Text, strCriteria, rdLeftHand.Checked, rdRightHand.Checked, rdBoth.Checked, chkLallcountries.Checked, _
+                      chkRallcountries.Checked, chkBallcountries.Checked, countriesNotIn_L_selected, countriesNotIn_R_selected, countriesNotIn_B_selected)
+
+
+            Else
+                obj.Update(Me.txtrolename.Text, strCriteria, rdLeftHand.Checked, rdRightHand.Checked, rdBoth.Checked, chkLallcountries.Checked, _
+                      chkRallcountries.Checked, chkBallcountries.Checked, countriesNotIn_L_selected, countriesNotIn_R_selected, countriesNotIn_B_selected, Me.keyValue.Value)
+
+            End If
+          
+
+            ClearData()
+
+
+            Me.GridView1.DataBind()
+
+
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+  
+
+    Protected Sub chkRallcountries_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles chkRallcountries.CheckedChanged
+        If chkRallcountries.Checked Then
+            chkRcountries.Visible = False
+            chkLcountries.Visible = True
+            chkBothCountries.Visible = True
+        Else
+            chkRcountries.Visible = True
+
+        End If
+    End Sub
+
+    Protected Sub chkLallcountries_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles chkLallcountries.CheckedChanged
+        If chkLallcountries.Checked Then
+            chkRcountries.Visible = True
+            chkLcountries.Visible = False
+            chkBothCountries.Visible = True
+        Else
+            chkLcountries.Visible = True
+
+        End If
+    End Sub
+
+    Protected Sub chkBallcountries_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles chkBallcountries.CheckedChanged
+        If chkBallcountries.Checked Then
+            chkRcountries.Visible = True
+            chkLcountries.Visible = True
+            chkBothCountries.Visible = False
+
+
+        Else
+            chkBothCountries.Visible = True
+
+        End If
+    End Sub
+
+    Protected Sub GridView1_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles GridView1.RowCommand
+
+    End Sub
+
+    Protected Sub GridView1_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles GridView1.SelectedIndexChanged
+        Try
+
+            ClearData()
+
+            update_flag = True
+            cmdAddRole.Enabled = False
+
+
+            Dim i As Integer = Me.GridView1.Rows(Me.GridView1.SelectedIndex).Cells(1).Text
+
+
+
+            Dim obj As New roleTableAdapter
+
+            Dim dt As New DataTable
+            dt.Merge(obj.load_roleDetails(i))
+
+            With Me
+                .txtrolename.Text = dt.Rows(0).Item("rolename")
+                .HiddenField1.Value = dt.Rows(0).Item("roleid")
+                .keyValue.Value = dt.Rows(0).Item("rolename")
+
+
+                .rdLeftHand.Checked = dt.Rows(0).Item("left_hand_only")
+                .rdRightHand.Checked = dt.Rows(0).Item("right_hand_only")
+                .rdBoth.Checked = dt.Rows(0).Item("both")
+
+                .chkLallcountries.Checked = dt.Rows(0).Item("L_allcountries")
+                .chkRallcountries.Checked = dt.Rows(0).Item("R_allcountries")
+                .chkBallcountries.Checked = dt.Rows(0).Item("B_allcountries")
+
+
+
+                If .chkLallcountries.Checked = True Then
+
+                    .chkLcountries.Visible = False
+                ElseIf .chkRallcountries.Checked = True Then
+                    .chkRcountries.Visible = False
+
+                ElseIf .chkBallcountries.Checked = True Then
+                    .chkBothCountries.Visible = False
+
+                End If
+
+
+
+
+                Dim LC() As String = dt.Rows(0).Item("L_selected_countries").ToString.Split(",")
+
+
+                If chkLallcountries.Checked = False And LC.Length > 1 Then
+
+
+                    For ii As Integer = 0 To LC.Length - 1
+
+                        For iia As Integer = 0 To Me.chkLcountries.Items.Count - 1
+                            If Me.chkLcountries.Items(iia).Value = LC(ii) Then
+                                Me.chkLcountries.Items(iia).Selected = True
+
+
+                            End If
+                        Next
+
+                    Next
+
+
+                End If
+
+
+                Dim RC() As String = dt.Rows(0).Item("R_selected_countries").ToString.Split(",")
+
+                If chkRallcountries.Checked = False And RC.Length > 1 Then
+                    For ii As Integer = 0 To RC.Length - 1
+
+                        For iia As Integer = 0 To Me.chkRcountries.Items.Count - 1
+                            If Me.chkRcountries.Items(iia).Value = RC(ii) Then
+                                Me.chkRcountries.Items(iia).Selected = True
+                          
+                            End If
+                        Next
+
+                    Next
+                End If
+
+                Dim BC() As String = dt.Rows(0).Item("B_selected_countries").ToString.Split(",")
+
+                If chkBallcountries.Checked = False And BC.Length > 1 Then
+                    For ii As Integer = 0 To BC.Length - 1
+
+                        For iia As Integer = 0 To Me.chkBothCountries.Items.Count - 1
+                            If Me.chkBothCountries.Items(iia).Value = BC(ii) Then
+                                Me.chkBothCountries.Items(iia).Selected = True
+
+                            End If
+                        Next
+
+                    Next
+                End If
+
+
+
+            End With
+
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Protected Sub Button2_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button2.Click
+
+        Save_Record()
+        cmdAddRole.Enabled = True
+
+    End Sub
+
+    Protected Sub cmdCancel_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmdCancel.Click
+
+
+        update_flag = False
+        cmdAddRole.Enabled = True
+        ClearData()
+
+    End Sub
+End Class
