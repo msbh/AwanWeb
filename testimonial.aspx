@@ -20,11 +20,34 @@
                     <div id="slogan" class="inner">
                         <h1 class="only">Read about our costumers. They say <span>great things</span>.</h1>
                     </div>         
+                   
+
+<asp:Label ID="lblStatus" runat="server"></asp:Label>
                    <%--END SLOGAN --%> 
                 
                    <%--START PRIMARY --%>
                     <div id="primary" class="hentry group wrapper-content" role="main">
-                    
+                    <asp:Repeater ID="rptrExample" runat="server"> 
+<ItemTemplate>
+ <div class="testimonials-list group">
+                            <div class="thumb-testimonial group">
+                                <div class="sphere"><img src="<%# DataBinder.Eval(Container, "DataItem.FileImage") %>" alt="mergot" title="mergot" /></div>
+                                <p class="name-testimonial group">
+                                    <span class="title special-font"><%# DataBinder.Eval(Container, "DataItem.Name") %></span>
+                                    <span class="website"><a href="<%# DataBinder.Eval(Container, "DataItem.Website") %>"><%# DataBinder.Eval(Container, "DataItem.Website") %></a></span>
+                                </p>
+                            </div>
+                            <div class="the-post group">
+                                <p>
+                                    <%# DataBinder.Eval(Container, "DataItem.Comment") %>
+                                </p>
+                            </div>
+                        </div>
+                        
+
+
+</ItemTemplate>
+</asp:Repeater> 
                         <div class="testimonials-list group">
                             <div class="thumb-testimonial group">
                                 <div class="sphere"><img src="images/testimonials/mergot-133x133.jpg" alt="mergot" title="mergot" /></div>

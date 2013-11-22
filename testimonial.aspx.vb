@@ -17,6 +17,21 @@ Partial Class order
         Catch ex As Exception
 
         End Try
+        Dim strConnString As String = ConfigurationManager.ConnectionStrings("autoconnectionString").ConnectionString
+
+        Dim cmd As SqlCommand = New SqlCommand("SELECT * FROM Testimonial", New SqlConnection(strConnString))
+        Try
+            cmd.Connection.Open()
+
+            rptrExample.DataSource = cmd.ExecuteReader()
+
+            rptrExample.DataBind()
+
+            cmd.Connection.Close()
+            cmd.Connection.Dispose()
+        Catch ex As Exception
+            ' lblStatus.Text = ex.Message
+        End Try
     End Sub
 
     Protected Sub InsertButton_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles InsertButton.Click
@@ -94,6 +109,20 @@ Partial Class order
             TextCar.Text = ""
             TextWeb.Text = ""
             TextArea2.Text = ""
+            '       CREATE TABLE [dbo].[Testimonial](
+            '[id] [int] IDENTITY(1,1) NOT NULL,
+            '[Name] [nvarchar](100) NULL,
+            '[Email] [nvarchar](50) NULL,
+            '[Car] [nvarchar](100) NULL,
+            '[Country] [nvarchar](50) NULL,
+            '[Website] [nvarchar](100) NULL,
+            '[Comment] [nvarchar](1000) NULL,
+            '[FileImage] [nvarchar](100) NULL,
+            'CONSTRAINT [PK_Testimonial] PRIMARY KEY CLUSTERED 
+            '(
+            '[id](ASC) )WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+            ') ON [PRIMARY]
+
 
         Catch ex As Exception
 
