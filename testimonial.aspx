@@ -86,63 +86,70 @@
                    <%--START SIDEBAR --%>
                     <div  id="sidebar" style="margin-right: 45px;width: 270px;">
                         
-                      <div id="myform" style="color:rgba(105, 103, 103, 0.72);margin-right: 0px;
+                      <div id="myform" style="margin-right: 0px;
 margin-top: 0px;
 padding-left: 0px;">
             <fieldset>
-            <h3 class="only">Have a Testimonial to Share?</h1>
+            <h3 class="only">Have a Testimonial to Share?</h3>
    
              <div style="padding-top: 15px;">
             <label for="name-main">
-                        					<span class="label">What's your <span class="highlight-text">name</span>?</span><span style="color:red;">*</span>
-                        				</label>
+                        					<span class="label">What's your <span class="highlight-text">name</span>?</span><span style="color:red;">*<br />
+                 <asp:TextBox ID="TextName" runat="server" Width="261px"></asp:TextBox>
+                 </span>
+                        				&nbsp;</label>
                         				
-                        				<input type="text" name="name" id="name" class="required" required="required" value="" style="width:260px;" />                   
-                        				
-                    </div>
-             <div style="padding-top: 15px;">
-            <label for="name-main">
-                        					<span class="label">Country </span><span style="color:red;">*</span>
-                        				</label>
-                        				
-                        				<input type="text" name="country" id="country" class="required" required="required" value="" style="width:260px;" /> 
-                    </div>
-             <div style="padding-top: 15px;">
-            <label for="name-main">
-                        					<span class="label">Car Purchased </span><span style="color:red;">*</span>
-                        				</label>
-                        				
-                        				<input type="text" name="CP" id="CP" class="required" required="required" value="" style="width:260px;" /> 
-                    </div>
-             <div style="padding-top: 15px;">    
-            <label for="name-main">
-                        					<span class="label">Your Picture </span><span style="color:red;">*</span>
-                        				</label>
-                        				
-                        				<input type="file" name="pic" id="pic" class="required" required="required" value="" style="width:260px;" /> 
-                </div>
-             <div style="padding-top: 15px;">      
-            <label for="name-main">
-                        					<span class="label">Your Email (Will not be Published) </span>
-                        				</label>
-                        				
-                        				<input type="text" name="email" id="email" value="" style="width:260px;" /> 
-            </div>
-             <div style="padding-top: 15px;">
-            <label for="name-main">
-                        					<span class="label">Your Website URL </span>
-                        				</label>
-                        				
-                        				<input type="text" name="url" id="url" value="" style="width:260px;" /> 
                         				</div>
              <div style="padding-top: 15px;">
             <label for="name-main">
-                        					<span class="label">Your opinion on our services ? </span><span style="color:red;">*</span>
-                        				</label>
+                        					<span class="label">Country </span><span style="color:red;">*<br />
+                 <asp:TextBox ID="TextCountry" runat="server" Width="259px"></asp:TextBox>
+                 </span>
+                        				&nbsp;</label>
                         				
-                        				<textarea id="opn" style="width:260px;height:120px;" /> </textarea>
+                        				</div>
+             <div style="padding-top: 15px;">
+            <label for="name-main">
+                        					<span class="label">Car Purchased </span><span style="color:red;">*<br />
+                 <asp:TextBox ID="TextCar" runat="server" Width="259px"></asp:TextBox>
+                 </span>
+                        				&nbsp;</label>
+                        				
+                        				</div>
+             <div style="padding-top: 15px;">    
+            <label for="name-main">
+                        					<span class="label">Your Picture </span><span style="color:red;">*<asp:FileUpload 
+                     ID="FileUpload1" runat="server" />
+                 </span>&nbsp;</label>
+                        				
+                        				</div>
+             <div style="padding-top: 15px;">      
+            <label for="name-main">
+                        					<span class="label">Your Email (Will not be Published)<asp:TextBox 
+                     ID="TextEmail" runat="server" Width="259px"></asp:TextBox>
+&nbsp;</span></label> 
+            </div>
+             <div style="padding-top: 15px;">
+            <label for="name-main">
+                        					<span class="label">Your Website URL<br />
+&nbsp;</span></label>      
+            <label for="name-main">
+                        					<span class="label">
+                 <asp:TextBox 
+                     ID="TextWeb" runat="server" Width="259px"></asp:TextBox>
+                 </span></label> 
+                        				
+                        				</div>
+             <div style="padding-top: 15px;">
+            <label for="name-main">
+                        					<span class="label">Your opinion on our services ? <asp:TextBox 
+                     ID="TextArea2" runat="server" Height="102px" Width="258px"></asp:TextBox>
+                 </span>
+                        				&nbsp;</label>
+                        				
                         				</div>  
-                        				<span style="color:red;">*</span> are all required field  
+                        				<span style="color:red;">*          <br />
+                <asp:Button ID="Button1" runat="server" Text="Submit" />
                         				     
             </fieldset>
             </div>
